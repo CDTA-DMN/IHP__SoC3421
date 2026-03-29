@@ -1,0 +1,20 @@
+** sch_path: /foss/designs/ota/pex/tb/ota_layout.sch
+**.subckt ota_layout vdd vss iout vinp vinn vout
+*.iopin vdd
+*.iopin vss
+*.iopin iout
+*.iopin vinp
+*.iopin vinn
+*.iopin vout
+XM1 dn4 vinp dn2 vdd sg13_hv_pmos w=12u l=1u ng=1 m=2
+XM2 dn3 vinn dn2 vdd sg13_hv_pmos w=12u l=1u ng=1 m=2
+XC2 net1 vout cap_cmim w=15e-6 l=15e-6 m=1
+XR4 net1 dn4 vss rppd w=1e-6 l=15e-6 m=1 b=0
+XM5 vout iout vdd vdd sg13_hv_pmos w=48u l=3u ng=8 m=1
+XM6 vout dn4 vss vss sg13_hv_nmos w=24u l=1u ng=4 m=1
+XM7 dn2 iout vdd vdd sg13_hv_pmos w=6u l=3u ng=1 m=2
+XM8 iout iout vdd vdd sg13_hv_pmos w=48u l=3u ng=8 m=1
+XM3 dn3 dn3 vss vss sg13_hv_nmos w=3u l=1u ng=1 m=1
+XM4 dn4 dn3 vss vss sg13_hv_nmos w=3u l=1u ng=1 m=1
+**.ends
+.end

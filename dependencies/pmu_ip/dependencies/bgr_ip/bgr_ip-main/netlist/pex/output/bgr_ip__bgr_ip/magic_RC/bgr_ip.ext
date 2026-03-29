@@ -1,0 +1,1387 @@
+timestamp 0
+version 8.3
+tech ihp-sg13g2
+style ngspice()
+scale 1000 1 0.5
+resistclasses 3000000 67000 110 88 88 88 88 18 11 7000 260000 1360000
+parameters sg13_hv_nmos l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sg13_hv_pmos l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters rppd w=w l=l
+parameters cap_rfcmim w=w l=l
+parameters cap_cmim w=w l=l
+parameters cap_rfcmim w=w l=l
+parameters cap_cmim w=w l=l
+port "iout" 5 -2441 4549 -2241 4649 m2
+port "VBG" 4 8002 7504 8402 7704 m4
+port "VBG" 4 -4984 6697 -4884 6797 m3
+port "vdd" 3 -338 13122 62 13322 m6
+port "vdd" 3 -10931 1558 -10531 1758 m1
+port "vss" 2 -3476 -2103 -3416 -1983 m1
+port "vss" 2 7377 -2103 7437 -1983 m1
+port "vss" 2 6156 -2163 6216 -2043 m1
+port "vss" 2 4600 -2589 4660 -2469 m1
+node "a_n1818_n1514#" 3900 2660.76 -1818 -1514 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600000 6400 0 0
+node "a_n1818_1486#" 1 339902 -1818 1486 p 0 0 0 0 196560 1964 17080 524 17080 524 17080 524 9017360 528 9690040 15422 0 0 0 0 0 0 0 0
+node "a_n8547_n1107#" 13 3568.84 -8547 -1107 hvpdif 0 0 0 0 2243640 22238 1939296 20624 145880 3148 570096 5580 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n8547_1983#" 17 10679.2 -8547 1983 hvpdif 0 0 0 0 2449174 26252 2925928 32722 1044074 9150 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n9131_n1107#" 15 3605.16 -9131 -1107 hvpdif 0 0 0 0 3480456 24732 1031202 11994 875370 13334 1708956 16284 0 0 0 0 0 0 0 0 0 0 0 0
+node "iout" 28 4598.43 -2441 4549 m2 0 0 0 0 4003248 40256 1238398 22036 424088 10748 2690096 18306 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_7595_5543#" 5027 2183.51 7595 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_7281_5543#" 5027 1775.81 7281 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6967_5457#" 1 371.575 6967 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6967_5543#" 5027 1761.15 6967 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6653_5543#" 5027 1747.89 6653 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6339_5457#" 1 336.806 6339 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6339_5543#" 5027 1745.68 6339 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6025_5543#" 5027 1741.91 6025 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_5711_5457#" 1 333.682 5711 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5711_5543#" 5027 1741.91 5711 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_5397_5543#" 5027 1741.91 5397 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_5083_5457#" 1 333.682 5083 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5083_5543#" 5027 1741.91 5083 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_4769_5543#" 5027 1741.91 4769 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_4455_5457#" 1 333.844 4455 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_4455_5543#" 5027 1741.91 4455 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_4141_5543#" 5027 1741.91 4141 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_3827_5457#" 1 334.329 3827 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_3827_5543#" 5027 1741.91 3827 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_3513_5543#" 5027 1742.17 3513 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_3199_5543#" 5027 1741.91 3199 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_2885_5457#" 1 334.35 2885 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2885_5543#" 5027 1741.91 2885 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_2571_5543#" 5027 1741.91 2571 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_2257_5457#" 1 333.864 2257 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2257_5543#" 5027 1741.91 2257 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1943_5543#" 5027 1741.91 1943 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1629_5457#" 1 333.682 1629 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1629_5543#" 5027 1741.91 1629 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1315_5543#" 5027 1741.91 1315 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1001_5457#" 1 333.682 1001 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1001_5543#" 5027 1741.91 1001 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_687_5543#" 5027 1741.91 687 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_373_5457#" 1 336.719 373 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_373_5543#" 5027 1741.91 373 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_59_5543#" 5027 1741.91 59 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n255_5457#" 1 349.633 -255 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n255_5543#" 5027 1744.44 -255 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n569_5543#" 5027 1747.39 -569 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n883_5543#" 5027 1751.59 -883 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n1197_5543#" 5027 1763.37 -1197 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n1511_5457#" 1 362.559 -1511 5457 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1511_5543#" 5027 2076.67 -1511 5543 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "VBG" 9 4575.02 -4984 6697 m3 0 0 0 0 365854 5684 1783091 18394 322344 3850 1260446 10470 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n8747_1947#" 10 3147.96 -8747 1947 p 0 0 0 0 638610 10398 2064167 22676 721843 5554 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_7595_8443#" 0 218.651 7595 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_7595_8687#" 5027 2146.05 7595 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_7281_8443#" 0 168.414 7281 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_7281_8687#" 5027 1767.5 7281 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_7281_11587#" 1 400.506 7281 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6967_8443#" 0 168.151 6967 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6967_8687#" 5027 1752.84 6967 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6653_8443#" 0 168.063 6653 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6653_8687#" 5027 1747.94 6653 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6653_11587#" 1 381.053 6653 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6339_8443#" 0 168.024 6339 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6339_8687#" 5027 1745.73 6339 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6025_8443#" 0 167.956 6025 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6025_8687#" 5027 1741.96 6025 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_6025_11587#" 1 380.936 6025 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5711_8443#" 0 167.956 5711 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5711_8687#" 5027 1741.96 5711 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_5397_8443#" 0 167.956 5397 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5397_8687#" 5027 1741.96 5397 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_5397_11587#" 1 380.902 5397 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5083_8443#" 0 167.956 5083 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5083_8687#" 5027 1741.96 5083 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_4769_8443#" 0 167.956 4769 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_4769_8687#" 5027 1741.96 4769 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_4769_11587#" 1 380.902 4769 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_4455_8443#" 0 167.956 4455 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_4455_8687#" 5027 1741.96 4455 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_4141_8443#" 0 167.956 4141 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_4141_8687#" 5027 1741.96 4141 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_4141_11587#" 1 380.902 4141 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_3827_8443#" 0 167.956 3827 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_3827_8687#" 5027 1741.96 3827 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_3513_8443#" 0 164.795 3513 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_3513_8687#" 5027 1741.96 3513 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_3513_11587#" 1 398.058 3513 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_3199_8443#" 0 167.956 3199 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_3199_8687#" 5027 1771.06 3199 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_2885_8443#" 0 167.956 2885 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2885_8687#" 5027 1741.96 2885 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_2571_8443#" 0 167.956 2571 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2571_8687#" 5027 1741.96 2571 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_2571_11587#" 1 398.058 2571 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2257_8443#" 0 167.956 2257 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2257_8687#" 5027 1741.96 2257 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1943_8443#" 0 167.956 1943 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1943_8687#" 5027 1741.96 1943 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1943_11587#" 1 380.902 1943 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1629_8443#" 0 167.956 1629 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1629_8687#" 5027 1741.96 1629 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1315_8443#" 0 167.956 1315 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1315_8687#" 5027 1741.96 1315 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_1315_11587#" 1 380.902 1315 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1001_8443#" 0 167.956 1001 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1001_8687#" 5027 1741.96 1001 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_687_8443#" 0 167.956 687 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_687_8687#" 5027 1741.96 687 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_687_11587#" 1 380.902 687 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_373_8443#" 0 167.956 373 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_373_8687#" 5027 1741.96 373 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_59_8443#" 0 167.956 59 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_59_8687#" 5027 1741.96 59 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_59_11587#" 1 380.902 59 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n255_8443#" 0 168.001 -255 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n255_8687#" 5027 1744.4 -255 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n569_8443#" 0 168.054 -569 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n569_8687#" 5027 1747.25 -569 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n569_11587#" 1 380.902 -569 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n883_8443#" 0 168.13 -883 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n883_8687#" 5027 1751.4 -883 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n1197_8443#" 0 168.341 -1197 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1197_8687#" 5027 1766.54 -1197 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n1197_11587#" 1 381.628 -1197 11587 p 0 0 0 0 27360 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1511_8443#" 0 212.102 -1511 8443 p 0 0 0 0 27264 668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1511_8687#" 5027 2079.36 -1511 8687 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435000 6100 0 0
+node "a_n4239_8442#" 2 127.381 -4239 8442 hvpdif 0 0 0 0 174952 3876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n10205_8514#" 15 11587.5 -10205 8514 p 0 0 0 0 936984 14820 1523002 17622 250624 3960 1021156 13166 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n9137_8514#" 17 5268.9 -9137 8514 p 0 0 0 0 1136457 14628 902194 11162 901374 9242 1517635 22036 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n9031_6300#" 44 11066.7 -9031 6300 p 0 0 0 0 643636 23830 2514502 31666 2558264 23400 3000920 24534 1898268 15276 0 0 0 0 0 0 0 0 0 0
+node "a_n8075_10072#" 9 3795.08 -8075 10072 p 0 0 0 0 173080 5704 200644 3784 439798 7478 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n9719_10072#" 2 2404.09 -9719 10072 p 0 0 0 0 137368 2940 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 101 534735 -10931 1558 m1 0 0 0 0 21587900 251556 3366552 24384 54168 1376 54168 1376 35183620 139092 43261832 190672 0 0 0 0 0 0 0 0
+equiv "vdd" "ntap1$1_5[7].well"
+equiv "vdd" "ntap1$1_5[6].well"
+equiv "vdd" "ntap1$1_5[5].well"
+equiv "vdd" "ntap1$1_5[4].well"
+equiv "vdd" "ntap1$1_5[3].well"
+equiv "vdd" "ntap1$1_5[2].well"
+equiv "vdd" "ntap1$1_5[1].well"
+equiv "vdd" "ntap1$1_5[0].well"
+equiv "vdd" "ntap1$1_7[11].well"
+equiv "vdd" "ntap1$1_7[10].well"
+equiv "vdd" "ntap1$1_7[9].well"
+equiv "vdd" "ntap1$1_7[8].well"
+equiv "vdd" "ntap1$1_7[7].well"
+equiv "vdd" "ntap1$1_7[6].well"
+equiv "vdd" "ntap1$1_7[5].well"
+equiv "vdd" "ntap1$1_7[4].well"
+equiv "vdd" "ntap1$1_7[3].well"
+equiv "vdd" "ntap1$1_7[2].well"
+equiv "vdd" "ntap1$1_7[1].well"
+equiv "vdd" "ntap1$1_7[0].well"
+equiv "vdd" "ntap1$1_4[11].well"
+equiv "vdd" "ntap1$1_4[10].well"
+equiv "vdd" "ntap1$1_4[9].well"
+equiv "vdd" "ntap1$1_4[8].well"
+equiv "vdd" "ntap1$1_4[7].well"
+equiv "vdd" "ntap1$1_4[6].well"
+equiv "vdd" "ntap1$1_4[5].well"
+equiv "vdd" "ntap1$1_4[4].well"
+equiv "vdd" "ntap1$1_4[3].well"
+equiv "vdd" "ntap1$1_4[2].well"
+equiv "vdd" "ntap1$1_4[1].well"
+equiv "vdd" "ntap1$1_4[0].well"
+equiv "vdd" "ntap1$1_6[7].well"
+equiv "vdd" "ntap1$1_6[6].well"
+equiv "vdd" "ntap1$1_6[5].well"
+equiv "vdd" "ntap1$1_6[4].well"
+equiv "vdd" "ntap1$1_6[3].well"
+equiv "vdd" "ntap1$1_6[2].well"
+equiv "vdd" "ntap1$1_6[1].well"
+equiv "vdd" "ntap1$1_6[0].well"
+equiv "vdd" "ntap1$1_0[31].well"
+equiv "vdd" "ntap1$1_0[30].well"
+equiv "vdd" "ntap1$1_0[29].well"
+equiv "vdd" "ntap1$1_0[28].well"
+equiv "vdd" "ntap1$1_0[27].well"
+equiv "vdd" "ntap1$1_0[26].well"
+equiv "vdd" "ntap1$1_0[25].well"
+equiv "vdd" "ntap1$1_0[24].well"
+equiv "vdd" "ntap1$1_0[23].well"
+equiv "vdd" "ntap1$1_0[22].well"
+equiv "vdd" "ntap1$1_0[21].well"
+equiv "vdd" "ntap1$1_0[20].well"
+equiv "vdd" "ntap1$1_0[19].well"
+equiv "vdd" "ntap1$1_0[18].well"
+equiv "vdd" "ntap1$1_0[17].well"
+equiv "vdd" "ntap1$1_0[16].well"
+equiv "vdd" "ntap1$1_0[15].well"
+equiv "vdd" "ntap1$1_0[14].well"
+equiv "vdd" "ntap1$1_0[13].well"
+equiv "vdd" "ntap1$1_0[12].well"
+equiv "vdd" "ntap1$1_0[11].well"
+equiv "vdd" "ntap1$1_0[10].well"
+equiv "vdd" "ntap1$1_0[9].well"
+equiv "vdd" "ntap1$1_0[8].well"
+equiv "vdd" "ntap1$1_0[7].well"
+equiv "vdd" "ntap1$1_0[6].well"
+equiv "vdd" "ntap1$1_0[5].well"
+equiv "vdd" "ntap1$1_0[4].well"
+equiv "vdd" "ntap1$1_0[3].well"
+equiv "vdd" "ntap1$1_0[2].well"
+equiv "vdd" "ntap1$1_0[1].well"
+equiv "vdd" "ntap1$1_0[0].well"
+equiv "vdd" "ntap1$1_1[31].well"
+equiv "vdd" "ntap1$1_1[30].well"
+equiv "vdd" "ntap1$1_1[29].well"
+equiv "vdd" "ntap1$1_1[28].well"
+equiv "vdd" "ntap1$1_1[27].well"
+equiv "vdd" "ntap1$1_1[26].well"
+equiv "vdd" "ntap1$1_1[25].well"
+equiv "vdd" "ntap1$1_1[24].well"
+equiv "vdd" "ntap1$1_1[23].well"
+equiv "vdd" "ntap1$1_1[22].well"
+equiv "vdd" "ntap1$1_1[21].well"
+equiv "vdd" "ntap1$1_1[20].well"
+equiv "vdd" "ntap1$1_1[19].well"
+equiv "vdd" "ntap1$1_1[18].well"
+equiv "vdd" "ntap1$1_1[17].well"
+equiv "vdd" "ntap1$1_1[16].well"
+equiv "vdd" "ntap1$1_1[15].well"
+equiv "vdd" "ntap1$1_1[14].well"
+equiv "vdd" "ntap1$1_1[13].well"
+equiv "vdd" "ntap1$1_1[12].well"
+equiv "vdd" "ntap1$1_1[11].well"
+equiv "vdd" "ntap1$1_1[10].well"
+equiv "vdd" "ntap1$1_1[9].well"
+equiv "vdd" "ntap1$1_1[8].well"
+equiv "vdd" "ntap1$1_1[7].well"
+equiv "vdd" "ntap1$1_1[6].well"
+equiv "vdd" "ntap1$1_1[5].well"
+equiv "vdd" "ntap1$1_1[4].well"
+equiv "vdd" "ntap1$1_1[3].well"
+equiv "vdd" "ntap1$1_1[2].well"
+equiv "vdd" "ntap1$1_1[1].well"
+equiv "vdd" "ntap1$1_1[0].well"
+equiv "vdd" "ntap1$1_2[2].well"
+equiv "vdd" "ntap1$1_2[1].well"
+equiv "vdd" "ntap1$1_2[0].well"
+equiv "vdd" "ntap1$1_3[2].well"
+equiv "vdd" "ntap1$1_3[1].well"
+equiv "vdd" "ntap1$1_3[0].well"
+equiv "vdd" "ntap1_9[14].well"
+equiv "vdd" "ntap1_9[13].well"
+equiv "vdd" "ntap1_9[12].well"
+equiv "vdd" "ntap1_9[11].well"
+equiv "vdd" "ntap1_9[10].well"
+equiv "vdd" "ntap1_9[9].well"
+equiv "vdd" "ntap1_9[8].well"
+equiv "vdd" "ntap1_9[7].well"
+equiv "vdd" "ntap1_9[6].well"
+equiv "vdd" "ntap1_9[5].well"
+equiv "vdd" "ntap1_9[4].well"
+equiv "vdd" "ntap1_9[3].well"
+equiv "vdd" "ntap1_9[2].well"
+equiv "vdd" "ntap1_9[1].well"
+equiv "vdd" "ntap1_9[0].well"
+equiv "vdd" "ntap1_8[14].well"
+equiv "vdd" "ntap1_8[13].well"
+equiv "vdd" "ntap1_8[12].well"
+equiv "vdd" "ntap1_8[11].well"
+equiv "vdd" "ntap1_8[10].well"
+equiv "vdd" "ntap1_8[9].well"
+equiv "vdd" "ntap1_8[8].well"
+equiv "vdd" "ntap1_8[7].well"
+equiv "vdd" "ntap1_8[6].well"
+equiv "vdd" "ntap1_8[5].well"
+equiv "vdd" "ntap1_8[4].well"
+equiv "vdd" "ntap1_8[3].well"
+equiv "vdd" "ntap1_8[2].well"
+equiv "vdd" "ntap1_8[1].well"
+equiv "vdd" "ntap1_8[0].well"
+equiv "vdd" "ntap1_7[23].well"
+equiv "vdd" "ntap1_7[22].well"
+equiv "vdd" "ntap1_7[21].well"
+equiv "vdd" "ntap1_7[20].well"
+equiv "vdd" "ntap1_7[19].well"
+equiv "vdd" "ntap1_7[18].well"
+equiv "vdd" "ntap1_7[17].well"
+equiv "vdd" "ntap1_7[16].well"
+equiv "vdd" "ntap1_7[15].well"
+equiv "vdd" "ntap1_7[14].well"
+equiv "vdd" "ntap1_7[13].well"
+equiv "vdd" "ntap1_7[12].well"
+equiv "vdd" "ntap1_7[11].well"
+equiv "vdd" "ntap1_7[10].well"
+equiv "vdd" "ntap1_7[9].well"
+equiv "vdd" "ntap1_7[8].well"
+equiv "vdd" "ntap1_7[7].well"
+equiv "vdd" "ntap1_7[6].well"
+equiv "vdd" "ntap1_7[5].well"
+equiv "vdd" "ntap1_7[4].well"
+equiv "vdd" "ntap1_7[3].well"
+equiv "vdd" "ntap1_7[2].well"
+equiv "vdd" "ntap1_7[1].well"
+equiv "vdd" "ntap1_7[0].well"
+equiv "vdd" "ntap1_1[23].well"
+equiv "vdd" "ntap1_1[22].well"
+equiv "vdd" "ntap1_1[21].well"
+equiv "vdd" "ntap1_1[20].well"
+equiv "vdd" "ntap1_1[19].well"
+equiv "vdd" "ntap1_1[18].well"
+equiv "vdd" "ntap1_1[17].well"
+equiv "vdd" "ntap1_1[16].well"
+equiv "vdd" "ntap1_1[15].well"
+equiv "vdd" "ntap1_1[14].well"
+equiv "vdd" "ntap1_1[13].well"
+equiv "vdd" "ntap1_1[12].well"
+equiv "vdd" "ntap1_1[11].well"
+equiv "vdd" "ntap1_1[10].well"
+equiv "vdd" "ntap1_1[9].well"
+equiv "vdd" "ntap1_1[8].well"
+equiv "vdd" "ntap1_1[7].well"
+equiv "vdd" "ntap1_1[6].well"
+equiv "vdd" "ntap1_1[5].well"
+equiv "vdd" "ntap1_1[4].well"
+equiv "vdd" "ntap1_1[3].well"
+equiv "vdd" "ntap1_1[2].well"
+equiv "vdd" "ntap1_1[1].well"
+equiv "vdd" "ntap1_1[0].well"
+equiv "vdd" "ntap1_0[6].well"
+equiv "vdd" "ntap1_0[5].well"
+equiv "vdd" "ntap1_0[4].well"
+equiv "vdd" "ntap1_0[3].well"
+equiv "vdd" "ntap1_0[2].well"
+equiv "vdd" "ntap1_0[1].well"
+equiv "vdd" "ntap1_0[0].well"
+equiv "vdd" "ntap1_10[27].well"
+equiv "vdd" "ntap1_10[26].well"
+equiv "vdd" "ntap1_10[25].well"
+equiv "vdd" "ntap1_10[24].well"
+equiv "vdd" "ntap1_10[23].well"
+equiv "vdd" "ntap1_10[22].well"
+equiv "vdd" "ntap1_10[21].well"
+equiv "vdd" "ntap1_10[20].well"
+equiv "vdd" "ntap1_10[19].well"
+equiv "vdd" "ntap1_10[18].well"
+equiv "vdd" "ntap1_10[17].well"
+equiv "vdd" "ntap1_10[16].well"
+equiv "vdd" "ntap1_10[15].well"
+equiv "vdd" "ntap1_10[14].well"
+equiv "vdd" "ntap1_10[13].well"
+equiv "vdd" "ntap1_10[12].well"
+equiv "vdd" "ntap1_10[11].well"
+equiv "vdd" "ntap1_10[10].well"
+equiv "vdd" "ntap1_10[9].well"
+equiv "vdd" "ntap1_10[8].well"
+equiv "vdd" "ntap1_10[7].well"
+equiv "vdd" "ntap1_10[6].well"
+equiv "vdd" "ntap1_10[5].well"
+equiv "vdd" "ntap1_10[4].well"
+equiv "vdd" "ntap1_10[3].well"
+equiv "vdd" "ntap1_10[2].well"
+equiv "vdd" "ntap1_10[1].well"
+equiv "vdd" "ntap1_10[0].well"
+equiv "vdd" "ntap1_5[15].well"
+equiv "vdd" "ntap1_5[14].well"
+equiv "vdd" "ntap1_5[13].well"
+equiv "vdd" "ntap1_5[12].well"
+equiv "vdd" "ntap1_5[11].well"
+equiv "vdd" "ntap1_5[10].well"
+equiv "vdd" "ntap1_5[9].well"
+equiv "vdd" "ntap1_5[8].well"
+equiv "vdd" "ntap1_5[7].well"
+equiv "vdd" "ntap1_5[6].well"
+equiv "vdd" "ntap1_5[5].well"
+equiv "vdd" "ntap1_5[4].well"
+equiv "vdd" "ntap1_5[3].well"
+equiv "vdd" "ntap1_5[2].well"
+equiv "vdd" "ntap1_5[1].well"
+equiv "vdd" "ntap1_5[0].well"
+equiv "vdd" "ntap1_6[15].well"
+equiv "vdd" "ntap1_6[14].well"
+equiv "vdd" "ntap1_6[13].well"
+equiv "vdd" "ntap1_6[12].well"
+equiv "vdd" "ntap1_6[11].well"
+equiv "vdd" "ntap1_6[10].well"
+equiv "vdd" "ntap1_6[9].well"
+equiv "vdd" "ntap1_6[8].well"
+equiv "vdd" "ntap1_6[7].well"
+equiv "vdd" "ntap1_6[6].well"
+equiv "vdd" "ntap1_6[5].well"
+equiv "vdd" "ntap1_6[4].well"
+equiv "vdd" "ntap1_6[3].well"
+equiv "vdd" "ntap1_6[2].well"
+equiv "vdd" "ntap1_6[1].well"
+equiv "vdd" "ntap1_6[0].well"
+equiv "vdd" "ntap1_3[6].well"
+equiv "vdd" "ntap1_3[5].well"
+equiv "vdd" "ntap1_3[4].well"
+equiv "vdd" "ntap1_3[3].well"
+equiv "vdd" "ntap1_3[2].well"
+equiv "vdd" "ntap1_3[1].well"
+equiv "vdd" "ntap1_3[0].well"
+equiv "vdd" "ntap1_11[27].well"
+equiv "vdd" "ntap1_11[26].well"
+equiv "vdd" "ntap1_11[25].well"
+equiv "vdd" "ntap1_11[24].well"
+equiv "vdd" "ntap1_11[23].well"
+equiv "vdd" "ntap1_11[22].well"
+equiv "vdd" "ntap1_11[21].well"
+equiv "vdd" "ntap1_11[20].well"
+equiv "vdd" "ntap1_11[19].well"
+equiv "vdd" "ntap1_11[18].well"
+equiv "vdd" "ntap1_11[17].well"
+equiv "vdd" "ntap1_11[16].well"
+equiv "vdd" "ntap1_11[15].well"
+equiv "vdd" "ntap1_11[14].well"
+equiv "vdd" "ntap1_11[13].well"
+equiv "vdd" "ntap1_11[12].well"
+equiv "vdd" "ntap1_11[11].well"
+equiv "vdd" "ntap1_11[10].well"
+equiv "vdd" "ntap1_11[9].well"
+equiv "vdd" "ntap1_11[8].well"
+equiv "vdd" "ntap1_11[7].well"
+equiv "vdd" "ntap1_11[6].well"
+equiv "vdd" "ntap1_11[5].well"
+equiv "vdd" "ntap1_11[4].well"
+equiv "vdd" "ntap1_11[3].well"
+equiv "vdd" "ntap1_11[2].well"
+equiv "vdd" "ntap1_11[1].well"
+equiv "vdd" "ntap1_11[0].well"
+equiv "vdd" "ntap1_4[19].well"
+equiv "vdd" "ntap1_4[18].well"
+equiv "vdd" "ntap1_4[17].well"
+equiv "vdd" "ntap1_4[16].well"
+equiv "vdd" "ntap1_4[15].well"
+equiv "vdd" "ntap1_4[14].well"
+equiv "vdd" "ntap1_4[13].well"
+equiv "vdd" "ntap1_4[12].well"
+equiv "vdd" "ntap1_4[11].well"
+equiv "vdd" "ntap1_4[10].well"
+equiv "vdd" "ntap1_4[9].well"
+equiv "vdd" "ntap1_4[8].well"
+equiv "vdd" "ntap1_4[7].well"
+equiv "vdd" "ntap1_4[6].well"
+equiv "vdd" "ntap1_4[5].well"
+equiv "vdd" "ntap1_4[4].well"
+equiv "vdd" "ntap1_4[3].well"
+equiv "vdd" "ntap1_4[2].well"
+equiv "vdd" "ntap1_4[1].well"
+equiv "vdd" "ntap1_4[0].well"
+equiv "vdd" "ntap1_2[19].well"
+equiv "vdd" "ntap1_2[18].well"
+equiv "vdd" "ntap1_2[17].well"
+equiv "vdd" "ntap1_2[16].well"
+equiv "vdd" "ntap1_2[15].well"
+equiv "vdd" "ntap1_2[14].well"
+equiv "vdd" "ntap1_2[13].well"
+equiv "vdd" "ntap1_2[12].well"
+equiv "vdd" "ntap1_2[11].well"
+equiv "vdd" "ntap1_2[10].well"
+equiv "vdd" "ntap1_2[9].well"
+equiv "vdd" "ntap1_2[8].well"
+equiv "vdd" "ntap1_2[7].well"
+equiv "vdd" "ntap1_2[6].well"
+equiv "vdd" "ntap1_2[5].well"
+equiv "vdd" "ntap1_2[4].well"
+equiv "vdd" "ntap1_2[3].well"
+equiv "vdd" "ntap1_2[2].well"
+equiv "vdd" "ntap1_2[1].well"
+equiv "vdd" "ntap1_2[0].well"
+substrate "vss" 0 0 4600 -2589 m1 0 0 0 0 24728869 326160 9568060 154680 585600 10820 585600 10820 14577200 61818 0 0 0 0 0 0 0 0 0 0
+equiv "vss" "ptap1$1_4[29].sub!"
+equiv "vss" "ptap1$1_4[28].sub!"
+equiv "vss" "ptap1$1_4[27].sub!"
+equiv "vss" "ptap1$1_4[26].sub!"
+equiv "vss" "ptap1$1_4[25].sub!"
+equiv "vss" "ptap1$1_4[24].sub!"
+equiv "vss" "ptap1$1_4[23].sub!"
+equiv "vss" "ptap1$1_4[22].sub!"
+equiv "vss" "ptap1$1_4[21].sub!"
+equiv "vss" "ptap1$1_4[20].sub!"
+equiv "vss" "ptap1$1_4[19].sub!"
+equiv "vss" "ptap1$1_4[18].sub!"
+equiv "vss" "ptap1$1_4[17].sub!"
+equiv "vss" "ptap1$1_4[16].sub!"
+equiv "vss" "ptap1$1_4[15].sub!"
+equiv "vss" "ptap1$1_4[14].sub!"
+equiv "vss" "ptap1$1_4[13].sub!"
+equiv "vss" "ptap1$1_4[12].sub!"
+equiv "vss" "ptap1$1_4[11].sub!"
+equiv "vss" "ptap1$1_4[10].sub!"
+equiv "vss" "ptap1$1_4[9].sub!"
+equiv "vss" "ptap1$1_4[8].sub!"
+equiv "vss" "ptap1$1_4[7].sub!"
+equiv "vss" "ptap1$1_4[6].sub!"
+equiv "vss" "ptap1$1_4[5].sub!"
+equiv "vss" "ptap1$1_4[4].sub!"
+equiv "vss" "ptap1$1_4[3].sub!"
+equiv "vss" "ptap1$1_4[2].sub!"
+equiv "vss" "ptap1$1_4[1].sub!"
+equiv "vss" "ptap1$1_4[0].sub!"
+equiv "vss" "ptap1$1_3[3].sub!"
+equiv "vss" "ptap1$1_3[2].sub!"
+equiv "vss" "ptap1$1_3[1].sub!"
+equiv "vss" "ptap1$1_3[0].sub!"
+equiv "vss" "ptap1$1_7[29].sub!"
+equiv "vss" "ptap1$1_7[28].sub!"
+equiv "vss" "ptap1$1_7[27].sub!"
+equiv "vss" "ptap1$1_7[26].sub!"
+equiv "vss" "ptap1$1_7[25].sub!"
+equiv "vss" "ptap1$1_7[24].sub!"
+equiv "vss" "ptap1$1_7[23].sub!"
+equiv "vss" "ptap1$1_7[22].sub!"
+equiv "vss" "ptap1$1_7[21].sub!"
+equiv "vss" "ptap1$1_7[20].sub!"
+equiv "vss" "ptap1$1_7[19].sub!"
+equiv "vss" "ptap1$1_7[18].sub!"
+equiv "vss" "ptap1$1_7[17].sub!"
+equiv "vss" "ptap1$1_7[16].sub!"
+equiv "vss" "ptap1$1_7[15].sub!"
+equiv "vss" "ptap1$1_7[14].sub!"
+equiv "vss" "ptap1$1_7[13].sub!"
+equiv "vss" "ptap1$1_7[12].sub!"
+equiv "vss" "ptap1$1_7[11].sub!"
+equiv "vss" "ptap1$1_7[10].sub!"
+equiv "vss" "ptap1$1_7[9].sub!"
+equiv "vss" "ptap1$1_7[8].sub!"
+equiv "vss" "ptap1$1_7[7].sub!"
+equiv "vss" "ptap1$1_7[6].sub!"
+equiv "vss" "ptap1$1_7[5].sub!"
+equiv "vss" "ptap1$1_7[4].sub!"
+equiv "vss" "ptap1$1_7[3].sub!"
+equiv "vss" "ptap1$1_7[2].sub!"
+equiv "vss" "ptap1$1_7[1].sub!"
+equiv "vss" "ptap1$1_7[0].sub!"
+equiv "vss" "ptap1$1_6[3].sub!"
+equiv "vss" "ptap1$1_6[2].sub!"
+equiv "vss" "ptap1$1_6[1].sub!"
+equiv "vss" "ptap1$1_6[0].sub!"
+equiv "vss" "ptap1$1_5[29].sub!"
+equiv "vss" "ptap1$1_5[28].sub!"
+equiv "vss" "ptap1$1_5[27].sub!"
+equiv "vss" "ptap1$1_5[26].sub!"
+equiv "vss" "ptap1$1_5[25].sub!"
+equiv "vss" "ptap1$1_5[24].sub!"
+equiv "vss" "ptap1$1_5[23].sub!"
+equiv "vss" "ptap1$1_5[22].sub!"
+equiv "vss" "ptap1$1_5[21].sub!"
+equiv "vss" "ptap1$1_5[20].sub!"
+equiv "vss" "ptap1$1_5[19].sub!"
+equiv "vss" "ptap1$1_5[18].sub!"
+equiv "vss" "ptap1$1_5[17].sub!"
+equiv "vss" "ptap1$1_5[16].sub!"
+equiv "vss" "ptap1$1_5[15].sub!"
+equiv "vss" "ptap1$1_5[14].sub!"
+equiv "vss" "ptap1$1_5[13].sub!"
+equiv "vss" "ptap1$1_5[12].sub!"
+equiv "vss" "ptap1$1_5[11].sub!"
+equiv "vss" "ptap1$1_5[10].sub!"
+equiv "vss" "ptap1$1_5[9].sub!"
+equiv "vss" "ptap1$1_5[8].sub!"
+equiv "vss" "ptap1$1_5[7].sub!"
+equiv "vss" "ptap1$1_5[6].sub!"
+equiv "vss" "ptap1$1_5[5].sub!"
+equiv "vss" "ptap1$1_5[4].sub!"
+equiv "vss" "ptap1$1_5[3].sub!"
+equiv "vss" "ptap1$1_5[2].sub!"
+equiv "vss" "ptap1$1_5[1].sub!"
+equiv "vss" "ptap1$1_5[0].sub!"
+equiv "vss" "ptap1$1_0[29].sub!"
+equiv "vss" "ptap1$1_0[28].sub!"
+equiv "vss" "ptap1$1_0[27].sub!"
+equiv "vss" "ptap1$1_0[26].sub!"
+equiv "vss" "ptap1$1_0[25].sub!"
+equiv "vss" "ptap1$1_0[24].sub!"
+equiv "vss" "ptap1$1_0[23].sub!"
+equiv "vss" "ptap1$1_0[22].sub!"
+equiv "vss" "ptap1$1_0[21].sub!"
+equiv "vss" "ptap1$1_0[20].sub!"
+equiv "vss" "ptap1$1_0[19].sub!"
+equiv "vss" "ptap1$1_0[18].sub!"
+equiv "vss" "ptap1$1_0[17].sub!"
+equiv "vss" "ptap1$1_0[16].sub!"
+equiv "vss" "ptap1$1_0[15].sub!"
+equiv "vss" "ptap1$1_0[14].sub!"
+equiv "vss" "ptap1$1_0[13].sub!"
+equiv "vss" "ptap1$1_0[12].sub!"
+equiv "vss" "ptap1$1_0[11].sub!"
+equiv "vss" "ptap1$1_0[10].sub!"
+equiv "vss" "ptap1$1_0[9].sub!"
+equiv "vss" "ptap1$1_0[8].sub!"
+equiv "vss" "ptap1$1_0[7].sub!"
+equiv "vss" "ptap1$1_0[6].sub!"
+equiv "vss" "ptap1$1_0[5].sub!"
+equiv "vss" "ptap1$1_0[4].sub!"
+equiv "vss" "ptap1$1_0[3].sub!"
+equiv "vss" "ptap1$1_0[2].sub!"
+equiv "vss" "ptap1$1_0[1].sub!"
+equiv "vss" "ptap1$1_0[0].sub!"
+equiv "vss" "ptap1$1_1[10].sub!"
+equiv "vss" "ptap1$1_1[9].sub!"
+equiv "vss" "ptap1$1_1[8].sub!"
+equiv "vss" "ptap1$1_1[7].sub!"
+equiv "vss" "ptap1$1_1[6].sub!"
+equiv "vss" "ptap1$1_1[5].sub!"
+equiv "vss" "ptap1$1_1[4].sub!"
+equiv "vss" "ptap1$1_1[3].sub!"
+equiv "vss" "ptap1$1_1[2].sub!"
+equiv "vss" "ptap1$1_1[1].sub!"
+equiv "vss" "ptap1$1_1[0].sub!"
+equiv "vss" "ptap1$1_2[10].sub!"
+equiv "vss" "ptap1$1_2[9].sub!"
+equiv "vss" "ptap1$1_2[8].sub!"
+equiv "vss" "ptap1$1_2[7].sub!"
+equiv "vss" "ptap1$1_2[6].sub!"
+equiv "vss" "ptap1$1_2[5].sub!"
+equiv "vss" "ptap1$1_2[4].sub!"
+equiv "vss" "ptap1$1_2[3].sub!"
+equiv "vss" "ptap1$1_2[2].sub!"
+equiv "vss" "ptap1$1_2[1].sub!"
+equiv "vss" "ptap1$1_2[0].sub!"
+equiv "vss" "ptap1_7[11].sub!"
+equiv "vss" "ptap1_7[10].sub!"
+equiv "vss" "ptap1_7[9].sub!"
+equiv "vss" "ptap1_7[8].sub!"
+equiv "vss" "ptap1_7[7].sub!"
+equiv "vss" "ptap1_7[6].sub!"
+equiv "vss" "ptap1_7[5].sub!"
+equiv "vss" "ptap1_7[4].sub!"
+equiv "vss" "ptap1_7[3].sub!"
+equiv "vss" "ptap1_7[2].sub!"
+equiv "vss" "ptap1_7[1].sub!"
+equiv "vss" "ptap1_7[0].sub!"
+equiv "vss" "ptap1_1[11].sub!"
+equiv "vss" "ptap1_1[10].sub!"
+equiv "vss" "ptap1_1[9].sub!"
+equiv "vss" "ptap1_1[8].sub!"
+equiv "vss" "ptap1_1[7].sub!"
+equiv "vss" "ptap1_1[6].sub!"
+equiv "vss" "ptap1_1[5].sub!"
+equiv "vss" "ptap1_1[4].sub!"
+equiv "vss" "ptap1_1[3].sub!"
+equiv "vss" "ptap1_1[2].sub!"
+equiv "vss" "ptap1_1[1].sub!"
+equiv "vss" "ptap1_1[0].sub!"
+equiv "vss" "ptap1_6[5].sub!"
+equiv "vss" "ptap1_6[4].sub!"
+equiv "vss" "ptap1_6[3].sub!"
+equiv "vss" "ptap1_6[2].sub!"
+equiv "vss" "ptap1_6[1].sub!"
+equiv "vss" "ptap1_6[0].sub!"
+equiv "vss" "ptap1_0[5].sub!"
+equiv "vss" "ptap1_0[4].sub!"
+equiv "vss" "ptap1_0[3].sub!"
+equiv "vss" "ptap1_0[2].sub!"
+equiv "vss" "ptap1_0[1].sub!"
+equiv "vss" "ptap1_0[0].sub!"
+equiv "vss" "ptap1_5[11].sub!"
+equiv "vss" "ptap1_5[10].sub!"
+equiv "vss" "ptap1_5[9].sub!"
+equiv "vss" "ptap1_5[8].sub!"
+equiv "vss" "ptap1_5[7].sub!"
+equiv "vss" "ptap1_5[6].sub!"
+equiv "vss" "ptap1_5[5].sub!"
+equiv "vss" "ptap1_5[4].sub!"
+equiv "vss" "ptap1_5[3].sub!"
+equiv "vss" "ptap1_5[2].sub!"
+equiv "vss" "ptap1_5[1].sub!"
+equiv "vss" "ptap1_5[0].sub!"
+equiv "vss" "ptap1_3[9].sub!"
+equiv "vss" "ptap1_3[8].sub!"
+equiv "vss" "ptap1_3[7].sub!"
+equiv "vss" "ptap1_3[6].sub!"
+equiv "vss" "ptap1_3[5].sub!"
+equiv "vss" "ptap1_3[4].sub!"
+equiv "vss" "ptap1_3[3].sub!"
+equiv "vss" "ptap1_3[2].sub!"
+equiv "vss" "ptap1_3[1].sub!"
+equiv "vss" "ptap1_3[0].sub!"
+equiv "vss" "ptap1_4[9].sub!"
+equiv "vss" "ptap1_4[8].sub!"
+equiv "vss" "ptap1_4[7].sub!"
+equiv "vss" "ptap1_4[6].sub!"
+equiv "vss" "ptap1_4[5].sub!"
+equiv "vss" "ptap1_4[4].sub!"
+equiv "vss" "ptap1_4[3].sub!"
+equiv "vss" "ptap1_4[2].sub!"
+equiv "vss" "ptap1_4[1].sub!"
+equiv "vss" "ptap1_4[0].sub!"
+equiv "vss" "ptap1_2[11].sub!"
+equiv "vss" "ptap1_2[10].sub!"
+equiv "vss" "ptap1_2[9].sub!"
+equiv "vss" "ptap1_2[8].sub!"
+equiv "vss" "ptap1_2[7].sub!"
+equiv "vss" "ptap1_2[6].sub!"
+equiv "vss" "ptap1_2[5].sub!"
+equiv "vss" "ptap1_2[4].sub!"
+equiv "vss" "ptap1_2[3].sub!"
+equiv "vss" "ptap1_2[2].sub!"
+equiv "vss" "ptap1_2[1].sub!"
+equiv "vss" "ptap1_2[0].sub!"
+cap "vdd" "a_59_8687#" 15.1315
+cap "iout" "a_373_5543#" 3.49005
+cap "a_n1197_8687#" "a_n1197_8443#" 28.7856
+cap "iout" "VBG" 5.23192
+cap "a_n8075_10072#" "VBG" 5.03835
+cap "vdd" "a_7281_8443#" 3.45483
+cap "VBG" "a_687_8687#" 2.30212
+cap "a_2257_8443#" "VBG" 1.75045
+cap "vdd" "a_5711_5543#" 0.109167
+cap "a_2257_8443#" "a_2257_8687#" 28.7856
+cap "a_5711_8687#" "a_5397_8687#" 212.461
+cap "a_3827_8687#" "a_3827_8443#" 28.7856
+cap "a_3199_8443#" "VBG" 1.75045
+cap "a_5083_5457#" "VBG" 0.0345202
+cap "a_n9031_6300#" "a_n1511_5543#" 6.05895
+cap "a_3827_8687#" "a_3513_8687#" 212.461
+cap "vdd" "a_2571_8687#" 15.1315
+cap "a_2257_8443#" "a_1943_8443#" 47.0832
+cap "iout" "a_59_5543#" 3.49005
+cap "a_687_11587#" "a_1001_8687#" 29.5965
+cap "a_4769_5543#" "VBG" 42.0268
+cap "a_3827_5457#" "a_4455_5457#" 17.156
+cap "a_n1197_5543#" "VBG" 68.6474
+cap "a_59_8687#" "a_373_8687#" 212.461
+cap "a_5083_5543#" "iout" 3.7741
+cap "a_59_11587#" "a_n10205_8514#" 0.35583
+cap "a_n8075_10072#" "a_n9137_8514#" 725.891
+cap "a_4455_8687#" "VBG" 3.46772
+cap "vdd" "a_1943_5543#" 0.0498372
+cap "a_5083_8687#" "a_5397_8687#" 212.461
+cap "a_373_8443#" "a_59_8443#" 47.0832
+cap "vdd" "a_687_11587#" 6.26629
+cap "a_1629_8687#" "VBG" 2.30212
+cap "a_n10205_8514#" "a_n8747_1947#" 2.6732
+cap "a_3827_8687#" "a_4141_8687#" 212.461
+cap "a_5083_5457#" "a_5083_5543#" 29.5965
+cap "a_4769_11587#" "a_4141_11587#" 17.156
+cap "a_n1818_1486#" "vdd" 2171.98
+cap "a_4769_5543#" "a_5083_5543#" 212.461
+cap "vdd" "a_4769_8687#" 15.1315
+cap "a_5397_5543#" "vdd" 0.137646
+cap "a_1629_5457#" "iout" 7.3049
+cap "a_n1197_8443#" "VBG" 1.75045
+cap "a_n9031_6300#" "a_n4239_8442#" 381.093
+cap "a_n569_11587#" "a_n10205_8514#" 2.10518
+cap "a_6025_5543#" "a_5711_5543#" 212.461
+cap "a_n9031_6300#" "vdd" 13193.5
+cap "a_n883_5543#" "a_n8747_1947#" 48.6077
+cap "a_1315_8443#" "a_1315_5543#" 28.7856
+cap "a_6967_8443#" "a_6653_8443#" 47.0832
+cap "a_2571_5543#" "a_2571_8443#" 28.7856
+cap "a_3199_5543#" "VBG" 169.207
+cap "a_2885_5543#" "VBG" 89.8513
+cap "iout" "a_n1511_5543#" 3.49005
+cap "a_5397_11587#" "a_5397_8687#" 29.5965
+cap "a_1943_11587#" "a_2257_8687#" 29.5965
+cap "a_4455_8687#" "a_4141_8687#" 212.461
+cap "a_687_8443#" "a_1001_8443#" 47.0832
+cap "a_n1818_n1514#" "vdd" 11.1003
+cap "a_2571_5543#" "iout" 3.58473
+cap "iout" "a_1001_5543#" 3.7741
+cap "a_6339_8443#" "a_6339_8687#" 28.7856
+cap "a_6025_11587#" "a_5397_11587#" 17.156
+cap "vdd" "a_n255_8687#" 15.1315
+cap "iout" "a_2257_5543#" 3.49005
+cap "a_n1511_5457#" "a_n8747_1947#" 111.043
+cap "a_6967_8687#" "a_6653_8687#" 212.461
+cap "a_6653_8687#" "a_6339_8687#" 212.461
+cap "a_n255_5457#" "a_n8747_1947#" 19.0885
+cap "VBG" "a_5397_8687#" 3.46772
+cap "a_n9031_6300#" "a_n569_5543#" 0.325861
+cap "a_2257_8443#" "a_2257_5543#" 28.7856
+cap "a_n8547_n1107#" "a_n9137_8514#" 2018.54
+cap "a_6653_8443#" "VBG" 2.928
+cap "a_n883_8443#" "VBG" 1.75045
+cap "a_59_8443#" "a_n255_8443#" 47.0832
+cap "a_5397_5543#" "a_5397_8443#" 28.7856
+cap "a_59_8443#" "VBG" 1.75045
+cap "a_2571_11587#" "a_2571_8687#" 29.5965
+cap "a_n1511_5543#" "a_n1197_5543#" 212.461
+cap "a_4455_5457#" "VBG" 0.15638
+cap "a_n1818_1486#" "a_n8547_1983#" 12.6208
+cap "iout" "a_2885_5457#" 6.702
+cap "a_3827_5543#" "iout" 3.49005
+cap "a_1315_5543#" "iout" 3.7741
+cap "vdd" "a_3827_8687#" 15.1315
+cap "a_1001_8687#" "a_687_8687#" 212.461
+cap "a_n8075_10072#" "a_n4239_8442#" 136.71
+cap "vdd" "a_1315_11587#" 6.26629
+cap "a_n9031_6300#" "a_n8547_1983#" 1089.95
+cap "vdd" "iout" 53457.4
+cap "a_6653_5543#" "a_6653_8443#" 28.7856
+cap "a_59_8443#" "a_59_5543#" 28.7856
+cap "a_n1197_8687#" "a_n10205_8514#" 30.3868
+cap "a_n8747_1947#" "a_n9131_n1107#" 1775.22
+cap "a_n8075_10072#" "vdd" 2274.19
+cap "vdd" "a_687_8687#" 15.1315
+cap "a_3827_5457#" "a_4141_5543#" 29.5965
+cap "a_1001_8443#" "VBG" 1.75045
+cap "a_n569_8443#" "a_n569_5543#" 28.7856
+cap "a_6025_8443#" "a_5711_8443#" 47.0832
+cap "a_6025_8443#" "a_6339_8443#" 47.0832
+cap "a_5711_8687#" "a_5711_8443#" 28.7856
+cap "a_n1818_n1514#" "a_n8547_1983#" 69.6223
+cap "a_5083_8443#" "a_5083_8687#" 28.7856
+cap "a_5083_5457#" "vdd" 10.9668
+cap "a_4769_5543#" "vdd" 0.17799
+cap "a_59_11587#" "a_n569_11587#" 17.156
+cap "iout" "a_n569_5543#" 3.49005
+cap "a_5397_5543#" "a_5711_5543#" 212.461
+cap "vdd" "a_4455_8687#" 15.1315
+cap "a_4769_8443#" "a_4769_8687#" 28.7856
+cap "a_7281_5543#" "VBG" 35.4203
+cap "a_2571_5543#" "a_2885_5543#" 212.461
+cap "a_373_8687#" "a_687_8687#" 212.461
+cap "a_1629_8687#" "vdd" 15.1315
+cap "a_4455_5543#" "iout" 3.64785
+cap "a_59_8687#" "a_n255_8687#" 212.461
+cap "iout" "a_n255_5543#" 3.49005
+cap "a_1001_5457#" "a_n8747_1947#" 0.0254255
+cap "a_3513_8443#" "VBG" 8.97178
+cap "a_n569_8687#" "a_n10205_8514#" 13.9675
+cap "a_6025_5543#" "iout" 3.7741
+cap "a_3827_8687#" "a_3513_11587#" 29.5965
+cap "a_3199_5543#" "a_2885_5457#" 29.5965
+cap "a_2885_5543#" "a_2885_5457#" 29.5965
+cap "a_4141_8687#" "a_4141_11587#" 29.5965
+cap "a_4769_5543#" "a_4455_5543#" 212.461
+cap "a_n10205_8514#" "VBG" 1338.35
+cap "a_3513_5543#" "VBG" 693.039
+cap "a_3827_8443#" "a_3513_8443#" 47.0832
+cap "a_n9719_10072#" "a_n9137_8514#" 2.17908
+cap "a_3513_8443#" "a_3513_8687#" 28.7856
+cap "a_n8547_n1107#" "vdd" 7514.13
+cap "iout" "a_2257_5457#" 6.99087
+cap "a_n10205_8514#" "a_n1511_8687#" 139.164
+cap "a_n1818_1486#" "a_n9031_6300#" 1945.18
+cap "vdd" "a_2885_5543#" 0.130526
+cap "a_6025_8687#" "a_6025_11587#" 29.5965
+cap "vdd" "a_1943_11587#" 6.26629
+cap "a_5083_8443#" "VBG" 2.928
+cap "a_6339_5457#" "a_5711_5457#" 17.156
+cap "a_373_5457#" "a_n255_5457#" 17.156
+cap "a_n1511_8443#" "VBG" 1.75045
+cap "a_6339_5543#" "a_6339_8443#" 28.7856
+cap "a_n1511_8443#" "a_n1511_8687#" 28.7856
+cap "a_n1818_1486#" "a_n1818_n1514#" 344.201
+cap "a_7595_5543#" "a_7281_5543#" 212.461
+cap "VBG" "a_4141_5543#" 61.2703
+cap "a_1629_5543#" "VBG" 68.6474
+cap "a_n9137_8514#" "a_n10205_8514#" 876.341
+cap "vdd" "a_5397_8687#" 15.1315
+cap "a_1001_8443#" "a_1001_5543#" 28.7856
+cap "a_687_8443#" "a_687_5543#" 28.7856
+cap "a_n883_5543#" "VBG" 68.6474
+cap "iout" "a_5711_5543#" 3.7741
+cap "VBG" "a_5711_8443#" 2.928
+cap "vdd" "a_6025_11587#" 6.26629
+cap "a_1943_8687#" "VBG" 2.30212
+cap "vdd" "a_6967_5457#" 6.13837
+cap "VBG" "a_6339_8443#" 2.928
+cap "a_2571_8443#" "a_2571_8687#" 28.7856
+cap "a_1943_8687#" "a_2257_8687#" 212.461
+cap "a_6653_8687#" "VBG" 3.46772
+cap "a_n1197_11587#" "a_n10205_8514#" 25.2958
+cap "VBG" "a_7595_8443#" 2.928
+cap "a_5083_5543#" "a_5083_8443#" 28.7856
+cap "a_n1818_n1514#" "a_n9031_6300#" 162.138
+cap "a_4455_5457#" "vdd" 11.1846
+cap "a_1943_8443#" "a_1943_8687#" 28.7856
+cap "iout" "a_1943_5543#" 3.7741
+cap "a_687_11587#" "a_1315_11587#" 17.156
+cap "a_687_5543#" "a_373_5457#" 29.5965
+cap "a_1001_8443#" "a_1001_8687#" 28.7856
+cap "a_6653_11587#" "a_6025_11587#" 17.156
+cap "a_4769_5543#" "a_4769_8443#" 28.7856
+cap "a_1315_8443#" "a_1629_8443#" 47.0832
+cap "a_687_11587#" "a_687_8687#" 29.5965
+cap "a_1315_8687#" "VBG" 2.30212
+cap "a_4455_8443#" "VBG" 2.928
+cap "a_n8547_n1107#" "a_n8547_1983#" 1916.09
+cap "a_n1818_1486#" "iout" 60.2295
+cap "a_373_5457#" "a_n8747_1947#" 0.370769
+cap "a_59_5543#" "a_n255_5457#" 29.5965
+cap "a_5397_8443#" "a_5397_8687#" 28.7856
+cap "vdd" "a_4141_11587#" 6.26629
+cap "a_5397_5543#" "iout" 3.7741
+cap "a_4455_5457#" "a_4455_5543#" 29.5965
+cap "a_6967_8443#" "a_6967_8687#" 28.7856
+cap "a_n10205_8514#" "a_n1511_5543#" 15.3844
+cap "a_6967_5457#" "a_6967_5543#" 29.5965
+cap "a_1629_5543#" "a_1629_5457#" 29.5965
+cap "a_687_5543#" "VBG" 68.6474
+cap "a_687_5543#" "a_373_5543#" 212.461
+cap "a_n9031_6300#" "iout" 2781.24
+cap "a_7281_5543#" "vdd" 44.8145
+cap "a_6339_5457#" "a_6339_5543#" 29.5965
+cap "a_2571_11587#" "a_1943_11587#" 17.156
+cap "a_n8075_10072#" "a_n9031_6300#" 1469.09
+cap "a_n8747_1947#" "VBG" 1.0641
+cap "a_5397_5543#" "a_5083_5457#" 29.5965
+cap "a_4769_11587#" "a_5083_8687#" 29.5965
+cap "a_6967_8687#" "VBG" 3.46772
+cap "VBG" "a_6339_8687#" 3.46772
+cap "a_7595_5543#" "a_7595_8443#" 28.7856
+cap "a_n1511_8443#" "a_n1511_5543#" 28.7856
+cap "a_n569_8687#" "a_n569_11587#" 29.5965
+cap "a_1001_5457#" "a_373_5457#" 17.156
+cap "a_4455_8687#" "a_4769_8687#" 212.461
+cap "a_n883_8443#" "a_n883_8687#" 28.7856
+cap "a_n9719_10072#" "vdd" 27.7739
+cap "a_n9031_6300#" "a_n1197_5543#" 0.791474
+cap "a_n9137_8514#" "a_n9131_n1107#" 1925.43
+cap "a_n4239_8442#" "a_n10205_8514#" 3.27977
+cap "a_3199_8687#" "VBG" 2.30212
+cap "a_3513_5543#" "a_3827_5543#" 212.461
+cap "a_373_8443#" "a_687_8443#" 47.0832
+cap "a_n1511_5543#" "a_n1511_5457#" 29.5965
+cap "a_59_8687#" "a_59_8443#" 28.7856
+cap "a_n9137_8514#" "a_n8747_1947#" 2327.1
+cap "a_3513_5543#" "vdd" 0.0094928
+cap "a_2885_8687#" "a_3199_8687#" 212.461
+cap "vdd" "a_n10205_8514#" 2009.07
+cap "a_6339_5457#" "a_6653_5543#" 29.5965
+cap "a_3513_11587#" "a_4141_11587#" 17.156
+cap "a_n1818_1486#" "a_n8547_n1107#" 4.45218
+cap "a_7281_5543#" "a_6967_5543#" 212.461
+cap "a_3827_5543#" "a_4141_5543#" 212.461
+cap "a_1629_5543#" "a_1315_5543#" 212.461
+cap "a_4769_11587#" "a_5397_11587#" 17.156
+cap "a_1629_8687#" "a_1629_8443#" 28.7856
+cap "vdd" "a_n1511_8443#" 1.28806
+cap "vdd" "a_4141_5543#" 0.130526
+cap "vdd" "a_1629_5543#" 0.140019
+cap "a_3199_8687#" "a_3513_8687#" 212.461
+cap "a_2257_8443#" "a_2571_8443#" 47.0832
+cap "a_n10205_8514#" "a_n569_5543#" 4.13198
+cap "a_2885_8443#" "VBG" 1.75045
+cap "a_5711_8687#" "a_5397_11587#" 29.5965
+cap "a_n9031_6300#" "a_n8547_n1107#" 0.127256
+cap "VBG" "a_6025_8443#" 2.928
+cap "vdd" "a_1943_8687#" 15.1315
+cap "a_2885_8687#" "a_2885_8443#" 28.7856
+cap "a_n1197_11587#" "a_n569_11587#" 17.156
+cap "a_3827_5457#" "VBG" 18.4917
+cap "a_6967_8687#" "a_7281_8687#" 212.461
+cap "vdd" "a_6653_8687#" 15.1315
+cap "VBG" "a_5711_8687#" 3.46772
+cap "a_5083_5457#" "iout" 7.3049
+cap "a_1001_5543#" "a_687_5543#" 212.461
+cap "vdd" "a_n1511_5457#" 4.41509
+cap "a_4769_5543#" "iout" 3.49005
+cap "iout" "a_n1197_5543#" 3.49005
+cap "vdd" "a_7595_8443#" 4.81406
+cap "a_4141_8443#" "a_4141_5543#" 28.7856
+cap "vdd" "a_n255_5457#" 0.233004
+cap "a_n1511_5543#" "a_n8747_1947#" 21.9361
+cap "a_373_8443#" "VBG" 1.75045
+cap "a_373_8443#" "a_373_5543#" 28.7856
+cap "a_n569_5543#" "a_n883_5543#" 212.461
+cap "a_1629_8687#" "a_1315_11587#" 29.5965
+cap "a_1315_8687#" "a_1001_8687#" 212.461
+cap "a_5083_8687#" "VBG" 3.46772
+cap "a_n1197_8687#" "VBG" 2.30212
+cap "a_7281_5543#" "a_7281_8443#" 28.7856
+cap "a_1629_5457#" "a_1001_5457#" 17.156
+cap "a_5083_8443#" "a_5397_8443#" 47.0832
+cap "a_4455_5543#" "a_4141_5543#" 212.461
+cap "a_687_8443#" "VBG" 1.75045
+cap "a_6653_11587#" "a_6653_8687#" 29.5965
+cap "a_n1197_8687#" "a_n1511_8687#" 212.461
+cap "vdd" "a_1315_8687#" 15.1315
+cap "a_n883_8687#" "a_n10205_8514#" 19.6714
+cap "a_5397_8443#" "a_5711_8443#" 47.0832
+cap "a_6025_8687#" "a_6339_8687#" 212.461
+cap "a_1001_5543#" "a_1001_5457#" 29.5965
+cap "a_7281_11587#" "a_7281_8687#" 29.5965
+cap "a_59_8687#" "a_n10205_8514#" 0.550983
+cap "vdd" "a_59_11587#" 7.11401
+cap "a_7595_8443#" "a_7595_8687#" 28.7856
+cap "a_n255_5457#" "a_n255_5543#" 29.5965
+cap "vdd" "a_n9131_n1107#" 7302.23
+cap "a_4455_8443#" "a_4141_8443#" 47.0832
+cap "a_373_5457#" "a_373_5543#" 29.5965
+cap "a_1943_11587#" "a_1315_11587#" 17.156
+cap "a_3199_5543#" "iout" 3.49005
+cap "a_2885_5543#" "iout" 5.07237
+cap "a_n569_8687#" "VBG" 2.30212
+cap "a_6967_8443#" "VBG" 2.928
+cap "a_n1197_8687#" "a_n1197_11587#" 29.5965
+cap "vdd" "a_n8747_1947#" 5108.01
+cap "vdd" "a_6967_8687#" 47.0816
+cap "vdd" "a_6339_8687#" 15.1315
+cap "a_6339_5457#" "vdd" 17.2873
+cap "a_4455_5543#" "a_4455_8443#" 28.7856
+cap "a_n883_8443#" "a_n569_8443#" 47.0832
+cap "a_n1197_8443#" "a_n1197_5543#" 28.7856
+cap "a_6339_5543#" "VBG" 35.4203
+cap "a_1315_8443#" "a_1001_8443#" 47.0832
+cap "a_3199_5543#" "a_3199_8443#" 28.7856
+cap "a_n255_8443#" "VBG" 1.75045
+cap "a_373_8687#" "a_59_11587#" 29.5965
+cap "a_1315_5543#" "a_1001_5457#" 29.5965
+cap "a_5083_8443#" "a_4769_8443#" 47.0832
+cap "vdd" "a_3199_8687#" 15.1315
+cap "vdd" "a_n569_11587#" 7.11401
+cap "VBG" "a_2257_8687#" 2.30212
+cap "a_n569_5543#" "a_n8747_1947#" 30.9126
+cap "a_373_5543#" "VBG" 68.6474
+cap "a_2885_8687#" "VBG" 2.30212
+cap "VBG" "a_n1511_8687#" 2.30212
+cap "a_5711_8443#" "a_5711_5543#" 28.7856
+cap "a_4455_5457#" "iout" 7.03362
+cap "vdd" "a_1001_5457#" 10.9668
+cap "a_6653_11587#" "a_6967_8687#" 29.5965
+cap "a_1943_8443#" "VBG" 1.75045
+cap "a_7595_8443#" "a_7281_8443#" 47.0832
+cap "a_6025_8687#" "a_6025_8443#" 28.7856
+cap "a_1629_5543#" "a_1943_5543#" 212.461
+cap "a_n9137_8514#" "VBG" 98.9888
+cap "a_3827_8443#" "VBG" 2.928
+cap "a_6653_5543#" "a_6339_5543#" 212.461
+cap "a_3513_8687#" "VBG" 5.97423
+cap "a_5083_5543#" "VBG" 39.6512
+cap "a_5083_5457#" "a_4455_5457#" 17.156
+cap "a_59_5543#" "a_373_5543#" 212.461
+cap "a_59_5543#" "VBG" 68.6474
+cap "vdd" "a_7281_11587#" 10.3555
+cap "a_n8547_1983#" "a_n9131_n1107#" 2381.61
+cap "a_4769_5543#" "a_4455_5457#" 29.5965
+cap "a_6025_8687#" "a_5711_8687#" 212.461
+cap "a_n9031_6300#" "a_n10205_8514#" 466.831
+cap "a_3827_5457#" "a_3827_5543#" 29.5965
+cap "a_6653_5543#" "VBG" 35.4203
+cap "vdd" "a_4769_11587#" 6.26629
+cap "a_n8547_1983#" "a_n8747_1947#" 1941.51
+cap "vdd" "a_5711_5457#" 10.9668
+cap "a_59_8687#" "a_59_11587#" 29.5965
+cap "a_3827_5457#" "vdd" 11.8106
+cap "vdd" "a_5711_8687#" 15.1315
+cap "a_4769_8443#" "a_4455_8443#" 47.0832
+cap "a_4141_8687#" "VBG" 3.46772
+cap "a_n255_8687#" "a_n10205_8514#" 0.822127
+cap "a_6653_11587#" "a_7281_11587#" 17.156
+cap "a_3199_5543#" "a_2885_5543#" 212.461
+cap "a_1629_5457#" "VBG" 0.0345202
+cap "a_7595_5543#" "VBG" 37.0393
+cap "a_n1197_8443#" "a_n883_8443#" 47.0832
+cap "VBG" "a_7281_8687#" 3.46772
+cap "a_n9031_6300#" "a_n883_5543#" 0.491365
+cap "vdd" "a_5083_8687#" 15.1315
+cap "a_n1197_8687#" "vdd" 18.9974
+cap "a_7595_8687#" "a_7281_11587#" 29.5965
+cap "a_4455_8687#" "a_4141_11587#" 29.5965
+cap "a_n569_8443#" "a_n10205_8514#" 0.979804
+cap "a_1629_8443#" "a_1629_5543#" 28.7856
+cap "a_n9031_6300#" "a_n1511_5457#" 1.67628
+cap "a_n1511_5543#" "VBG" 73.6109
+cap "a_n9719_10072#" "a_n8075_10072#" 44.7814
+cap "a_2571_5543#" "VBG" 77.5938
+cap "a_1001_5543#" "VBG" 68.6474
+cap "a_373_8443#" "a_373_8687#" 28.7856
+cap "a_2257_5543#" "VBG" 73.5678
+cap "a_3513_8443#" "a_3199_8443#" 47.0832
+cap "a_687_11587#" "a_59_11587#" 17.156
+cap "a_3513_5543#" "iout" 0.186136
+cap "a_6025_5543#" "a_6025_8443#" 28.7856
+cap "a_6025_5543#" "a_5711_5457#" 29.5965
+cap "a_n8075_10072#" "a_n10205_8514#" 24.5848
+cap "vdd" "a_373_5457#" 17.2733
+cap "vdd" "a_6967_8443#" 2.69075
+cap "vdd" "a_n569_8687#" 15.1315
+cap "VBG" "a_6025_8687#" 3.46772
+cap "VBG" "a_2885_5457#" 18.4917
+cap "vdd" "a_5397_11587#" 6.26629
+cap "iout" "a_4141_5543#" 5.07237
+cap "a_1629_5543#" "iout" 3.7741
+cap "a_n10205_8514#" "a_n1197_5543#" 7.85839
+cap "a_1001_8687#" "VBG" 2.30212
+cap "a_1315_8443#" "a_1315_8687#" 28.7856
+cap "a_3827_5543#" "VBG" 135.959
+cap "a_1315_5543#" "VBG" 68.6474
+cap "iout" "a_n883_5543#" 3.49005
+cap "a_n4239_8442#" "VBG" 7.21094
+cap "a_n9031_6300#" "a_n9131_n1107#" 382.741
+cap "vdd" "VBG" 1757.51
+cap "vdd" "a_2257_8687#" 15.1315
+cap "a_2885_8687#" "vdd" 15.1315
+cap "a_5711_5457#" "a_5711_5543#" 29.5965
+cap "iout" "a_n1511_5457#" 1.25359
+cap "a_n9031_6300#" "a_n8747_1947#" 3176.77
+cap "vdd" "a_n1511_8687#" 34.3745
+cap "a_3827_5543#" "a_3827_8443#" 28.7856
+cap "iout" "a_n255_5457#" 2.65841
+cap "a_n1197_8687#" "a_n883_8687#" 212.461
+cap "a_n9137_8514#" "a_n4239_8442#" 41.7296
+cap "a_n1197_5543#" "a_n883_5543#" 212.461
+cap "a_4141_8443#" "VBG" 2.928
+cap "a_6967_8443#" "a_6967_5543#" 28.7856
+cap "a_n569_5543#" "VBG" 68.6474
+cap "vdd" "a_n9137_8514#" 6499.19
+cap "vdd" "a_3513_8687#" 15.1315
+cap "a_n1197_8443#" "a_n10205_8514#" 2.05501
+cap "vdd" "a_5083_5543#" 0.0522104
+cap "a_373_8687#" "VBG" 2.30212
+cap "a_7281_5543#" "a_6967_5457#" 29.5965
+cap "a_n1197_5543#" "a_n1511_5457#" 29.5965
+cap "a_1315_8687#" "a_1315_11587#" 29.5965
+cap "a_n255_8443#" "a_n255_5543#" 28.7856
+cap "a_4455_5543#" "VBG" 47.0956
+cap "a_1629_8687#" "a_1943_8687#" 212.461
+cap "VBG" "a_7595_8687#" 3.46772
+cap "a_n1197_11587#" "vdd" 7.14335
+cap "a_n255_8687#" "a_n569_11587#" 29.5965
+cap "a_3513_5543#" "a_3199_5543#" 212.461
+cap "a_2571_5543#" "a_2257_5543#" 212.461
+cap "a_n255_5543#" "VBG" 68.6474
+cap "VBG" "a_5397_8443#" 2.928
+cap "a_6025_5543#" "a_6339_5543#" 212.461
+cap "a_3827_8443#" "a_4141_8443#" 47.0832
+cap "iout" "a_687_5543#" 3.49005
+cap "VBG" "a_6967_5543#" 35.4203
+cap "a_n1197_8443#" "a_n1511_8443#" 47.0832
+cap "vdd" "a_4141_8687#" 15.1315
+cap "a_4769_11587#" "a_4769_8687#" 29.5965
+cap "iout" "a_n9131_n1107#" 788.312
+cap "a_n569_8687#" "a_n883_8687#" 212.461
+cap "a_7595_5543#" "vdd" 58.3676
+cap "a_6025_5543#" "VBG" 35.4203
+cap "vdd" "a_1629_5457#" 10.9668
+cap "a_4455_8687#" "a_4455_8443#" 28.7856
+cap "vdd" "a_7281_8687#" 54.7907
+cap "a_n883_8443#" "a_n10205_8514#" 1.39128
+cap "iout" "a_n8747_1947#" 86.5192
+cap "a_2257_5457#" "VBG" 0.15638
+cap "a_59_5543#" "a_n255_5543#" 212.461
+cap "a_6967_8443#" "a_7281_8443#" 47.0832
+cap "a_1629_8687#" "a_1315_8687#" 212.461
+cap "a_4141_8687#" "a_4141_8443#" 28.7856
+cap "a_1315_5543#" "a_1001_5543#" 212.461
+cap "a_n883_8687#" "VBG" 2.30212
+cap "a_1943_11587#" "a_1943_8687#" 29.5965
+cap "vdd" "a_n1511_5543#" 18.3825
+cap "vdd" "a_1001_5543#" 0.083062
+cap "a_59_8687#" "VBG" 2.30212
+cap "a_6653_5543#" "a_6967_5543#" 212.461
+cap "a_5083_8687#" "a_4769_8687#" 212.461
+cap "vdd" "a_2257_5543#" 0.17799
+cap "a_2885_8687#" "a_2571_11587#" 29.5965
+cap "a_n8547_1983#" "a_n9137_8514#" 335.162
+cap "a_n1197_5543#" "a_n8747_1947#" 21.9361
+cap "VBG" "a_7281_8443#" 2.928
+cap "a_3513_11587#" "a_3513_8687#" 29.5965
+cap "iout" "a_1001_5457#" 7.3049
+cap "a_n883_8443#" "a_n883_5543#" 28.7856
+cap "VBG" "a_5711_5543#" 35.4203
+cap "a_4769_8443#" "VBG" 2.928
+cap "a_6653_8443#" "a_6339_8443#" 47.0832
+cap "a_6653_8443#" "a_6653_8687#" 28.7856
+cap "a_3199_8687#" "a_3199_8443#" 28.7856
+cap "a_7595_8687#" "a_7281_8687#" 212.461
+cap "vdd" "a_6025_8687#" 15.1315
+cap "a_2571_8687#" "VBG" 2.30212
+cap "vdd" "a_2885_5457#" 11.8397
+cap "a_2571_8443#" "a_2885_8443#" 47.0832
+cap "a_2571_8687#" "a_2257_8687#" 212.461
+cap "vdd" "a_1001_8687#" 15.1315
+cap "vdd" "a_1315_5543#" 0.106794
+cap "a_n1197_11587#" "a_n883_8687#" 29.5965
+cap "a_1943_5543#" "VBG" 71.7559
+cap "a_2885_8687#" "a_2571_8687#" 212.461
+cap "vdd" "a_n4239_8442#" 369.123
+cap "a_n8547_n1107#" "a_n9131_n1107#" 3137.22
+cap "a_5711_5457#" "iout" 7.3049
+cap "a_1629_5457#" "a_2257_5457#" 17.156
+cap "a_1943_8443#" "a_1943_5543#" 28.7856
+cap "a_3827_5457#" "iout" 6.73109
+cap "a_n8547_n1107#" "a_n8747_1947#" 508.607
+cap "a_3513_5543#" "a_3513_8443#" 27.0248
+cap "a_3199_8443#" "a_2885_8443#" 47.0832
+cap "a_n9719_10072#" "a_n10205_8514#" 6.07952
+cap "a_4769_8687#" "VBG" 3.46772
+cap "a_5083_5457#" "a_5711_5457#" 17.156
+cap "a_5397_5543#" "VBG" 35.4203
+cap "a_n255_8687#" "a_n569_8687#" 212.461
+cap "a_2571_5543#" "a_2257_5457#" 29.5965
+cap "a_n9031_6300#" "VBG" 267.576
+cap "vdd" "a_6653_11587#" 7.59194
+cap "vdd" "a_373_8687#" 15.1315
+cap "a_2257_5457#" "a_2257_5543#" 29.5965
+cap "a_7281_8443#" "a_7281_8687#" 28.7856
+cap "a_687_8443#" "a_687_8687#" 28.7856
+cap "a_n255_8687#" "a_n255_8443#" 28.7856
+cap "a_6025_11587#" "a_6339_8687#" 29.5965
+cap "a_1315_8443#" "VBG" 1.75045
+cap "a_6339_5457#" "a_6967_5457#" 17.156
+cap "vdd" "a_7595_8687#" 69.0865
+cap "a_n255_8687#" "VBG" 2.30212
+cap "a_1629_8443#" "VBG" 1.75045
+cap "vdd" "a_6967_5543#" 30.254
+cap "a_1629_5457#" "a_1943_5543#" 29.5965
+cap "a_n569_8687#" "a_n569_8443#" 28.7856
+cap "a_5397_5543#" "a_5083_5543#" 212.461
+cap "a_n1511_8443#" "a_n10205_8514#" 3.48238
+cap "a_n9031_6300#" "a_n9137_8514#" 1156.88
+cap "a_2257_5457#" "a_2885_5457#" 17.156
+cap "a_6025_5543#" "vdd" 0.0806888
+cap "a_n10205_8514#" "a_n883_5543#" 5.64663
+cap "iout" "a_373_5457#" 1.95808
+cap "a_1629_8443#" "a_1943_8443#" 47.0832
+cap "vdd" "a_n8547_1983#" 7709.53
+cap "vdd" "a_3513_11587#" 6.26629
+cap "a_n255_8443#" "a_n569_8443#" 47.0832
+cap "a_n569_8443#" "VBG" 1.75045
+cap "a_n569_5543#" "a_n255_5543#" 212.461
+cap "a_2885_5543#" "a_2885_8443#" 28.7856
+cap "vdd" "a_2257_5457#" 11.2134
+cap "vdd" "a_n883_8687#" 15.1315
+cap "a_3827_8687#" "VBG" 3.46772
+cap "a_2257_5543#" "a_1943_5543#" 212.461
+cap "a_2571_8443#" "VBG" 1.75045
+cap "a_2571_11587#" "vdd" 6.26629
+device csubckt cap_cmim 7076 -1754 7077 -1753 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1815160,17823
+device csubckt cap_cmim 7076 -554 7077 -553 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1815160,17823
+device csubckt cap_cmim 7076 646 7077 647 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1815160,17823
+device csubckt cap_cmim 5708 -1220 5709 -1219 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1110840,7607
+device csubckt cap_cmim 5708 -20 5709 -19 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1110840,7607
+device csubckt cap_cmim 4476 -1220 4477 -1219 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1125360,7635
+device csubckt cap_cmim 4476 -20 4477 -19 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1125360,7635
+device csubckt cap_cmim 3240 -1220 3241 -1219 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1125360,7635
+device csubckt cap_cmim 3240 -20 3241 -19 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1125360,7635
+device csubckt cap_cmim -207 -1770 -206 -1769 w=3000 l=3000 "None" "a_n1818_1486#" 12000 0 "a_n9031_6300#" 12000 1898268,27276
+device csubckt cap_cmim 7076 1846 7077 1847 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1815160,17823
+device csubckt cap_cmim 7076 3046 7077 3047 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1815160,17823
+device csubckt cap_cmim 7076 4246 7077 4247 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 1815160,17823
+device csubckt cap_cmim -3399 10931 -3398 10932 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 2111880,20609
+device csubckt cap_cmim -4599 10931 -4598 10932 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 2111880,20609
+device csubckt cap_cmim -5799 10931 -5798 10932 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 2111880,20609
+device csubckt cap_cmim -6999 10931 -6998 10932 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 2111880,20609
+device csubckt cap_cmim -8199 10931 -8198 10932 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 2111880,20609
+device csubckt cap_cmim -9399 10931 -9398 10932 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 2111880,20609
+device csubckt cap_cmim -10599 10931 -10598 10932 w=800 l=800 "None" "vdd" 2928 0 "vss" 3200 2111880,20609
+device rsubckt rppd -1818 -1514 -1817 -1513 w=200 l=3000 "vss" "a_n1818_n1514#" 0 0 "a_n1818_1486#" 200 17200,572 "a_n8547_1983#" 200 17200,572
+device msubckt sg13_hv_nmos -4017 -1462 -4016 -1461 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "vss" 1200 81600,2536 "a_n9031_6300#" 1200 45600,1276
+device msubckt sg13_hv_nmos -4017 -1186 -4016 -1185 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "a_n9031_6300#" 1200 45600,1276 "vss" 1200 45600,1276
+device msubckt sg13_hv_nmos -4017 -910 -4016 -909 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "vss" 1200 45600,1276 "a_n9031_6300#" 1200 45600,1276
+device msubckt sg13_hv_nmos -4017 -634 -4016 -633 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "a_n9031_6300#" 1200 45600,1276 "vss" 1200 81600,2536
+device msubckt sg13_hv_nmos -2947 827 -2946 828 l=200 w=600 "vss" "vss" 400 0 "vss" 0 0 "vss" 1200 40800,1336
+device msubckt sg13_hv_nmos -3328 827 -3327 828 l=200 w=600 "vss" "a_n8547_n1107#" 400 0 "vss" 600 40800,1336 "a_n8547_1983#" 600 40800,1336
+device msubckt sg13_hv_nmos -3706 827 -3705 828 l=200 w=600 "vss" "a_n8547_n1107#" 400 0 "a_n8547_n1107#" 600 40800,1336 "vss" 600 40800,1336
+device msubckt sg13_hv_nmos -4087 827 -4086 828 l=200 w=600 "vss" "vss" 400 0 "vss" 0 0 "vss" 1200 40800,1336
+device msubckt sg13_hv_pmos -6411 -1107 -6410 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_1983#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -6995 -1107 -6994 -1106 l=200 w=2400 "vdd" "a_n8747_1947#" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_1983#" 2400 163200,4936
+device msubckt sg13_hv_pmos -7579 -1107 -7578 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -8163 -1107 -8162 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_n1107#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -8747 -1107 -8746 -1106 l=200 w=2400 "vdd" "a_n9137_8514#" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -9331 -1107 -9330 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos 5655 1810 5656 1811 l=600 w=1200 "vdd" "iout" 1200 0 "a_n9031_6300#" 1200 45600,1276 "vdd" 1200 81600,2536
+device msubckt sg13_hv_pmos 4979 1810 4980 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "a_n9031_6300#" 1200 45600,1276
+device msubckt sg13_hv_pmos 4303 1810 4304 1811 l=600 w=1200 "vdd" "iout" 1200 0 "a_n9031_6300#" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 3627 1810 3628 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "a_n9031_6300#" 1200 45600,1276
+device msubckt sg13_hv_pmos 2951 1810 2952 1811 l=600 w=1200 "vdd" "iout" 1200 0 "a_n9031_6300#" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 2275 1810 2276 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "a_n9031_6300#" 1200 45600,1276
+device msubckt sg13_hv_pmos 1599 1810 1600 1811 l=600 w=1200 "vdd" "iout" 1200 0 "a_n9031_6300#" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 923 1810 924 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 81600,2536 "a_n9031_6300#" 1200 45600,1276
+device msubckt sg13_hv_pmos 5655 3528 5656 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 81600,2536
+device msubckt sg13_hv_pmos 4979 3528 4980 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos 4303 3528 4304 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 3627 3528 3628 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos 2951 3528 2952 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 2275 3528 2276 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos 1599 3528 1600 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 923 3528 924 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 81600,2536 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos -1431 2845 -1430 2846 l=600 w=1200 "vdd" "vdd" 1200 0 "vdd" 0 0 "vdd" 2400 81600,2536
+device msubckt sg13_hv_pmos -2239 2845 -2238 2846 l=600 w=1200 "vdd" "iout" 1200 0 "a_n9131_n1107#" 1200 81600,2536 "vdd" 1200 81600,2536
+device msubckt sg13_hv_pmos -3047 2845 -3046 2846 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 81600,2536 "a_n9131_n1107#" 1200 81600,2536
+device msubckt sg13_hv_pmos -3855 2845 -3854 2846 l=600 w=1200 "vdd" "vdd" 1200 0 "vdd" 0 0 "vdd" 2400 81600,2536
+device msubckt sg13_hv_pmos -6411 1983 -6410 1984 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_n1107#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -6995 1983 -6994 1984 l=200 w=2400 "vdd" "a_n9137_8514#" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -7579 1983 -7578 1984 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -8163 1983 -8162 1984 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_1983#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -8747 1983 -8746 1984 l=200 w=2400 "vdd" "a_n8747_1947#" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_1983#" 2400 163200,4936
+device msubckt sg13_hv_pmos -9331 1983 -9330 1984 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936
+device rsubckt rppd 7595 5543 7596 5544 w=150 l=2900 "vss" "a_7595_5543#" 0 0 "a_7595_8443#" 150 12900,472 "vss" 150 12900,472
+device rsubckt rppd 7281 5543 7282 5544 w=150 l=2900 "vss" "a_7281_5543#" 0 0 "a_7281_8443#" 150 12900,472 "a_6967_5457#" 150 12900,472
+device rsubckt rppd 6967 5543 6968 5544 w=150 l=2900 "vss" "a_6967_5543#" 0 0 "a_6967_8443#" 150 12900,472 "a_6967_5457#" 150 12900,472
+device rsubckt rppd 6653 5543 6654 5544 w=150 l=2900 "vss" "a_6653_5543#" 0 0 "a_6653_8443#" 150 12900,472 "a_6339_5457#" 150 12900,472
+device rsubckt rppd 6339 5543 6340 5544 w=150 l=2900 "vss" "a_6339_5543#" 0 0 "a_6339_8443#" 150 12900,472 "a_6339_5457#" 150 12900,472
+device rsubckt rppd 6025 5543 6026 5544 w=150 l=2900 "vss" "a_6025_5543#" 0 0 "a_6025_8443#" 150 12900,472 "a_5711_5457#" 150 12900,472
+device rsubckt rppd 5711 5543 5712 5544 w=150 l=2900 "vss" "a_5711_5543#" 0 0 "a_5711_8443#" 150 12900,472 "a_5711_5457#" 150 12900,472
+device rsubckt rppd 5397 5543 5398 5544 w=150 l=2900 "vss" "a_5397_5543#" 0 0 "a_5397_8443#" 150 12900,472 "a_5083_5457#" 150 12900,472
+device rsubckt rppd 5083 5543 5084 5544 w=150 l=2900 "vss" "a_5083_5543#" 0 0 "a_5083_8443#" 150 12900,472 "a_5083_5457#" 150 12900,472
+device rsubckt rppd 4769 5543 4770 5544 w=150 l=2900 "vss" "a_4769_5543#" 0 0 "a_4769_8443#" 150 12900,472 "a_4455_5457#" 150 12900,472
+device rsubckt rppd 4455 5543 4456 5544 w=150 l=2900 "vss" "a_4455_5543#" 0 0 "a_4455_8443#" 150 12900,472 "a_4455_5457#" 150 12900,472
+device rsubckt rppd 4141 5543 4142 5544 w=150 l=2900 "vss" "a_4141_5543#" 0 0 "a_4141_8443#" 150 12900,472 "a_3827_5457#" 150 12900,472
+device rsubckt rppd 3827 5543 3828 5544 w=150 l=2900 "vss" "a_3827_5543#" 0 0 "a_3827_8443#" 150 12900,472 "a_3827_5457#" 150 12900,472
+device rsubckt rppd 3513 5543 3514 5544 w=150 l=2900 "vss" "a_3513_5543#" 0 0 "a_3513_8443#" 150 12900,472 "VBG" 150 12900,472
+device rsubckt rppd 3199 5543 3200 5544 w=150 l=2900 "vss" "a_3199_5543#" 0 0 "a_3199_8443#" 150 12900,472 "a_2885_5457#" 150 12900,472
+device rsubckt rppd 2885 5543 2886 5544 w=150 l=2900 "vss" "a_2885_5543#" 0 0 "a_2885_8443#" 150 12900,472 "a_2885_5457#" 150 12900,472
+device rsubckt rppd 2571 5543 2572 5544 w=150 l=2900 "vss" "a_2571_5543#" 0 0 "a_2571_8443#" 150 12900,472 "a_2257_5457#" 150 12900,472
+device rsubckt rppd 2257 5543 2258 5544 w=150 l=2900 "vss" "a_2257_5543#" 0 0 "a_2257_8443#" 150 12900,472 "a_2257_5457#" 150 12900,472
+device rsubckt rppd 1943 5543 1944 5544 w=150 l=2900 "vss" "a_1943_5543#" 0 0 "a_1943_8443#" 150 12900,472 "a_1629_5457#" 150 12900,472
+device rsubckt rppd 1629 5543 1630 5544 w=150 l=2900 "vss" "a_1629_5543#" 0 0 "a_1629_8443#" 150 12900,472 "a_1629_5457#" 150 12900,472
+device rsubckt rppd 1315 5543 1316 5544 w=150 l=2900 "vss" "a_1315_5543#" 0 0 "a_1315_8443#" 150 12900,472 "a_1001_5457#" 150 12900,472
+device rsubckt rppd 1001 5543 1002 5544 w=150 l=2900 "vss" "a_1001_5543#" 0 0 "a_1001_8443#" 150 12900,472 "a_1001_5457#" 150 12900,472
+device rsubckt rppd 687 5543 688 5544 w=150 l=2900 "vss" "a_687_5543#" 0 0 "a_687_8443#" 150 12900,472 "a_373_5457#" 150 12900,472
+device rsubckt rppd 373 5543 374 5544 w=150 l=2900 "vss" "a_373_5543#" 0 0 "a_373_8443#" 150 12900,472 "a_373_5457#" 150 12900,472
+device rsubckt rppd 59 5543 60 5544 w=150 l=2900 "vss" "a_59_5543#" 0 0 "a_59_8443#" 150 12900,472 "a_n255_5457#" 150 12900,472
+device rsubckt rppd -255 5543 -254 5544 w=150 l=2900 "vss" "a_n255_5543#" 0 0 "a_n255_8443#" 150 12900,472 "a_n255_5457#" 150 12900,472
+device rsubckt rppd -569 5543 -568 5544 w=150 l=2900 "vss" "a_n569_5543#" 0 0 "a_n569_8443#" 150 12900,472 "a_n8747_1947#" 150 12900,472
+device rsubckt rppd -883 5543 -882 5544 w=150 l=2900 "vss" "a_n883_5543#" 0 0 "a_n883_8443#" 150 12900,472 "a_n8747_1947#" 150 12900,472
+device rsubckt rppd -1197 5543 -1196 5544 w=150 l=2900 "vss" "a_n1197_5543#" 0 0 "a_n1197_8443#" 150 12900,472 "a_n1511_5457#" 150 12900,472
+device rsubckt rppd -1511 5543 -1510 5544 w=150 l=2900 "vss" "a_n1511_5543#" 0 0 "a_n1511_8443#" 150 12900,472 "a_n1511_5457#" 150 12900,472
+device msubckt sg13_hv_pmos -3731 6336 -3730 6337 l=800 w=200 "vdd" "vdd" 1600 0 "vdd" 0 0 "vdd" 400 13600,536
+device msubckt sg13_hv_pmos -4791 6336 -4790 6337 l=800 w=200 "vdd" "a_n9031_6300#" 1600 0 "VBG" 200 13600,536 "vdd" 200 13600,536
+device msubckt sg13_hv_pmos -5851 6336 -5850 6337 l=800 w=200 "vdd" "vdd" 1600 0 "vdd" 0 0 "vdd" 400 13600,536
+device msubckt sg13_hv_pmos -6911 6336 -6910 6337 l=800 w=200 "vdd" "a_n9031_6300#" 1600 0 "a_n9137_8514#" 200 13600,536 "vdd" 200 13600,536
+device msubckt sg13_hv_pmos -7971 6336 -7970 6337 l=800 w=200 "vdd" "vdd" 1600 0 "vdd" 0 0 "vdd" 400 13600,536
+device msubckt sg13_hv_pmos -9031 6336 -9030 6337 l=800 w=200 "vdd" "a_n9031_6300#" 1600 0 "vdd" 200 13600,536 "a_n8747_1947#" 200 13600,536
+device msubckt sg13_hv_pmos -10091 6336 -10090 6337 l=800 w=200 "vdd" "vdd" 1600 0 "vdd" 0 0 "vdd" 400 13600,536
+device msubckt sg13_hv_pmos -4239 8242 -4238 8243 l=200 w=1000 "vdd" "a_n9031_6300#" 400 0 "vdd" 1000 68000,2136 "a_n4239_8442#" 1000 68000,2136
+device msubckt sg13_hv_nmos -7085 8180 -7084 8181 l=90 w=800 "vss" "vss" 180 0 "vss" 0 0 "vss" 1600 54400,1736
+device msubckt sg13_hv_nmos -8093 8180 -8092 8181 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "a_n10205_8514#" 800 54400,1736 "vss" 800 54400,1736
+device msubckt sg13_hv_nmos -9101 8180 -9100 8181 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "a_n10205_8514#" 800 54400,1736 "vss" 800 54400,1736
+device msubckt sg13_hv_nmos -10109 8180 -10108 8181 l=90 w=800 "vss" "vss" 180 0 "vss" 0 0 "vss" 1600 54400,1736
+device rsubckt rppd 7595 8687 7596 8688 w=150 l=2900 "vss" "a_7595_8687#" 0 0 "a_7281_11587#" 150 12900,472 "a_7595_8443#" 150 12900,472
+device rsubckt rppd 7281 8687 7282 8688 w=150 l=2900 "vss" "a_7281_8687#" 0 0 "a_7281_11587#" 150 12900,472 "a_7281_8443#" 150 12900,472
+device rsubckt rppd 6967 8687 6968 8688 w=150 l=2900 "vss" "a_6967_8687#" 0 0 "a_6653_11587#" 150 12900,472 "a_6967_8443#" 150 12900,472
+device rsubckt rppd 6653 8687 6654 8688 w=150 l=2900 "vss" "a_6653_8687#" 0 0 "a_6653_11587#" 150 12900,472 "a_6653_8443#" 150 12900,472
+device rsubckt rppd 6339 8687 6340 8688 w=150 l=2900 "vss" "a_6339_8687#" 0 0 "a_6025_11587#" 150 12900,472 "a_6339_8443#" 150 12900,472
+device rsubckt rppd 6025 8687 6026 8688 w=150 l=2900 "vss" "a_6025_8687#" 0 0 "a_6025_11587#" 150 12900,472 "a_6025_8443#" 150 12900,472
+device rsubckt rppd 5711 8687 5712 8688 w=150 l=2900 "vss" "a_5711_8687#" 0 0 "a_5397_11587#" 150 12900,472 "a_5711_8443#" 150 12900,472
+device rsubckt rppd 5397 8687 5398 8688 w=150 l=2900 "vss" "a_5397_8687#" 0 0 "a_5397_11587#" 150 12900,472 "a_5397_8443#" 150 12900,472
+device rsubckt rppd 5083 8687 5084 8688 w=150 l=2900 "vss" "a_5083_8687#" 0 0 "a_4769_11587#" 150 12900,472 "a_5083_8443#" 150 12900,472
+device rsubckt rppd 4769 8687 4770 8688 w=150 l=2900 "vss" "a_4769_8687#" 0 0 "a_4769_11587#" 150 12900,472 "a_4769_8443#" 150 12900,472
+device rsubckt rppd 4455 8687 4456 8688 w=150 l=2900 "vss" "a_4455_8687#" 0 0 "a_4141_11587#" 150 12900,472 "a_4455_8443#" 150 12900,472
+device rsubckt rppd 4141 8687 4142 8688 w=150 l=2900 "vss" "a_4141_8687#" 0 0 "a_4141_11587#" 150 12900,472 "a_4141_8443#" 150 12900,472
+device rsubckt rppd 3827 8687 3828 8688 w=150 l=2900 "vss" "a_3827_8687#" 0 0 "a_3513_11587#" 150 12900,472 "a_3827_8443#" 150 12900,472
+device rsubckt rppd 3513 8687 3514 8688 w=150 l=2900 "vss" "a_3513_8687#" 0 0 "a_3513_11587#" 150 12900,472 "a_3513_8443#" 150 12900,472
+device rsubckt rppd 3199 8687 3200 8688 w=150 l=2900 "vss" "a_3199_8687#" 0 0 "vss" 150 12900,472 "a_3199_8443#" 150 12900,472
+device rsubckt rppd 2885 8687 2886 8688 w=150 l=2900 "vss" "a_2885_8687#" 0 0 "a_2571_11587#" 150 12900,472 "a_2885_8443#" 150 12900,472
+device rsubckt rppd 2571 8687 2572 8688 w=150 l=2900 "vss" "a_2571_8687#" 0 0 "a_2571_11587#" 150 12900,472 "a_2571_8443#" 150 12900,472
+device rsubckt rppd 2257 8687 2258 8688 w=150 l=2900 "vss" "a_2257_8687#" 0 0 "a_1943_11587#" 150 12900,472 "a_2257_8443#" 150 12900,472
+device rsubckt rppd 1943 8687 1944 8688 w=150 l=2900 "vss" "a_1943_8687#" 0 0 "a_1943_11587#" 150 12900,472 "a_1943_8443#" 150 12900,472
+device rsubckt rppd 1629 8687 1630 8688 w=150 l=2900 "vss" "a_1629_8687#" 0 0 "a_1315_11587#" 150 12900,472 "a_1629_8443#" 150 12900,472
+device rsubckt rppd 1315 8687 1316 8688 w=150 l=2900 "vss" "a_1315_8687#" 0 0 "a_1315_11587#" 150 12900,472 "a_1315_8443#" 150 12900,472
+device rsubckt rppd 1001 8687 1002 8688 w=150 l=2900 "vss" "a_1001_8687#" 0 0 "a_687_11587#" 150 12900,472 "a_1001_8443#" 150 12900,472
+device rsubckt rppd 687 8687 688 8688 w=150 l=2900 "vss" "a_687_8687#" 0 0 "a_687_11587#" 150 12900,472 "a_687_8443#" 150 12900,472
+device rsubckt rppd 373 8687 374 8688 w=150 l=2900 "vss" "a_373_8687#" 0 0 "a_59_11587#" 150 12900,472 "a_373_8443#" 150 12900,472
+device rsubckt rppd 59 8687 60 8688 w=150 l=2900 "vss" "a_59_8687#" 0 0 "a_59_11587#" 150 12900,472 "a_59_8443#" 150 12900,472
+device rsubckt rppd -255 8687 -254 8688 w=150 l=2900 "vss" "a_n255_8687#" 0 0 "a_n569_11587#" 150 12900,472 "a_n255_8443#" 150 12900,472
+device rsubckt rppd -569 8687 -568 8688 w=150 l=2900 "vss" "a_n569_8687#" 0 0 "a_n569_11587#" 150 12900,472 "a_n569_8443#" 150 12900,472
+device rsubckt rppd -883 8687 -882 8688 w=150 l=2900 "vss" "a_n883_8687#" 0 0 "a_n1197_11587#" 150 12900,472 "a_n883_8443#" 150 12900,472
+device rsubckt rppd -1197 8687 -1196 8688 w=150 l=2900 "vss" "a_n1197_8687#" 0 0 "a_n1197_11587#" 150 12900,472 "a_n1197_8443#" 150 12900,472
+device rsubckt rppd -1511 8687 -1510 8688 w=150 l=2900 "vss" "a_n1511_8687#" 0 0 "a_n10205_8514#" 150 12900,472 "a_n1511_8443#" 150 12900,472
+device msubckt sg13_hv_pmos -4239 8826 -4238 8827 l=200 w=1000 "vdd" "a_n9031_6300#" 400 0 "a_n4239_8442#" 1000 68000,2136 "a_n8075_10072#" 1000 68000,2136
+device msubckt sg13_hv_nmos -7085 8514 -7084 8515 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "vss" 800 54400,1736 "a_n10205_8514#" 800 54400,1736
+device msubckt sg13_hv_nmos -8093 8514 -8092 8515 l=90 w=800 "vss" "a_n9137_8514#" 180 0 "vss" 800 54400,1736 "a_n9137_8514#" 800 54400,1736
+device msubckt sg13_hv_nmos -9101 8514 -9100 8515 l=90 w=800 "vss" "a_n9137_8514#" 180 0 "vss" 800 54400,1736 "a_n9137_8514#" 800 54400,1736
+device msubckt sg13_hv_nmos -10109 8514 -10108 8515 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "vss" 800 54400,1736 "a_n10205_8514#" 800 54400,1736
+device msubckt sg13_hv_nmos -7085 8848 -7084 8849 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "a_n10205_8514#" 800 54400,1736 "vss" 800 54400,1736
+device msubckt sg13_hv_nmos -8093 8848 -8092 8849 l=90 w=800 "vss" "a_n9137_8514#" 180 0 "a_n9137_8514#" 800 54400,1736 "vss" 800 54400,1736
+device msubckt sg13_hv_nmos -9101 8848 -9100 8849 l=90 w=800 "vss" "a_n9137_8514#" 180 0 "a_n9137_8514#" 800 54400,1736 "vss" 800 54400,1736
+device msubckt sg13_hv_nmos -10109 8848 -10108 8849 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "a_n10205_8514#" 800 54400,1736 "vss" 800 54400,1736
+device msubckt sg13_hv_pmos -4239 9410 -4238 9411 l=200 w=1000 "vdd" "a_n8075_10072#" 400 0 "a_n9031_6300#" 1000 68000,2136 "a_n9137_8514#" 1000 68000,2136
+device msubckt sg13_hv_nmos -7085 9182 -7084 9183 l=90 w=800 "vss" "vss" 180 0 "vss" 0 0 "vss" 1600 54400,1736
+device msubckt sg13_hv_nmos -8093 9182 -8092 9183 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "vss" 800 54400,1736 "a_n10205_8514#" 800 54400,1736
+device msubckt sg13_hv_nmos -9101 9182 -9100 9183 l=90 w=800 "vss" "a_n10205_8514#" 180 0 "vss" 800 54400,1736 "a_n10205_8514#" 800 54400,1736
+device msubckt sg13_hv_nmos -10109 9182 -10108 9183 l=90 w=800 "vss" "vss" 180 0 "vss" 0 0 "vss" 1600 54400,1736
+device msubckt sg13_hv_pmos -4239 9994 -4238 9995 l=200 w=1000 "vdd" "a_n8075_10072#" 400 0 "a_n9137_8514#" 1000 68000,2136 "a_n9031_6300#" 1000 68000,2136
+device msubckt sg13_hv_nmos -8075 10108 -8074 10109 l=1400 w=200 "vss" "a_n8075_10072#" 2800 0 "a_n9719_10072#" 200 13600,536 "a_n8075_10072#" 200 13600,536
+device msubckt sg13_hv_nmos -9719 10108 -9718 10109 l=1400 w=200 "vss" "a_n9719_10072#" 2800 0 "vss" 200 13600,536 "a_n9719_10072#" 200 13600,536

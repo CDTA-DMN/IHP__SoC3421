@@ -1,0 +1,400 @@
+timestamp 0
+version 8.3
+tech ihp-sg13g2
+style ngspice()
+scale 1000 1 0.5
+resistclasses 3000000 67000 110 88 88 88 88 18 11 7000 260000 1360000
+parameters sg13_hv_nmos l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sg13_hv_pmos l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters rppd w=w l=l
+parameters cap_rfcmim w=w l=l
+parameters cap_cmim w=w l=l
+port "vout" 7 -1791 2062 -1591 2162 m4
+port "vinn" 5 -6997 5382 -6797 5582 m3
+port "vinp" 4 -8751 5377 -8551 5577 m3
+port "iout" 6 -2441 4724 -2241 4824 m2
+port "vdd" 2 -11237 1558 -10837 1758 m1
+port "vss" 3 -3476 -2103 -3416 -1983 m1
+node "a_n1818_n1514#" 3900 2660.76 -1818 -1514 pres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600000 6400 0 0
+node "a_n1818_1486#" 1 340958 -1818 1486 p 0 0 0 0 196560 1964 17080 524 17080 524 17080 524 9017360 528 9718656 15580 160000 1600 0 0 0 0 0 0
+node "vout" 33 7886.71 -1791 2062 m4 0 0 0 0 251920 14904 325696 4872 1857336 14340 2491272 17552 1901036 15292 0 0 0 0 0 0 0 0 0 0
+node "a_n8547_n1107#" 13 3568.84 -8547 -1107 hvpdif 0 0 0 0 2243640 22238 1939296 20624 145880 3148 570096 5580 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n8547_1983#" 17 10840.5 -8547 1983 hvpdif 0 0 0 0 2449174 26252 2925928 32722 1044074 9150 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n9131_n1107#" 15 3725.08 -9131 -1107 hvpdif 0 0 0 0 3480456 24732 1031202 11994 875370 13334 1708956 16284 0 0 0 0 0 0 0 0 0 0 0 0
+node "vinn" 7 658.743 -6997 5382 m3 0 0 0 0 400072 7122 91256 2228 536130 5506 240828 4192 0 0 0 0 0 0 0 0 0 0 0 0
+node "vinp" 6 464.534 -8751 5377 m3 0 0 0 0 540160 8396 277916 5044 337258 2828 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "iout" 27 4958.39 -2441 4724 m2 0 0 0 0 4003248 40256 1468186 23018 424088 10748 2690096 18306 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 60 8451.77 -11237 1558 m1 0 0 0 0 16242832 182632 3312384 23008 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vdd" "ntap1_6[14].well"
+equiv "vdd" "ntap1_6[13].well"
+equiv "vdd" "ntap1_6[12].well"
+equiv "vdd" "ntap1_6[11].well"
+equiv "vdd" "ntap1_6[10].well"
+equiv "vdd" "ntap1_6[9].well"
+equiv "vdd" "ntap1_6[8].well"
+equiv "vdd" "ntap1_6[7].well"
+equiv "vdd" "ntap1_6[6].well"
+equiv "vdd" "ntap1_6[5].well"
+equiv "vdd" "ntap1_6[4].well"
+equiv "vdd" "ntap1_6[3].well"
+equiv "vdd" "ntap1_6[2].well"
+equiv "vdd" "ntap1_6[1].well"
+equiv "vdd" "ntap1_6[0].well"
+equiv "vdd" "ntap1_7[14].well"
+equiv "vdd" "ntap1_7[13].well"
+equiv "vdd" "ntap1_7[12].well"
+equiv "vdd" "ntap1_7[11].well"
+equiv "vdd" "ntap1_7[10].well"
+equiv "vdd" "ntap1_7[9].well"
+equiv "vdd" "ntap1_7[8].well"
+equiv "vdd" "ntap1_7[7].well"
+equiv "vdd" "ntap1_7[6].well"
+equiv "vdd" "ntap1_7[5].well"
+equiv "vdd" "ntap1_7[4].well"
+equiv "vdd" "ntap1_7[3].well"
+equiv "vdd" "ntap1_7[2].well"
+equiv "vdd" "ntap1_7[1].well"
+equiv "vdd" "ntap1_7[0].well"
+equiv "vdd" "ntap1_8[15].well"
+equiv "vdd" "ntap1_8[14].well"
+equiv "vdd" "ntap1_8[13].well"
+equiv "vdd" "ntap1_8[12].well"
+equiv "vdd" "ntap1_8[11].well"
+equiv "vdd" "ntap1_8[10].well"
+equiv "vdd" "ntap1_8[9].well"
+equiv "vdd" "ntap1_8[8].well"
+equiv "vdd" "ntap1_8[7].well"
+equiv "vdd" "ntap1_8[6].well"
+equiv "vdd" "ntap1_8[5].well"
+equiv "vdd" "ntap1_8[4].well"
+equiv "vdd" "ntap1_8[3].well"
+equiv "vdd" "ntap1_8[2].well"
+equiv "vdd" "ntap1_8[1].well"
+equiv "vdd" "ntap1_8[0].well"
+equiv "vdd" "ntap1_4[23].well"
+equiv "vdd" "ntap1_4[22].well"
+equiv "vdd" "ntap1_4[21].well"
+equiv "vdd" "ntap1_4[20].well"
+equiv "vdd" "ntap1_4[19].well"
+equiv "vdd" "ntap1_4[18].well"
+equiv "vdd" "ntap1_4[17].well"
+equiv "vdd" "ntap1_4[16].well"
+equiv "vdd" "ntap1_4[15].well"
+equiv "vdd" "ntap1_4[14].well"
+equiv "vdd" "ntap1_4[13].well"
+equiv "vdd" "ntap1_4[12].well"
+equiv "vdd" "ntap1_4[11].well"
+equiv "vdd" "ntap1_4[10].well"
+equiv "vdd" "ntap1_4[9].well"
+equiv "vdd" "ntap1_4[8].well"
+equiv "vdd" "ntap1_4[7].well"
+equiv "vdd" "ntap1_4[6].well"
+equiv "vdd" "ntap1_4[5].well"
+equiv "vdd" "ntap1_4[4].well"
+equiv "vdd" "ntap1_4[3].well"
+equiv "vdd" "ntap1_4[2].well"
+equiv "vdd" "ntap1_4[1].well"
+equiv "vdd" "ntap1_4[0].well"
+equiv "vdd" "ntap1_5[6].well"
+equiv "vdd" "ntap1_5[5].well"
+equiv "vdd" "ntap1_5[4].well"
+equiv "vdd" "ntap1_5[3].well"
+equiv "vdd" "ntap1_5[2].well"
+equiv "vdd" "ntap1_5[1].well"
+equiv "vdd" "ntap1_5[0].well"
+equiv "vdd" "ntap1_3[6].well"
+equiv "vdd" "ntap1_3[5].well"
+equiv "vdd" "ntap1_3[4].well"
+equiv "vdd" "ntap1_3[3].well"
+equiv "vdd" "ntap1_3[2].well"
+equiv "vdd" "ntap1_3[1].well"
+equiv "vdd" "ntap1_3[0].well"
+equiv "vdd" "ntap1_9[15].well"
+equiv "vdd" "ntap1_9[14].well"
+equiv "vdd" "ntap1_9[13].well"
+equiv "vdd" "ntap1_9[12].well"
+equiv "vdd" "ntap1_9[11].well"
+equiv "vdd" "ntap1_9[10].well"
+equiv "vdd" "ntap1_9[9].well"
+equiv "vdd" "ntap1_9[8].well"
+equiv "vdd" "ntap1_9[7].well"
+equiv "vdd" "ntap1_9[6].well"
+equiv "vdd" "ntap1_9[5].well"
+equiv "vdd" "ntap1_9[4].well"
+equiv "vdd" "ntap1_9[3].well"
+equiv "vdd" "ntap1_9[2].well"
+equiv "vdd" "ntap1_9[1].well"
+equiv "vdd" "ntap1_9[0].well"
+equiv "vdd" "ntap1_0[23].well"
+equiv "vdd" "ntap1_0[22].well"
+equiv "vdd" "ntap1_0[21].well"
+equiv "vdd" "ntap1_0[20].well"
+equiv "vdd" "ntap1_0[19].well"
+equiv "vdd" "ntap1_0[18].well"
+equiv "vdd" "ntap1_0[17].well"
+equiv "vdd" "ntap1_0[16].well"
+equiv "vdd" "ntap1_0[15].well"
+equiv "vdd" "ntap1_0[14].well"
+equiv "vdd" "ntap1_0[13].well"
+equiv "vdd" "ntap1_0[12].well"
+equiv "vdd" "ntap1_0[11].well"
+equiv "vdd" "ntap1_0[10].well"
+equiv "vdd" "ntap1_0[9].well"
+equiv "vdd" "ntap1_0[8].well"
+equiv "vdd" "ntap1_0[7].well"
+equiv "vdd" "ntap1_0[6].well"
+equiv "vdd" "ntap1_0[5].well"
+equiv "vdd" "ntap1_0[4].well"
+equiv "vdd" "ntap1_0[3].well"
+equiv "vdd" "ntap1_0[2].well"
+equiv "vdd" "ntap1_0[1].well"
+equiv "vdd" "ntap1_0[0].well"
+equiv "vdd" "ntap1_11[27].well"
+equiv "vdd" "ntap1_11[26].well"
+equiv "vdd" "ntap1_11[25].well"
+equiv "vdd" "ntap1_11[24].well"
+equiv "vdd" "ntap1_11[23].well"
+equiv "vdd" "ntap1_11[22].well"
+equiv "vdd" "ntap1_11[21].well"
+equiv "vdd" "ntap1_11[20].well"
+equiv "vdd" "ntap1_11[19].well"
+equiv "vdd" "ntap1_11[18].well"
+equiv "vdd" "ntap1_11[17].well"
+equiv "vdd" "ntap1_11[16].well"
+equiv "vdd" "ntap1_11[15].well"
+equiv "vdd" "ntap1_11[14].well"
+equiv "vdd" "ntap1_11[13].well"
+equiv "vdd" "ntap1_11[12].well"
+equiv "vdd" "ntap1_11[11].well"
+equiv "vdd" "ntap1_11[10].well"
+equiv "vdd" "ntap1_11[9].well"
+equiv "vdd" "ntap1_11[8].well"
+equiv "vdd" "ntap1_11[7].well"
+equiv "vdd" "ntap1_11[6].well"
+equiv "vdd" "ntap1_11[5].well"
+equiv "vdd" "ntap1_11[4].well"
+equiv "vdd" "ntap1_11[3].well"
+equiv "vdd" "ntap1_11[2].well"
+equiv "vdd" "ntap1_11[1].well"
+equiv "vdd" "ntap1_11[0].well"
+equiv "vdd" "ntap1_10[27].well"
+equiv "vdd" "ntap1_10[26].well"
+equiv "vdd" "ntap1_10[25].well"
+equiv "vdd" "ntap1_10[24].well"
+equiv "vdd" "ntap1_10[23].well"
+equiv "vdd" "ntap1_10[22].well"
+equiv "vdd" "ntap1_10[21].well"
+equiv "vdd" "ntap1_10[20].well"
+equiv "vdd" "ntap1_10[19].well"
+equiv "vdd" "ntap1_10[18].well"
+equiv "vdd" "ntap1_10[17].well"
+equiv "vdd" "ntap1_10[16].well"
+equiv "vdd" "ntap1_10[15].well"
+equiv "vdd" "ntap1_10[14].well"
+equiv "vdd" "ntap1_10[13].well"
+equiv "vdd" "ntap1_10[12].well"
+equiv "vdd" "ntap1_10[11].well"
+equiv "vdd" "ntap1_10[10].well"
+equiv "vdd" "ntap1_10[9].well"
+equiv "vdd" "ntap1_10[8].well"
+equiv "vdd" "ntap1_10[7].well"
+equiv "vdd" "ntap1_10[6].well"
+equiv "vdd" "ntap1_10[5].well"
+equiv "vdd" "ntap1_10[4].well"
+equiv "vdd" "ntap1_10[3].well"
+equiv "vdd" "ntap1_10[2].well"
+equiv "vdd" "ntap1_10[1].well"
+equiv "vdd" "ntap1_10[0].well"
+equiv "vdd" "ntap1_2[19].well"
+equiv "vdd" "ntap1_2[18].well"
+equiv "vdd" "ntap1_2[17].well"
+equiv "vdd" "ntap1_2[16].well"
+equiv "vdd" "ntap1_2[15].well"
+equiv "vdd" "ntap1_2[14].well"
+equiv "vdd" "ntap1_2[13].well"
+equiv "vdd" "ntap1_2[12].well"
+equiv "vdd" "ntap1_2[11].well"
+equiv "vdd" "ntap1_2[10].well"
+equiv "vdd" "ntap1_2[9].well"
+equiv "vdd" "ntap1_2[8].well"
+equiv "vdd" "ntap1_2[7].well"
+equiv "vdd" "ntap1_2[6].well"
+equiv "vdd" "ntap1_2[5].well"
+equiv "vdd" "ntap1_2[4].well"
+equiv "vdd" "ntap1_2[3].well"
+equiv "vdd" "ntap1_2[2].well"
+equiv "vdd" "ntap1_2[1].well"
+equiv "vdd" "ntap1_2[0].well"
+equiv "vdd" "ntap1_1[19].well"
+equiv "vdd" "ntap1_1[18].well"
+equiv "vdd" "ntap1_1[17].well"
+equiv "vdd" "ntap1_1[16].well"
+equiv "vdd" "ntap1_1[15].well"
+equiv "vdd" "ntap1_1[14].well"
+equiv "vdd" "ntap1_1[13].well"
+equiv "vdd" "ntap1_1[12].well"
+equiv "vdd" "ntap1_1[11].well"
+equiv "vdd" "ntap1_1[10].well"
+equiv "vdd" "ntap1_1[9].well"
+equiv "vdd" "ntap1_1[8].well"
+equiv "vdd" "ntap1_1[7].well"
+equiv "vdd" "ntap1_1[6].well"
+equiv "vdd" "ntap1_1[5].well"
+equiv "vdd" "ntap1_1[4].well"
+equiv "vdd" "ntap1_1[3].well"
+equiv "vdd" "ntap1_1[2].well"
+equiv "vdd" "ntap1_1[1].well"
+equiv "vdd" "ntap1_1[0].well"
+substrate "vss" 0 0 -3476 -2103 m1 0 0 0 0 2816047 38988 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vss" "ptap1_6[11].sub!"
+equiv "vss" "ptap1_6[10].sub!"
+equiv "vss" "ptap1_6[9].sub!"
+equiv "vss" "ptap1_6[8].sub!"
+equiv "vss" "ptap1_6[7].sub!"
+equiv "vss" "ptap1_6[6].sub!"
+equiv "vss" "ptap1_6[5].sub!"
+equiv "vss" "ptap1_6[4].sub!"
+equiv "vss" "ptap1_6[3].sub!"
+equiv "vss" "ptap1_6[2].sub!"
+equiv "vss" "ptap1_6[1].sub!"
+equiv "vss" "ptap1_6[0].sub!"
+equiv "vss" "ptap1_5[11].sub!"
+equiv "vss" "ptap1_5[10].sub!"
+equiv "vss" "ptap1_5[9].sub!"
+equiv "vss" "ptap1_5[8].sub!"
+equiv "vss" "ptap1_5[7].sub!"
+equiv "vss" "ptap1_5[6].sub!"
+equiv "vss" "ptap1_5[5].sub!"
+equiv "vss" "ptap1_5[4].sub!"
+equiv "vss" "ptap1_5[3].sub!"
+equiv "vss" "ptap1_5[2].sub!"
+equiv "vss" "ptap1_5[1].sub!"
+equiv "vss" "ptap1_5[0].sub!"
+equiv "vss" "ptap1_1[5].sub!"
+equiv "vss" "ptap1_1[4].sub!"
+equiv "vss" "ptap1_1[3].sub!"
+equiv "vss" "ptap1_1[2].sub!"
+equiv "vss" "ptap1_1[1].sub!"
+equiv "vss" "ptap1_1[0].sub!"
+equiv "vss" "ptap1_2[5].sub!"
+equiv "vss" "ptap1_2[4].sub!"
+equiv "vss" "ptap1_2[3].sub!"
+equiv "vss" "ptap1_2[2].sub!"
+equiv "vss" "ptap1_2[1].sub!"
+equiv "vss" "ptap1_2[0].sub!"
+equiv "vss" "ptap1_7[11].sub!"
+equiv "vss" "ptap1_7[10].sub!"
+equiv "vss" "ptap1_7[9].sub!"
+equiv "vss" "ptap1_7[8].sub!"
+equiv "vss" "ptap1_7[7].sub!"
+equiv "vss" "ptap1_7[6].sub!"
+equiv "vss" "ptap1_7[5].sub!"
+equiv "vss" "ptap1_7[4].sub!"
+equiv "vss" "ptap1_7[3].sub!"
+equiv "vss" "ptap1_7[2].sub!"
+equiv "vss" "ptap1_7[1].sub!"
+equiv "vss" "ptap1_7[0].sub!"
+equiv "vss" "ptap1_0[11].sub!"
+equiv "vss" "ptap1_0[10].sub!"
+equiv "vss" "ptap1_0[9].sub!"
+equiv "vss" "ptap1_0[8].sub!"
+equiv "vss" "ptap1_0[7].sub!"
+equiv "vss" "ptap1_0[6].sub!"
+equiv "vss" "ptap1_0[5].sub!"
+equiv "vss" "ptap1_0[4].sub!"
+equiv "vss" "ptap1_0[3].sub!"
+equiv "vss" "ptap1_0[2].sub!"
+equiv "vss" "ptap1_0[1].sub!"
+equiv "vss" "ptap1_0[0].sub!"
+equiv "vss" "ptap1_4[9].sub!"
+equiv "vss" "ptap1_4[8].sub!"
+equiv "vss" "ptap1_4[7].sub!"
+equiv "vss" "ptap1_4[6].sub!"
+equiv "vss" "ptap1_4[5].sub!"
+equiv "vss" "ptap1_4[4].sub!"
+equiv "vss" "ptap1_4[3].sub!"
+equiv "vss" "ptap1_4[2].sub!"
+equiv "vss" "ptap1_4[1].sub!"
+equiv "vss" "ptap1_4[0].sub!"
+equiv "vss" "ptap1_3[9].sub!"
+equiv "vss" "ptap1_3[8].sub!"
+equiv "vss" "ptap1_3[7].sub!"
+equiv "vss" "ptap1_3[6].sub!"
+equiv "vss" "ptap1_3[5].sub!"
+equiv "vss" "ptap1_3[4].sub!"
+equiv "vss" "ptap1_3[3].sub!"
+equiv "vss" "ptap1_3[2].sub!"
+equiv "vss" "ptap1_3[1].sub!"
+equiv "vss" "ptap1_3[0].sub!"
+cap "a_n9131_n1107#" "vout" 34.3665
+cap "a_n1818_n1514#" "vout" 161.632
+cap "a_n1818_1486#" "vdd" 240.124
+cap "a_n1818_1486#" "a_n8547_1983#" 12.6303
+cap "vout" "iout" 2128.03
+cap "a_n8547_n1107#" "a_n9131_n1107#" 3137.22
+cap "a_n8547_n1107#" "vinp" 508.607
+cap "a_n1818_1486#" "vout" 1937.13
+cap "a_n8547_n1107#" "a_n1818_1486#" 3.89945
+cap "a_n9131_n1107#" "vinp" 1772.45
+cap "a_n9131_n1107#" "iout" 812.391
+cap "a_n1818_n1514#" "a_n1818_1486#" 335.867
+cap "a_n1818_1486#" "iout" 60.2908
+cap "a_n8547_1983#" "vdd" 7349.46
+cap "vinn" "vdd" 3616.92
+cap "vinn" "a_n8547_1983#" 281.863
+cap "vout" "vdd" 2195.76
+cap "vout" "a_n8547_1983#" 1089.95
+cap "a_n8547_n1107#" "vdd" 7435.97
+cap "a_n8547_n1107#" "a_n8547_1983#" 1916.09
+cap "a_n8547_n1107#" "vinn" 2009.16
+cap "a_n8547_n1107#" "vout" 0.127256
+cap "a_n9131_n1107#" "vdd" 7329.37
+cap "a_n9131_n1107#" "a_n8547_1983#" 2381.61
+cap "a_n1818_n1514#" "a_n8547_1983#" 69.6223
+cap "iout" "vdd" 53430.2
+cap "vinp" "vdd" 3906.55
+cap "a_n8547_1983#" "vinp" 1893.05
+cap "a_n9131_n1107#" "vinn" 1924.68
+cap "vinn" "vinp" 1091.4
+device csubckt cap_cmim -207 -1770 -206 -1769 w=3000 l=3000 "None" "a_n1818_1486#" 12000 0 "vout" 12000 1901036,27292
+device rsubckt rppd -1818 -1514 -1817 -1513 w=200 l=3000 "vss" "a_n1818_n1514#" 0 0 "a_n1818_1486#" 200 17200,572 "a_n8547_1983#" 200 17200,572
+device msubckt sg13_hv_nmos -4017 -1462 -4016 -1461 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "vss" 1200 81600,2536 "vout" 1200 45600,1276
+device msubckt sg13_hv_nmos -4017 -1186 -4016 -1185 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "vout" 1200 45600,1276 "vss" 1200 45600,1276
+device msubckt sg13_hv_nmos -4017 -910 -4016 -909 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "vss" 1200 45600,1276 "vout" 1200 45600,1276
+device msubckt sg13_hv_nmos -4017 -634 -4016 -633 l=200 w=1200 "vss" "a_n8547_1983#" 400 0 "vout" 1200 45600,1276 "vss" 1200 81600,2536
+device msubckt sg13_hv_nmos -2947 827 -2946 828 l=200 w=600 "vss" "vss" 400 0 "vss" 0 0 "vss" 1200 40800,1336
+device msubckt sg13_hv_nmos -3328 827 -3327 828 l=200 w=600 "vss" "a_n8547_n1107#" 400 0 "vss" 600 40800,1336 "a_n8547_1983#" 600 40800,1336
+device msubckt sg13_hv_nmos -3706 827 -3705 828 l=200 w=600 "vss" "a_n8547_n1107#" 400 0 "a_n8547_n1107#" 600 40800,1336 "vss" 600 40800,1336
+device msubckt sg13_hv_nmos -4087 827 -4086 828 l=200 w=600 "vss" "vss" 400 0 "vss" 0 0 "vss" 1200 40800,1336
+device msubckt sg13_hv_pmos -6411 -1107 -6410 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_1983#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -6995 -1107 -6994 -1106 l=200 w=2400 "vdd" "vinp" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_1983#" 2400 163200,4936
+device msubckt sg13_hv_pmos -7579 -1107 -7578 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -8163 -1107 -8162 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_n1107#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -8747 -1107 -8746 -1106 l=200 w=2400 "vdd" "vinn" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -9331 -1107 -9330 -1106 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos 5655 1810 5656 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vout" 1200 45600,1276 "vdd" 1200 81600,2536
+device msubckt sg13_hv_pmos 4979 1810 4980 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "vout" 1200 45600,1276
+device msubckt sg13_hv_pmos 4303 1810 4304 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 3627 1810 3628 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "vout" 1200 45600,1276
+device msubckt sg13_hv_pmos 2951 1810 2952 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 2275 1810 2276 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "vout" 1200 45600,1276
+device msubckt sg13_hv_pmos 1599 1810 1600 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 923 1810 924 1811 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 81600,2536 "vout" 1200 45600,1276
+device msubckt sg13_hv_pmos 5655 3528 5656 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 81600,2536
+device msubckt sg13_hv_pmos 4979 3528 4980 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos 4303 3528 4304 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 3627 3528 3628 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos 2951 3528 2952 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 2275 3528 2276 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 45600,1276 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos 1599 3528 1600 3529 l=600 w=1200 "vdd" "iout" 1200 0 "iout" 1200 45600,1276 "vdd" 1200 45600,1276
+device msubckt sg13_hv_pmos 923 3528 924 3529 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 81600,2536 "iout" 1200 45600,1276
+device msubckt sg13_hv_pmos -1431 2845 -1430 2846 l=600 w=1200 "vdd" "vdd" 1200 0 "vdd" 0 0 "vdd" 2400 81600,2536
+device msubckt sg13_hv_pmos -2239 2845 -2238 2846 l=600 w=1200 "vdd" "iout" 1200 0 "a_n9131_n1107#" 1200 81600,2536 "vdd" 1200 81600,2536
+device msubckt sg13_hv_pmos -3047 2845 -3046 2846 l=600 w=1200 "vdd" "iout" 1200 0 "vdd" 1200 81600,2536 "a_n9131_n1107#" 1200 81600,2536
+device msubckt sg13_hv_pmos -3855 2845 -3854 2846 l=600 w=1200 "vdd" "vdd" 1200 0 "vdd" 0 0 "vdd" 2400 81600,2536
+device msubckt sg13_hv_pmos -6411 1983 -6410 1984 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_n1107#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -6995 1983 -6994 1984 l=200 w=2400 "vdd" "vinn" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -7579 1983 -7578 1984 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936
+device msubckt sg13_hv_pmos -8163 1983 -8162 1984 l=200 w=2400 "vdd" "vdd" 400 0 "a_n8547_1983#" 2400 163200,4936 "vdd" 2400 163200,4936
+device msubckt sg13_hv_pmos -8747 1983 -8746 1984 l=200 w=2400 "vdd" "vinp" 400 0 "a_n9131_n1107#" 2400 163200,4936 "a_n8547_1983#" 2400 163200,4936
+device msubckt sg13_hv_pmos -9331 1983 -9330 1984 l=200 w=2400 "vdd" "vdd" 400 0 "vdd" 2400 163200,4936 "a_n9131_n1107#" 2400 163200,4936

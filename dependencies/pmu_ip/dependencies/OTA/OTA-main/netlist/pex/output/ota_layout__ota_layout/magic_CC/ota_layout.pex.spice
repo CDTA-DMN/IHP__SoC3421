@@ -1,0 +1,84 @@
+* NGSPICE file created from ota_layout.ext - technology: ihp-sg13g2
+
+.subckt ota_layout vdd vss iout vinp vinn vout
+X0 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X1 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X2 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X3 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X4 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X5 vdd vdd vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0.40607n ps=0.91316m w=6u l=3u
+X6 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X7 vdd vdd a_n8547_1983# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X8 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X9 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X10 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X11 a_n8547_n1107# vinn a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X12 vdd iout a_n9131_n1107# vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X13 vss vss vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=70.40117p ps=0.19494m w=3u l=1u
+X14 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X15 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X16 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X17 vss a_n8547_1983# vout vss sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X18 a_n1818_1486# a_n8547_1983# vss rppd l=15u w=1u
+X19 a_n8547_n1107# vinn a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X20 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X21 vss a_n8547_1983# vout vss sg13_hv_nmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=1u
+X22 vdd vdd a_n8547_1983# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X23 vout a_n8547_1983# vss vss sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X24 vss vss vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=0 ps=0 w=3u l=1u
+X25 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X26 vdd iout vout vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X27 vss a_n8547_n1107# a_n8547_n1107# vss sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X28 a_n1818_1486# vout cap_cmim l=15u w=15u
+X29 a_n8547_1983# a_n8547_n1107# vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X30 a_n8547_1983# vinp a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X31 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X32 vdd vdd a_n8547_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X33 a_n8547_1983# vinp a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X34 vout a_n8547_1983# vss vss sg13_hv_nmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=1u
+X35 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X36 vdd iout iout vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X37 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X38 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X39 vdd vdd a_n8547_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X40 a_n9131_n1107# iout vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X41 vdd vdd vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0 ps=0 w=6u l=3u
+C0 a_n8547_1983# a_n9131_n1107# 2.38161f
+C1 vinn a_n8547_n1107# 2.00916f
+C2 a_n1818_1486# a_n1818_n1514# 0.33587f
+C3 a_n8547_1983# vdd 7.34946f
+C4 vinp a_n8547_n1107# 0.50861f
+C5 vinp vinn 1.0914f
+C6 iout vout 2.12803f
+C7 a_n1818_1486# vdd 0.24012f
+C8 a_n9131_n1107# vdd 7.32937f
+C9 vout a_n8547_1983# 1.08995f
+C10 a_n8547_n1107# a_n8547_1983# 1.91609f
+C11 a_n1818_n1514# vout 0.16163f
+C12 vinn a_n8547_1983# 0.28186f
+C13 a_n1818_1486# vout 1.93713f
+C14 vinp a_n8547_1983# 1.89305f
+C15 vout a_n9131_n1107# 0.03437f
+C16 a_n8547_n1107# a_n9131_n1107# 3.13722f
+C17 vout vdd 2.19576f
+C18 a_n8547_n1107# vdd 7.43597f
+C19 vinn a_n9131_n1107# 1.92468f
+C20 vinn vdd 3.61692f
+C21 vinp a_n9131_n1107# 1.77245f
+C22 vinp vdd 3.90655f
+C23 a_n1818_1486# iout 0.06029f
+C24 a_n1818_n1514# a_n8547_1983# 0.06962f
+C25 iout a_n9131_n1107# 0.81239f
+C26 iout vdd 53.4302f
+C27 a_n1818_1486# a_n8547_1983# 0.01263f
+C28 vout vss 7.88671f
+C29 vinn vss 0.65874f
+C30 vinp vss 0.46453f
+C31 iout vss 4.95839f
+C32 vdd vss 8.45177f
+C33 a_n1818_n1514# vss 2.66076f
+C34 a_n1818_1486# vss 0.34096p $ **FLOATING
+C35 a_n8547_n1107# vss 3.56884f $ **FLOATING
+C36 a_n8547_1983# vss 10.8405f $ **FLOATING
+C37 a_n9131_n1107# vss 3.72508f $ **FLOATING
+.ends

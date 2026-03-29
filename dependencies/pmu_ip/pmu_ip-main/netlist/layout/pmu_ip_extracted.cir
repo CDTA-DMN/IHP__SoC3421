@@ -1,0 +1,133 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 29/03/2026 00:09
+
+.SUBCKT pmu_ip vss vdd d1 dn4 vout dn3 d2 d_1 vo d2$1 vinp vinn iout d_2 ds VBG
++ vref vfed vn vb dp
+M$1 vss vss d2$1 \$1 sg13_hv_nmos L=2u W=17u AS=4.505p AD=4.505p PS=26.56u
++ PD=26.56u
+M$2 d2$1 vfed ds \$1 sg13_hv_nmos L=2u W=68u AS=12.92p AD=12.92p PS=71.04u
++ PD=71.04u
+M$3 ds vref d1 \$1 sg13_hv_nmos L=2u W=68u AS=12.92p AD=12.92p PS=71.04u
++ PD=71.04u
+M$11 vss vss d1 \$1 sg13_hv_nmos L=2u W=17u AS=4.505p AD=4.505p PS=26.56u
++ PD=26.56u
+M$21 vss vss d_1 \$1 sg13_hv_nmos L=2u W=3u AS=0.795p AD=0.795p PS=5.56u
++ PD=5.56u
+M$22 d_1 vn vss \$1 sg13_hv_nmos L=2u W=3u AS=0.57p AD=0.57p PS=3.76u PD=3.76u
+M$23 vss vb d_2 \$1 sg13_hv_nmos L=2u W=3u AS=0.57p AD=0.57p PS=3.76u PD=3.76u
+M$24 d_2 vss vss \$1 sg13_hv_nmos L=2u W=3u AS=0.795p AD=0.795p PS=5.56u
++ PD=5.56u
+M$25 d_1 \$334 vss \$1 sg13_hv_nmos L=0.45u W=0.3u AS=0.102p AD=0.102p PS=1.28u
++ PD=1.28u
+M$30 vss vss ds \$1 sg13_hv_nmos L=4u W=17.5u AS=4.6375p AD=4.6375p PS=27.31u
++ PD=27.31u
+M$31 ds vb vss \$1 sg13_hv_nmos L=4u W=35u AS=6.65p AD=6.65p PS=36.52u PD=36.52u
+M$36 \$334 vn vss \$1 sg13_hv_nmos L=0.45u W=0.3u AS=0.102p AD=0.102p PS=1.28u
++ PD=1.28u
+M$37 vss vss vn \$1 sg13_hv_nmos L=2u W=4u AS=1.36p AD=0.76p PS=8.68u PD=4.38u
+M$38 vn vn vss \$1 sg13_hv_nmos L=2u W=4u AS=0.76p AD=0.76p PS=4.38u PD=4.38u
+M$39 vss vss vb \$1 sg13_hv_nmos L=2u W=8u AS=1.52p AD=2.12p PS=8.76u PD=13.06u
+M$40 vb vb \$357 \$1 sg13_hv_nmos L=2u W=16u AS=3.04p AD=3.04p PS=17.52u
++ PD=17.52u
+M$45 vdd vdd d1 \$20 sg13_hv_pmos L=2u W=19.5u AS=5.1675p AD=5.1675p PS=30.31u
++ PD=30.31u
+M$46 d1 d2$1 vdd \$20 sg13_hv_pmos L=2u W=78u AS=14.82p AD=14.82p PS=81.04u
++ PD=81.04u
+M$47 vdd d2$1 d2$1 \$20 sg13_hv_pmos L=2u W=78u AS=14.82p AD=14.82p PS=81.04u
++ PD=81.04u
+M$55 vdd vdd d_1 \$136 sg13_hv_pmos L=2u W=2u AS=0.53p AD=0.53p PS=4.06u
++ PD=4.06u
+M$56 d_1 d_2 vdd \$136 sg13_hv_pmos L=2u W=2u AS=0.38p AD=0.38p PS=2.76u
++ PD=2.76u
+M$57 vdd d_2 d_2 \$136 sg13_hv_pmos L=2u W=2u AS=0.38p AD=0.38p PS=2.76u
++ PD=2.76u
+M$58 d_2 vdd vdd \$136 sg13_hv_pmos L=2u W=2u AS=0.53p AD=0.53p PS=4.06u
++ PD=4.06u
+M$63 vdd vdd vn \$250 sg13_hv_pmos L=2u W=2u AS=0.53p AD=0.53p PS=4.06u PD=4.06u
+M$64 vn d_1 vdd \$250 sg13_hv_pmos L=2u W=2u AS=0.38p AD=0.38p PS=2.76u PD=2.76u
+M$65 vdd d_1 vb \$250 sg13_hv_pmos L=2u W=2u AS=0.38p AD=0.38p PS=2.76u PD=2.76u
+M$66 vb vdd vdd \$250 sg13_hv_pmos L=2u W=2u AS=0.53p AD=0.53p PS=4.06u PD=4.06u
+M$67 vdd \$258 \$258 \$249 sg13_hv_pmos L=2u W=0.3u AS=0.102p AD=0.057p
++ PS=1.28u PD=0.68u
+M$68 \$258 \$310 \$310 \$249 sg13_hv_pmos L=2u W=0.3u AS=0.057p AD=0.057p
++ PS=0.68u PD=0.68u
+M$69 \$310 vn \$334 \$249 sg13_hv_pmos L=2u W=0.3u AS=0.057p AD=0.102p PS=0.68u
++ PD=1.28u
+M$74 vdd vdd d2$1 \$20 sg13_hv_pmos L=2u W=19.5u AS=5.1675p AD=5.1675p
++ PS=30.31u PD=30.31u
+M$84 vdd vdd vo \$72 sg13_hv_pmos L=0.5u W=20u AS=5.3p AD=5.3p PS=31.06u
++ PD=31.06u
+M$85 vo d1 vdd \$72 sg13_hv_pmos L=0.5u W=100u AS=19p AD=19p PS=103.8u PD=103.8u
+R$96 \$249 vdd ntap1 A=8.07p P=53.8u
+R$97 \$250 vdd ntap1 A=12.84p P=85.6u
+R$98 \$20 vdd ntap1 A=33.24p P=221.6u
+R$99 \$136 vdd ntap1 A=12.84p P=85.6u
+R$100 \$72 vdd ntap1 A=16.44p P=109.6u
+R$101 \$12 vdd ntap1 A=58.4064p P=299.52u
+R$197 \$188 vdd ntap1 A=42.588p P=218.4u
+R$267 \$244 vdd ntap1 A=24.336p P=124.8u
+R$307 \$94 vdd ntap1 A=27.9864p P=143.52u
+R$353 \$69 vdd ntap1 A=47.4552p P=243.36u
+R$431 \$1 vss ptap1 A=355.392p P=1748.4u
+C$438 d1 \$6 cap_cmim w=60u l=32u A=1920p P=184u m=1
+M$439 vss vss vss \$1 sg13_hv_nmos L=1u W=6u AS=2.04p AD=2.04p PS=13.36u
++ PD=13.36u
+M$440 dn3 dn3 vss \$1 sg13_hv_nmos L=1u W=3u AS=1.02p AD=1.02p PS=6.68u PD=6.68u
+M$441 vss dn3 dn4 \$1 sg13_hv_nmos L=1u W=3u AS=1.02p AD=1.02p PS=6.68u PD=6.68u
+C$443 \$60 vout cap_cmim w=15u l=15u A=225p P=60u m=1
+M$444 vss dn4 vout \$1 sg13_hv_nmos L=1u W=24u AS=5.46p AD=5.46p PS=31.82u
++ PD=31.82u
+M$448 vdd iout iout \$69 sg13_hv_pmos L=3u W=48u AS=10.02p AD=10.02p PS=57.34u
++ PD=57.34u
+M$456 vdd iout vout \$69 sg13_hv_pmos L=3u W=48u AS=10.02p AD=10.02p PS=57.34u
++ PD=57.34u
+M$464 vinp vout vdd \$188 sg13_hv_pmos L=4u W=1u AS=0.34p AD=0.34p PS=2.68u
++ PD=2.68u
+M$465 vdd vdd vdd \$188 sg13_hv_pmos L=4u W=4u AS=1.36p AD=1.36p PS=10.72u
++ PD=10.72u
+M$466 vdd vout vinn \$188 sg13_hv_pmos L=4u W=1u AS=0.34p AD=0.34p PS=2.68u
++ PD=2.68u
+M$468 vdd vout VBG \$188 sg13_hv_pmos L=4u W=1u AS=0.34p AD=0.34p PS=2.68u
++ PD=2.68u
+M$471 vdd vdd d2 \$12 sg13_hv_pmos L=1u W=48u AS=16.32p AD=16.32p PS=98.72u
++ PD=98.72u
+M$472 d2 vinn dn3 \$12 sg13_hv_pmos L=1u W=24u AS=8.16p AD=8.16p PS=49.36u
++ PD=49.36u
+M$473 dn3 vdd vdd \$12 sg13_hv_pmos L=1u W=24u AS=8.16p AD=8.16p PS=49.36u
++ PD=49.36u
+M$475 d2 vinp dn4 \$12 sg13_hv_pmos L=1u W=24u AS=8.16p AD=8.16p PS=49.36u
++ PD=49.36u
+M$476 dn4 vdd vdd \$12 sg13_hv_pmos L=1u W=24u AS=8.16p AD=8.16p PS=49.36u
++ PD=49.36u
+M$483 vss dp dp \$1 sg13_hv_nmos L=0.45u W=32u AS=10.88p AD=10.88p PS=69.44u
++ PD=69.44u
+M$485 vss vinn vinn \$1 sg13_hv_nmos L=0.45u W=16u AS=5.44p AD=5.44p PS=34.72u
++ PD=34.72u
+M$491 vss vss vss \$1 sg13_hv_nmos L=0.45u W=16u AS=5.44p AD=5.44p PS=34.72u
++ PD=34.72u
+M$499 vss \$329 \$329 \$1 sg13_hv_nmos L=7u W=1u AS=0.34p AD=0.34p PS=2.68u
++ PD=2.68u
+M$500 \$329 \$315 \$315 \$1 sg13_hv_nmos L=7u W=1u AS=0.34p AD=0.34p PS=2.68u
++ PD=2.68u
+M$501 \$298 vout vdd \$244 sg13_hv_pmos L=1u W=5u AS=1.7p AD=1.7p PS=10.68u
++ PD=10.68u
+M$502 \$315 vout \$298 \$244 sg13_hv_pmos L=1u W=5u AS=1.7p AD=1.7p PS=10.68u
++ PD=10.68u
+M$503 vinn \$315 vout \$244 sg13_hv_pmos L=1u W=10u AS=3.4p AD=3.4p PS=21.36u
++ PD=21.36u
+R$508 vinp dp rppd w=0.75u l=87u ps=0 b=0 m=1
+R$551 vinp vss rppd w=0.75u l=377u ps=0 b=0 m=1
+R$561 vss VBG rppd w=0.75u l=406u ps=0 b=0 m=1
+M$566 vdd vdd vdd \$94 sg13_hv_pmos L=3u W=12u AS=4.08p AD=4.08p PS=25.36u
++ PD=25.36u
+M$567 vdd iout d2 \$94 sg13_hv_pmos L=3u W=12u AS=4.08p AD=4.08p PS=25.36u
++ PD=25.36u
+R$570 vss vss rhigh w=1u l=13.5u ps=0 b=0 m=2
+R$574 \$6 vo rhigh w=1u l=25u ps=0 b=0 m=1
+R$584 vo vfed rhigh w=1u l=17u ps=0 b=0 m=1
+R$588 vss vfed rhigh w=1u l=85u ps=0 b=0 m=1
+R$622 vss \$357 rppd w=2u l=240u ps=0 b=0 m=1
+R$625 vss vss rppd w=0.5u l=8u ps=0 b=0 m=4
+C$629 vdd d_1 cap_cmim w=38u l=15u A=570p P=106u m=1
+R$630 dn4 \$60 rppd w=1u l=15u ps=0 b=0 m=1
+C$631 vdd vss cap_cmim w=4u l=4u A=16p P=16u m=19
+.ENDS pmu_ip

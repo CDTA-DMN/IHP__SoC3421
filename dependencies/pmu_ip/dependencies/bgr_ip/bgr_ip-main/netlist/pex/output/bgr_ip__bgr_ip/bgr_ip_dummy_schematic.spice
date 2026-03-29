@@ -1,0 +1,3 @@
+.subckt bgr_ip VDD VSS
+.ends
+.end

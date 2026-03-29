@@ -1,0 +1,159 @@
+GDS input file passed, running in LVS mode
+Found cell ota_layout in GDS /foss/designs/ota/layout/ota_layout.klay.gds (only top cell)
+Calling MAGIC
+magic -dnull -noconsole -rcfile /foss/pdks/ihp-sg13g2/libs.tech/magic/ihp-sg13g2.magicrc output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_CC_Script.tcl, output file: output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_CC_Output.txt
+
+Magic 8.3 revision 582 - Compiled on Sun Dec 21 08:00:31 PM CET 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology ihp-sg13g2 ...
+2 Magic internal units = 1 Lambda
+Input style sg13g2(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    fillfet sealcont difffill nemitter hvnemitter hvisodiffres sealvia1 sealvia2 sealvia3 sealvia4 sealvia5 sealvia6 pad seal thruvia 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_CC_Script.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "$$$CONTEXT_INFO$$$".
+Error while reading cell "$$$CONTEXT_INFO$$$" (byte position 128): Unknown layer/datatype in boundary, layer=0 type=0
+Reading "via_stack$35".
+Reading "via_stack$34".
+Reading "nmosHV$1".
+Reading "pmosHV$2".
+Reading "pmosHV$3".
+Reading "via_stack$31".
+Reading "via_stack$29".
+Reading "via_stack$28".
+Reading "via_stack$26".
+Reading "via_stack$24".
+Reading "via_stack$19".
+Reading "via_stack$18".
+Reading "via_stack$23".
+Reading "cmim".
+Reading "rppd".
+Reading "via_stack$21".
+Reading "via_stack$17".
+Reading "via_stack$16".
+Reading "via_stack$15".
+Reading "via_stack$14".
+Reading "via_stack$13".
+Reading "ntap1".
+Reading "pmosHV".
+Reading "via_stack".
+Reading "via_stack$1".
+Reading "via_stack$2".
+Reading "via_stack$3".
+Reading "via_stack$4".
+Reading "via_stack$5".
+Reading "via_stack$6".
+Reading "via_stack$7".
+Reading "ptap1".
+Making label "sub!" on type isosubstrate in cell ptap1 sticky.
+Reading "via_stack$8".
+Reading "via_stack$9".
+Reading "via_stack$10".
+Reading "via_stack$11".
+Reading "via_stack$12".
+Reading "nmosHV".
+Reading "via_stack$33".
+Reading "via_stack$32".
+Reading "ota_layout".
+Extracting ota_layout into /foss/designs/ota/pex/output/ota_layout__ota_layout/magic_CC/ota_layout.ext:
+ota_layout: 5 warnings
+Total of 5 warnings.
+exttospice finished.
+MAGIC succeeded after 0.256s
+Report DB saved at: output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_report.rdb.gz
+SPICE netlist saved at: output/ota_layout__ota_layout/magic_CC/ota_layout.pex.spice
+* NGSPICE file created from ota_layout.ext - technology: ihp-sg13g2
+
+.subckt ota_layout vdd vss d2 vinp vinn iout vout
+X0 d2 vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X1 vdd iout iout vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X2 d2 vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X3 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X4 vdd vdd a_n8547_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X5 d2 iout vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X6 vdd vdd vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0.40607n ps=0.91316m w=6u l=3u
+X7 vss vss vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=70.40117p ps=0.19494m w=3u l=1u
+X8 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X9 vss a_n8547_1983# vout vss sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X10 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X11 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X12 vss a_n8547_1983# vout vss sg13_hv_nmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=1u
+X13 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X14 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X15 vout a_n8547_1983# vss vss sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X16 a_n1818_1486# a_n8547_1983# rppd l=15u w=1u
+X17 vdd vdd vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0 ps=0 w=6u l=3u
+X18 vss vss vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=0 ps=0 w=3u l=1u
+X19 vss a_n8547_n1107# a_n8547_n1107# vss sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X20 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X21 vdd vdd a_n8547_1983# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X22 a_n8547_1983# a_n8547_n1107# vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X23 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X24 d2 vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X25 d2 vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X26 a_n8547_n1107# vinn d2 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X27 vdd iout d2 vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X28 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X29 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X30 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X31 vout a_n8547_1983# vss vss sg13_hv_nmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=1u
+X32 a_n8547_n1107# vinn d2 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X33 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X34 vdd vdd a_n8547_1983# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X35 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X36 vdd iout vout vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X37 a_n8547_1983# vinp d2 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X38 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X39 vdd vdd a_n8547_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X40 a_n8547_1983# vinp d2 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+C0 vinp vinn 1.0914f
+C1 a_n1818_n1514# a_n8547_1983# 0.06963f
+C2 vout vdd 2.26263f
+C3 a_n8547_n1107# d2 3.13722f
+C4 d2 vdd 7.32937f
+C5 a_n1818_1486# a_n1818_n1514# 0.27696f
+C6 a_n8547_1983# vinp 1.89305f
+C7 vinn d2 1.92468f
+C8 a_n1818_1486# a_n8547_1983# 0.01192f
+C9 a_n8547_n1107# vdd 7.43597f
+C10 a_n1818_n1514# vout 0.16831f
+C11 a_n1818_1486# iout 0.04887f
+C12 a_n8547_n1107# vinn 2.00916f
+C13 vinn vdd 3.61692f
+C14 a_n8547_1983# vout 1.09062f
+C15 a_n8547_1983# d2 2.38161f
+C16 vout iout 2.1394f
+C17 vinp d2 1.77245f
+C18 a_n1818_1486# vout 11.4487f
+C19 d2 iout 0.81239f
+C20 a_n8547_n1107# a_n8547_1983# 1.91609f
+C21 a_n8547_1983# vdd 7.34946f
+C22 a_n8547_n1107# vinp 0.50861f
+C23 vinp vdd 3.90655f
+C24 iout vdd 53.4302f
+C25 a_n1818_1486# vdd 0.1716f
+C26 vout d2 0.03437f
+C27 a_n8547_1983# vinn 0.28186f
+C28 vout vss 9.50088f
+C29 d2 vss 3.72508f
+C30 vinn vss 2.79652f
+C31 vinp vss 2.60231f
+C32 iout vss 14.5784f
+C33 vdd vss 18.0756f
+C34 a_n1818_n1514# vss 2.66117f
+C35 a_n1818_1486# vss 3.07466f $ **FLOATING
+C36 a_n8547_n1107# vss 4.10328f $ **FLOATING
+C37 a_n8547_1983# vss 12.9783f $ **FLOATING
+.ends
+

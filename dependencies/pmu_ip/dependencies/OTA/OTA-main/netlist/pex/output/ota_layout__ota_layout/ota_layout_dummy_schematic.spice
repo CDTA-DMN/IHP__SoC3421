@@ -1,0 +1,3 @@
+.subckt ota_layout VDD VSS
+.ends
+.end

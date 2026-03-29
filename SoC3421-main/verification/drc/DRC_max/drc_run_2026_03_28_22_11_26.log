@@ -1,0 +1,15 @@
+28-Mar-2026 23:11:27 | INFO    | KLayout version detected: 0.30.6
+28-Mar-2026 23:11:27 | INFO    | Using DRC JSON file: /foss/pdks/ihp-sg13g2/libs.tech/klayout/python/sg13g2_pycell_lib/sg13g2_tech_mod.json
+28-Mar-2026 23:11:27 | INFO    | Running IHP-SG13G2 main checks on design /foss/designs/top/final_gds.gds, topcell: top
+28-Mar-2026 23:12:58 | INFO    | Running IHP-SG13G2 antenna checks on design /foss/designs/top/final_gds.gds, topcell: top
+28-Mar-2026 23:13:38 | INFO    | Completed running Antenna checks.
+28-Mar-2026 23:13:38 | INFO    | Running IHP-SG13G2 density checks on design /foss/designs/top/final_gds.gds, topcell: top
+28-Mar-2026 23:13:47 | INFO    | Completed running Density checks.
+28-Mar-2026 23:13:47 | INFO    | Running IHP-SG13G2 sg13g2_maximal checks on design /foss/designs/top/final_gds.gds, topcell: top
+28-Mar-2026 23:18:36 | INFO    | Completed running Sg13g2_maximal checks.
+28-Mar-2026 23:18:36 | ERROR   | ==================================================================================
+28-Mar-2026 23:18:36 | ERROR   | ❌ --- KLayout DRC Check Failed: Violations were detected in the layout. --- ❌
+28-Mar-2026 23:18:36 | ERROR   | ==================================================================================
+28-Mar-2026 23:18:36 | ERROR   | Violated rules are : {'Pad.fR_M3', 'Pad.d1R', 'Pad.fR_M2', 'Sdiod.d', 'Pad.fR_TM2', 'Sdiod.e', 'Pad.fR_M4', 'Pad.fR_M5', 'Pad.fR_TM1'}
+
+28-Mar-2026 23:18:36 | INFO    | Total DRC Run time: 429.11 seconds (including execution, analysis, and reporting)

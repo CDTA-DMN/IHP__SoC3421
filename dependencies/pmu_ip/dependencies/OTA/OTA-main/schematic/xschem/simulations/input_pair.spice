@@ -1,0 +1,11 @@
+** sch_path: /foss/designs/ota/sch/input_pair.sch
+.subckt input_pair vinp vinn vdd
+*.PININFO vinp:B vinn:B vdd:B
+M1 dn4 vinp dn2 well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M2 dn3 vinn dn2 well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M11 dn2 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M12 dn2 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M13 dn3 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M14 dn4 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+R1 vdd well ntap1 A=58.4064e-12 P=0.29952e-03
+.ends

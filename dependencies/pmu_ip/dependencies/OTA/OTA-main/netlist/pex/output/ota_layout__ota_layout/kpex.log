@@ -1,0 +1,1258 @@
+[2026-03-17 15:02:36,903] [INFO]    GDS input file passed, running in LVS mode
+[2026-03-17 15:02:36,928] [INFO]    No explicit top cell specified, using top cell 'ota_layout'
+[2026-03-17 15:02:36,929] [INFO]    LVS input schematic not specified (argument --schematic), using dummy schematic
+[2026-03-17 15:02:36,938] [INFO]    Calling MAGIC
+[2026-03-17 15:02:36,938] [SUBPROCESS]    magic -dnull -noconsole -rcfile /foss/pdks/ihp-sg13g2/libs.tech/magic/ihp-sg13g2.magicrc output/ota_layout__ota_layout/magic_RC/ota_layout_MAGIC_RC_Script.tcl, output file: output/ota_layout__ota_layout/magic_RC/ota_layout_MAGIC_RC_Output.txt
+[2026-03-17 15:02:36,982] [SUBPROCESS]    
+[2026-03-17 15:02:36,983] [SUBPROCESS]    Magic 8.3 revision 603 - Compiled on Sat Feb 14 01:20:09 AM CET 2026.
+[2026-03-17 15:02:36,983] [SUBPROCESS]    Starting magic under Tcl interpreter
+[2026-03-17 15:02:36,984] [SUBPROCESS]    Using the terminal as the console.
+[2026-03-17 15:02:36,984] [SUBPROCESS]    Using NULL graphics device.
+[2026-03-17 15:02:37,036] [SUBPROCESS]    Processing system .magicrc file
+[2026-03-17 15:02:37,043] [SUBPROCESS]    Switching to WIRING tool.
+[2026-03-17 15:02:37,044] [SUBPROCESS]    Switching to NETLIST tool.
+[2026-03-17 15:02:37,044] [SUBPROCESS]    Switching to PICK tool.
+[2026-03-17 15:02:37,044] [SUBPROCESS]    Switching to BOX tool.
+[2026-03-17 15:02:37,045] [SUBPROCESS]    Sourcing design .magicrc for technology ihp-sg13g2 ...
+[2026-03-17 15:02:37,045] [SUBPROCESS]    2 Magic internal units = 1 Lambda
+[2026-03-17 15:02:37,063] [SUBPROCESS]    Input style sg13g2(): scaleFactor=2, multiplier=2
+[2026-03-17 15:02:37,139] [SUBPROCESS]    The following types are not handled by extraction and will be treated as non-electrical types:
+[2026-03-17 15:02:37,140] [SUBPROCESS]        pblock sealcont difffill nemitter hvnemitter hvisodiffres sealvia1 sealvia2 sealvia3 sealvia4 sealvia5 sealvia6 pillar solder seal glass thruvia inductor 
+[2026-03-17 15:02:37,142] [SUBPROCESS]    Scaled tech values by 2 / 1 to match internal grid scaling
+[2026-03-17 15:02:37,143] [SUBPROCESS]    Loading ihp-sg13g2 Device Generator Menu ...
+[2026-03-17 15:02:37,153] [SUBPROCESS]    Loading "output/ota_layout__ota_layout/magic_RC/ota_layout_MAGIC_RC_Script.tcl" from command line.
+[2026-03-17 15:02:37,154] [SUBPROCESS]    Warning: Calma reading is not undoable!  I hope that's OK.
+[2026-03-17 15:02:37,154] [SUBPROCESS]    Library written using GDS-II Release 6.0
+[2026-03-17 15:02:37,154] [SUBPROCESS]    Library name: LIB
+[2026-03-17 15:02:37,155] [SUBPROCESS]    Reading "$$$CONTEXT_INFO$$$".
+[2026-03-17 15:02:37,155] [SUBPROCESS]    Error while reading cell "$$$CONTEXT_INFO$$$" (byte position 128): Unknown layer/datatype in boundary, layer=0 type=0
+[2026-03-17 15:02:37,156] [SUBPROCESS]    Reading "via_stack$37".
+[2026-03-17 15:02:37,156] [SUBPROCESS]    Reading "via_stack$35".
+[2026-03-17 15:02:37,156] [SUBPROCESS]    Reading "via_stack$34".
+[2026-03-17 15:02:37,157] [SUBPROCESS]    Reading "nmosHV$1".
+[2026-03-17 15:02:37,157] [SUBPROCESS]    Reading "pmosHV$2".
+[2026-03-17 15:02:37,158] [SUBPROCESS]    Reading "pmosHV$3".
+[2026-03-17 15:02:37,160] [SUBPROCESS]    Reading "via_stack$29".
+[2026-03-17 15:02:37,160] [SUBPROCESS]    Reading "via_stack$28".
+[2026-03-17 15:02:37,161] [SUBPROCESS]    Reading "via_stack$26".
+[2026-03-17 15:02:37,161] [SUBPROCESS]    Reading "via_stack$24".
+[2026-03-17 15:02:37,161] [SUBPROCESS]    Reading "via_stack$19".
+[2026-03-17 15:02:37,162] [SUBPROCESS]    Reading "via_stack$18".
+[2026-03-17 15:02:37,162] [SUBPROCESS]    Reading "via_stack$23".
+[2026-03-17 15:02:37,163] [SUBPROCESS]    Reading "cmim".
+[2026-03-17 15:02:37,163] [SUBPROCESS]    Reading "rppd".
+[2026-03-17 15:02:37,163] [SUBPROCESS]    Reading "via_stack$21".
+[2026-03-17 15:02:37,164] [SUBPROCESS]    Reading "via_stack$17".
+[2026-03-17 15:02:37,164] [SUBPROCESS]    Reading "via_stack$16".
+[2026-03-17 15:02:37,164] [SUBPROCESS]    Reading "via_stack$15".
+[2026-03-17 15:02:37,165] [SUBPROCESS]    Reading "via_stack$14".
+[2026-03-17 15:02:37,165] [SUBPROCESS]    Reading "via_stack$13".
+[2026-03-17 15:02:37,166] [SUBPROCESS]    Reading "ntap1".
+[2026-03-17 15:02:37,166] [SUBPROCESS]    Reading "pmosHV".
+[2026-03-17 15:02:37,167] [SUBPROCESS]    Reading "via_stack".
+[2026-03-17 15:02:37,167] [SUBPROCESS]    Reading "via_stack$1".
+[2026-03-17 15:02:37,168] [SUBPROCESS]    Reading "via_stack$2".
+[2026-03-17 15:02:37,168] [SUBPROCESS]    Reading "via_stack$3".
+[2026-03-17 15:02:37,168] [SUBPROCESS]    Reading "via_stack$4".
+[2026-03-17 15:02:37,169] [SUBPROCESS]    Reading "via_stack$5".
+[2026-03-17 15:02:37,169] [SUBPROCESS]    Reading "via_stack$6".
+[2026-03-17 15:02:37,170] [SUBPROCESS]    Reading "via_stack$7".
+[2026-03-17 15:02:37,170] [SUBPROCESS]    Reading "ptap1".
+[2026-03-17 15:02:37,170] [SUBPROCESS]    Moving label "sub!" from space to ptapdiff in cell ptap1.
+[2026-03-17 15:02:37,171] [SUBPROCESS]    Reading "via_stack$8".
+[2026-03-17 15:02:37,171] [SUBPROCESS]    Reading "via_stack$9".
+[2026-03-17 15:02:37,171] [SUBPROCESS]    Reading "via_stack$10".
+[2026-03-17 15:02:37,172] [SUBPROCESS]    Reading "via_stack$11".
+[2026-03-17 15:02:37,172] [SUBPROCESS]    Reading "via_stack$12".
+[2026-03-17 15:02:37,172] [SUBPROCESS]    Reading "nmosHV".
+[2026-03-17 15:02:37,173] [SUBPROCESS]    Reading "via_stack$33".
+[2026-03-17 15:02:37,174] [SUBPROCESS]    Reading "via_stack$32".
+[2026-03-17 15:02:37,174] [SUBPROCESS]    Reading "ota_layout".
+[2026-03-17 15:02:37,183] [SUBPROCESS]    Extracting ota_layout into /foss/designs/ota/pex/output/ota_layout__ota_layout/magic_RC/ota_layout.ext:
+[2026-03-17 15:02:37,222] [SUBPROCESS]    ota_layout: 4 warnings
+[2026-03-17 15:02:37,222] [SUBPROCESS]    Total of 4 warnings.
+[2026-03-17 15:02:37,226] [SUBPROCESS]    exttosim finished.
+[2026-03-17 15:02:37,245] [SUBPROCESS]    Adding  a_n9131_n1107#
+[2026-03-17 15:02:37,255] [SUBPROCESS]    Adding  a_n8547_1983#
+[2026-03-17 15:02:37,265] [SUBPROCESS]    Adding  a_n8547_n1107#
+[2026-03-17 15:02:37,266] [SUBPROCESS]    Adding  a_n1818_1486#
+[2026-03-17 15:02:37,286] [SUBPROCESS]    Adding  vss
+[2026-03-17 15:02:37,369] [SUBPROCESS]    Adding  vdd
+[2026-03-17 15:02:37,383] [SUBPROCESS]    Adding  iout; Tnew = 0.17ns, Told = 0.00ns
+[2026-03-17 15:02:37,384] [SUBPROCESS]    Adding  vinp; Tnew = 0.05ns, Told = 0.00ns
+[2026-03-17 15:02:37,386] [SUBPROCESS]    Adding  vinn; Tnew = 0.07ns, Told = 0.00ns
+[2026-03-17 15:02:37,392] [SUBPROCESS]    Adding  vout; Tnew = 0.01ns, Told = 0.00ns
+[2026-03-17 15:02:37,392] [SUBPROCESS]    Total Nets: 11
+[2026-03-17 15:02:37,392] [SUBPROCESS]    Nets extracted: 10 (0.909091)
+[2026-03-17 15:02:37,393] [SUBPROCESS]    Nets output: 10 (0.909091)
+[2026-03-17 15:02:37,394] [SUBPROCESS]    exttospice finished.
+[2026-03-17 15:02:37,401] [INFO]    MAGIC succeeded after 0.4619s
+[2026-03-17 15:02:37,423] [SUBPROCESS]    Report DB saved at: output/ota_layout__ota_layout/magic_RC/ota_layout_MAGIC_report.rdb.gz
+[2026-03-17 15:02:37,423] [SUBPROCESS]    SPICE netlist saved at: output/ota_layout__ota_layout/magic_RC/ota_layout.pex.spice
+[2026-03-17 15:02:37,424] [SUBPROCESS]    * NGSPICE file created from ota_layout.ext - technology: ihp-sg13g2
+
+.subckt ota_layout vdd vss vinp vinn iout vout
+X0 vout.t2 iout.t19 vdd.t2 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X1 vdd.t14 iout.t16 vout.t1 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X2 vout.t0 iout.t15 vdd.t14 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X3 vdd.t5 iout.t0 iout.t1 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X4 vout.t1 iout.t17 vdd.t12 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X5 vdd.t30 vdd.t28 vdd.t29 vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0 ps=0 w=6u l=3u
+X6 vout.t5 iout.t13 vdd.t3 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X7 vdd.t39 vdd.t38 a_n8547_1983.t5 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X8 iout.t1 iout.t11 vdd.t4 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X9 a_n9131_n1107.t9 vdd.t36 vdd.t37 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X10 a_n9131_n1107.t6 vdd.t20 vdd.t21 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X11 a_n8547_n1107.t2 vinn.t1 a_n9131_n1107.t4 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X12 vdd.t1 iout.t20 a_n9131_n1107.t3 vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X13 vss.t13 vss.t10 vss.t12 vss.t11 sg13_hv_nmos ad=1.02p pd=6.68u as=0 ps=0 w=3u l=1u
+X14 vdd.t7 iout.t8 iout.t3 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X15 iout.t5 iout.t9 vdd.t7 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X16 vdd.t3 iout.t14 vout.t0 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X17 vss.t15 a_n8547_1983.t7 vout.t6 vss.t4 sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X18 a_n1818_1486.t0 a_n8547_1983.t3 vss.t14 rppd l=15u w=1u
+X19 a_n8547_n1107.t3 vinn.t0 a_n9131_n1107.t5 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X20 iout.t3 iout.t2 vdd.t5 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X21 vss.t5 a_n8547_1983.t9 vout.t4 vss.t4 sg13_hv_nmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=1u
+X22 vdd.t19 vdd.t18 a_n8547_1983.t4 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X23 vout.t4 a_n8547_1983.t8 vss.t15 vss.t4 sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X24 vss.t9 vss.t6 vss.t8 vss.t7 sg13_hv_nmos ad=1.02p pd=6.68u as=0 ps=0 w=3u l=1u
+X25 iout.t7 iout.t6 vdd.t9 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X26 vdd.t17 iout.t12 vout.t5 vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X27 vss.t1 a_n8547_n1107.t0 a_n8547_n1107.t1 vss.t0 sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X28 a_n1818_1486.t1 vout.t3 cap_cmim l=15u w=15u
+X29 a_n8547_1983.t2 a_n8547_n1107.t0 vss.t3 vss.t2 sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X30 a_n8547_1983.t1 vinp.t1 a_n9131_n1107.t0 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X31 vdd.t9 iout.t4 iout.t5 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X32 vdd.t35 vdd.t34 a_n8547_n1107.t5 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X33 a_n8547_1983.t0 vinp.t0 a_n9131_n1107.t1 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X34 vout.t6 a_n8547_1983.t6 vss.t16 vss.t4 sg13_hv_nmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=1u
+X35 a_n9131_n1107.t7 vdd.t22 vdd.t23 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X36 vdd.t11 iout.t10 iout.t7 vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X37 a_n9131_n1107.t8 vdd.t26 vdd.t27 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X38 vdd.t12 iout.t18 vout.t2 vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X39 vdd.t25 vdd.t24 a_n8547_n1107.t4 vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X40 a_n9131_n1107.t2 iout.t20 vdd.t0 vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X41 vdd.t33 vdd.t31 vdd.t32 vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0 ps=0 w=6u l=3u
+C0 vinn vdd 3.61692f
+C1 iout vdd 53.4302f
+C2 vdd vinp 3.90655f
+C3 a_n1818_n1514# vout 0.16163f
+C4 iout vout 2.12803f
+C5 vinn vinp 1.0914f
+C6 vout vdd 2.19576f
+R0 vout.n0 vout.t5 8.55158
+R1 vout.n2 vout.t2 8.16093
+R2 vout.n1 vout.t1 8.16021
+R3 vout.n0 vout.t0 8.16021
+R4 vout.n3 vout.t4 2.82018
+R5 vout.n3 vout.t6 2.82018
+R6 vout.n4 vout.t3 2.04121
+R7 vout.n5 vout.n4 1.88011
+R8 vout.n4 vout.n3 1.00784
+R9 vout.n5 vout.n2 0.840842
+R10 vout.n1 vout.n0 0.391868
+R11 vout.n2 vout.n1 0.391868
+R12 vout vout.n5 0.130474
+R13 vinn.n0 vinn.t0 12.9718
+R14 vinn vinn.n0 4.85615
+R15 vinn.n0 vinn.t1 2.51387
+R16 vinp.n0 vinp.t0 7.00105
+R17 vinp vinp.n0 4.89229
+R18 vinp.n0 vinp.t1 2.49299
+R19 iout.n0 iout.t1 8.17962
+R20 iout.n22 iout.t3 8.17962
+R21 iout.n10 iout.t5 8.17962
+R22 iout.n6 iout.t7 8.17962
+R23 iout.n6 iout.n5 3.82765
+R24 iout.n32 iout.n31 3.72981
+R25 iout.n27 iout.n26 3.72981
+R26 iout.n25 iout.n24 3.72981
+R27 iout.n21 iout.n20 3.72981
+R28 iout.n15 iout.n2 3.72981
+R29 iout.n12 iout.n11 3.72981
+R30 iout.n9 iout.n8 3.72981
+R31 iout.n33 iout.n32 2.23276
+R32 iout.n33 iout.t20 2.0919
+R33 iout.n4 iout.n3 1.61311
+R34 iout.n30 iout.n29 1.61311
+R35 iout.n30 iout.t19 1.29432
+R36 iout.n28 iout.t18 1.29432
+R37 iout.n23 iout.t17 1.29432
+R38 iout.n19 iout.t16 1.29432
+R39 iout.n16 iout.t15 1.29432
+R40 iout.n13 iout.t14 1.29432
+R41 iout.n7 iout.t13 1.29432
+R42 iout.n4 iout.t12 1.29432
+R43 iout.n31 iout.t11 1.24642
+R44 iout.n27 iout.t0 1.24642
+R45 iout.n24 iout.t2 1.24642
+R46 iout.n20 iout.t8 1.24642
+R47 iout.n15 iout.t9 1.24642
+R48 iout.n12 iout.t4 1.24642
+R49 iout.n8 iout.t6 1.24642
+R50 iout.n5 iout.t10 1.24642
+R51 iout.n7 iout.n3 1.1255
+R52 iout.n14 iout.n13 1.1255
+R53 iout.n17 iout.n16 1.1255
+R54 iout.n19 iout.n18 1.1255
+R55 iout.n23 iout.n1 1.1255
+R56 iout.n29 iout.n28 1.1255
+R57 iout.n14 iout.n3 0.488107
+R58 iout.n17 iout.n14 0.488107
+R59 iout.n18 iout.n17 0.488107
+R60 iout.n18 iout.n1 0.488107
+R61 iout.n29 iout.n1 0.488107
+R62 iout.n11 iout.n9 0.196184
+R63 iout.n21 iout.n2 0.196184
+R64 iout.n26 iout.n25 0.196184
+R65 iout.n9 iout.n6 0.0983421
+R66 iout.n11 iout.n10 0.0983421
+R67 iout.n10 iout.n2 0.0983421
+R68 iout.n22 iout.n21 0.0983421
+R69 iout.n25 iout.n22 0.0983421
+R70 iout.n26 iout.n0 0.0983421
+R71 iout.n32 iout.n0 0.0983421
+R72 iout iout.n33 0.0514573
+R73 iout.n31 iout.n30 0.0500411
+R74 iout.n28 iout.n27 0.0500411
+R75 iout.n24 iout.n23 0.0500411
+R76 iout.n20 iout.n19 0.0500411
+R77 iout.n16 iout.n15 0.0500411
+R78 iout.n13 iout.n12 0.0500411
+R79 iout.n8 iout.n7 0.0500411
+R80 iout.n5 iout.n4 0.0500411
+R81 vdd.t17 vdd.n92 17.0005
+R82 vdd.t17 vdd.n88 17.0005
+R83 vdd.t17 vdd.n87 17.0005
+R84 vdd.t11 vdd.n112 17.0005
+R85 vdd.t11 vdd.n110 17.0005
+R86 vdd.t11 vdd.n77 17.0005
+R87 vdd.t11 vdd.n73 17.0005
+R88 vdd.t11 vdd.n69 17.0005
+R89 vdd.t11 vdd.n117 17.0005
+R90 vdd.n121 vdd.n49 17.0005
+R91 vdd.n52 vdd.n49 17.0005
+R92 vdd.n132 vdd.n18 17.0005
+R93 vdd.n131 vdd.n18 17.0005
+R94 vdd.n154 vdd.n4 17.0005
+R95 vdd.n153 vdd.n4 17.0005
+R96 vdd.n153 vdd.n6 17.0005
+R97 vdd.n154 vdd.n6 17.0005
+R98 vdd.n163 vdd.n158 17.0005
+R99 vdd.n163 vdd.n162 17.0005
+R100 vdd.n162 vdd.n137 17.0005
+R101 vdd.n158 vdd.n137 17.0005
+R102 vdd.n29 vdd.n10 17.0005
+R103 vdd.n28 vdd.n10 17.0005
+R104 vdd.n28 vdd.n12 17.0005
+R105 vdd.n29 vdd.n12 17.0005
+R106 vdd.n20 vdd.n13 17.0005
+R107 vdd.n22 vdd.n13 17.0005
+R108 vdd.n20 vdd.n11 17.0005
+R109 vdd.n22 vdd.n11 17.0005
+R110 vdd.n145 vdd.n136 17.0005
+R111 vdd.n149 vdd.n136 17.0005
+R112 vdd.n150 vdd.n145 17.0005
+R113 vdd.n150 vdd.n149 17.0005
+R114 vdd.n139 vdd.n7 17.0005
+R115 vdd.n141 vdd.n7 17.0005
+R116 vdd.n139 vdd.n5 17.0005
+R117 vdd.n141 vdd.n5 17.0005
+R118 vdd.n166 vdd.n164 17.0005
+R119 vdd.n168 vdd.n164 17.0005
+R120 vdd.n166 vdd.n165 17.0005
+R121 vdd.n168 vdd.n165 17.0005
+R122 vdd.n176 vdd.n0 17.0005
+R123 vdd.n175 vdd.n0 17.0005
+R124 vdd.n175 vdd.n1 17.0005
+R125 vdd.n176 vdd.n1 17.0005
+R126 vdd.n93 vdd.n59 8.5005
+R127 vdd.n91 vdd.n59 8.5005
+R128 vdd.n86 vdd.n57 8.5005
+R129 vdd.n83 vdd.n57 8.5005
+R130 vdd.n89 vdd.n60 8.5005
+R131 vdd.n84 vdd.n60 8.5005
+R132 vdd.n116 vdd.n62 8.5005
+R133 vdd.n68 vdd.n53 8.5005
+R134 vdd.n70 vdd.n53 8.5005
+R135 vdd.n72 vdd.n54 8.5005
+R136 vdd.n74 vdd.n54 8.5005
+R137 vdd.n76 vdd.n55 8.5005
+R138 vdd.n78 vdd.n55 8.5005
+R139 vdd.n111 vdd.n56 8.5005
+R140 vdd.n113 vdd.n56 8.5005
+R141 vdd.n115 vdd.n62 8.5005
+R142 vdd.n65 vdd.n49 8.5005
+R143 vdd.n52 vdd.n48 8.5005
+R144 vdd.n121 vdd.n48 8.5005
+R145 vdd.n122 vdd.n41 8.5005
+R146 vdd.n126 vdd.n41 8.5005
+R147 vdd.n126 vdd.n43 8.5005
+R148 vdd.n122 vdd.n43 8.5005
+R149 vdd.n121 vdd.n50 8.5005
+R150 vdd.n52 vdd.n50 8.5005
+R151 vdd.n126 vdd.n46 8.5005
+R152 vdd.n122 vdd.n46 8.5005
+R153 vdd.n121 vdd.n51 8.5005
+R154 vdd.n52 vdd.n51 8.5005
+R155 vdd.n126 vdd.n45 8.5005
+R156 vdd.n122 vdd.n45 8.5005
+R157 vdd.n121 vdd.n120 8.5005
+R158 vdd.n120 vdd.n52 8.5005
+R159 vdd.n126 vdd.n44 8.5005
+R160 vdd.n122 vdd.n44 8.5005
+R161 vdd.n130 vdd.n33 8.5005
+R162 vdd.n40 vdd.n33 8.5005
+R163 vdd.n130 vdd.n34 8.5005
+R164 vdd.n40 vdd.n34 8.5005
+R165 vdd.n130 vdd.n35 8.5005
+R166 vdd.n40 vdd.n35 8.5005
+R167 vdd.n130 vdd.n36 8.5005
+R168 vdd.n40 vdd.n36 8.5005
+R169 vdd.n130 vdd.n129 8.5005
+R170 vdd.n129 vdd.n40 8.5005
+R171 vdd.n133 vdd.n18 8.5005
+R172 vdd.n173 vdd.n1 8.5005
+R173 vdd.n151 vdd.n4 8.5005
+R174 vdd.n156 vdd.n6 8.5005
+R175 vdd.n163 vdd.n157 8.5005
+R176 vdd.n160 vdd.n137 8.5005
+R177 vdd.n26 vdd.n10 8.5005
+R178 vdd.n31 vdd.n12 8.5005
+R179 vdd.n132 vdd.n14 8.5005
+R180 vdd.n131 vdd.n14 8.5005
+R181 vdd.n132 vdd.n15 8.5005
+R182 vdd.n131 vdd.n15 8.5005
+R183 vdd.n132 vdd.n16 8.5005
+R184 vdd.n131 vdd.n16 8.5005
+R185 vdd.n132 vdd.n17 8.5005
+R186 vdd.n131 vdd.n17 8.5005
+R187 vdd.n24 vdd.n13 8.5005
+R188 vdd.n19 vdd.n11 8.5005
+R189 vdd.n146 vdd.n136 8.5005
+R190 vdd.n150 vdd.n144 8.5005
+R191 vdd.n143 vdd.n7 8.5005
+R192 vdd.n138 vdd.n5 8.5005
+R193 vdd.n169 vdd.n164 8.5005
+R194 vdd.n171 vdd.n165 8.5005
+R195 vdd.n178 vdd.n0 8.5005
+R196 vdd vdd.n58 8.49754
+R197 vdd.t11 vdd.n114 8.49719
+R198 vdd.t11 vdd.n79 8.49719
+R199 vdd.t11 vdd.n75 8.49719
+R200 vdd.n96 vdd.t17 8.49713
+R201 vdd.n118 vdd.t11 8.49713
+R202 vdd vdd.n66 8.48257
+R203 vdd.t17 vdd.n95 5.66101
+R204 vdd.t17 vdd.n94 5.66096
+R205 vdd.t17 vdd.n90 5.66096
+R206 vdd.t17 vdd.n85 5.66096
+R207 vdd.t11 vdd.n71 5.66096
+R208 vdd vdd.n59 4.2505
+R209 vdd vdd.n57 4.2505
+R210 vdd vdd.n60 4.2505
+R211 vdd vdd.n53 4.2505
+R212 vdd vdd.n54 4.2505
+R213 vdd vdd.n55 4.2505
+R214 vdd vdd.n56 4.2505
+R215 vdd vdd.n62 4.2505
+R216 vdd vdd.n48 4.2505
+R217 vdd vdd.n41 4.2505
+R218 vdd vdd.n43 4.2505
+R219 vdd vdd.n49 4.2505
+R220 vdd vdd.n50 4.2505
+R221 vdd vdd.n46 4.2505
+R222 vdd vdd.n51 4.2505
+R223 vdd vdd.n45 4.2505
+R224 vdd.n120 vdd 4.2505
+R225 vdd vdd.n44 4.2505
+R226 vdd vdd.n33 4.2505
+R227 vdd vdd.n34 4.2505
+R228 vdd vdd.n35 4.2505
+R229 vdd vdd.n36 4.2505
+R230 vdd.n129 vdd 4.2505
+R231 vdd vdd.n18 4.2505
+R232 vdd vdd.n4 4.2505
+R233 vdd vdd.n6 4.2505
+R234 vdd vdd.n163 4.2505
+R235 vdd vdd.n137 4.2505
+R236 vdd vdd.n10 4.2505
+R237 vdd vdd.n12 4.2505
+R238 vdd vdd.n14 4.2505
+R239 vdd vdd.n15 4.2505
+R240 vdd vdd.n16 4.2505
+R241 vdd vdd.n17 4.2505
+R242 vdd vdd.n13 4.2505
+R243 vdd vdd.n11 4.2505
+R244 vdd vdd.n136 4.2505
+R245 vdd vdd.n150 4.2505
+R246 vdd vdd.n7 4.2505
+R247 vdd vdd.n5 4.2505
+R248 vdd vdd.n164 4.2505
+R249 vdd vdd.n165 4.2505
+R250 vdd vdd.n1 4.2505
+R251 vdd vdd.n0 4.2505
+R252 vdd.n102 vdd.t2 4.24284
+R253 vdd vdd.n61 4.17673
+R254 vdd vdd.n64 4.17345
+R255 vdd.n100 vdd.t12 3.66163
+R256 vdd.n99 vdd.t14 3.66163
+R257 vdd.n98 vdd.t3 3.66163
+R258 vdd.n106 vdd.t5 3.65027
+R259 vdd.n107 vdd.t7 3.65027
+R260 vdd.n108 vdd.t9 3.65027
+R261 vdd.n104 vdd.t4 3.41448
+R262 vdd vdd.n2 2.72904
+R263 vdd vdd.n8 2.72904
+R264 vdd vdd.n9 2.72904
+R265 vdd vdd.n3 2.72904
+R266 vdd.n98 vdd.n97 2.64187
+R267 vdd.n101 vdd.n100 2.64187
+R268 vdd.n109 vdd.n108 2.64187
+R269 vdd.n106 vdd.n105 2.64187
+R270 vdd.n167 vdd.t20 2.49387
+R271 vdd.n140 vdd.t18 2.49387
+R272 vdd.n148 vdd.t22 2.49387
+R273 vdd.n21 vdd.t24 2.49387
+R274 vdd.n152 vdd.t34 2.49359
+R275 vdd.n159 vdd.t36 2.49359
+R276 vdd.n27 vdd.t38 2.49359
+R277 vdd.n174 vdd.t26 2.49359
+R278 vdd.n167 vdd.t21 1.59828
+R279 vdd.n140 vdd.t19 1.59828
+R280 vdd.n148 vdd.t23 1.59828
+R281 vdd.n21 vdd.t25 1.59828
+R282 vdd.n152 vdd.t35 1.59647
+R283 vdd.n159 vdd.t37 1.59647
+R284 vdd.n27 vdd.t39 1.59647
+R285 vdd.n174 vdd.t27 1.59647
+R286 vdd.n135 vdd.n31 1.47437
+R287 vdd.n119 vdd.n67 1.46751
+R288 vdd.n135 vdd.n134 1.42822
+R289 vdd.n81 vdd.n63 1.40514
+R290 vdd.t4 vdd.n80 1.39864
+R291 vdd.n172 vdd.n171 1.3757
+R292 vdd.n179 vdd.n178 1.37394
+R293 vdd.n119 vdd.n118 1.35046
+R294 vdd.n95 vdd.n63 1.34189
+R295 vdd.n42 vdd.n32 1.3271
+R296 vdd.n128 vdd.n32 1.32637
+R297 vdd.n128 vdd.n127 1.31985
+R298 vdd.n127 vdd.n42 1.3198
+R299 vdd.n82 vdd.t2 1.30726
+R300 vdd.n38 vdd.t28 1.27634
+R301 vdd.n124 vdd.t31 1.27634
+R302 vdd vdd.n172 1.07225
+R303 vdd.n179 vdd 1.05952
+R304 vdd.n123 vdd.t1 1.0126
+R305 vdd.n37 vdd.t0 1.0126
+R306 vdd.n123 vdd.t33 1.0005
+R307 vdd.n125 vdd.t32 1.0005
+R308 vdd.n39 vdd.t30 1.0005
+R309 vdd.n37 vdd.t29 1.0005
+R310 vdd vdd.n25 0.97692
+R311 vdd.n133 vdd.n25 0.91815
+R312 vdd.n25 vdd.n24 0.828647
+R313 vdd.n173 vdd.n2 0.429065
+R314 vdd.n160 vdd.n8 0.429065
+R315 vdd.n138 vdd.n3 0.428814
+R316 vdd.n19 vdd.n9 0.428814
+R317 vdd.n146 vdd.n9 0.428708
+R318 vdd.n169 vdd.n3 0.428708
+R319 vdd.n151 vdd.n2 0.428457
+R320 vdd.n26 vdd.n8 0.428457
+R321 vdd.n99 vdd.n98 0.391868
+R322 vdd.n100 vdd.n99 0.391868
+R323 vdd.n108 vdd.n107 0.391868
+R324 vdd.n107 vdd.n106 0.391868
+R325 vdd.n116 vdd.n61 0.374532
+R326 vdd.n81 vdd.n64 0.351441
+R327 vdd.n66 vdd.n65 0.241261
+R328 vdd.n168 vdd.n167 0.233677
+R329 vdd.n141 vdd.n140 0.233677
+R330 vdd.n149 vdd.n148 0.233677
+R331 vdd.n22 vdd.n21 0.233677
+R332 vdd.n153 vdd.n152 0.233262
+R333 vdd.n162 vdd.n159 0.233262
+R334 vdd.n28 vdd.n27 0.233262
+R335 vdd.n175 vdd.n174 0.233262
+R336 vdd.n64 vdd.n47 0.219189
+R337 vdd.n85 vdd.n61 0.182116
+R338 vdd.n144 vdd.n143 0.169167
+R339 vdd.n157 vdd.n156 0.169167
+R340 vdd vdd.n172 0.155412
+R341 vdd vdd.n179 0.155005
+R342 vdd vdd.n128 0.147642
+R343 vdd vdd.n42 0.147624
+R344 vdd.n67 vdd.n66 0.121109
+R345 vdd.n105 vdd.n80 0.104741
+R346 vdd.n101 vdd.n82 0.0788729
+R347 vdd.n122 vdd.n121 0.0760333
+R348 vdd.n131 vdd.n130 0.0760333
+R349 vdd vdd.n135 0.062906
+R350 vdd.n117 vdd.n116 0.0567375
+R351 vdd.n171 vdd.n170 0.0536667
+R352 vdd.n24 vdd.n23 0.0536667
+R353 vdd.n31 vdd.n30 0.0536667
+R354 vdd.n178 vdd.n177 0.0536667
+R355 vdd.n102 vdd.n101 0.0462511
+R356 vdd.n80 vdd.n67 0.0448307
+R357 vdd.n147 vdd.n144 0.0426667
+R358 vdd.n143 vdd.n142 0.0426667
+R359 vdd.n161 vdd.n157 0.0426667
+R360 vdd.n156 vdd.n155 0.0426667
+R361 vdd.n125 vdd.n124 0.0314833
+R362 vdd.n124 vdd.n123 0.0314833
+R363 vdd.n38 vdd.n37 0.0314833
+R364 vdd.n39 vdd.n38 0.0314833
+R365 vdd.n126 vdd.n125 0.02855
+R366 vdd.n40 vdd.n39 0.02855
+R367 vdd vdd.n119 0.0263768
+R368 vdd.n94 vdd.n58 0.0255332
+R369 vdd.n82 vdd.n81 0.025466
+R370 vdd.n95 vdd.n58 0.0253303
+R371 vdd.n94 vdd.n93 0.0251424
+R372 vdd.n91 vdd.n90 0.0244501
+R373 vdd.n142 vdd.n138 0.0243333
+R374 vdd.n147 vdd.n146 0.0243333
+R375 vdd.n155 vdd.n151 0.0243333
+R376 vdd.n161 vdd.n160 0.0243333
+R377 vdd.n65 vdd.n47 0.0236
+R378 vdd.n134 vdd.n133 0.0236
+R379 vdd.n96 vdd.n84 0.0235551
+R380 vdd.n86 vdd.n85 0.0233043
+R381 vdd.n115 vdd.n114 0.0230181
+R382 vdd vdd.n63 0.0229941
+R383 vdd.n76 vdd.n75 0.0219438
+R384 vdd.n72 vdd.n71 0.0216571
+R385 vdd.n109 vdd.n79 0.0208696
+R386 vdd.n71 vdd.n70 0.0208455
+R387 vdd.n118 vdd.n68 0.0207621
+R388 vdd.n103 vdd.n102 0.0196201
+R389 vdd.n75 vdd.n74 0.0195806
+R390 vdd.n114 vdd.n113 0.0185063
+R391 vdd.n90 vdd.n89 0.0180525
+R392 vdd.n170 vdd.n166 0.0155806
+R393 vdd.n170 vdd.n168 0.0155806
+R394 vdd.n142 vdd.n139 0.0155806
+R395 vdd.n142 vdd.n141 0.0155806
+R396 vdd.n147 vdd.n145 0.0155806
+R397 vdd.n149 vdd.n147 0.0155806
+R398 vdd.n23 vdd.n20 0.0155806
+R399 vdd.n23 vdd.n22 0.0155806
+R400 vdd.n155 vdd.n153 0.0155806
+R401 vdd.n155 vdd.n154 0.0155806
+R402 vdd.n162 vdd.n161 0.0155806
+R403 vdd.n161 vdd.n158 0.0155806
+R404 vdd.n30 vdd.n28 0.0155806
+R405 vdd.n30 vdd.n29 0.0155806
+R406 vdd.n177 vdd.n175 0.0155806
+R407 vdd.n177 vdd.n176 0.0155806
+R408 vdd.n105 vdd.n104 0.0153985
+R409 vdd.n89 vdd.n88 0.0146797
+R410 vdd.n170 vdd.n169 0.0133333
+R411 vdd.n23 vdd.n19 0.0133333
+R412 vdd.n177 vdd.n173 0.0133333
+R413 vdd.n30 vdd.n26 0.0133333
+R414 vdd.n78 vdd.n77 0.0129609
+R415 vdd.n70 vdd.n69 0.0118867
+R416 vdd.n79 vdd.n78 0.0114165
+R417 vdd.n73 vdd.n72 0.0108125
+R418 vdd.n97 vdd.n83 0.00973828
+R419 vdd.n112 vdd.n111 0.00973828
+R420 vdd.n87 vdd.n86 0.00909375
+R421 vdd.n97 vdd.n96 0.00873086
+R422 vdd.n92 vdd.n91 0.00801953
+R423 vdd.n93 vdd.n92 0.00758984
+R424 vdd.n111 vdd.n110 0.00673047
+R425 vdd.n87 vdd.n83 0.00651562
+R426 vdd.n113 vdd.n112 0.00587109
+R427 vdd.n74 vdd.n73 0.00479688
+R428 vdd.n69 vdd.n68 0.00372266
+R429 vdd.n104 vdd.n103 0.00368049
+R430 vdd.n52 vdd.n47 0.00361667
+R431 vdd.n121 vdd.n47 0.00361667
+R432 vdd.n127 vdd.n122 0.00361667
+R433 vdd.n127 vdd.n126 0.00361667
+R434 vdd.n40 vdd.n32 0.00361667
+R435 vdd.n130 vdd.n32 0.00361667
+R436 vdd.n134 vdd.n131 0.00361667
+R437 vdd.n134 vdd.n132 0.00361667
+R438 vdd.n110 vdd.n109 0.00350781
+R439 vdd.n77 vdd.n76 0.00264844
+R440 vdd.n103 vdd.n52 0.00196667
+R441 vdd.n117 vdd.n115 0.00135937
+R442 vdd.n88 vdd.n84 0.000929687
+R443 vss.t14 vss.n47 35318.4
+R444 vss.n54 vss.t14 541.49
+R445 vss.n64 vss.t2 51.6668
+R446 vss.n53 vss.t0 51.6668
+R447 vss.n59 vss.t11 38.918
+R448 vss.t7 vss.n2 38.918
+R449 vss.t4 vss.n66 29.5241
+R450 vss.n67 vss.t4 29.5241
+R451 vss.t3 vss.n89 17.0005
+R452 vss.n90 vss.t3 17.0005
+R453 vss vss.n101 17.0005
+R454 vss vss.n101 17.0005
+R455 vss.n42 vss.t5 17.0005
+R456 vss.t5 vss.n39 17.0005
+R457 vss.t5 vss.n38 17.0005
+R458 vss.t5 vss.n37 17.0005
+R459 vss.t5 vss.n36 17.0005
+R460 vss.t5 vss.n35 17.0005
+R461 vss.t5 vss.n34 17.0005
+R462 vss.t5 vss.n33 17.0005
+R463 vss.t5 vss.n32 17.0005
+R464 vss.t5 vss.n31 17.0005
+R465 vss.t5 vss.n29 17.0005
+R466 vss.n74 vss.t10 15.0005
+R467 vss.n69 vss.n23 12.5021
+R468 vss vss.n50 8.5005
+R469 vss vss.n65 8.5005
+R470 vss vss.n56 8.5005
+R471 vss vss.n98 8.5005
+R472 vss vss.n91 8.5005
+R473 vss vss.n1 8.5005
+R474 vss vss.n5 8.5005
+R475 vss vss.n7 8.5005
+R476 vss vss.n8 8.5005
+R477 vss vss.n10 8.5005
+R478 vss vss.n11 8.5005
+R479 vss vss.n13 8.5005
+R480 vss vss.n14 8.5005
+R481 vss vss.n16 8.5005
+R482 vss vss.n18 8.5005
+R483 vss vss.n19 8.5005
+R484 vss vss.n21 8.5005
+R485 vss vss.n22 8.5005
+R486 vss.t5 vss.n41 8.49575
+R487 vss.t5 vss.n40 8.49575
+R488 vss.t5 vss.n30 8.49575
+R489 vss.t3 vss.n83 8.48523
+R490 vss.t3 vss.n84 8.48523
+R491 vss.t3 vss.n85 8.48523
+R492 vss.t1 vss.n86 8.48523
+R493 vss.t1 vss.n87 8.48523
+R494 vss.t1 vss.n82 8.48523
+R495 vss.n88 vss.t1 8.48502
+R496 vss.n109 vss.n48 7.50573
+R497 vss.t10 vss.n70 7.50125
+R498 vss.n55 vss.n25 7.39262
+R499 vss.t2 vss.n15 7.3814
+R500 vss.t0 vss.n52 7.3814
+R501 vss.n51 vss.n6 7.30006
+R502 vss.n49 vss.n4 7.30006
+R503 vss.n60 vss.n17 7.30006
+R504 vss.n60 vss.n20 7.30004
+R505 vss.n61 vss.n17 7.30004
+R506 vss.n48 vss.n0 7.30004
+R507 vss.n51 vss.n4 7.30004
+R508 vss.t11 vss.n57 6.71041
+R509 vss.n107 vss.t7 6.71041
+R510 vss.t6 vss.n96 5.00183
+R511 vss.t10 vss.n73 5.0005
+R512 vss.n97 vss.t6 5.0005
+R513 vss.n69 vss.n25 4.65594
+R514 vss vss.n57 4.2505
+R515 vss vss.n59 4.2505
+R516 vss vss.n64 4.2505
+R517 vss vss.n66 4.2505
+R518 vss vss.n67 4.2505
+R519 vss vss.n53 4.2505
+R520 vss vss.n52 4.2505
+R521 vss vss.n107 4.2505
+R522 vss vss.n69 4.2505
+R523 vss vss.n2 4.2505
+R524 vss vss.n15 4.2505
+R525 vss vss.n3 4.24617
+R526 vss vss.n24 4.23257
+R527 vss.n107 vss.n0 3.71701
+R528 vss.n59 vss.n20 3.71701
+R529 vss.n49 vss.n2 3.71614
+R530 vss.n52 vss.n6 3.5844
+R531 vss.n67 vss.n9 3.5844
+R532 vss.n64 vss.n12 3.5844
+R533 vss.n61 vss.n15 3.58355
+R534 vss.n53 vss.n9 3.58355
+R535 vss.n66 vss.n12 3.58355
+R536 vss.n57 vss.n23 3.12627
+R537 vss vss.n103 2.80324
+R538 vss vss.n68 2.12002
+R539 vss.n45 vss.t15 2.07225
+R540 vss.n80 vss.n79 2.02103
+R541 vss.n79 vss.n78 1.96892
+R542 vss.n71 vss.t12 1.81499
+R543 vss.n72 vss.t13 1.81499
+R544 vss.n94 vss.t9 1.81499
+R545 vss.n95 vss.t8 1.81499
+R546 vss.n109 vss.n108 1.6711
+R547 vss.n55 vss.n44 1.66412
+R548 vss vss.n63 1.64592
+R549 vss vss.n93 1.35427
+R550 vss.n73 vss.n71 1.2811
+R551 vss.n73 vss.n72 1.2811
+R552 vss.n96 vss.n94 1.2811
+R553 vss.n96 vss.n95 1.2811
+R554 vss.n74 vss.n71 1.27739
+R555 vss.n72 vss.n70 1.27739
+R556 vss.n97 vss.n94 1.27739
+R557 vss.n97 vss.n95 1.27739
+R558 vss vss.n106 1.14516
+R559 vss vss.n54 1.063
+R560 vss vss.n27 1.06036
+R561 vss.n28 vss.t16 1.0174
+R562 vss.n108 vss.n47 1.01619
+R563 vss vss.n81 0.986899
+R564 vss vss.n23 0.900782
+R565 vss vss.n47 0.708833
+R566 vss.n54 vss.n44 0.688961
+R567 vss.n43 vss.n42 0.67514
+R568 vss.n75 vss.n58 0.609547
+R569 vss vss.n46 0.58938
+R570 vss.n102 vss.n100 0.587943
+R571 vss.n43 vss.n28 0.55602
+R572 vss.n45 vss.n26 0.526531
+R573 vss.n100 vss.n99 0.469824
+R574 vss vss.n25 0.43477
+R575 vss.n62 vss.n58 0.430246
+R576 vss.n77 vss.n46 0.4061
+R577 vss.n46 vss.n45 0.394828
+R578 vss.n28 vss.n26 0.369637
+R579 vss vss.n100 0.36645
+R580 vss.n80 vss.n76 0.347868
+R581 vss vss.n58 0.336741
+R582 vss vss.n60 0.33484
+R583 vss vss.n61 0.33484
+R584 vss vss.n48 0.33484
+R585 vss vss.n4 0.33484
+R586 vss vss.n6 0.33484
+R587 vss vss.n9 0.33484
+R588 vss vss.n12 0.33484
+R589 vss vss.n26 0.329737
+R590 vss vss.n51 0.26854
+R591 vss vss.n49 0.26854
+R592 vss vss.n17 0.26854
+R593 vss vss.n20 0.26854
+R594 vss vss.n0 0.26854
+R595 vss.n81 vss.n80 0.225393
+R596 vss.n93 vss.n92 0.217775
+R597 vss.n92 vss.n81 0.212749
+R598 vss.n89 vss.n65 0.199157
+R599 vss.n91 vss.n90 0.199157
+R600 vss.n63 vss.n62 0.189989
+R601 vss.n106 vss.n104 0.189145
+R602 vss.n104 vss.n63 0.187893
+R603 vss.n106 vss.n105 0.183695
+R604 vss.n99 vss.n93 0.15666
+R605 vss.n79 vss.n77 0.121929
+R606 vss.n80 vss.n70 0.117833
+R607 vss.n76 vss.n75 0.117375
+R608 vss.n78 vss.n24 0.116618
+R609 vss.n103 vss.n102 0.107069
+R610 vss.n79 vss.n68 0.101633
+R611 vss.n76 vss.n74 0.089875
+R612 vss.n73 vss.n56 0.0859255
+R613 vss.n96 vss.n50 0.0859255
+R614 vss.n98 vss.n97 0.0859255
+R615 vss vss.n43 0.083298
+R616 vss.n105 vss.n103 0.0745436
+R617 vss vss.n55 0.0713084
+R618 vss.n88 vss.n83 0.0650006
+R619 vss.n86 vss.n84 0.0645917
+R620 vss.n87 vss.n85 0.0645917
+R621 vss.n86 vss.n83 0.0645917
+R622 vss.n87 vss.n84 0.0645917
+R623 vss.n85 vss.n82 0.0645917
+R624 vss.n77 vss.n24 0.058409
+R625 vss.n27 vss 0.0568213
+R626 vss vss.n109 0.0480565
+R627 vss.n89 vss.n88 0.0329548
+R628 vss.n90 vss.n82 0.0325458
+R629 vss.n102 vss.n101 0.0316667
+R630 vss.n104 vss.n65 0.0284104
+R631 vss.n92 vss.n91 0.0284104
+R632 vss.n28 vss.n27 0.0271415
+R633 vss.n108 vss 0.0246808
+R634 vss.n41 vss.n3 0.0235448
+R635 vss.n75 vss.n68 0.0230812
+R636 vss.n40 vss.n3 0.0224071
+R637 vss.n32 vss.n18 0.0214946
+R638 vss.n62 vss.n56 0.0203936
+R639 vss.n105 vss.n50 0.0203936
+R640 vss.n99 vss.n98 0.0203936
+R641 vss.n31 vss.n19 0.0203118
+R642 vss.n29 vss.n21 0.0176505
+R643 vss.n38 vss.n7 0.0176505
+R644 vss.n42 vss.n1 0.0176505
+R645 vss.n34 vss.n14 0.0173548
+R646 vss.n39 vss.n5 0.0167634
+R647 vss.n40 vss.n5 0.0165177
+R648 vss.n33 vss.n16 0.0164677
+R649 vss.n41 vss.n1 0.0156306
+R650 vss.n30 vss.n21 0.0153349
+R651 vss.n36 vss.n11 0.0135108
+R652 vss.n36 vss.n10 0.0135108
+R653 vss.n30 vss.n19 0.0126736
+R654 vss.n37 vss.n8 0.0126237
+R655 vss.n35 vss.n13 0.012328
+R656 vss vss.n44 0.0116925
+R657 vss.n34 vss.n13 0.00966667
+R658 vss.n38 vss.n8 0.00937097
+R659 vss.n35 vss.n11 0.00877957
+R660 vss.n37 vss.n10 0.00848387
+R661 vss.n32 vss.n16 0.00552688
+R662 vss.n33 vss.n14 0.00463978
+R663 vss.n39 vss.n7 0.00434409
+R664 vss.n78 vss.n22 0.00345699
+R665 vss.n29 vss.n22 0.00345699
+R666 vss.n31 vss.n18 0.000795699
+R667 a_n1818_1486.t0 a_n1818_1486.t1 16.4731
+R668 a_n8547_n1107.t1 a_n8547_n1107.n0 5.85323
+R669 a_n8547_n1107.n0 a_n8547_n1107.n1 5.73498
+R670 a_n8547_n1107.n6 a_n8547_n1107.t3 0.642354
+R671 a_n8547_n1107.n6 a_n8547_n1107.t5 0.605473
+R672 a_n8547_n1107.t5 a_n8547_n1107.n7 2.43937
+R673 a_n8547_n1107.n5 a_n8547_n1107.n6 0.19256
+R674 a_n8547_n1107.n5 a_n8547_n1107.n7 0.0594485
+R675 a_n8547_n1107.n7 a_n8547_n1107.t3 2.11971
+R676 a_n8547_n1107.n1 a_n8547_n1107.n5 2.6725
+R677 a_n8547_n1107.n1 a_n8547_n1107.n2 1.95837
+R678 a_n8547_n1107.n3 a_n8547_n1107.t2 0.605473
+R679 a_n8547_n1107.n4 a_n8547_n1107.t2 2.43937
+R680 a_n8547_n1107.t4 a_n8547_n1107.n4 2.11971
+R681 a_n8547_n1107.n3 a_n8547_n1107.t4 0.642355
+R682 a_n8547_n1107.n2 a_n8547_n1107.n4 0.059443
+R683 a_n8547_n1107.n2 a_n8547_n1107.n3 0.192573
+R684 a_n8547_n1107.n0 a_n8547_n1107.t0 16.545
+R685 a_n8547_1983.t3 a_n8547_1983.n3 9.82709
+R686 a_n8547_1983.n3 a_n8547_1983.n2 0.0438714
+R687 a_n8547_1983.n2 a_n8547_1983.n1 0.0438714
+R688 a_n8547_1983.n1 a_n8547_1983.n0 0.0438714
+R689 a_n8547_1983.n0 a_n8547_1983.n11 1.30335
+R690 a_n8547_1983.n11 a_n8547_1983.n10 1.96825
+R691 a_n8547_1983.n11 a_n8547_1983.t2 8.04812
+R692 a_n8547_1983.n10 a_n8547_1983.n7 4.14661
+R693 a_n8547_1983.n8 a_n8547_1983.t0 2.43937
+R694 a_n8547_1983.t5 a_n8547_1983.n8 2.11971
+R695 a_n8547_1983.n9 a_n8547_1983.t5 0.642355
+R696 a_n8547_1983.n7 a_n8547_1983.n8 0.059443
+R697 a_n8547_1983.n7 a_n8547_1983.n9 0.192573
+R698 a_n8547_1983.n9 a_n8547_1983.t0 0.605473
+R699 a_n8547_1983.n10 a_n8547_1983.n4 7.23537
+R700 a_n8547_1983.t1 a_n8547_1983.n5 2.11971
+R701 a_n8547_1983.n6 a_n8547_1983.t1 0.642354
+R702 a_n8547_1983.n6 a_n8547_1983.t4 0.605473
+R703 a_n8547_1983.t4 a_n8547_1983.n5 2.43937
+R704 a_n8547_1983.n4 a_n8547_1983.n6 0.19256
+R705 a_n8547_1983.n4 a_n8547_1983.n5 0.0594485
+R706 a_n8547_1983.n3 a_n8547_1983.t6 5.51487
+R707 a_n8547_1983.n2 a_n8547_1983.t7 5.51487
+R708 a_n8547_1983.n1 a_n8547_1983.t8 5.51487
+R709 a_n8547_1983.n0 a_n8547_1983.t9 5.51487
+R710 a_n9131_n1107.t3 a_n9131_n1107.n1 5.68774
+R711 a_n9131_n1107.t3 a_n9131_n1107.n2 17.0005
+R712 a_n9131_n1107.n6 a_n9131_n1107.n3 0.0236802
+R713 a_n9131_n1107.t3 a_n9131_n1107.n0 1.87823
+R714 a_n9131_n1107.t3 a_n9131_n1107.n5 8.49153
+R715 a_n9131_n1107.t3 a_n9131_n1107.n6 8.48966
+R716 a_n9131_n1107.n4 a_n9131_n1107.n22 0.0199352
+R717 a_n9131_n1107.t2 a_n9131_n1107.n22 8.49153
+R718 a_n9131_n1107.n5 a_n9131_n1107.n23 0.0393704
+R719 a_n9131_n1107.t2 a_n9131_n1107.n23 8.49153
+R720 a_n9131_n1107.n0 a_n9131_n1107.n4 0.116428
+R721 a_n9131_n1107.n22 a_n9131_n1107.n5 0.0393704
+R722 a_n9131_n1107.n0 a_n9131_n1107.t2 2.14202
+R723 a_n9131_n1107.t2 a_n9131_n1107.n3 17.0005
+R724 a_n9131_n1107.t2 a_n9131_n1107.n1 4.23723
+R725 a_n9131_n1107.n23 a_n9131_n1107.n6 0.0431154
+R726 a_n9131_n1107.n3 a_n9131_n1107.n2 0.048122
+R727 a_n9131_n1107.n2 a_n9131_n1107.n1 0.0575693
+R728 a_n9131_n1107.n4 a_n9131_n1107.n21 5.42104
+R729 a_n9131_n1107.n21 a_n9131_n1107.n20 3.49523
+R730 a_n9131_n1107.n21 a_n9131_n1107.n13 2.7494
+R731 a_n9131_n1107.n20 a_n9131_n1107.n17 4.5005
+R732 a_n9131_n1107.n18 a_n9131_n1107.t1 0.940735
+R733 a_n9131_n1107.t1 a_n9131_n1107.n19 1.01167
+R734 a_n9131_n1107.t9 a_n9131_n1107.n18 1.01169
+R735 a_n9131_n1107.n17 a_n9131_n1107.n18 0.132031
+R736 a_n9131_n1107.n17 a_n9131_n1107.n19 0.131731
+R737 a_n9131_n1107.n19 a_n9131_n1107.t9 0.940751
+R738 a_n9131_n1107.n20 a_n9131_n1107.n14 5.19499
+R739 a_n9131_n1107.n15 a_n9131_n1107.t5 0.940735
+R740 a_n9131_n1107.t5 a_n9131_n1107.n16 1.01167
+R741 a_n9131_n1107.t8 a_n9131_n1107.n15 1.01169
+R742 a_n9131_n1107.n14 a_n9131_n1107.n15 0.132031
+R743 a_n9131_n1107.n14 a_n9131_n1107.n16 0.131731
+R744 a_n9131_n1107.n16 a_n9131_n1107.t8 0.940751
+R745 a_n9131_n1107.n13 a_n9131_n1107.n10 4.5005
+R746 a_n9131_n1107.n11 a_n9131_n1107.t4 0.940735
+R747 a_n9131_n1107.t4 a_n9131_n1107.n12 1.01167
+R748 a_n9131_n1107.t7 a_n9131_n1107.n11 1.01169
+R749 a_n9131_n1107.n10 a_n9131_n1107.n11 0.132031
+R750 a_n9131_n1107.n10 a_n9131_n1107.n12 0.131731
+R751 a_n9131_n1107.n12 a_n9131_n1107.t7 0.940751
+R752 a_n9131_n1107.n13 a_n9131_n1107.n7 5.19499
+R753 a_n9131_n1107.n8 a_n9131_n1107.t6 0.940751
+R754 a_n9131_n1107.n9 a_n9131_n1107.t0 0.940735
+R755 a_n9131_n1107.n9 a_n9131_n1107.t6 1.01169
+R756 a_n9131_n1107.t0 a_n9131_n1107.n8 1.01167
+R757 a_n9131_n1107.n7 a_n9131_n1107.n9 0.132031
+R758 a_n9131_n1107.n7 a_n9131_n1107.n8 0.131731
+C7 vout vss 7.95655f
+C8 vinn vss 2.42077f
+C9 vinp vss 2.37807f
+C10 iout vss 5.61916f
+C11 vdd vss 69.97176f
+C12 a_n1818_n1514# vss 2.66076f
+C13 a_n9131_n1107.t3 vss 0.1686f $ **FLOATING
+C14 a_n9131_n1107.n0 vss 0.14794f $ **FLOATING
+C15 a_n9131_n1107.n1 vss 0.05865f $ **FLOATING
+C16 a_n9131_n1107.n2 vss 0.03397f $ **FLOATING
+C17 a_n9131_n1107.n3 vss 0.0235f $ **FLOATING
+C18 a_n9131_n1107.n4 vss 1.51172f $ **FLOATING
+C19 a_n9131_n1107.n5 vss 0.0297f $ **FLOATING
+C20 a_n9131_n1107.n6 vss 0.0132f $ **FLOATING
+C21 a_n9131_n1107.n7 vss 0.57334f $ **FLOATING
+C22 a_n9131_n1107.n8 vss 0.56679f $ **FLOATING
+C23 a_n9131_n1107.n9 vss 0.56666f $ **FLOATING
+C24 a_n9131_n1107.t6 vss 0.38688f $ **FLOATING
+C25 a_n9131_n1107.t0 vss 0.38687f $ **FLOATING
+C26 a_n9131_n1107.n10 vss 0.46763f $ **FLOATING
+C27 a_n9131_n1107.n11 vss 0.56666f $ **FLOATING
+C28 a_n9131_n1107.n12 vss 0.56679f $ **FLOATING
+C29 a_n9131_n1107.t7 vss 0.38688f $ **FLOATING
+C30 a_n9131_n1107.t4 vss 0.38687f $ **FLOATING
+C31 a_n9131_n1107.n13 vss 1.72287f $ **FLOATING
+C32 a_n9131_n1107.n14 vss 0.57334f $ **FLOATING
+C33 a_n9131_n1107.n15 vss 0.56666f $ **FLOATING
+C34 a_n9131_n1107.n16 vss 0.56679f $ **FLOATING
+C35 a_n9131_n1107.t8 vss 0.38688f $ **FLOATING
+C36 a_n9131_n1107.t5 vss 0.38687f $ **FLOATING
+C37 a_n9131_n1107.n17 vss 0.46763f $ **FLOATING
+C38 a_n9131_n1107.n18 vss 0.56666f $ **FLOATING
+C39 a_n9131_n1107.n19 vss 0.56679f $ **FLOATING
+C40 a_n9131_n1107.t9 vss 0.38688f $ **FLOATING
+C41 a_n9131_n1107.t1 vss 0.38687f $ **FLOATING
+C42 a_n9131_n1107.n20 vss 1.81396f $ **FLOATING
+C43 a_n9131_n1107.n21 vss 1.94244f $ **FLOATING
+C44 a_n9131_n1107.n22 vss 0.01485f $ **FLOATING
+C45 a_n9131_n1107.n23 vss 0.03059f $ **FLOATING
+C46 a_n9131_n1107.t2 vss 0.16942f $ **FLOATING
+C47 a_n8547_1983.t3 vss 0.31652f $ **FLOATING
+C48 a_n8547_1983.t9 vss 0.53061f $ **FLOATING
+C49 a_n8547_1983.n0 vss 0.60682f $ **FLOATING
+C50 a_n8547_1983.t8 vss 0.53061f $ **FLOATING
+C51 a_n8547_1983.n1 vss 0.34468f $ **FLOATING
+C52 a_n8547_1983.t7 vss 0.53061f $ **FLOATING
+C53 a_n8547_1983.n2 vss 0.34468f $ **FLOATING
+C54 a_n8547_1983.t6 vss 0.53061f $ **FLOATING
+C55 a_n8547_1983.n3 vss 1.19057f $ **FLOATING
+C56 a_n8547_1983.n4 vss 1.74006f $ **FLOATING
+C57 a_n8547_1983.n5 vss 0.23393f $ **FLOATING
+C58 a_n8547_1983.n6 vss 0.72625f $ **FLOATING
+C59 a_n8547_1983.t1 vss 0.39493f $ **FLOATING
+C60 a_n8547_1983.t4 vss 0.38728f $ **FLOATING
+C61 a_n8547_1983.n7 vss 1.39086f $ **FLOATING
+C62 a_n8547_1983.n8 vss 0.23335f $ **FLOATING
+C63 a_n8547_1983.n9 vss 0.72669f $ **FLOATING
+C64 a_n8547_1983.t0 vss 0.38735f $ **FLOATING
+C65 a_n8547_1983.t5 vss 0.39501f $ **FLOATING
+C66 a_n8547_1983.n10 vss 1.93382f $ **FLOATING
+C67 a_n8547_1983.t2 vss 0.22633f $ **FLOATING
+C68 a_n8547_1983.n11 vss 1.29273f $ **FLOATING
+C69 a_n8547_n1107.t1 vss 0.18561f $ **FLOATING
+C70 a_n8547_n1107.t0 vss 0.95522f $ **FLOATING
+C71 a_n8547_n1107.n0 vss 1.47578f $ **FLOATING
+C72 a_n8547_n1107.n1 vss 4.40584f $ **FLOATING
+C73 a_n8547_n1107.n2 vss 1.07817f $ **FLOATING
+C74 a_n8547_n1107.n3 vss 1.12854f $ **FLOATING
+C75 a_n8547_n1107.n4 vss 0.36238f $ **FLOATING
+C76 a_n8547_n1107.t2 vss 0.60156f $ **FLOATING
+C77 a_n8547_n1107.t4 vss 0.61345f $ **FLOATING
+C78 a_n8547_n1107.n5 vss 1.49861f $ **FLOATING
+C79 a_n8547_n1107.n6 vss 1.12786f $ **FLOATING
+C80 a_n8547_n1107.n7 vss 0.3633f $ **FLOATING
+C81 a_n8547_n1107.t3 vss 0.61332f $ **FLOATING
+C82 a_n8547_n1107.t5 vss 0.60144f $ **FLOATING
+C83 a_n1818_1486.t0 vss 0.02457f $ **FLOATING
+C84 a_n1818_1486.t1 vss 2.56537f $ **FLOATING
+C85 vdd.n0 vss 0.01958f $ **FLOATING
+C86 vdd.n1 vss 0.01958f $ **FLOATING
+C87 vdd.n2 vss 0.05233f $ **FLOATING
+C88 vdd.n3 vss 0.05233f $ **FLOATING
+C89 vdd.n4 vss 0.01958f $ **FLOATING
+C90 vdd.n5 vss 0.01958f $ **FLOATING
+C91 vdd.n6 vss 0.01958f $ **FLOATING
+C92 vdd.n7 vss 0.01958f $ **FLOATING
+C93 vdd.n8 vss 0.05233f $ **FLOATING
+C94 vdd.n9 vss 0.05233f $ **FLOATING
+C95 vdd.n10 vss 0.01958f $ **FLOATING
+C96 vdd.n11 vss 0.01958f $ **FLOATING
+C97 vdd.n12 vss 0.01958f $ **FLOATING
+C98 vdd.n13 vss 0.01958f $ **FLOATING
+C99 vdd.n14 vss 0.01958f $ **FLOATING
+C100 vdd.n15 vss 0.01958f $ **FLOATING
+C101 vdd.n16 vss 0.01958f $ **FLOATING
+C102 vdd.n17 vss 0.01958f $ **FLOATING
+C103 vdd.n18 vss 0.01958f $ **FLOATING
+C104 vdd.n19 vss 0.0346f $ **FLOATING
+C105 vdd.t24 vss 0.40644f $ **FLOATING
+C106 vdd.t25 vss 0.21177f $ **FLOATING
+C107 vdd.n21 vss 0.09953f $ **FLOATING
+C108 vdd.n22 vss 0.05607f $ **FLOATING
+C109 vdd.n23 vss 0.01026f $ **FLOATING
+C110 vdd.n24 vss 0.07973f $ **FLOATING
+C111 vdd.n25 vss 0.10093f $ **FLOATING
+C112 vdd.n26 vss 0.03461f $ **FLOATING
+C113 vdd.t39 vss 0.21173f $ **FLOATING
+C114 vdd.t38 vss 0.40644f $ **FLOATING
+C115 vdd.n27 vss 0.09966f $ **FLOATING
+C116 vdd.n28 vss 0.05597f $ **FLOATING
+C117 vdd.n30 vss 0.01026f $ **FLOATING
+C118 vdd.n31 vss 0.17123f $ **FLOATING
+C119 vdd.n32 vss 0.33452f $ **FLOATING
+C120 vdd.n33 vss 0.01958f $ **FLOATING
+C121 vdd.n34 vss 0.01958f $ **FLOATING
+C122 vdd.n35 vss 0.01958f $ **FLOATING
+C123 vdd.n36 vss 0.01958f $ **FLOATING
+C124 vdd.t28 vss 0.65369f $ **FLOATING
+C125 vdd.t0 vss 0.06661f $ **FLOATING
+C126 vdd.t29 vss 0.06566f $ **FLOATING
+C127 vdd.n37 vss 0.30516f $ **FLOATING
+C128 vdd.n38 vss 0.3772f $ **FLOATING
+C129 vdd.t30 vss 0.06566f $ **FLOATING
+C130 vdd.n39 vss 0.31093f $ **FLOATING
+C131 vdd.n40 vss 0.16416f $ **FLOATING
+C132 vdd.n41 vss 0.01958f $ **FLOATING
+C133 vdd.n42 vss 0.30582f $ **FLOATING
+C134 vdd.n43 vss 0.01958f $ **FLOATING
+C135 vdd.n44 vss 0.01958f $ **FLOATING
+C136 vdd.n45 vss 0.01958f $ **FLOATING
+C137 vdd.n46 vss 0.01958f $ **FLOATING
+C138 vdd.n47 vss 0.05126f $ **FLOATING
+C139 vdd.n48 vss 0.01958f $ **FLOATING
+C140 vdd.n49 vss 0.01958f $ **FLOATING
+C141 vdd.n50 vss 0.01958f $ **FLOATING
+C142 vdd.n51 vss 0.01958f $ **FLOATING
+C143 vdd.n52 vss 0.02414f $ **FLOATING
+C144 vdd.n53 vss 0.01958f $ **FLOATING
+C145 vdd.n54 vss 0.01958f $ **FLOATING
+C146 vdd.n55 vss 0.01958f $ **FLOATING
+C147 vdd.n56 vss 0.01958f $ **FLOATING
+C148 vdd.n57 vss 0.01958f $ **FLOATING
+C149 vdd.n58 vss 0.06151f $ **FLOATING
+C150 vdd.n59 vss 0.01958f $ **FLOATING
+C151 vdd.n60 vss 0.01958f $ **FLOATING
+C152 vdd.n61 vss 0.02703f $ **FLOATING
+C153 vdd.n62 vss 0.01958f $ **FLOATING
+C154 vdd.n63 vss 0.62187f $ **FLOATING
+C155 vdd.n64 vss 0.02491f $ **FLOATING
+C156 vdd.n66 vss 0.02227f $ **FLOATING
+C157 vdd.n67 vss 0.35182f $ **FLOATING
+C158 vdd.n68 vss 0.02534f $ **FLOATING
+C159 vdd.n69 vss 0.01401f $ **FLOATING
+C160 vdd.n70 vss 0.03741f $ **FLOATING
+C161 vdd.n71 vss 0.02181f $ **FLOATING
+C162 vdd.n72 vss 0.0374f $ **FLOATING
+C163 vdd.n73 vss 0.01401f $ **FLOATING
+C164 vdd.n74 vss 0.02533f $ **FLOATING
+C165 vdd.n75 vss 0.03145f $ **FLOATING
+C166 vdd.n76 vss 0.02521f $ **FLOATING
+C167 vdd.n77 vss 0.01401f $ **FLOATING
+C168 vdd.n78 vss 0.0275f $ **FLOATING
+C169 vdd.n79 vss 0.02028f $ **FLOATING
+C170 vdd.n80 vss 0.04495f $ **FLOATING
+C171 vdd.t2 vss 0.06914f $ **FLOATING
+C172 vdd.n81 vss 0.41021f $ **FLOATING
+C173 vdd.n82 vss 0.02181f $ **FLOATING
+C174 vdd.n83 vss 0.01463f $ **FLOATING
+C175 vdd.n84 vss 0.025f $ **FLOATING
+C176 vdd.n85 vss 0.06798f $ **FLOATING
+C177 vdd.n86 vss 0.03681f $ **FLOATING
+C178 vdd.n87 vss 0.01401f $ **FLOATING
+C179 vdd.n88 vss 0.01401f $ **FLOATING
+C180 vdd.n89 vss 0.03852f $ **FLOATING
+C181 vdd.n90 vss 0.02154f $ **FLOATING
+C182 vdd.n91 vss 0.03656f $ **FLOATING
+C183 vdd.n92 vss 0.01401f $ **FLOATING
+C184 vdd.n93 vss 0.03619f $ **FLOATING
+C185 vdd.n94 vss 0.034f $ **FLOATING
+C186 vdd.n95 vss 0.25101f $ **FLOATING
+C187 vdd.t17 vss 0.06566f $ **FLOATING
+C188 vdd.n96 vss 0.01868f $ **FLOATING
+C189 vdd.n97 vss 0.04769f $ **FLOATING
+C190 vdd.t3 vss 0.0974f $ **FLOATING
+C191 vdd.n98 vss 0.48511f $ **FLOATING
+C192 vdd.t14 vss 0.0974f $ **FLOATING
+C193 vdd.n99 vss 0.34008f $ **FLOATING
+C194 vdd.t12 vss 0.0974f $ **FLOATING
+C195 vdd.n100 vss 0.48511f $ **FLOATING
+C196 vdd.n101 vss 0.11149f $ **FLOATING
+C197 vdd.n102 vss 0.02352f $ **FLOATING
+C198 vdd.n103 vss 0.1474f $ **FLOATING
+C199 vdd.t4 vss 0.06714f $ **FLOATING
+C200 vdd.n105 vss 0.11069f $ **FLOATING
+C201 vdd.t5 vss 0.09737f $ **FLOATING
+C202 vdd.n106 vss 0.48513f $ **FLOATING
+C203 vdd.t7 vss 0.09737f $ **FLOATING
+C204 vdd.n107 vss 0.3401f $ **FLOATING
+C205 vdd.t9 vss 0.09737f $ **FLOATING
+C206 vdd.n108 vss 0.48513f $ **FLOATING
+C207 vdd.n109 vss 0.04915f $ **FLOATING
+C208 vdd.n111 vss 0.01483f $ **FLOATING
+C209 vdd.n112 vss 0.01401f $ **FLOATING
+C210 vdd.n113 vss 0.0255f $ **FLOATING
+C211 vdd.n114 vss 0.0314f $ **FLOATING
+C212 vdd.n115 vss 0.02488f $ **FLOATING
+C213 vdd.n116 vss 0.02126f $ **FLOATING
+C214 vdd.t11 vss 0.06566f $ **FLOATING
+C215 vdd.n118 vss 0.24066f $ **FLOATING
+C216 vdd.n119 vss 0.60079f $ **FLOATING
+C217 vdd.n120 vss 0.01958f $ **FLOATING
+C218 vdd.n121 vss 0.41426f $ **FLOATING
+C219 vdd.n122 vss 0.41426f $ **FLOATING
+C220 vdd.t31 vss 0.65369f $ **FLOATING
+C221 vdd.t1 vss 0.06661f $ **FLOATING
+C222 vdd.t33 vss 0.06566f $ **FLOATING
+C223 vdd.n123 vss 0.30516f $ **FLOATING
+C224 vdd.n124 vss 0.3772f $ **FLOATING
+C225 vdd.t32 vss 0.06566f $ **FLOATING
+C226 vdd.n125 vss 0.31093f $ **FLOATING
+C227 vdd.n126 vss 0.16416f $ **FLOATING
+C228 vdd.n127 vss 0.33393f $ **FLOATING
+C229 vdd.n128 vss 0.30576f $ **FLOATING
+C230 vdd.n129 vss 0.01958f $ **FLOATING
+C231 vdd.n130 vss 0.41426f $ **FLOATING
+C232 vdd.n131 vss 0.41426f $ **FLOATING
+C233 vdd.n132 vss 0.03187f $ **FLOATING
+C234 vdd.n133 vss 0.06407f $ **FLOATING
+C235 vdd.n134 vss 0.18108f $ **FLOATING
+C236 vdd.n135 vss 0.36494f $ **FLOATING
+C237 vdd.n136 vss 0.01958f $ **FLOATING
+C238 vdd.n137 vss 0.01958f $ **FLOATING
+C239 vdd.n138 vss 0.03518f $ **FLOATING
+C240 vdd.t18 vss 0.40644f $ **FLOATING
+C241 vdd.t19 vss 0.21177f $ **FLOATING
+C242 vdd.n140 vss 0.09953f $ **FLOATING
+C243 vdd.n141 vss 0.05607f $ **FLOATING
+C244 vdd.n142 vss 0.01026f $ **FLOATING
+C245 vdd.n143 vss 0.0111f $ **FLOATING
+C246 vdd.n144 vss 0.0111f $ **FLOATING
+C247 vdd.n146 vss 0.03519f $ **FLOATING
+C248 vdd.n147 vss 0.01026f $ **FLOATING
+C249 vdd.t22 vss 0.40644f $ **FLOATING
+C250 vdd.t23 vss 0.21177f $ **FLOATING
+C251 vdd.n148 vss 0.09953f $ **FLOATING
+C252 vdd.n149 vss 0.05607f $ **FLOATING
+C253 vdd.n150 vss 0.01958f $ **FLOATING
+C254 vdd.n151 vss 0.03519f $ **FLOATING
+C255 vdd.t35 vss 0.21173f $ **FLOATING
+C256 vdd.t34 vss 0.40644f $ **FLOATING
+C257 vdd.n152 vss 0.09966f $ **FLOATING
+C258 vdd.n153 vss 0.05597f $ **FLOATING
+C259 vdd.n155 vss 0.01026f $ **FLOATING
+C260 vdd.n156 vss 0.0111f $ **FLOATING
+C261 vdd.n157 vss 0.0111f $ **FLOATING
+C262 vdd.t37 vss 0.21173f $ **FLOATING
+C263 vdd.t36 vss 0.40644f $ **FLOATING
+C264 vdd.n159 vss 0.09966f $ **FLOATING
+C265 vdd.n160 vss 0.03519f $ **FLOATING
+C266 vdd.n161 vss 0.01026f $ **FLOATING
+C267 vdd.n162 vss 0.05597f $ **FLOATING
+C268 vdd.n163 vss 0.01958f $ **FLOATING
+C269 vdd.n164 vss 0.01958f $ **FLOATING
+C270 vdd.n165 vss 0.01958f $ **FLOATING
+C271 vdd.t20 vss 0.40644f $ **FLOATING
+C272 vdd.t21 vss 0.21177f $ **FLOATING
+C273 vdd.n167 vss 0.09953f $ **FLOATING
+C274 vdd.n168 vss 0.05607f $ **FLOATING
+C275 vdd.n169 vss 0.03462f $ **FLOATING
+C276 vdd.n170 vss 0.01026f $ **FLOATING
+C277 vdd.n171 vss 0.15111f $ **FLOATING
+C278 vdd.n172 vss 0.23015f $ **FLOATING
+C279 vdd.n173 vss 0.03461f $ **FLOATING
+C280 vdd.t27 vss 0.21173f $ **FLOATING
+C281 vdd.t26 vss 0.40644f $ **FLOATING
+C282 vdd.n174 vss 0.09966f $ **FLOATING
+C283 vdd.n175 vss 0.05597f $ **FLOATING
+C284 vdd.n177 vss 0.01026f $ **FLOATING
+C285 vdd.n178 vss 0.15096f $ **FLOATING
+C286 vdd.n179 vss 0.22291f $ **FLOATING
+C287 iout.t20 vss 4.56453f $ **FLOATING
+C288 iout.t1 vss 0.33609f $ **FLOATING
+C289 iout.n0 vss 0.29887f $ **FLOATING
+C290 iout.t19 vss 1.88995f $ **FLOATING
+C291 iout.n1 vss 0.20163f $ **FLOATING
+C292 iout.n2 vss 0.51514f $ **FLOATING
+C293 iout.t16 vss 1.88995f $ **FLOATING
+C294 iout.n3 vss 0.30359f $ **FLOATING
+C295 iout.t12 vss 1.88995f $ **FLOATING
+C296 iout.n4 vss 0.33415f $ **FLOATING
+C297 iout.t10 vss 1.87177f $ **FLOATING
+C298 iout.n5 vss 0.91605f $ **FLOATING
+C299 iout.t7 vss 0.33609f $ **FLOATING
+C300 iout.n6 vss 0.77332f $ **FLOATING
+C301 iout.t13 vss 1.88995f $ **FLOATING
+C302 iout.n7 vss 0.28996f $ **FLOATING
+C303 iout.t6 vss 1.87177f $ **FLOATING
+C304 iout.n8 vss 0.9036f $ **FLOATING
+C305 iout.n9 vss 0.51514f $ **FLOATING
+C306 iout.t5 vss 0.33609f $ **FLOATING
+C307 iout.n10 vss 0.29887f $ **FLOATING
+C308 iout.n11 vss 0.51514f $ **FLOATING
+C309 iout.t4 vss 1.87177f $ **FLOATING
+C310 iout.n12 vss 0.9036f $ **FLOATING
+C311 iout.t14 vss 1.88995f $ **FLOATING
+C312 iout.n13 vss 0.28996f $ **FLOATING
+C313 iout.n14 vss 0.20163f $ **FLOATING
+C314 iout.t9 vss 1.87177f $ **FLOATING
+C315 iout.n15 vss 0.9036f $ **FLOATING
+C316 iout.t15 vss 1.88995f $ **FLOATING
+C317 iout.n16 vss 0.28996f $ **FLOATING
+C318 iout.n17 vss 0.20163f $ **FLOATING
+C319 iout.n18 vss 0.20163f $ **FLOATING
+C320 iout.n19 vss 0.28996f $ **FLOATING
+C321 iout.t8 vss 1.87177f $ **FLOATING
+C322 iout.n20 vss 0.9036f $ **FLOATING
+C323 iout.n21 vss 0.51514f $ **FLOATING
+C324 iout.t3 vss 0.33609f $ **FLOATING
+C325 iout.n22 vss 0.29887f $ **FLOATING
+C326 iout.t17 vss 1.88995f $ **FLOATING
+C327 iout.n23 vss 0.28996f $ **FLOATING
+C328 iout.t2 vss 1.87177f $ **FLOATING
+C329 iout.n24 vss 0.9036f $ **FLOATING
+C330 iout.n25 vss 0.51514f $ **FLOATING
+C331 iout.n26 vss 0.51514f $ **FLOATING
+C332 iout.t0 vss 1.87177f $ **FLOATING
+C333 iout.n27 vss 0.9036f $ **FLOATING
+C334 iout.t18 vss 1.88995f $ **FLOATING
+C335 iout.n28 vss 0.28996f $ **FLOATING
+C336 iout.n29 vss 0.30359f $ **FLOATING
+C337 iout.n30 vss 0.33415f $ **FLOATING
+C338 iout.t11 vss 1.87177f $ **FLOATING
+C339 iout.n31 vss 0.9036f $ **FLOATING
+C340 iout.n32 vss 2.45352f $ **FLOATING
+C341 iout.n33 vss 1.49017f $ **FLOATING
+C342 vinp.t1 vss 2.13955f $ **FLOATING
+C343 vinp.t0 vss 2.73851f $ **FLOATING
+C344 vinp.n0 vss 2.38046f $ **FLOATING
+C345 vinn.t0 vss 2.84149f $ **FLOATING
+C346 vinn.t1 vss 1.97887f $ **FLOATING
+C347 vinn.n0 vss 2.34163f $ **FLOATING
+C348 vout.t5 vss 0.16034f $ **FLOATING
+C349 vout.t0 vss 0.14071f $ **FLOATING
+C350 vout.n0 vss 0.84964f $ **FLOATING
+C351 vout.t1 vss 0.14071f $ **FLOATING
+C352 vout.n1 vss 0.44054f $ **FLOATING
+C353 vout.t2 vss 0.14071f $ **FLOATING
+C354 vout.n2 vss 0.68181f $ **FLOATING
+C355 vout.t6 vss 0.12321f $ **FLOATING
+C356 vout.t4 vss 0.12321f $ **FLOATING
+C357 vout.n3 vss 0.53104f $ **FLOATING
+C358 vout.t3 vss 1.95086f $ **FLOATING
+C359 vout.n4 vss 1.4534f $ **FLOATING
+C360 vout.n5 vss 0.74096f $ **FLOATING
+.ends
+

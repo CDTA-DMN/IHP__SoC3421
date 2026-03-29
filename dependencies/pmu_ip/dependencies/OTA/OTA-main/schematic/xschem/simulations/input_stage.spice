@@ -1,0 +1,9 @@
+** sch_path: /foss/designs/ota/sch/input_stage.sch
+.subckt input_stage vss vdd dn4 dn3 dn2 iout
+*.PININFO vss:B vdd:B dn4:B dn3:B dn2:B iout:B
+M7 dn2 iout vdd bulk1 sg13_lv_pmos w=6u l=3u ng=1 m=2
+R2 vss sub! ptap1 A=17.0352e-12 P=43.688e-06
+R3 vdd bulk1 ntap1 A=20.6856e-12 P=0.10608e-03
+M1 vss dn3 dn3 sub! sg13_lv_nmos w=3u l=1u ng=1 m=1
+M2 vss dn3 dn4 sub! sg13_lv_nmos w=3u l=1u ng=1 m=1
+.ends

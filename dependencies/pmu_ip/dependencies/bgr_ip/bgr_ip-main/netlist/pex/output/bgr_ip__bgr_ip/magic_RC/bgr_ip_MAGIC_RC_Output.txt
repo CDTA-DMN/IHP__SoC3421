@@ -1,0 +1,188 @@
+
+Magic 8.3 revision 603 - Compiled on Sat Feb 14 01:20:09 AM CET 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology ihp-sg13g2 ...
+2 Magic internal units = 1 Lambda
+Input style sg13g2(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    pblock sealcont difffill nemitter hvnemitter hvisodiffres sealvia1 sealvia2 sealvia3 sealvia4 sealvia5 sealvia6 pillar solder seal glass thruvia inductor 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading ihp-sg13g2 Device Generator Menu ...
+Loading "output/bgr_ip__bgr_ip/magic_RC/bgr_ip_MAGIC_RC_Script.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "$$$CONTEXT_INFO$$$".
+Error while reading cell "$$$CONTEXT_INFO$$$" (byte position 128): Unknown layer/datatype in boundary, layer=0 type=0
+Reading "via_stack$63".
+Reading "via_stack$66".
+Reading "via_stack$64".
+Reading "via_stack$65".
+Reading "via_stack$32".
+Reading "via_stack$33".
+Reading "nmosHV".
+Reading "via_stack$12".
+Reading "via_stack$11".
+Reading "via_stack$10".
+Reading "via_stack$9".
+Reading "via_stack$8".
+Reading "ptap1".
+Moving label "sub!" from space to ptapdiff in cell ptap1.
+Reading "via_stack$7".
+Reading "via_stack$6".
+Reading "via_stack$5".
+Reading "via_stack$4".
+Reading "via_stack$3".
+Reading "via_stack$2".
+Reading "via_stack$1".
+Reading "via_stack".
+Reading "pmosHV".
+Reading "ntap1".
+Reading "via_stack$13".
+Reading "via_stack$14".
+Reading "via_stack$15".
+Reading "via_stack$16".
+Reading "via_stack$17".
+Reading "via_stack$21".
+Reading "rppd".
+Reading "cmim".
+Reading "via_stack$23".
+Reading "via_stack$18".
+Reading "via_stack$19".
+Reading "via_stack$20".
+Reading "via_stack$24".
+Reading "via_stack$26".
+Reading "via_stack$28".
+Reading "via_stack$29".
+Reading "via_stack$31".
+Reading "via_stack$30".
+Reading "pmosHV$3".
+Reading "pmosHV$2".
+Reading "nmosHV$1".
+Reading "via_stack$35".
+Reading "via_stack$34".
+Reading "via_stack$36".
+Reading "via_stack$37".
+Reading "pmosHV$4".
+Reading "via_stack$38".
+Reading "ntap1$1".
+Reading "via_stack$39".
+Reading "via_stack$40".
+Reading "via_stack$41".
+Reading "rppd$1".
+Reading "cmim$1".
+Reading "via_stack$42".
+Reading "via_stack$43".
+Reading "via_stack$44".
+Reading "via_stack$45".
+Reading "pmosHV$5".
+Reading "via_stack$46".
+Reading "via_stack$47".
+Reading "via_stack$48".
+Reading "via_stack$49".
+Reading "via_stack$50".
+Reading "nmosHV$2".
+Reading "ptap1$1".
+Moving label "sub!" from space to ptapdiff in cell ptap1$1.
+Reading "via_stack$51".
+Reading "via_stack$52".
+Reading "via_stack$53".
+Reading "nmosHV$3".
+Reading "guard_ring".
+Reading "via_stack$54".
+Reading "via_stack$55".
+Reading "via_stack$57".
+Reading "via_stack$58".
+Reading "via_stack$59".
+Reading "via_stack$56".
+Reading "via_stack$60".
+Reading "via_stack$61".
+Reading "bgr_ip".
+Error while reading cell "bgr_ip" (byte position 263984): Unknown layer/datatype in boundary, layer=100 type=0
+Extracting bgr_ip into /foss/designs/bgr_ip/pex/output/bgr_ip__bgr_ip/magic_RC/bgr_ip.ext:
+bgr_ip: 12 warnings
+Total of 12 warnings.
+exttosim finished.
+Adding  a_n9719_10072#
+Adding  a_n8075_10072#
+Adding  a_n9031_6300#
+Adding  a_n9137_8514#
+Adding  a_n10205_8514#
+Adding  a_n4239_8442#
+Adding  a_n1511_8443#
+Adding  a_n1197_11587#
+Adding  a_n1197_8443#
+Adding  a_n883_8443#
+Adding  a_n569_11587#
+Adding  a_n569_8443#
+Adding  a_n255_8443#
+Adding  a_59_11587#
+Adding  a_59_8443#
+Adding  a_373_8443#
+Adding  a_687_11587#
+Adding  a_687_8443#
+Adding  a_1001_8443#
+Adding  a_1315_11587#
+Adding  a_1315_8443#
+Adding  a_1629_8443#
+Adding  a_1943_11587#
+Adding  a_1943_8443#
+Adding  a_2257_8443#
+Adding  a_2571_11587#
+Adding  a_2571_8443#
+Adding  a_2885_8443#
+Adding  a_3199_8443#
+Adding  a_3513_11587#
+Adding  a_3513_8443#
+Adding  a_3827_8443#
+Adding  a_4141_11587#
+Adding  a_4141_8443#
+Adding  a_4455_8443#
+Adding  a_4769_11587#
+Adding  a_4769_8443#
+Adding  a_5083_8443#
+Adding  a_5397_11587#
+Adding  a_5397_8443#
+Adding  a_5711_8443#
+Adding  a_6025_11587#
+Adding  a_6025_8443#
+Adding  a_6339_8443#
+Adding  a_6653_11587#
+Adding  a_6653_8443#
+Adding  a_6967_8443#
+Adding  a_7281_11587#
+Adding  a_7281_8443#
+Adding  a_7595_8443#
+Adding  a_n8747_1947#
+Adding  a_n1511_5457#
+Adding  a_n255_5457#
+Adding  a_373_5457#
+Adding  a_1001_5457#
+Adding  a_1629_5457#
+Adding  a_2257_5457#
+Adding  a_2885_5457#
+Adding  a_3827_5457#
+Adding  a_4455_5457#
+Adding  a_5083_5457#
+Adding  a_5711_5457#
+Adding  a_6339_5457#
+Adding  a_6967_5457#
+Adding  a_n9131_n1107#
+Adding  a_n8547_1983#
+Adding  a_n8547_n1107#
+Adding  a_n1818_1486#
+Adding  vss
+Adding  vdd
+Adding  VBG; Tnew = 0.03ns, Told = 0.00ns
+Adding  iout; Tnew = 0.17ns, Told = 0.00ns
+Total Nets: 133
+Nets extracted: 72 (0.541353)
+Nets output: 72 (0.541353)
+exttospice finished.

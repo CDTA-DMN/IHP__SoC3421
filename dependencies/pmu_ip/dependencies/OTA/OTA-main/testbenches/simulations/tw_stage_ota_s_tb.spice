@@ -1,0 +1,123 @@
+** sch_path: /foss/designs/bandgap_refrence_ihp/two_stage_ota/tw_stage_ota_s_tb.sch
+**.subckt tw_stage_ota_s_tb
+I0 net1 GND 20u
+Cl vout GND 100f
+B2 Vinn GND v=-v(Vdiff)/2 + v(Vcm)
+V1 VDD GND 3.3
+V2 Vdiff GND DC 0 AC 0
+V3 Vcm GND DC 1 AC 0
+B1 Vinp GND v=v(Vdiff)/2 + v(Vcm)
+x1 VDD net1 Vinn Vinp vout GND two_stage_ota_s
+**** begin user architecture code
+
+
+
+.include tw_stage_ota_s_tb.save
+.param temp=27
+.control
+save all
+op
+write tw_stage_ota_s_tb.raw
+set appendwrite
+
+
+*===  DIFF AC ====
+
+alter V2 AC 1
+alter V3 AC 0
+ac dec 10 1 10e9
+
+
+*===  CM AC ====
+
+alter V2 AC 0
+alter V3 AC 1
+ac dec 10 1 10e9
+
+
+*===  results ====
+set units=degrees
+let vod= ac1.v(Vout)
+let vocm= ac2.v(Vout)
+
+let CMRR = vdb(Vod) - vdb(Vocm)
+
+
+meas ac Av_diff_db find vdb(vod) at=1
+meas ac Av_diff_mag find vmag(vod) at=1
+
+let A3db = Av_diff_mag / sqrt(2)
+
+meas ac BW_diff when vmag(vod)=A3db fall=1
+meas ac UGF when vmag(vod)=1 fall=1
+meas ac PH_UGF find vp(vod) at=UGF
+let GBW = Av_diff_mag * BW_diff
+let PM= 180 + PH_UGF
+
+
+
+meas ac Av_cm_db find vdb(vocm) at=1
+meas ac Av_cm_mag find vmag(vocm) at=1
+let A3db = Av_cm_mag / sqrt(2)
+meas ac BW_cm when vmag(vocm)=A3db fall=1
+
+
+
+let CMRR_db = Av_diff_db - Av_cm_db
+
+
+*===== display ===
+
+
+echo "==== AC Results ====   "
+
+echo " Av diff  : $&Av_diff_db  db , BW :  $&BW_diff Hz "
+echo " UGF  : $&UGF  Hz , PM :  $&PM deg   , GBW : $&GBW Hz "
+echo " Av cm  : $&Av_cm_db  db , BW :  $&BW_cm Hz "
+echo " CMRR  : $&CMRR_db  db  "
+
+
+
+write tw_stage_ota_s_tb.raw
+
+.endc
+
+
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerHBT.lib hbt_typ
+.lib cornerRES.lib res_typ
+.lib cornerCAP.lib cap_typ
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  two_stage_ota_s.sym # of pins=6
+** sym_path: /foss/designs/bandgap_refrence_ihp/two_stage_ota/two_stage_ota_s.sym
+** sch_path: /foss/designs/bandgap_refrence_ihp/two_stage_ota/two_stage_ota_s.sch
+.subckt two_stage_ota_s vdd ibias vinn vinp vout vss
+*.iopin ibias
+*.iopin vdd
+*.iopin vss
+*.iopin vout
+*.iopin vinp
+*.iopin vinn
+C1 net4 vout 350f
+R1 net3 net4 4k
+XM4 net3 net2 vss vss sg13_hv_nmos w=3u l=1u ng=1
+XM3 net2 net2 vss vss sg13_hv_nmos w=3u l=1u ng=1
+XM1 net3 vinp net1 vdd sg13_hv_pmos w=12u l=1u ng=1 m=2
+XM2 net2 vinn net1 vdd sg13_hv_pmos w=12u l=1u ng=1 m=2
+XM5 net1 ibias vdd vdd sg13_hv_pmos w=6u l=3u ng=1 m=2
+XM7 vout ibias vdd vdd sg13_hv_pmos w=6u l=3u ng=1 m=8
+XM8 ibias ibias vdd vdd sg13_hv_pmos w=6u l=3u ng=1 m=8
+XM9 vout net3 vss vss sg13_hv_nmos w=12u l=1u ng=1 m=2
+.ends
+
+.GLOBAL GND
+.GLOBAL VDD
+.end

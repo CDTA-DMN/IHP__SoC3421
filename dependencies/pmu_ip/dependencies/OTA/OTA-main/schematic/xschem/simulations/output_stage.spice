@@ -1,0 +1,11 @@
+** sch_path: /foss/designs/ota/sch/output_stage.sch
+.subckt output_stage vdd iout vout vss dn4
+*.PININFO vdd:B iout:B vout:B vss:B dn4:B
+M7 vout iout vdd bulk4 sg13_lv_pmos w=48u l=3u ng=8 m=1
+M6 vss dn4 vout sub! sg13_lv_nmos w=24u l=1u ng=4 m=1
+M9 iout iout vdd bulk4 sg13_lv_pmos w=48u l=3u ng=8 m=1
+C2 net1 vout cap_cmim w=15e-6 l=15e-6 m=1
+R2 vss sub! ptap1 A=26.7696e-12 P=68.64e-06
+R5 vdd bulk4 ntap1 A=47.4552e-12 P=0.24336e-03
+R1 net1 dn4 rppd w=1e-6 l=15e-6 m=1 b=0
+.ends

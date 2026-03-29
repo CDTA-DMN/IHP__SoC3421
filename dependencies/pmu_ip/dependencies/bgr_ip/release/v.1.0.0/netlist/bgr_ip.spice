@@ -1,0 +1,107 @@
+** sch_path: /foss/designs/bgr_ip/sch/bgr_ip.sch
+.subckt bgr_ip vdd vss iout vinp vinn vout VBG
+*.PININFO vdd:B vss:B iout:B vinp:B vinn:B vout:B VBG:O
+M1 dn4 vinp dn2 well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M2 dn3 vinn dn2 well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M11 dn2 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M12 dn2 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M13 dn3 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M14 dn4 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+R1 vdd well ntap1 A=58.4064e-12 P=0.29952e-03
+R3 vdd bulk1 ntap1 A=27.9864e-12 P=0.14352e-03
+C2 net1 vout cap_cmim w=15e-6 l=15e-6 m=1
+R4 net1 dn4 rppd w=1e-6 l=15e-6 m=1 b=0
+R6 vdd bulk4 ntap1 A=47.4552e-12 P=0.24336e-03
+M5 vout iout vdd bulk4 sg13_hv_pmos w=48u l=3u ng=8 m=1
+M6 vout dn4 vss sub! sg13_hv_nmos w=24u l=1u ng=4 m=1
+M7 dn2 iout vdd bulk1 sg13_hv_pmos w=6u l=3u ng=1 m=2
+M8 iout iout vdd bulk4 sg13_hv_pmos w=48u l=3u ng=8 m=1
+M3 dn3 dn3 vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+M4 dn4 dn3 vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+M9 vdd vdd vdd bulk1 sg13_hv_pmos w=6u l=3u ng=1 m=2
+M10 vss vss vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+M15 vss vss vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+M16 vinn vinn vss sub! sg13_hv_nmos w=4u l=0.45u ng=1 m=4
+M17 dp dp vss sub! sg13_hv_nmos w=4u l=0.45u ng=1 m=8
+M18 vss vss vss sub! sg13_hv_nmos w=4u l=0.45u ng=1 m=1
+M19 vss vss vss sub! sg13_hv_nmos w=4u l=0.45u ng=1 m=1
+M20 vss vss vss sub! sg13_hv_nmos w=4u l=0.45u ng=1 m=1
+M21 vss vss vss sub! sg13_hv_nmos w=4u l=0.45u ng=1 m=1
+R67 vss sub! ptap1 A=18.8772e-11 P=0.6376e-03
+R5 net13 vinp rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R7 net14 net13 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R8 net15 net14 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R29 net16 net15 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R34 net17 net16 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R35 dp net17 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R48 net4 net18 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R36 net19 vinp rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R37 net20 net19 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R38 net21 net20 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R39 net22 net21 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R40 net23 net22 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R41 net5 net23 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R42 net18 net24 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R43 net24 net25 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R44 net25 net26 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R45 net26 net27 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R46 net27 net5 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R47 net4 net28 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R49 net28 net29 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R50 net29 net30 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R51 net30 net31 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R52 net31 net32 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R53 net32 net3 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R54 net2 net33 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R55 net33 net34 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R56 net34 net35 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R57 net35 net36 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R58 net36 net37 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R59 net37 net3 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R60 net2 net38 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R61 net38 vss rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+M22 vinn vout vdd bulk7 sg13_hv_pmos w=1u l=4u ng=1 m=1
+M23 vinp vout vdd bulk7 sg13_hv_pmos w=1u l=4u ng=1 m=1
+M24 VBG vout vdd bulk7 sg13_hv_pmos w=1u l=4u ng=1 m=1
+R27 vdd bulk7 ntap1 A=42.588e-12 P=0.2184e-03
+R9 net39 VBG rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R10 net40 net39 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R11 net41 net40 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R12 net42 net41 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R13 net43 net42 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R14 net6 net43 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R15 net44 net6 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R16 net45 net44 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R17 net46 net45 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R18 net47 net46 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R19 net48 net47 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R20 net7 net48 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R21 net49 net8 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R22 net50 net49 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R23 net51 net50 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R24 net52 net51 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R25 net53 net52 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R26 net7 net53 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R28 net54 net8 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R30 net55 net54 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R31 net56 net55 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R32 net57 net56 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R33 net58 net57 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R62 net9 net58 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R63 net59 vss rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R64 net60 net59 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R65 net61 net60 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+R66 net9 net61 rppd w=0.75e-6 l=14.5e-6 m=1 b=0
+M25 vdd vdd vdd bulk7 sg13_hv_pmos w=1u l=4u ng=1 m=1
+M26 vdd vdd vdd bulk7 sg13_hv_pmos w=1u l=4u ng=1 m=1
+M27 vdd vdd vdd bulk7 sg13_hv_pmos w=1u l=4u ng=1 m=1
+M28 vdd vdd vdd bulk7 sg13_hv_pmos w=1u l=4u ng=1 m=1
+M29 net10 net10 net11 sub! sg13_hv_nmos w=1u l=7u ng=1 m=1
+M30 net11 net11 vss sub! sg13_hv_nmos w=1u l=7u ng=1 m=1
+M31 net12 vout vdd bulk8 sg13_hv_pmos w=5u l=1u ng=1 m=1
+M32 net10 vout net12 bulk8 sg13_hv_pmos w=5u l=1u ng=1 m=1
+M33 vinn net10 vout bulk8 sg13_hv_pmos w=5u l=1u ng=1 m=2
+R70 vdd bulk8 ntap1 A=24.336e-12 P=0.1248e-03
+C3 vdd vss cap_cmim w=4e-6 l=4e-6 m=19
+
+.ends

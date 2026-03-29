@@ -1,0 +1,25 @@
+** sch_path: /foss/designs/ota/sch/ota_layout.sch
+.subckt ota_layout vdd vss iout vinp vinn vout
+*.PININFO vdd:B vss:B iout:B vinp:B vinn:B vout:B
+M1 dn4 vinp dn2 well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M2 dn3 vinn dn2 well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M11 dn2 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M12 dn2 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M13 dn3 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+M14 dn4 vdd vdd well sg13_hv_pmos w=12u l=1u ng=1 m=2
+R1 vdd well ntap1 A=58.4064e-12 P=0.29952e-03
+R2 vss sub! ptap1 A=48.672e-12 P=0.1248e-03
+R3 vdd bulk1 ntap1 A=27.9864e-12 P=0.14352e-03
+C2 net1 vout cap_cmim w=15e-6 l=15e-6 m=1
+R4 net1 dn4 rppd w=1e-6 l=15e-6 m=1 b=0
+R6 vdd bulk4 ntap1 A=47.4552e-12 P=0.24336e-03
+M5 vout iout vdd bulk4 sg13_hv_pmos w=48u l=3u ng=8 m=1
+M6 vout dn4 vss sub! sg13_hv_nmos w=24u l=1u ng=4 m=1
+M7 dn2 iout vdd bulk1 sg13_hv_pmos w=6u l=3u ng=1 m=2
+M8 iout iout vdd bulk4 sg13_hv_pmos w=48u l=3u ng=8 m=1
+M3 dn3 dn3 vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+M4 dn4 dn3 vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+M9 vdd vdd vdd bulk1 sg13_hv_pmos w=6u l=3u ng=1 m=2
+M10 vss vss vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+M15 vss vss vss sub! sg13_hv_nmos w=3u l=1u ng=1 m=1
+.ends

@@ -1,0 +1,159 @@
+[2026-03-08 22:21:36,360] [INFO]    GDS input file passed, running in LVS mode
+[2026-03-08 22:21:36,361] [INFO]    Found cell ota_layout in GDS /foss/designs/ota/layout/ota_layout.klay.gds (only top cell)
+[2026-03-08 22:21:36,366] [INFO]    Calling MAGIC
+[2026-03-08 22:21:36,367] [SUBPROCESS]    magic -dnull -noconsole -rcfile /foss/pdks/ihp-sg13g2/libs.tech/magic/ihp-sg13g2.magicrc output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_CC_Script.tcl, output file: output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_CC_Output.txt
+[2026-03-08 22:21:36,406] [SUBPROCESS]    
+[2026-03-08 22:21:36,407] [SUBPROCESS]    Magic 8.3 revision 582 - Compiled on Sun Dec 21 08:00:31 PM CET 2025.
+[2026-03-08 22:21:36,407] [SUBPROCESS]    Starting magic under Tcl interpreter
+[2026-03-08 22:21:36,407] [SUBPROCESS]    Using the terminal as the console.
+[2026-03-08 22:21:36,407] [SUBPROCESS]    Using NULL graphics device.
+[2026-03-08 22:21:36,445] [SUBPROCESS]    Processing system .magicrc file
+[2026-03-08 22:21:36,452] [SUBPROCESS]    Switching to WIRING tool.
+[2026-03-08 22:21:36,452] [SUBPROCESS]    Switching to NETLIST tool.
+[2026-03-08 22:21:36,452] [SUBPROCESS]    Switching to PICK tool.
+[2026-03-08 22:21:36,452] [SUBPROCESS]    Switching to BOX tool.
+[2026-03-08 22:21:36,453] [SUBPROCESS]    Sourcing design .magicrc for technology ihp-sg13g2 ...
+[2026-03-08 22:21:36,453] [SUBPROCESS]    2 Magic internal units = 1 Lambda
+[2026-03-08 22:21:36,464] [SUBPROCESS]    Input style sg13g2(): scaleFactor=2, multiplier=2
+[2026-03-08 22:21:36,523] [SUBPROCESS]    The following types are not handled by extraction and will be treated as non-electrical types:
+[2026-03-08 22:21:36,524] [SUBPROCESS]        fillfet sealcont difffill nemitter hvnemitter hvisodiffres sealvia1 sealvia2 sealvia3 sealvia4 sealvia5 sealvia6 pad seal thruvia 
+[2026-03-08 22:21:36,526] [SUBPROCESS]    Scaled tech values by 2 / 1 to match internal grid scaling
+[2026-03-08 22:21:36,526] [SUBPROCESS]    Loading "output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_CC_Script.tcl" from command line.
+[2026-03-08 22:21:36,527] [SUBPROCESS]    Warning: Calma reading is not undoable!  I hope that's OK.
+[2026-03-08 22:21:36,527] [SUBPROCESS]    Library written using GDS-II Release 6.0
+[2026-03-08 22:21:36,528] [SUBPROCESS]    Library name: LIB
+[2026-03-08 22:21:36,528] [SUBPROCESS]    Reading "$$$CONTEXT_INFO$$$".
+[2026-03-08 22:21:36,528] [SUBPROCESS]    Error while reading cell "$$$CONTEXT_INFO$$$" (byte position 128): Unknown layer/datatype in boundary, layer=0 type=0
+[2026-03-08 22:21:36,529] [SUBPROCESS]    Reading "via_stack$35".
+[2026-03-08 22:21:36,529] [SUBPROCESS]    Reading "via_stack$34".
+[2026-03-08 22:21:36,529] [SUBPROCESS]    Reading "nmosHV$1".
+[2026-03-08 22:21:36,530] [SUBPROCESS]    Reading "pmosHV$2".
+[2026-03-08 22:21:36,530] [SUBPROCESS]    Reading "pmosHV$3".
+[2026-03-08 22:21:36,531] [SUBPROCESS]    Reading "via_stack$31".
+[2026-03-08 22:21:36,531] [SUBPROCESS]    Reading "via_stack$29".
+[2026-03-08 22:21:36,532] [SUBPROCESS]    Reading "via_stack$28".
+[2026-03-08 22:21:36,532] [SUBPROCESS]    Reading "via_stack$26".
+[2026-03-08 22:21:36,532] [SUBPROCESS]    Reading "via_stack$24".
+[2026-03-08 22:21:36,533] [SUBPROCESS]    Reading "via_stack$19".
+[2026-03-08 22:21:36,533] [SUBPROCESS]    Reading "via_stack$18".
+[2026-03-08 22:21:36,533] [SUBPROCESS]    Reading "via_stack$23".
+[2026-03-08 22:21:36,533] [SUBPROCESS]    Reading "cmim".
+[2026-03-08 22:21:36,534] [SUBPROCESS]    Reading "rppd".
+[2026-03-08 22:21:36,534] [SUBPROCESS]    Reading "via_stack$21".
+[2026-03-08 22:21:36,535] [SUBPROCESS]    Reading "via_stack$17".
+[2026-03-08 22:21:36,535] [SUBPROCESS]    Reading "via_stack$16".
+[2026-03-08 22:21:36,535] [SUBPROCESS]    Reading "via_stack$15".
+[2026-03-08 22:21:36,536] [SUBPROCESS]    Reading "via_stack$14".
+[2026-03-08 22:21:36,536] [SUBPROCESS]    Reading "via_stack$13".
+[2026-03-08 22:21:36,536] [SUBPROCESS]    Reading "ntap1".
+[2026-03-08 22:21:36,537] [SUBPROCESS]    Reading "pmosHV".
+[2026-03-08 22:21:36,538] [SUBPROCESS]    Reading "via_stack".
+[2026-03-08 22:21:36,538] [SUBPROCESS]    Reading "via_stack$1".
+[2026-03-08 22:21:36,538] [SUBPROCESS]    Reading "via_stack$2".
+[2026-03-08 22:21:36,539] [SUBPROCESS]    Reading "via_stack$3".
+[2026-03-08 22:21:36,539] [SUBPROCESS]    Reading "via_stack$4".
+[2026-03-08 22:21:36,539] [SUBPROCESS]    Reading "via_stack$5".
+[2026-03-08 22:21:36,540] [SUBPROCESS]    Reading "via_stack$6".
+[2026-03-08 22:21:36,540] [SUBPROCESS]    Reading "via_stack$7".
+[2026-03-08 22:21:36,540] [SUBPROCESS]    Reading "ptap1".
+[2026-03-08 22:21:36,541] [SUBPROCESS]    Making label "sub!" on type isosubstrate in cell ptap1 sticky.
+[2026-03-08 22:21:36,541] [SUBPROCESS]    Reading "via_stack$8".
+[2026-03-08 22:21:36,541] [SUBPROCESS]    Reading "via_stack$9".
+[2026-03-08 22:21:36,541] [SUBPROCESS]    Reading "via_stack$10".
+[2026-03-08 22:21:36,542] [SUBPROCESS]    Reading "via_stack$11".
+[2026-03-08 22:21:36,542] [SUBPROCESS]    Reading "via_stack$12".
+[2026-03-08 22:21:36,542] [SUBPROCESS]    Reading "nmosHV".
+[2026-03-08 22:21:36,543] [SUBPROCESS]    Reading "via_stack$33".
+[2026-03-08 22:21:36,543] [SUBPROCESS]    Reading "via_stack$32".
+[2026-03-08 22:21:36,544] [SUBPROCESS]    Reading "ota_layout".
+[2026-03-08 22:21:36,553] [SUBPROCESS]    Extracting ota_layout into /foss/designs/ota/pex/output/ota_layout__ota_layout/magic_CC/ota_layout.ext:
+[2026-03-08 22:21:36,589] [SUBPROCESS]    ota_layout: 5 warnings
+[2026-03-08 22:21:36,589] [SUBPROCESS]    Total of 5 warnings.
+[2026-03-08 22:21:36,592] [SUBPROCESS]    exttospice finished.
+[2026-03-08 22:21:36,599] [INFO]    MAGIC succeeded after 0.2307s
+[2026-03-08 22:21:36,602] [SUBPROCESS]    Report DB saved at: output/ota_layout__ota_layout/magic_CC/ota_layout_MAGIC_report.rdb.gz
+[2026-03-08 22:21:36,603] [SUBPROCESS]    SPICE netlist saved at: output/ota_layout__ota_layout/magic_CC/ota_layout.pex.spice
+[2026-03-08 22:21:36,603] [SUBPROCESS]    * NGSPICE file created from ota_layout.ext - technology: ihp-sg13g2
+
+.subckt ota_layout vdd vss vinp vinn iout vout
+X0 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X1 vdd iout iout vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X2 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X3 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X4 vdd vdd a_n8547_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X5 a_n9131_n1107# iout vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X6 vdd vdd vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0.40607n ps=0.91316m w=6u l=3u
+X7 vss vss vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=70.40117p ps=0.19494m w=3u l=1u
+X8 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X9 vss a_n8547_1983# vout vss sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X10 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X11 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X12 vss a_n8547_1983# vout vss sg13_hv_nmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=1u
+X13 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X14 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X15 vout a_n8547_1983# vss vss sg13_hv_nmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=1u
+X16 a_n1818_1486# a_n8547_1983# rppd l=15u w=1u
+X17 vdd vdd vdd vdd sg13_hv_pmos ad=2.04p pd=12.68u as=0 ps=0 w=6u l=3u
+X18 vss vss vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=0 ps=0 w=3u l=1u
+X19 vss a_n8547_n1107# a_n8547_n1107# vss sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X20 vout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X21 vdd vdd a_n8547_1983# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X22 a_n8547_1983# a_n8547_n1107# vss vss sg13_hv_nmos ad=1.02p pd=6.68u as=1.02p ps=6.68u w=3u l=1u
+X23 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=3u
+X24 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X25 a_n9131_n1107# vdd vdd vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X26 a_n8547_n1107# vinn a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X27 vdd iout a_n9131_n1107# vdd sg13_hv_pmos ad=2.04p pd=12.68u as=2.04p ps=12.68u w=6u l=3u
+X28 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X29 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X30 vdd iout vout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X31 vout a_n8547_1983# vss vss sg13_hv_nmos ad=1.14p pd=6.38u as=2.04p ps=12.68u w=6u l=1u
+X32 a_n8547_n1107# vinn a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X33 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X34 vdd vdd a_n8547_1983# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X35 iout iout vdd vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X36 vdd iout vout vdd sg13_hv_pmos ad=2.04p pd=12.68u as=1.14p ps=6.38u w=6u l=3u
+X37 a_n8547_1983# vinp a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X38 vdd iout iout vdd sg13_hv_pmos ad=1.14p pd=6.38u as=1.14p ps=6.38u w=6u l=3u
+X39 vdd vdd a_n8547_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+X40 a_n8547_1983# vinp a_n9131_n1107# vdd sg13_hv_pmos ad=4.08p pd=24.68u as=4.08p ps=24.68u w=12u l=1u
+C0 a_n1818_1486# vout 11.4487f
+C1 a_n8547_1983# a_n1818_n1514# 0.06963f
+C2 vout iout 2.1394f
+C3 a_n8547_n1107# vinn 2.00916f
+C4 a_n9131_n1107# vout 0.03437f
+C5 a_n8547_n1107# a_n9131_n1107# 3.13722f
+C6 a_n8547_1983# vinp 1.89305f
+C7 a_n1818_1486# a_n1818_n1514# 0.27696f
+C8 a_n8547_1983# vdd 7.34946f
+C9 vinp vdd 3.90655f
+C10 a_n8547_1983# a_n1818_1486# 0.01192f
+C11 a_n8547_1983# vinn 0.28186f
+C12 a_n1818_n1514# vout 0.16831f
+C13 vinp vinn 1.0914f
+C14 a_n8547_1983# a_n9131_n1107# 2.38161f
+C15 a_n9131_n1107# vinp 1.77245f
+C16 a_n8547_1983# vout 1.09062f
+C17 a_n1818_1486# vdd 0.1716f
+C18 a_n8547_1983# a_n8547_n1107# 1.91609f
+C19 a_n8547_n1107# vinp 0.50861f
+C20 vinn vdd 3.61692f
+C21 iout vdd 53.4302f
+C22 a_n9131_n1107# vdd 7.32937f
+C23 a_n1818_1486# iout 0.04887f
+C24 vout vdd 2.26263f
+C25 a_n8547_n1107# vdd 7.43597f
+C26 a_n9131_n1107# vinn 1.92468f
+C27 a_n9131_n1107# iout 0.81239f
+C28 vout vss 9.50088f
+C29 vinn vss 2.79652f
+C30 vinp vss 2.60231f
+C31 iout vss 14.5784f
+C32 vdd vss 18.0756f
+C33 a_n1818_n1514# vss 2.66117f
+C34 a_n1818_1486# vss 3.07466f $ **FLOATING
+C35 a_n8547_n1107# vss 4.10328f $ **FLOATING
+C36 a_n8547_1983# vss 12.9783f $ **FLOATING
+C37 a_n9131_n1107# vss 3.72508f $ **FLOATING
+.ends
+

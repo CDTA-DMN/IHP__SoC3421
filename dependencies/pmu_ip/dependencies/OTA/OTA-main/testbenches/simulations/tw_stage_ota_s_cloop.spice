@@ -1,0 +1,75 @@
+** sch_path: /foss/designs/bandgap_refrence_ihp/two_stage_ota/tw_stage_ota_s_cloop.sch
+**.subckt tw_stage_ota_s_cloop
+I0 net1 GND 20u
+V1 VDD GND 3.3
+V3 Vcm GND 1.65v
+Cl1 vout GND 100f
+X999 vout net2 loopgainprobe
+x1 VDD net1 net2 Vcm vout GND two_stage_ota_s
+**** begin user architecture code
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerHBT.lib hbt_typ
+.lib cornerRES.lib res_typ
+.lib cornerCAP.lib cap_typ
+
+
+
+
+.include  /foss/designs/bandgap_refrence_ihp/ITI_Analog/Misc/LoopGainProbe/stb.spi
+
+
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /foss/designs/bandgap_refrence_ihp/ITI_Analog/Misc/LoopGainProbe/loopgainprobe.sym # of pins=2
+** sym_path: /foss/designs/bandgap_refrence_ihp/ITI_Analog/Misc/LoopGainProbe/loopgainprobe.sym
+** sch_path: /foss/designs/bandgap_refrence_ihp/ITI_Analog/Misc/LoopGainProbe/loopgainprobe.sch
+.subckt loopgainprobe a b
+*.iopin a
+*.iopin b
+**** begin user architecture code
+
+
+
+Ii 0 x DC 0 AC 0
+Vi x a DC 0 AC 1
+Vnodebuffer b x 0
+
+
+
+
+**** end user architecture code
+.ends
+
+
+* expanding   symbol:  two_stage_ota_s.sym # of pins=6
+** sym_path: /foss/designs/bandgap_refrence_ihp/two_stage_ota/two_stage_ota_s.sym
+** sch_path: /foss/designs/bandgap_refrence_ihp/two_stage_ota/two_stage_ota_s.sch
+.subckt two_stage_ota_s vdd ibias vinn vinp vout vss
+*.iopin ibias
+*.iopin vdd
+*.iopin vss
+*.iopin vout
+*.iopin vinp
+*.iopin vinn
+C1 net4 vout 350f
+R1 net3 net4 4k
+XM4 net3 net2 vss vss sg13_hv_nmos w=3u l=1u ng=1
+XM3 net2 net2 vss vss sg13_hv_nmos w=3u l=1u ng=1
+XM1 net3 vinp net1 vdd sg13_hv_pmos w=12u l=1u ng=1 m=2
+XM2 net2 vinn net1 vdd sg13_hv_pmos w=12u l=1u ng=1 m=2
+XM5 net1 ibias vdd vdd sg13_hv_pmos w=6u l=3u ng=1 m=8
+XM7 vout ibias vdd vdd sg13_hv_pmos w=6u l=3u ng=1 m=8
+XM8 ibias ibias vdd vdd sg13_hv_pmos w=6u l=3u ng=1 m=8
+XM9 vout net3 vss vss sg13_hv_nmos w=12u l=1u ng=1 m=2
+.ends
+
+.GLOBAL GND
+.GLOBAL VDD
+.end

@@ -1,0 +1,1786 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 29/03/2026 00:21
+
+.SUBCKT via_stack$20
+.ENDS via_stack$20
+
+.SUBCKT via_stack$30
+.ENDS via_stack$30
+
+.SUBCKT bgr_ip
+X$1 \$1 vss via_stack$64
+X$2 \$1 vss via_stack$65
+X$3 \$1 \$9 via_stack$29
+X$4 \$1 \$9 via_stack$21
+X$5 \$1 \$15 \$35 cmim
+X$6 \$1 vss via_stack$63
+X$7 \$1 vss via_stack$42
+X$8 \$1 \$15 via_stack$34
+X$9 \$1 \$9 via_stack$26
+X$10 \$9 \$1 via_stack$24
+X$11 \$1 vdd via_stack$36
+X$12 \$39 \$1 via_stack$5
+X$13 \$45 \$1 via_stack$7
+X$14 \$1 \$15 via_stack$59
+X$15 \$1 \$15 via_stack$35
+X$16 iout \$1 via_stack$16
+X$17 \$1 \$45 via_stack$54
+X$18 \$1 \$15 via_stack$37
+X$19 \$1 \$15 via_stack$56
+X$20 \$1 VBG via_stack$57
+X$21 \$1 \$15 via_stack$37
+X$22 \$1 \$114 via_stack$54
+X$23 \$1 \$114 via_stack$54
+X$24 iout \$1 via_stack$16
+X$25 iout \$1 via_stack$16
+X$26 iout \$1 via_stack$16
+X$27 iout \$1 via_stack$16
+X$28 iout \$1 via_stack$16
+X$29 iout \$1 via_stack$16
+X$30 iout \$1 via_stack$16
+X$31 \$1 \$114 via_stack$59
+X$32 \$45 \$1 via_stack$7
+X$33 \$39 \$1 via_stack$5
+X$34 \$1 vdd via_stack$36
+X$35 \$14 \$1 via_stack$24
+X$36 \$1 \$14 via_stack$26
+X$37 \$1 vss via_stack$63
+X$38 \$1 vss via_stack$63
+X$39 \$1 vss via_stack$65
+X$40 \$1 vss via_stack$64
+X$41 \$1 vss vdd cmim$1
+X$42 \$1 vss via_stack$66
+X$43 \$1 vss vdd cmim$1
+X$44 \$1 vss vdd cmim$1
+X$45 \$1 vss vdd cmim$1
+X$46 \$1 vss vdd cmim$1
+X$47 \$1 vss vdd cmim$1
+X$48 \$1 vss vdd cmim$1
+X$49 \$1 vss vdd cmim$1
+X$50 \$1 vss vdd cmim$1
+X$51 \$1 vss vdd cmim$1
+X$52 \$1 vss vdd cmim$1
+X$53 \$1 vss vdd cmim$1
+X$54 \$1 vss vdd cmim$1
+X$55 \$1 vss vdd cmim$1
+X$56 \$1 vss vdd cmim$1
+X$57 \$1 vss vdd cmim$1
+X$58 \$1 vss vdd cmim$1
+X$59 \$1 vss vdd cmim$1
+X$60 \$1 vss vdd cmim$1
+X$61 vss \$121 \$1 \$121 nmosHV$3
+X$62 \$121 \$124 \$1 \$124 nmosHV$3
+X$63 \$124 \$1 via_stack$38
+X$64 \$121 \$1 via_stack$53
+X$65 \$124 \$1 via_stack$53
+X$66 \$124 \$151 \$1 \$117 \$15 pmosHV$5
+X$67 \$151 vdd \$1 \$117 \$15 pmosHV$5
+X$68 \$15 \$1 via_stack$48
+X$69 \$45 \$15 \$1 \$117 \$124 pmosHV$5
+X$70 \$15 \$1 via_stack$44
+X$71 \$124 \$1 via_stack$44
+X$72 \$15 \$45 \$1 \$117 \$124 pmosHV$5
+X$73 \$45 \$1 via_stack$46
+X$74 \$124 \$1 via_stack$45
+X$75 \$15 \$1 via_stack$47
+X$76 \$124 \$1 via_stack$43
+X$77 vss \$114 \$1 \$114 nmosHV$2
+X$78 \$114 \$1 via_stack$47
+X$79 vss \$45 \$1 \$45 nmosHV$2
+X$80 \$114 vss \$1 \$114 nmosHV$2
+X$81 \$45 vss \$1 \$45 nmosHV$2
+X$82 \$45 \$1 via_stack$52
+X$83 vss \$45 \$1 \$45 nmosHV$2
+X$84 \$45 vss \$1 \$45 nmosHV$2
+X$85 \$114 \$1 via_stack$46
+X$86 vss \$114 \$1 \$114 nmosHV$2
+X$87 \$114 vss \$1 \$114 nmosHV$2
+X$88 \$114 \$1 via_stack$50
+X$89 \$114 \$1 via_stack$50
+X$90 vss \$1 via_stack$50
+X$91 vss vss \$1 vss nmosHV$2
+X$92 \$1 \$114 via_stack$51
+X$93 \$114 vss \$1 \$114 nmosHV$2
+X$94 \$114 \$1 via_stack$49
+X$95 \$114 vss \$1 \$114 nmosHV$2
+X$96 \$1 \$114 via_stack$51
+X$97 vss vss \$1 vss nmosHV$2
+X$98 vss \$1 via_stack$50
+X$99 vss \$1 via_stack$50
+X$100 vss vss \$1 vss nmosHV$2
+X$101 \$1 \$114 via_stack$51
+X$102 vss \$114 \$1 \$114 nmosHV$2
+X$103 \$114 \$1 via_stack$49
+X$104 vss \$114 \$1 \$114 nmosHV$2
+X$105 \$1 \$114 via_stack$51
+X$106 vss vss \$1 vss nmosHV$2
+X$107 vss \$1 via_stack$50
+X$108 vss \$1 ptap1$1
+X$109 vss \$1 ptap1$1
+X$110 vss \$1 ptap1$1
+X$111 vss \$1 ptap1$1
+X$112 vss \$1 ptap1$1
+X$113 vss \$1 ptap1$1
+X$114 vss \$1 ptap1$1
+X$115 vss \$1 ptap1$1
+X$116 vss \$1 ptap1$1
+X$117 vss \$1 ptap1$1
+X$118 vss \$1 ptap1$1
+X$119 vss \$1 ptap1$1
+X$120 vss \$1 ptap1$1
+X$121 vss \$1 ptap1$1
+X$122 vss \$1 ptap1$1
+X$123 vss \$1 ptap1$1
+X$124 vss \$1 ptap1$1
+X$125 vss \$1 ptap1$1
+X$126 vss \$1 ptap1$1
+X$127 vss \$1 ptap1$1
+X$128 vss \$1 ptap1$1
+X$129 vss \$1 ptap1$1
+X$130 vss \$1 ptap1$1
+X$131 vss \$1 ptap1$1
+X$132 vss \$1 ptap1$1
+X$133 vss \$1 ptap1$1
+X$134 vss \$1 ptap1$1
+X$135 vss \$1 ptap1$1
+X$136 vss \$1 ptap1$1
+X$137 vss \$1 ptap1$1
+X$138 vss \$1 ptap1$1
+X$139 vss \$1 ptap1$1
+X$140 vss \$1 ptap1$1
+X$141 vss \$1 ptap1$1
+X$142 vss \$1 ptap1$1
+X$143 vss \$1 ptap1$1
+X$144 vss \$1 ptap1$1
+X$145 vss \$1 ptap1$1
+X$146 vss \$1 ptap1$1
+X$147 vss \$1 ptap1$1
+X$148 vss \$1 ptap1$1
+X$149 vss \$1 ptap1$1
+X$150 vss \$1 ptap1$1
+X$151 vss \$1 ptap1$1
+X$152 vss \$1 ptap1$1
+X$153 vss \$1 ptap1$1
+X$154 vss \$1 ptap1$1
+X$155 vss \$1 ptap1$1
+X$156 vss \$1 ptap1$1
+X$157 vss \$1 ptap1$1
+X$158 vss \$1 ptap1$1
+X$159 vss \$1 ptap1$1
+X$160 vss \$1 ptap1$1
+X$161 vss \$1 ptap1$1
+X$162 vss \$1 ptap1$1
+X$163 vss \$1 ptap1$1
+X$164 vss \$1 ptap1$1
+X$165 vss \$1 ptap1$1
+X$166 vss \$1 ptap1$1
+X$167 vss \$1 ptap1$1
+X$168 vss \$1 ptap1$1
+X$169 vss \$1 ptap1$1
+X$170 vss \$1 ptap1$1
+X$171 vss \$1 ptap1$1
+X$172 vss \$1 ptap1$1
+X$173 vss \$1 ptap1$1
+X$174 vss \$1 ptap1$1
+X$175 vss \$1 ptap1$1
+X$176 vss \$1 ptap1$1
+X$177 vss \$1 ptap1$1
+X$178 vss \$1 ptap1$1
+X$179 vss \$1 ptap1$1
+X$180 vss \$1 ptap1$1
+X$181 vss \$1 ptap1$1
+X$182 vss \$1 ptap1$1
+X$183 vss \$1 ptap1$1
+X$184 vss \$1 ptap1$1
+X$185 vss \$1 ptap1$1
+X$186 vss \$1 ptap1$1
+X$187 vss \$1 ptap1$1
+X$188 vss \$1 ptap1$1
+X$189 vss \$1 ptap1$1
+X$190 vss \$1 ptap1$1
+X$191 vss \$1 ptap1$1
+X$192 vss \$1 ptap1$1
+X$193 vss \$1 ptap1$1
+X$194 vss \$1 ptap1$1
+X$195 vss \$1 ptap1$1
+X$196 vss \$1 ptap1$1
+X$197 vss \$1 ptap1$1
+X$198 vss \$1 ptap1$1
+X$199 vss \$1 ptap1$1
+X$200 vss \$1 ptap1$1
+X$201 vss \$1 ptap1$1
+X$202 vss \$1 ptap1$1
+X$203 vss \$1 ptap1$1
+X$204 vss \$1 ptap1$1
+X$205 vss \$1 ptap1$1
+X$206 vss \$1 ptap1$1
+X$207 vss \$1 ptap1$1
+X$208 vss \$1 ptap1$1
+X$209 vss \$1 ptap1$1
+X$210 vss \$1 ptap1$1
+X$211 vss \$1 ptap1$1
+X$212 vss \$1 ptap1$1
+X$213 vss \$1 ptap1$1
+X$214 vss \$1 ptap1$1
+X$215 vss \$1 ptap1$1
+X$216 vss \$1 ptap1$1
+X$217 vss \$1 ptap1$1
+X$218 vss \$1 ptap1$1
+X$219 vss \$1 ptap1$1
+X$220 vss \$1 ptap1$1
+X$221 vss \$1 ptap1$1
+X$222 vss \$1 ptap1$1
+X$223 vss \$1 ptap1$1
+X$224 vss \$1 ptap1$1
+X$225 vss \$1 ptap1$1
+X$226 vss \$1 ptap1$1
+X$227 vss \$1 ptap1$1
+X$228 vss \$1 ptap1$1
+X$229 vss \$1 ptap1$1
+X$230 vss \$1 ptap1$1
+X$231 vss \$1 ptap1$1
+X$232 vss \$1 ptap1$1
+X$233 vss \$1 ptap1$1
+X$234 vss \$1 ptap1$1
+X$235 vss \$1 ptap1$1
+X$236 vss \$1 ptap1$1
+X$237 vss \$1 ptap1$1
+X$238 vss \$1 ptap1$1
+X$239 vss \$1 ptap1$1
+X$240 vss \$1 ptap1$1
+X$241 vss \$1 ptap1$1
+X$242 vss \$1 ptap1$1
+X$243 vss \$1 ptap1$1
+X$244 vss \$1 ptap1$1
+X$245 vss \$1 ptap1$1
+X$246 vss \$1 ptap1$1
+X$247 vss \$1 ptap1$1
+X$248 vss \$1 ptap1$1
+X$249 vss \$1 ptap1$1
+X$250 vss \$1 ptap1$1
+X$251 vss \$1 ptap1$1
+X$252 vss \$1 ptap1$1
+X$253 vss \$1 ptap1$1
+X$254 vss \$1 ptap1$1
+X$255 vss \$1 ptap1$1
+X$256 vss \$1 ptap1$1
+X$257 vss \$1 ptap1$1
+X$258 \$105 \$146 \$1 rppd$1
+X$259 \$1 vss guard_ring
+X$260 \$105 \$159 \$1 rppd$1
+X$261 \$39 \$158 \$1 rppd$1
+X$262 \$39 \$157 \$1 rppd$1
+X$263 \$108 \$162 \$1 rppd$1
+X$264 \$108 \$161 \$1 rppd$1
+X$265 \$101 \$160 \$1 rppd$1
+X$266 \$101 \$165 \$1 rppd$1
+X$267 \$102 \$164 \$1 rppd$1
+X$268 \$102 \$163 \$1 rppd$1
+X$269 \$103 \$168 \$1 rppd$1
+X$270 \$103 \$167 \$1 rppd$1
+X$271 \$98 \$166 \$1 rppd$1
+X$272 \$98 \$171 \$1 rppd$1
+X$273 \$100 \$170 \$1 rppd$1
+X$274 \$100 \$169 \$1 rppd$1
+X$275 VBG \$174 \$1 rppd$1
+X$276 \$95 \$173 \$1 rppd$1
+X$277 \$95 \$172 \$1 rppd$1
+X$278 \$96 \$177 \$1 rppd$1
+X$279 \$96 \$176 \$1 rppd$1
+X$280 \$97 \$175 \$1 rppd$1
+X$281 \$97 \$147 \$1 rppd$1
+X$282 \$91 \$148 \$1 rppd$1
+X$283 \$91 \$156 \$1 rppd$1
+X$284 \$92 \$139 \$1 rppd$1
+X$285 \$92 \$142 \$1 rppd$1
+X$286 \$93 \$145 \$1 rppd$1
+X$287 \$93 \$134 \$1 rppd$1
+X$288 vss \$131 \$1 rppd$1
+X$289 \$1 \$39 via_stack$60
+X$290 \$146 \$114 \$1 rppd$1
+X$291 \$159 \$196 \$1 rppd$1
+X$292 \$158 \$196 \$1 rppd$1
+X$293 \$157 \$198 \$1 rppd$1
+X$294 \$162 \$198 \$1 rppd$1
+X$295 \$161 \$195 \$1 rppd$1
+X$296 \$160 \$195 \$1 rppd$1
+X$297 \$165 \$194 \$1 rppd$1
+X$298 \$164 \$194 \$1 rppd$1
+X$299 \$163 \$193 \$1 rppd$1
+X$300 \$168 \$193 \$1 rppd$1
+X$301 \$167 \$187 \$1 rppd$1
+X$302 \$166 \$187 \$1 rppd$1
+X$303 \$171 \$188 \$1 rppd$1
+X$304 \$170 \$188 \$1 rppd$1
+X$305 \$169 vss \$1 rppd$1
+X$306 \$174 \$199 \$1 rppd$1
+X$307 \$173 \$199 \$1 rppd$1
+X$308 \$172 \$182 \$1 rppd$1
+X$309 \$177 \$182 \$1 rppd$1
+X$310 \$176 \$183 \$1 rppd$1
+X$311 \$175 \$183 \$1 rppd$1
+X$312 \$147 \$185 \$1 rppd$1
+X$313 \$148 \$185 \$1 rppd$1
+X$314 \$156 \$186 \$1 rppd$1
+X$315 \$139 \$186 \$1 rppd$1
+X$316 \$142 \$180 \$1 rppd$1
+X$317 \$145 \$180 \$1 rppd$1
+X$318 \$134 \$179 \$1 rppd$1
+X$319 \$131 \$179 \$1 rppd$1
+X$320 \$1 VBG via_stack$58
+X$321 \$114 \$1 via_stack$38
+X$322 \$39 vdd \$1 \$86 \$15 pmosHV$4
+X$323 \$15 \$1 via_stack$40
+X$324 \$39 \$1 via_stack$38
+X$325 vdd \$1 via_stack$39
+X$326 vdd vdd \$1 \$86 vdd pmosHV$4
+X$327 \$45 \$1 via_stack$41
+X$328 \$15 \$1 via_stack$40
+X$329 vdd \$45 \$1 \$86 \$15 pmosHV$4
+X$330 vdd \$1 via_stack$39
+X$331 vdd vdd \$1 \$86 vdd pmosHV$4
+X$332 VBG \$1 via_stack$38
+X$333 \$15 \$1 via_stack$40
+X$334 vdd VBG \$1 \$86 \$15 pmosHV$4
+X$335 vdd \$1 via_stack$39
+X$336 vdd vdd \$1 \$86 vdd pmosHV$4
+X$337 vdd \$1 via_stack$39
+X$338 vdd vdd \$1 \$86 vdd pmosHV$4
+X$339 vdd \$117 \$1 ntap1$1
+X$340 vdd \$117 \$1 ntap1$1
+X$341 vdd \$117 \$1 ntap1$1
+X$342 vdd \$117 \$1 ntap1$1
+X$343 vdd \$117 \$1 ntap1$1
+X$344 vdd \$117 \$1 ntap1$1
+X$345 vdd \$117 \$1 ntap1$1
+X$346 vdd \$117 \$1 ntap1$1
+X$347 vdd \$117 \$1 ntap1$1
+X$348 vdd \$117 \$1 ntap1$1
+X$349 vdd \$117 \$1 ntap1$1
+X$350 vdd \$117 \$1 ntap1$1
+X$351 vdd \$117 \$1 ntap1$1
+X$352 vdd \$117 \$1 ntap1$1
+X$353 vdd \$117 \$1 ntap1$1
+X$354 vdd \$117 \$1 ntap1$1
+X$355 vdd \$117 \$1 ntap1$1
+X$356 vdd \$117 \$1 ntap1$1
+X$357 vdd \$117 \$1 ntap1$1
+X$358 vdd \$117 \$1 ntap1$1
+X$359 vdd \$117 \$1 ntap1$1
+X$360 vdd \$117 \$1 ntap1$1
+X$361 vdd \$117 \$1 ntap1$1
+X$362 vdd \$117 \$1 ntap1$1
+X$363 vdd \$117 \$1 ntap1$1
+X$364 vdd \$117 \$1 ntap1$1
+X$365 vdd \$117 \$1 ntap1$1
+X$366 vdd \$117 \$1 ntap1$1
+X$367 vdd \$117 \$1 ntap1$1
+X$368 vdd \$117 \$1 ntap1$1
+X$369 vdd \$117 \$1 ntap1$1
+X$370 vdd \$117 \$1 ntap1$1
+X$371 vdd \$117 \$1 ntap1$1
+X$372 vdd \$117 \$1 ntap1$1
+X$373 vdd \$117 \$1 ntap1$1
+X$374 vdd \$117 \$1 ntap1$1
+X$375 vdd \$117 \$1 ntap1$1
+X$376 vdd \$117 \$1 ntap1$1
+X$377 vdd \$117 \$1 ntap1$1
+X$378 vdd \$117 \$1 ntap1$1
+X$379 vdd \$86 \$1 ntap1$1
+X$380 vdd \$86 \$1 ntap1$1
+X$381 vdd \$86 \$1 ntap1$1
+X$382 vdd \$86 \$1 ntap1$1
+X$383 vdd \$86 \$1 ntap1$1
+X$384 vdd \$86 \$1 ntap1$1
+X$385 vdd \$86 \$1 ntap1$1
+X$386 vdd \$86 \$1 ntap1$1
+X$387 vdd \$86 \$1 ntap1$1
+X$388 vdd \$86 \$1 ntap1$1
+X$389 vdd \$86 \$1 ntap1$1
+X$390 vdd \$86 \$1 ntap1$1
+X$391 vdd \$86 \$1 ntap1$1
+X$392 vdd \$86 \$1 ntap1$1
+X$393 vdd \$86 \$1 ntap1$1
+X$394 vdd \$86 \$1 ntap1$1
+X$395 vdd \$86 \$1 ntap1$1
+X$396 vdd \$86 \$1 ntap1$1
+X$397 vdd \$86 \$1 ntap1$1
+X$398 vdd \$86 \$1 ntap1$1
+X$399 vdd \$86 \$1 ntap1$1
+X$400 vdd \$86 \$1 ntap1$1
+X$401 vdd \$86 \$1 ntap1$1
+X$402 vdd \$86 \$1 ntap1$1
+X$403 vdd \$86 \$1 ntap1$1
+X$404 vdd \$86 \$1 ntap1$1
+X$405 vdd \$86 \$1 ntap1$1
+X$406 vdd \$86 \$1 ntap1$1
+X$407 vdd \$86 \$1 ntap1$1
+X$408 vdd \$86 \$1 ntap1$1
+X$409 vdd \$86 \$1 ntap1$1
+X$410 vdd \$86 \$1 ntap1$1
+X$411 vdd \$86 \$1 ntap1$1
+X$412 vdd \$86 \$1 ntap1$1
+X$413 vdd \$86 \$1 ntap1$1
+X$414 vdd \$86 \$1 ntap1$1
+X$415 vdd \$86 \$1 ntap1$1
+X$416 vdd \$86 \$1 ntap1$1
+X$417 vdd \$86 \$1 ntap1$1
+X$418 vdd \$86 \$1 ntap1$1
+X$419 vdd \$86 \$1 ntap1$1
+X$420 vdd \$86 \$1 ntap1$1
+X$421 vdd \$86 \$1 ntap1$1
+X$422 vdd \$86 \$1 ntap1$1
+X$423 vdd \$86 \$1 ntap1$1
+X$424 vdd \$86 \$1 ntap1$1
+X$425 vdd \$86 \$1 ntap1$1
+X$426 vdd \$86 \$1 ntap1$1
+X$427 vdd \$86 \$1 ntap1$1
+X$428 vdd \$86 \$1 ntap1$1
+X$429 vdd \$86 \$1 ntap1$1
+X$430 vdd \$86 \$1 ntap1$1
+X$431 vdd \$86 \$1 ntap1$1
+X$432 vdd \$86 \$1 ntap1$1
+X$433 vdd \$86 \$1 ntap1$1
+X$434 vdd \$86 \$1 ntap1$1
+X$435 vdd \$86 \$1 ntap1$1
+X$436 vdd \$86 \$1 ntap1$1
+X$437 vdd \$86 \$1 ntap1$1
+X$438 vdd \$86 \$1 ntap1$1
+X$439 vdd \$86 \$1 ntap1$1
+X$440 vdd \$86 \$1 ntap1$1
+X$441 vdd \$86 \$1 ntap1$1
+X$442 vdd \$86 \$1 ntap1$1
+X$443 vdd \$86 \$1 ntap1$1
+X$444 vdd \$86 \$1 ntap1$1
+X$445 vdd \$86 \$1 ntap1$1
+X$446 vdd \$86 \$1 ntap1$1
+X$447 vdd \$86 \$1 ntap1$1
+X$448 vdd \$86 \$1 ntap1$1
+X$449 \$39 \$1 via_stack$55
+X$450 iout \$1 via_stack$15
+X$451 vdd iout vdd iout vdd iout vdd iout vdd iout iout iout iout iout iout
++ iout \$1 \$41 iout pmosHV$3
+X$452 iout \$1 via_stack$15
+X$453 iout \$1 via_stack$15
+X$454 iout \$1 via_stack$15
+X$455 iout \$1 via_stack$15
+X$456 iout \$1 via_stack$15
+X$457 iout \$1 via_stack$15
+X$458 iout \$1 via_stack$15
+X$459 vdd \$1 via_stack$14
+X$460 vdd \$1 via_stack$14
+X$461 vdd \$1 via_stack$14
+X$462 vdd \$1 via_stack$14
+X$463 vdd \$1 via_stack$14
+X$464 iout \$1 via_stack$17
+X$465 iout \$1 via_stack$17
+X$466 iout \$1 via_stack$17
+X$467 iout \$1 via_stack$17
+X$468 iout \$1 via_stack$17
+X$469 iout \$1 via_stack$17
+X$470 iout \$1 via_stack$17
+X$471 iout \$1 via_stack$17
+X$472 iout \$1 via_stack$13
+X$473 iout \$1 via_stack$13
+X$474 iout \$1 via_stack$13
+X$475 iout \$1 via_stack$13
+X$476 vdd \$1 via_stack$32
+X$477 vdd vdd \$1 \$40 vdd pmosHV$2
+X$478 vdd \$14 \$1 \$40 iout pmosHV$2
+X$479 \$14 vdd \$1 \$40 iout pmosHV$2
+X$480 vdd vdd \$1 \$40 vdd pmosHV$2
+X$481 vdd \$1 via_stack$32
+X$482 \$14 \$1 via_stack$11
+X$483 vdd \$1 via_stack$32
+X$484 iout \$1 via_stack$12
+X$485 vdd \$1 via_stack$32
+X$486 \$15 \$1 via_stack$13
+X$487 vdd \$15 vdd \$15 vdd \$15 vdd \$15 vdd iout iout iout iout iout iout
++ iout \$1 \$41 iout pmosHV$3
+X$488 \$15 \$1 via_stack$13
+X$489 \$15 \$1 via_stack$13
+X$490 \$15 \$1 via_stack$13
+X$491 vdd \$1 via_stack$14
+X$492 vdd \$1 via_stack$14
+X$493 vdd \$1 via_stack$14
+X$494 vdd \$1 via_stack$14
+X$495 vdd \$1 via_stack$14
+X$496 iout \$1 via_stack$15
+X$497 iout \$1 via_stack$15
+X$498 iout \$1 via_stack$15
+X$499 iout \$1 via_stack$15
+X$500 iout \$1 via_stack$15
+X$501 iout \$1 via_stack$15
+X$502 iout \$1 via_stack$15
+X$503 iout \$1 via_stack$15
+X$504 \$14 \$1 via_stack$2
+X$505 \$14 \$1 via_stack$2
+X$506 \$9 \$35 \$1 rppd
+X$507 \$1 \$35 via_stack$31
+X$508 \$1 vss \$15 vss \$15 vss \$9 \$9 \$9 \$9 nmosHV
+X$509 \$9 \$1 via_stack$6
+X$510 \$9 \$1 via_stack$6
+X$511 \$9 \$1 via_stack$6
+X$512 \$9 \$1 via_stack$6
+X$513 \$1 \$15 via_stack$18
+X$514 \$1 \$15 via_stack$18
+X$515 \$1 \$15 via_stack$19
+X$516 \$1 \$15 via_stack$19
+X$517 \$45 \$1 via_stack$6
+X$518 \$14 \$25 \$1 \$8 \$45 pmosHV
+X$519 \$25 \$1 via_stack$3
+X$520 \$25 vdd \$1 \$8 vdd pmosHV
+X$521 \$25 \$1 via_stack$28
+X$522 \$14 \$1 via_stack$1
+X$523 vdd \$14 \$1 \$8 vdd pmosHV
+X$524 vdd \$1 via_stack
+X$525 \$45 \$1 via_stack$4
+X$526 vdd \$1 via_stack
+X$527 \$14 \$1 via_stack$1
+X$528 vdd \$14 \$1 \$8 vdd pmosHV
+X$529 \$39 \$1 via_stack
+X$530 \$14 \$9 \$1 \$8 \$39 pmosHV
+X$531 \$9 \$1 via_stack$3
+X$532 \$9 vdd \$1 \$8 vdd pmosHV
+X$533 vdd \$1 via_stack
+X$534 \$39 \$1 via_stack$4
+X$535 vdd \$1 via_stack
+X$536 \$9 \$1 via_stack$3
+X$537 \$9 \$1 via_stack$3
+X$538 \$25 \$1 via_stack$3
+X$539 \$25 \$1 via_stack$3
+X$540 \$9 \$1 via_stack$3
+X$541 vdd \$1 via_stack
+X$542 vdd \$14 \$1 \$8 vdd pmosHV
+X$543 \$14 \$1 via_stack$1
+X$544 \$14 \$25 \$1 \$8 \$45 pmosHV
+X$545 \$25 \$1 via_stack$3
+X$546 vdd \$1 via_stack
+X$547 \$25 vdd \$1 \$8 vdd pmosHV
+X$548 \$45 \$1 via_stack$6
+X$549 vdd \$1 via_stack
+X$550 vdd \$14 \$1 \$8 vdd pmosHV
+X$551 \$14 \$1 via_stack$1
+X$552 \$14 \$9 \$1 \$8 \$39 pmosHV
+X$553 \$9 \$1 via_stack$3
+X$554 \$9 vdd \$1 \$8 vdd pmosHV
+X$555 vdd \$1 via_stack
+X$556 \$39 \$1 via_stack
+X$557 vss \$1 ptap1
+X$558 vss \$1 ptap1
+X$559 vss \$1 ptap1
+X$560 vss \$1 ptap1
+X$561 vss \$1 ptap1
+X$562 vss \$1 ptap1
+X$563 vss \$1 ptap1
+X$564 vss \$1 ptap1
+X$565 vss \$1 ptap1
+X$566 vss \$1 ptap1
+X$567 vss \$1 ptap1
+X$568 vss \$1 ptap1
+X$569 vss \$1 ptap1
+X$570 vss \$1 ptap1
+X$571 vss \$1 ptap1
+X$572 vss \$1 ptap1
+X$573 vss \$1 ptap1
+X$574 vss \$1 ptap1
+X$575 vss \$1 ptap1
+X$576 vss \$1 ptap1
+X$577 vss \$1 ptap1
+X$578 vss \$1 ptap1
+X$579 vss \$1 ptap1
+X$580 vss \$1 ptap1
+X$581 vss \$1 ptap1
+X$582 vss \$1 ptap1
+X$583 vss \$1 ptap1
+X$584 vss \$1 ptap1
+X$585 vss \$1 ptap1
+X$586 vss \$1 ptap1
+X$587 vss \$1 ptap1
+X$588 vss \$1 ptap1
+X$589 vss \$1 ptap1
+X$590 vss \$1 ptap1
+X$591 vss \$1 ptap1
+X$592 vss \$1 ptap1
+X$593 vss \$1 ptap1
+X$594 vss \$1 ptap1
+X$595 vss \$1 ptap1
+X$596 vss \$1 ptap1
+X$597 vss \$1 ptap1
+X$598 vss \$1 ptap1
+X$599 vss \$1 ptap1
+X$600 vss \$1 ptap1
+X$601 vss \$1 ptap1
+X$602 vss \$1 ptap1
+X$603 vss \$1 ptap1
+X$604 vss \$1 ptap1
+X$605 vss \$1 ptap1
+X$606 vss \$1 ptap1
+X$607 vss \$1 ptap1
+X$608 vss \$1 ptap1
+X$609 vss \$1 ptap1
+X$610 vss \$1 ptap1
+X$611 vss \$1 ptap1
+X$612 vss \$1 ptap1
+X$613 vss \$1 ptap1
+X$614 vss \$1 ptap1
+X$615 vss \$1 ptap1
+X$616 vss \$1 ptap1
+X$617 vss \$1 ptap1
+X$618 vss \$1 ptap1
+X$619 vss vss \$1 vss nmosHV$1
+X$620 vss \$1 via_stack$33
+X$621 \$25 vss \$1 \$25 nmosHV$1
+X$622 vss \$9 \$1 \$25 nmosHV$1
+X$623 vss vss \$1 vss nmosHV$1
+X$624 vss \$1 via_stack$33
+X$625 vss \$1 ptap1
+X$626 vss \$1 ptap1
+X$627 vss \$1 ptap1
+X$628 vss \$1 ptap1
+X$629 vss \$1 ptap1
+X$630 vss \$1 ptap1
+X$631 \$1 \$25 via_stack$8
+X$632 \$1 \$9 via_stack$10
+X$633 \$1 \$9 via_stack$8
+X$634 vss \$1 ptap1
+X$635 vss \$1 ptap1
+X$636 vss \$1 ptap1
+X$637 vss \$1 ptap1
+X$638 vss \$1 ptap1
+X$639 vss \$1 ptap1
+X$640 vss \$1 ptap1
+X$641 vss \$1 ptap1
+X$642 vss \$1 ptap1
+X$643 vss \$1 ptap1
+X$644 vss \$1 ptap1
+X$645 vss \$1 ptap1
+X$646 vss \$1 via_stack$33
+X$647 \$25 \$1 via_stack$9
+X$648 \$25 \$1 via_stack$2
+X$649 vss \$1 via_stack$33
+X$650 vdd \$40 \$1 ntap1
+X$651 vdd \$40 \$1 ntap1
+X$652 vdd \$40 \$1 ntap1
+X$653 vdd \$40 \$1 ntap1
+X$654 vdd \$40 \$1 ntap1
+X$655 vdd \$40 \$1 ntap1
+X$656 vdd \$40 \$1 ntap1
+X$657 vdd \$40 \$1 ntap1
+X$658 vdd \$40 \$1 ntap1
+X$659 vdd \$40 \$1 ntap1
+X$660 vdd \$40 \$1 ntap1
+X$661 vdd \$40 \$1 ntap1
+X$662 vdd \$40 \$1 ntap1
+X$663 vdd \$40 \$1 ntap1
+X$664 vdd \$40 \$1 ntap1
+X$665 vdd \$40 \$1 ntap1
+X$666 vdd \$40 \$1 ntap1
+X$667 vdd \$40 \$1 ntap1
+X$668 vdd \$40 \$1 ntap1
+X$669 vdd \$40 \$1 ntap1
+X$670 vdd \$40 \$1 ntap1
+X$671 vdd \$40 \$1 ntap1
+X$672 vdd \$40 \$1 ntap1
+X$673 vdd \$40 \$1 ntap1
+X$674 vdd \$40 \$1 ntap1
+X$675 vdd \$40 \$1 ntap1
+X$676 vdd \$40 \$1 ntap1
+X$677 vdd \$40 \$1 ntap1
+X$678 vdd \$40 \$1 ntap1
+X$679 vdd \$40 \$1 ntap1
+X$680 vdd \$40 \$1 ntap1
+X$681 vdd \$40 \$1 ntap1
+X$682 vdd \$40 \$1 ntap1
+X$683 vdd \$40 \$1 ntap1
+X$684 vdd \$40 \$1 ntap1
+X$685 vdd \$40 \$1 ntap1
+X$686 vdd \$40 \$1 ntap1
+X$687 vdd \$40 \$1 ntap1
+X$688 vdd \$40 \$1 ntap1
+X$689 vdd \$40 \$1 ntap1
+X$690 iout \$1 via_stack$23
+X$691 vdd \$40 \$1 ntap1
+X$692 vdd \$40 \$1 ntap1
+X$693 vdd \$40 \$1 ntap1
+X$694 vdd \$40 \$1 ntap1
+X$695 vdd \$40 \$1 ntap1
+X$696 vdd \$40 \$1 ntap1
+X$697 vdd \$41 \$1 ntap1
+X$698 vdd \$41 \$1 ntap1
+X$699 vdd \$41 \$1 ntap1
+X$700 vdd \$41 \$1 ntap1
+X$701 vdd \$41 \$1 ntap1
+X$702 vdd \$41 \$1 ntap1
+X$703 vdd \$41 \$1 ntap1
+X$704 vdd \$41 \$1 ntap1
+X$705 vdd \$41 \$1 ntap1
+X$706 vdd \$41 \$1 ntap1
+X$707 vdd \$41 \$1 ntap1
+X$708 vdd \$41 \$1 ntap1
+X$709 vdd \$41 \$1 ntap1
+X$710 vdd \$41 \$1 ntap1
+X$711 vdd \$41 \$1 ntap1
+X$712 vdd \$41 \$1 ntap1
+X$713 vdd \$41 \$1 ntap1
+X$714 vdd \$41 \$1 ntap1
+X$715 vdd \$41 \$1 ntap1
+X$716 vdd \$41 \$1 ntap1
+X$717 vdd \$41 \$1 ntap1
+X$718 vdd \$41 \$1 ntap1
+X$719 vdd \$41 \$1 ntap1
+X$720 vdd \$41 \$1 ntap1
+X$721 vdd \$41 \$1 ntap1
+X$722 vdd \$41 \$1 ntap1
+X$723 vdd \$41 \$1 ntap1
+X$724 vdd \$41 \$1 ntap1
+X$725 vdd \$41 \$1 ntap1
+X$726 vdd \$41 \$1 ntap1
+X$727 vdd \$41 \$1 ntap1
+X$728 vdd \$41 \$1 ntap1
+X$729 vdd \$41 \$1 ntap1
+X$730 vdd \$41 \$1 ntap1
+X$731 vdd \$41 \$1 ntap1
+X$732 vdd \$41 \$1 ntap1
+X$733 vdd \$41 \$1 ntap1
+X$734 vdd \$41 \$1 ntap1
+X$735 vdd \$41 \$1 ntap1
+X$736 vdd \$41 \$1 ntap1
+X$737 vdd \$41 \$1 ntap1
+X$738 vdd \$41 \$1 ntap1
+X$739 vdd \$41 \$1 ntap1
+X$740 vdd \$41 \$1 ntap1
+X$741 vdd \$41 \$1 ntap1
+X$742 vdd \$41 \$1 ntap1
+X$743 vdd \$41 \$1 ntap1
+X$744 vdd \$41 \$1 ntap1
+X$745 vdd \$41 \$1 ntap1
+X$746 vdd \$41 \$1 ntap1
+X$747 vdd \$41 \$1 ntap1
+X$748 vdd \$41 \$1 ntap1
+X$749 vdd \$41 \$1 ntap1
+X$750 vdd \$41 \$1 ntap1
+X$751 vdd \$41 \$1 ntap1
+X$752 vdd \$41 \$1 ntap1
+X$753 vdd \$41 \$1 ntap1
+X$754 vdd \$41 \$1 ntap1
+X$755 vdd \$41 \$1 ntap1
+X$756 vdd \$41 \$1 ntap1
+X$757 vdd \$41 \$1 ntap1
+X$758 vdd \$41 \$1 ntap1
+X$759 vdd \$41 \$1 ntap1
+X$760 vdd \$41 \$1 ntap1
+X$761 vdd \$41 \$1 ntap1
+X$762 vdd \$41 \$1 ntap1
+X$763 vdd \$41 \$1 ntap1
+X$764 vdd \$41 \$1 ntap1
+X$765 vdd \$41 \$1 ntap1
+X$766 vdd \$41 \$1 ntap1
+X$767 vdd \$41 \$1 ntap1
+X$768 vdd \$41 \$1 ntap1
+X$769 vdd \$41 \$1 ntap1
+X$770 vdd \$41 \$1 ntap1
+X$771 vdd \$41 \$1 ntap1
+X$772 vdd \$41 \$1 ntap1
+X$773 vdd \$41 \$1 ntap1
+X$774 vdd \$41 \$1 ntap1
+X$775 vdd \$8 \$1 ntap1
+X$776 vdd \$8 \$1 ntap1
+X$777 vdd \$8 \$1 ntap1
+X$778 vdd \$8 \$1 ntap1
+X$779 vdd \$8 \$1 ntap1
+X$780 vdd \$8 \$1 ntap1
+X$781 vdd \$8 \$1 ntap1
+X$782 vdd \$8 \$1 ntap1
+X$783 vdd \$8 \$1 ntap1
+X$784 vdd \$8 \$1 ntap1
+X$785 vdd \$8 \$1 ntap1
+X$786 vdd \$8 \$1 ntap1
+X$787 vdd \$8 \$1 ntap1
+X$788 vdd \$8 \$1 ntap1
+X$789 vdd \$8 \$1 ntap1
+X$790 vdd \$8 \$1 ntap1
+X$791 vdd \$8 \$1 ntap1
+X$792 vdd \$8 \$1 ntap1
+X$793 vdd \$8 \$1 ntap1
+X$794 vdd \$8 \$1 ntap1
+X$795 vdd \$8 \$1 ntap1
+X$796 vdd \$8 \$1 ntap1
+X$797 vdd \$8 \$1 ntap1
+X$798 vdd \$8 \$1 ntap1
+X$799 vdd \$8 \$1 ntap1
+X$800 vdd \$8 \$1 ntap1
+X$801 vdd \$8 \$1 ntap1
+X$802 vdd \$8 \$1 ntap1
+X$803 vdd \$8 \$1 ntap1
+X$804 vdd \$8 \$1 ntap1
+X$805 vdd \$8 \$1 ntap1
+X$806 vdd \$8 \$1 ntap1
+X$807 vdd \$8 \$1 ntap1
+X$808 vdd \$8 \$1 ntap1
+X$809 vdd \$8 \$1 ntap1
+X$810 vdd \$8 \$1 ntap1
+X$811 vdd \$8 \$1 ntap1
+X$812 vdd \$8 \$1 ntap1
+X$813 vdd \$8 \$1 ntap1
+X$814 vdd \$8 \$1 ntap1
+X$815 vdd \$8 \$1 ntap1
+X$816 vdd \$8 \$1 ntap1
+X$817 vdd \$8 \$1 ntap1
+X$818 vdd \$8 \$1 ntap1
+X$819 vdd \$8 \$1 ntap1
+X$820 vdd \$8 \$1 ntap1
+X$821 vdd \$8 \$1 ntap1
+X$822 vdd \$8 \$1 ntap1
+X$823 vdd \$8 \$1 ntap1
+X$824 vdd \$8 \$1 ntap1
+X$825 vdd \$8 \$1 ntap1
+X$826 vdd \$8 \$1 ntap1
+X$827 vdd \$8 \$1 ntap1
+X$828 vdd \$8 \$1 ntap1
+X$829 vdd \$8 \$1 ntap1
+X$830 vdd \$8 \$1 ntap1
+X$831 vdd \$8 \$1 ntap1
+X$832 vdd \$8 \$1 ntap1
+X$833 vdd \$8 \$1 ntap1
+X$834 vdd \$8 \$1 ntap1
+X$835 vdd \$8 \$1 ntap1
+X$836 vdd \$8 \$1 ntap1
+X$837 vdd \$8 \$1 ntap1
+X$838 vdd \$8 \$1 ntap1
+X$839 \$45 \$1 via_stack$55
+X$840 vdd \$8 \$1 ntap1
+X$841 vdd \$8 \$1 ntap1
+X$842 vdd \$8 \$1 ntap1
+X$843 vdd \$8 \$1 ntap1
+X$844 vdd \$8 \$1 ntap1
+X$845 vdd \$8 \$1 ntap1
+X$846 vdd \$8 \$1 ntap1
+X$847 vdd \$8 \$1 ntap1
+X$848 vdd \$8 \$1 ntap1
+X$849 vdd \$8 \$1 ntap1
+X$850 vdd \$8 \$1 ntap1
+X$851 vdd \$8 \$1 ntap1
+X$852 vdd \$8 \$1 ntap1
+X$853 vdd \$8 \$1 ntap1
+X$854 vdd \$8 \$1 ntap1
+X$855 vdd \$8 \$1 ntap1
+X$856 vdd \$8 \$1 ntap1
+X$857 vdd \$8 \$1 ntap1
+X$858 vdd \$8 \$1 ntap1
+X$859 vdd \$8 \$1 ntap1
+X$860 vdd \$8 \$1 ntap1
+X$861 vdd \$8 \$1 ntap1
+X$862 vdd \$8 \$1 ntap1
+X$863 vdd \$8 \$1 ntap1
+X$864 vdd \$8 \$1 ntap1
+X$865 vdd \$8 \$1 ntap1
+X$866 vdd \$8 \$1 ntap1
+X$867 vdd \$8 \$1 ntap1
+X$868 vdd \$8 \$1 ntap1
+X$869 vdd \$8 \$1 ntap1
+X$870 vdd \$8 \$1 ntap1
+X$871 vdd \$8 \$1 ntap1
+X$872 \$1 vdd via_stack$61
+X$873 \$1 vdd via_stack$61
+X$874 \$1 vdd via_stack$61
+X$875 \$1 vdd via_stack$61
+X$876 \$1 vdd via_stack$61
+X$877 \$1 vdd via_stack$61
+X$878 \$1 vdd via_stack$61
+X$879 \$1 vdd via_stack$61
+X$880 \$1 vdd via_stack$61
+X$881 \$1 vdd via_stack$61
+X$882 \$1 vdd via_stack$61
+X$883 \$1 vdd via_stack$61
+X$884 \$1 vdd via_stack$61
+X$885 \$1 vdd via_stack$61
+X$886 \$1 vdd via_stack$61
+X$887 \$1 vdd via_stack$61
+X$888 \$1 vdd via_stack$61
+X$889 \$1 vdd via_stack$61
+X$890 \$1 vdd via_stack$61
+X$891 \$1 vdd via_stack$61
+X$892 \$1 vdd via_stack$61
+X$893 \$1 vdd via_stack$61
+X$894 \$1 vdd via_stack$61
+X$895 \$1 vdd via_stack$61
+X$896 \$1 vdd via_stack$61
+X$897 \$1 vdd via_stack$61
+X$898 \$1 vdd via_stack$61
+X$899 \$1 vdd via_stack$61
+X$900 \$1 vdd via_stack$61
+X$901 \$1 vdd via_stack$61
+X$902 \$1 vdd via_stack$61
+X$903 \$1 vdd via_stack$61
+X$904 \$1 vdd via_stack$61
+X$905 \$1 vdd via_stack$61
+X$906 \$1 vdd via_stack$61
+X$907 \$1 vdd via_stack$61
+X$908 \$1 vdd via_stack$61
+X$909 \$1 vdd via_stack$61
+X$910 \$1 vdd via_stack$61
+X$911 \$1 vdd via_stack$61
+X$912 \$1 vdd via_stack$61
+X$913 \$1 vdd via_stack$61
+X$914 \$1 vdd via_stack$61
+X$915 \$1 vdd via_stack$61
+X$916 \$1 vdd via_stack$61
+X$917 \$1 vdd via_stack$61
+X$918 \$1 vdd via_stack$61
+X$919 \$1 vdd via_stack$61
+X$920 \$1 vdd via_stack$61
+X$921 \$1 vdd via_stack$61
+X$922 \$1 vdd via_stack$61
+X$923 \$1 vdd via_stack$61
+X$924 \$1 vdd via_stack$61
+X$925 \$1 vdd via_stack$61
+X$926 \$1 vdd via_stack$61
+X$927 \$1 vdd via_stack$61
+X$928 \$1 vdd via_stack$61
+X$929 \$1 vdd via_stack$61
+X$930 \$1 vdd via_stack$61
+X$931 \$1 vdd via_stack$61
+X$932 \$1 vdd via_stack$61
+X$933 \$1 vdd via_stack$61
+X$934 \$1 vdd via_stack$61
+X$935 \$1 vdd via_stack$61
+X$936 \$1 vdd via_stack$61
+X$937 \$1 vdd via_stack$61
+X$938 \$1 vdd via_stack$61
+X$939 \$1 vdd via_stack$61
+X$940 \$1 vdd via_stack$61
+X$941 \$1 vdd via_stack$61
+X$942 \$1 vdd via_stack$61
+X$943 \$1 vdd via_stack$61
+X$944 \$1 vdd via_stack$61
+X$945 \$1 vdd via_stack$61
+X$946 \$1 vdd via_stack$61
+X$947 \$1 vdd via_stack$61
+X$948 \$1 vdd via_stack$61
+X$949 \$1 vdd via_stack$61
+X$950 \$1 vdd via_stack$61
+X$951 \$1 vdd via_stack$61
+X$952 \$1 vdd via_stack$61
+X$953 \$1 vdd via_stack$61
+X$954 \$1 vdd via_stack$61
+X$955 \$1 vdd via_stack$61
+X$956 \$1 vdd via_stack$61
+X$957 \$1 vdd via_stack$61
+X$958 \$1 vdd via_stack$61
+X$959 \$1 vdd via_stack$61
+X$960 \$1 vdd via_stack$61
+X$961 \$1 vdd via_stack$61
+X$962 \$1 vdd via_stack$61
+X$963 \$1 vdd via_stack$61
+X$964 \$1 vdd via_stack$61
+X$965 \$1 vdd via_stack$61
+X$966 \$1 vdd via_stack$61
+X$967 \$1 vdd via_stack$61
+X$968 \$1 vdd via_stack$61
+X$969 \$1 vdd via_stack$61
+X$970 \$1 vdd via_stack$61
+X$971 \$1 vdd via_stack$61
+X$972 \$1 vdd via_stack$61
+X$973 \$1 vdd via_stack$61
+X$974 \$1 vdd via_stack$61
+X$975 \$1 vdd via_stack$61
+X$976 \$1 vdd via_stack$61
+X$977 \$1 vdd via_stack$61
+X$978 \$1 vdd via_stack$61
+X$979 \$1 vdd via_stack$61
+X$980 \$1 vdd via_stack$61
+X$981 \$1 vdd via_stack$61
+X$982 \$1 vdd via_stack$61
+X$983 \$1 vdd via_stack$61
+X$984 \$1 vdd via_stack$61
+X$985 \$1 vdd via_stack$61
+X$986 \$1 vdd via_stack$61
+X$987 \$1 vdd via_stack$61
+X$988 \$1 vdd via_stack$61
+X$989 \$1 vdd via_stack$61
+X$990 \$1 vdd via_stack$61
+X$991 \$1 vdd via_stack$61
+X$992 \$1 vdd via_stack$61
+X$993 \$1 vdd via_stack$61
+X$994 \$1 vdd via_stack$61
+X$995 \$1 vdd via_stack$61
+X$996 \$1 vdd via_stack$61
+X$997 \$1 vdd via_stack$61
+X$998 \$1 vdd via_stack$61
+X$999 \$1 vdd via_stack$61
+X$1000 \$1 vdd via_stack$61
+X$1001 \$1 vdd via_stack$61
+X$1002 \$1 vdd via_stack$61
+X$1003 \$1 vdd via_stack$61
+X$1004 \$1 vdd via_stack$61
+X$1005 \$1 vdd via_stack$61
+X$1006 \$1 vdd via_stack$61
+X$1007 \$1 vdd via_stack$61
+X$1008 \$1 vdd via_stack$61
+X$1009 \$1 vdd via_stack$61
+X$1010 \$1 vdd via_stack$61
+X$1011 \$1 vdd via_stack$61
+X$1012 \$1 vdd via_stack$61
+X$1013 \$1 vdd via_stack$61
+X$1014 \$1 vdd via_stack$61
+X$1015 \$1 vdd via_stack$61
+X$1016 \$1 vdd via_stack$61
+X$1017 \$1 vdd via_stack$61
+X$1018 \$1 vdd via_stack$61
+X$1019 \$1 vdd via_stack$61
+X$1020 \$1 vdd via_stack$61
+X$1021 \$1 vdd via_stack$61
+X$1022 \$1 vdd via_stack$61
+X$1023 \$1 vdd via_stack$61
+X$1024 \$1 vdd via_stack$61
+X$1025 \$1 vdd via_stack$61
+X$1026 \$1 vdd via_stack$61
+X$1027 \$1 vdd via_stack$61
+X$1028 \$1 vdd via_stack$61
+X$1029 \$1 vdd via_stack$61
+X$1030 \$1 vdd via_stack$61
+X$1031 \$1 vdd via_stack$61
+X$1032 \$1 vdd via_stack$61
+X$1033 \$1 vdd via_stack$61
+X$1034 \$1 vdd via_stack$61
+X$1035 \$1 vdd via_stack$61
+X$1036 \$1 vdd via_stack$61
+X$1037 \$1 vdd via_stack$61
+X$1038 \$1 vdd via_stack$61
+X$1039 \$1 vdd via_stack$61
+X$1040 \$1 vdd via_stack$61
+X$1041 \$1 vdd via_stack$61
+X$1042 \$1 vdd via_stack$61
+X$1043 \$1 vdd via_stack$61
+X$1044 \$1 vdd via_stack$61
+X$1045 \$1 vdd via_stack$61
+X$1046 \$1 vdd via_stack$61
+X$1047 \$1 vdd via_stack$61
+X$1048 \$1 vdd via_stack$61
+X$1049 \$1 vdd via_stack$61
+X$1050 \$1 vdd via_stack$61
+X$1051 \$1 vdd via_stack$61
+X$1052 \$1 vdd via_stack$61
+X$1053 \$1 vdd via_stack$61
+X$1054 \$1 vdd via_stack$61
+X$1055 \$1 vdd via_stack$61
+X$1056 \$1 vdd via_stack$61
+X$1057 \$1 vdd via_stack$61
+X$1058 \$1 vdd via_stack$61
+X$1059 \$1 vdd via_stack$61
+X$1060 \$1 vdd via_stack$61
+X$1061 \$1 vdd via_stack$61
+X$1062 \$1 vdd via_stack$61
+X$1063 \$1 vdd via_stack$61
+X$1064 \$1 vdd via_stack$61
+X$1065 \$1 vdd via_stack$61
+X$1066 \$1 vdd via_stack$61
+X$1067 \$1 vdd via_stack$61
+X$1068 \$1 vdd via_stack$61
+X$1069 \$1 vdd via_stack$61
+X$1070 \$1 vdd via_stack$61
+X$1071 \$1 vdd via_stack$61
+X$1072 \$1 vdd via_stack$61
+X$1073 \$1 vdd via_stack$61
+X$1074 \$1 vdd via_stack$61
+X$1075 \$1 vdd via_stack$61
+X$1076 \$1 vdd via_stack$61
+X$1077 \$1 vdd via_stack$61
+X$1078 \$1 vdd via_stack$61
+X$1079 \$1 vdd via_stack$61
+X$1080 \$1 vdd via_stack$61
+X$1081 \$1 vdd via_stack$61
+X$1082 \$1 vdd via_stack$61
+X$1083 \$1 vdd via_stack$61
+X$1084 \$1 vdd via_stack$61
+X$1085 \$1 vdd via_stack$61
+X$1086 \$1 vdd via_stack$61
+X$1087 \$1 vdd via_stack$61
+X$1088 \$1 vdd via_stack$61
+X$1089 \$1 vdd via_stack$61
+X$1090 \$1 vdd via_stack$61
+X$1091 \$1 vdd via_stack$61
+X$1092 \$1 vdd via_stack$61
+X$1093 \$1 vdd via_stack$61
+X$1094 \$1 vdd via_stack$61
+X$1095 \$1 vdd via_stack$61
+X$1096 \$1 vdd via_stack$61
+X$1097 \$1 vdd via_stack$61
+X$1098 \$1 vdd via_stack$61
+X$1099 \$1 vdd via_stack$61
+X$1100 \$1 vdd via_stack$61
+X$1101 \$1 vdd via_stack$61
+X$1102 \$1 vdd via_stack$61
+X$1103 \$1 vdd via_stack$61
+X$1104 \$1 vdd via_stack$61
+X$1105 \$1 vdd via_stack$61
+X$1106 \$1 vdd via_stack$61
+X$1107 \$1 vdd via_stack$61
+X$1108 \$1 vdd via_stack$61
+X$1109 \$1 vdd via_stack$61
+X$1110 \$1 vdd via_stack$61
+X$1111 \$1 vdd via_stack$61
+X$1112 \$1 vdd via_stack$61
+X$1113 \$1 vdd via_stack$61
+X$1114 \$1 vdd via_stack$61
+X$1115 \$1 vdd via_stack$61
+X$1116 \$1 vdd via_stack$61
+X$1117 \$1 vdd via_stack$61
+X$1118 \$1 vdd via_stack$61
+X$1119 \$1 vdd via_stack$61
+X$1120 \$1 vdd via_stack$61
+X$1121 \$1 vdd via_stack$61
+X$1122 \$1 vdd via_stack$61
+X$1123 \$1 vdd via_stack$61
+X$1124 \$1 vdd via_stack$61
+X$1125 \$1 vdd via_stack$61
+X$1126 \$1 vdd via_stack$61
+X$1127 \$1 vdd via_stack$61
+X$1128 \$1 vdd via_stack$61
+X$1129 \$1 vdd via_stack$61
+X$1130 \$1 vdd via_stack$61
+X$1131 \$1 vdd via_stack$61
+X$1132 \$1 vdd via_stack$61
+X$1133 \$1 vdd via_stack$61
+X$1134 \$1 vdd via_stack$61
+X$1135 \$1 vdd via_stack$61
+X$1136 \$1 vdd via_stack$61
+X$1137 \$1 vdd via_stack$61
+X$1138 \$1 vdd via_stack$61
+X$1139 \$1 vdd via_stack$61
+X$1140 \$1 vdd via_stack$61
+X$1141 \$1 vdd via_stack$61
+X$1142 \$1 vdd via_stack$61
+X$1143 \$1 vdd via_stack$61
+X$1144 \$1 vdd via_stack$61
+X$1145 \$1 vdd via_stack$61
+X$1146 \$1 vdd via_stack$61
+X$1147 \$1 vdd via_stack$61
+X$1148 \$1 vdd via_stack$61
+X$1149 \$1 vdd via_stack$61
+X$1150 \$1 vdd via_stack$61
+X$1151 \$1 vdd via_stack$61
+X$1152 \$1 vdd via_stack$61
+X$1153 \$1 vdd via_stack$61
+X$1154 \$1 vdd via_stack$61
+X$1155 \$1 vdd via_stack$61
+X$1156 \$1 vdd via_stack$61
+X$1157 \$1 vdd via_stack$61
+X$1158 \$1 vdd via_stack$61
+X$1159 \$1 vdd via_stack$61
+X$1160 \$1 vdd via_stack$61
+X$1161 \$1 vdd via_stack$61
+X$1162 \$1 vdd via_stack$61
+X$1163 \$1 vdd via_stack$61
+X$1164 \$1 vdd via_stack$61
+X$1165 \$1 vdd via_stack$61
+X$1166 \$1 vdd via_stack$61
+X$1167 \$1 vdd via_stack$61
+X$1168 \$1 vdd via_stack$61
+X$1169 \$1 vdd via_stack$61
+X$1170 \$1 vdd via_stack$61
+X$1171 \$1 vdd via_stack$61
+X$1172 \$1 vdd via_stack$61
+X$1173 \$1 vdd via_stack$61
+X$1174 \$1 vdd via_stack$61
+X$1175 \$1 vdd via_stack$61
+R$1 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$2 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$3 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$4 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$5 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$6 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$7 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$8 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$9 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$10 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$11 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$12 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$13 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$14 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$15 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$16 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$17 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$18 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$19 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$20 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$21 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$22 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$23 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$24 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$25 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$26 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$27 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$28 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$29 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$30 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$31 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$32 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$33 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$34 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$35 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$36 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$37 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$38 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$39 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$40 \$117 vdd ntap1 A=0.6084p P=3.12u
+R$41 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$42 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$43 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$44 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$45 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$46 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$47 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$48 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$49 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$50 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$51 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$52 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$53 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$54 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$55 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$56 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$57 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$58 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$59 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$60 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$61 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$62 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$63 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$64 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$65 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$66 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$67 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$68 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$69 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$70 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$71 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$72 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$73 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$74 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$75 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$76 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$77 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$78 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$79 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$80 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$81 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$82 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$83 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$84 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$85 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$86 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$87 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$88 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$89 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$90 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$91 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$92 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$93 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$94 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$95 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$96 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$97 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$98 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$99 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$100 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$101 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$102 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$103 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$104 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$105 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$106 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$107 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$108 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$109 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$110 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$111 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$112 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$113 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$114 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$115 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$116 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$117 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$118 \$41 vdd ntap1 A=0.6084p P=3.12u
+R$119 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$120 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$121 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$122 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$123 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$124 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$125 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$126 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$127 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$128 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$129 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$130 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$131 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$132 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$133 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$134 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$135 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$136 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$137 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$138 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$139 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$140 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$141 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$142 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$143 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$144 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$145 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$146 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$147 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$148 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$149 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$150 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$151 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$152 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$153 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$154 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$155 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$156 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$157 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$158 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$159 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$160 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$161 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$162 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$163 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$164 \$40 vdd ntap1 A=0.6084p P=3.12u
+R$165 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$166 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$167 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$168 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$169 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$170 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$171 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$172 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$173 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$174 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$175 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$176 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$177 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$178 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$179 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$180 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$181 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$182 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$183 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$184 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$185 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$186 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$187 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$188 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$189 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$190 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$191 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$192 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$193 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$194 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$195 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$196 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$197 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$198 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$199 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$200 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$201 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$202 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$203 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$204 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$205 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$206 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$207 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$208 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$209 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$210 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$211 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$212 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$213 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$214 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$215 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$216 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$217 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$218 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$219 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$220 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$221 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$222 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$223 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$224 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$225 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$226 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$227 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$228 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$229 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$230 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$231 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$232 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$233 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$234 \$86 vdd ntap1 A=0.6084p P=3.12u
+R$235 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$236 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$237 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$238 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$239 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$240 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$241 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$242 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$243 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$244 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$245 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$246 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$247 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$248 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$249 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$250 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$251 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$252 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$253 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$254 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$255 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$256 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$257 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$258 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$259 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$260 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$261 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$262 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$263 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$264 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$265 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$266 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$267 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$268 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$269 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$270 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$271 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$272 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$273 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$274 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$275 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$276 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$277 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$278 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$279 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$280 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$281 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$282 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$283 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$284 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$285 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$286 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$287 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$288 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$289 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$290 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$291 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$292 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$293 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$294 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$295 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$296 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$297 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$298 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$299 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$300 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$301 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$302 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$303 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$304 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$305 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$306 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$307 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$308 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$309 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$310 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$311 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$312 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$313 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$314 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$315 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$316 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$317 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$318 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$319 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$320 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$321 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$322 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$323 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$324 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$325 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$326 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$327 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$328 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$329 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$330 \$8 vdd ntap1 A=0.6084p P=3.12u
+R$331 \$1 vss ptap1 A=91.26p P=187.2u
+R$332 \$1 vss ptap1 A=21.9024p P=56.16u
+R$333 \$1 vss ptap1 A=26.7696p P=68.64u
+.ENDS bgr_ip
+
+.SUBCKT via_stack$15 \$1 \$2
+.ENDS via_stack$15
+
+.SUBCKT via_stack$16 \$1 \$2
+.ENDS via_stack$16
+
+.SUBCKT via_stack$17 \$1 \$2
+.ENDS via_stack$17
+
+.SUBCKT via_stack$13 \$1 \$2
+.ENDS via_stack$13
+
+.SUBCKT cmim \$1 \$2 \$3
+C$1 \$3 \$2 cap_cmim w=15u l=15u A=225p P=60u m=1
+.ENDS cmim
+
+.SUBCKT via_stack$63 \$1 \$2
+.ENDS via_stack$63
+
+.SUBCKT via_stack$14 \$1 \$2
+.ENDS via_stack$14
+
+.SUBCKT pmosHV$3 \$1 \$2 \$3 \$4 \$5 \$6 \$7 \$8 \$9 \$11 \$12 \$13 \$14 \$15
++ \$16 \$17 \$18 \$19 \$20
+M$1 \$1 \$11 \$2 \$19 sg13_hv_pmos L=3u W=6u AS=2.04p AD=1.14p PS=12.68u
++ PD=6.38u
+M$2 \$2 \$12 \$3 \$19 sg13_hv_pmos L=3u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$3 \$3 \$13 \$4 \$19 sg13_hv_pmos L=3u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$4 \$4 \$14 \$5 \$19 sg13_hv_pmos L=3u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$5 \$5 \$15 \$6 \$19 sg13_hv_pmos L=3u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$6 \$6 \$16 \$7 \$19 sg13_hv_pmos L=3u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$7 \$7 \$17 \$8 \$19 sg13_hv_pmos L=3u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$8 \$8 \$20 \$9 \$19 sg13_hv_pmos L=3u W=6u AS=1.14p AD=2.04p PS=6.38u
++ PD=12.68u
+.ENDS pmosHV$3
+
+.SUBCKT via_stack$42 \$1 \$2
+.ENDS via_stack$42
+
+.SUBCKT rppd \$1 \$2 \$3
+R$1 \$1 \$2 rppd w=1u l=15u ps=0 b=0 m=1
+.ENDS rppd
+
+.SUBCKT nmosHV$1 \$1 \$2 \$3 \$5
+M$1 \$1 \$5 \$2 \$3 sg13_hv_nmos L=1u W=3u AS=1.02p AD=1.02p PS=6.68u PD=6.68u
+.ENDS nmosHV$1
+
+.SUBCKT via_stack$7 \$1 \$2
+.ENDS via_stack$7
+
+.SUBCKT via_stack$28 \$1 \$2
+.ENDS via_stack$28
+
+.SUBCKT via_stack$9 \$1 \$2
+.ENDS via_stack$9
+
+.SUBCKT via_stack$36 \$1 \$2
+.ENDS via_stack$36
+
+.SUBCKT ptap1 \$1 \$2
+.ENDS ptap1
+
+.SUBCKT via_stack$8 \$1 \$2
+.ENDS via_stack$8
+
+.SUBCKT via_stack$21 \$1 \$2
+.ENDS via_stack$21
+
+.SUBCKT via_stack$31 \$1 \$2
+.ENDS via_stack$31
+
+.SUBCKT via_stack$18 \$1 \$2
+.ENDS via_stack$18
+
+.SUBCKT nmosHV \$1 \$2 \$3 \$4 \$5 \$6 \$8 \$9 \$10 \$11
+M$1 \$2 \$8 \$3 \$1 sg13_hv_nmos L=1u W=6u AS=2.04p AD=1.14p PS=12.68u PD=6.38u
+M$2 \$3 \$9 \$4 \$1 sg13_hv_nmos L=1u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$3 \$4 \$10 \$5 \$1 sg13_hv_nmos L=1u W=6u AS=1.14p AD=1.14p PS=6.38u PD=6.38u
+M$4 \$5 \$11 \$6 \$1 sg13_hv_nmos L=1u W=6u AS=1.14p AD=2.04p PS=6.38u PD=12.68u
+.ENDS nmosHV
+
+.SUBCKT via_stack$10 \$1 \$2
+.ENDS via_stack$10
+
+.SUBCKT via_stack$19 \$1 \$2
+.ENDS via_stack$19
+
+.SUBCKT via_stack$29 \$1 \$2
+.ENDS via_stack$29
+
+.SUBCKT via_stack$5 \$1 \$2
+.ENDS via_stack$5
+
+.SUBCKT via_stack$6 \$1 \$2
+.ENDS via_stack$6
+
+.SUBCKT via_stack$33 \$1 \$2
+.ENDS via_stack$33
+
+.SUBCKT via_stack$11 \$1 \$2
+.ENDS via_stack$11
+
+.SUBCKT via_stack$23 \$1 \$2
+.ENDS via_stack$23
+
+.SUBCKT via_stack$3 \$1 \$2
+.ENDS via_stack$3
+
+.SUBCKT via_stack$1 \$1 \$2
+.ENDS via_stack$1
+
+.SUBCKT via_stack$32 \$1 \$2
+.ENDS via_stack$32
+
+.SUBCKT via_stack$2 \$1 \$2
+.ENDS via_stack$2
+
+.SUBCKT via_stack$26 \$1 \$2
+.ENDS via_stack$26
+
+.SUBCKT via_stack$24 \$1 \$2
+.ENDS via_stack$24
+
+.SUBCKT pmosHV \$1 \$2 \$3 \$4 \$6
+M$1 \$1 \$6 \$2 \$4 sg13_hv_pmos L=1u W=12u AS=4.08p AD=4.08p PS=24.68u
++ PD=24.68u
+.ENDS pmosHV
+
+.SUBCKT via_stack$12 \$1 \$2
+.ENDS via_stack$12
+
+.SUBCKT via_stack \$1 \$2
+.ENDS via_stack
+
+.SUBCKT via_stack$4 \$1 \$2
+.ENDS via_stack$4
+
+.SUBCKT nmosHV$2 \$1 \$2 \$3 \$5
+M$1 \$1 \$5 \$2 \$3 sg13_hv_nmos L=0.45u W=4u AS=1.36p AD=1.36p PS=8.68u
++ PD=8.68u
+.ENDS nmosHV$2
+
+.SUBCKT via_stack$40 \$1 \$2
+.ENDS via_stack$40
+
+.SUBCKT via_stack$39 \$1 \$2
+.ENDS via_stack$39
+
+.SUBCKT via_stack$50 \$1 \$2
+.ENDS via_stack$50
+
+.SUBCKT via_stack$49 \$1 \$2
+.ENDS via_stack$49
+
+.SUBCKT pmosHV$4 \$1 \$2 \$3 \$4 \$6
+M$1 \$1 \$6 \$2 \$4 sg13_hv_pmos L=4u W=1u AS=0.34p AD=0.34p PS=2.68u PD=2.68u
+.ENDS pmosHV$4
+
+.SUBCKT via_stack$41 \$1 \$2
+.ENDS via_stack$41
+
+.SUBCKT via_stack$56 \$1 \$2
+.ENDS via_stack$56
+
+.SUBCKT via_stack$52 \$1 \$2
+.ENDS via_stack$52
+
+.SUBCKT via_stack$51 \$1 \$2
+.ENDS via_stack$51
+
+.SUBCKT via_stack$66 \$1 \$2
+.ENDS via_stack$66
+
+.SUBCKT via_stack$47 \$1 \$2
+.ENDS via_stack$47
+
+.SUBCKT via_stack$46 \$1 \$2
+.ENDS via_stack$46
+
+.SUBCKT via_stack$45 \$1 \$2
+.ENDS via_stack$45
+
+.SUBCKT via_stack$44 \$1 \$2
+.ENDS via_stack$44
+
+.SUBCKT via_stack$43 \$1 \$2
+.ENDS via_stack$43
+
+.SUBCKT via_stack$59 \$1 \$2
+.ENDS via_stack$59
+
+.SUBCKT pmosHV$5 \$1 \$2 \$3 \$4 \$6
+M$1 \$1 \$6 \$2 \$4 sg13_hv_pmos L=1u W=5u AS=1.7p AD=1.7p PS=10.68u PD=10.68u
+.ENDS pmosHV$5
+
+.SUBCKT ntap1$1 \$1 \$2 \$3
+.ENDS ntap1$1
+
+.SUBCKT via_stack$48 \$1 \$2
+.ENDS via_stack$48
+
+.SUBCKT via_stack$57 \$1 \$2
+.ENDS via_stack$57
+
+.SUBCKT via_stack$37 \$1 \$2
+.ENDS via_stack$37
+
+.SUBCKT via_stack$38 \$1 \$2
+.ENDS via_stack$38
+
+.SUBCKT via_stack$53 \$1 \$2
+.ENDS via_stack$53
+
+.SUBCKT nmosHV$3 \$1 \$2 \$3 \$5
+M$1 \$1 \$5 \$2 \$3 sg13_hv_nmos L=7u W=1u AS=0.34p AD=0.34p PS=2.68u PD=2.68u
+.ENDS nmosHV$3
+
+.SUBCKT ptap1$1 \$1 \$2
+.ENDS ptap1$1
+
+.SUBCKT via_stack$58 \$1 \$2
+.ENDS via_stack$58
+
+.SUBCKT via_stack$60 \$1 \$2
+.ENDS via_stack$60
+
+.SUBCKT via_stack$34 \$1 \$2
+.ENDS via_stack$34
+
+.SUBCKT pmosHV$2 \$1 \$2 \$3 \$4 \$6
+M$1 \$1 \$6 \$2 \$4 sg13_hv_pmos L=3u W=6u AS=2.04p AD=2.04p PS=12.68u PD=12.68u
+.ENDS pmosHV$2
+
+.SUBCKT via_stack$55 \$1 \$2
+.ENDS via_stack$55
+
+.SUBCKT via_stack$54 \$1 \$2
+.ENDS via_stack$54
+
+.SUBCKT via_stack$65 \$1 \$2
+.ENDS via_stack$65
+
+.SUBCKT guard_ring \$1 \$2
+R$1 \$1 \$2 ptap1 A=48.84p P=325.6u
+.ENDS guard_ring
+
+.SUBCKT rppd$1 \$1 \$2 \$3
+R$1 \$1 \$2 rppd w=0.75u l=14.5u ps=0 b=0 m=1
+.ENDS rppd$1
+
+.SUBCKT via_stack$64 \$1 \$2
+.ENDS via_stack$64
+
+.SUBCKT cmim$1 \$1 \$2 \$3
+C$1 \$3 \$2 cap_cmim w=4u l=4u A=16p P=16u m=1
+.ENDS cmim$1
+
+.SUBCKT ntap1 \$1 \$2 \$3
+.ENDS ntap1
+
+.SUBCKT via_stack$61 \$1 \$2
+.ENDS via_stack$61
+
+.SUBCKT via_stack$35 \$1 \$2
+.ENDS via_stack$35

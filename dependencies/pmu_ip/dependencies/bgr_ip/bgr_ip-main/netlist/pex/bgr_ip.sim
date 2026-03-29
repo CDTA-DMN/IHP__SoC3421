@@ -1,0 +1,815 @@
+| units: 0.5 tech: ihp-sg13g2 format: MIT
+x vdd vss s=1125360,7635 l=800 w=800 x=4476 y=-1219 cap_cmim
+x a_2885_8687# a_2571_11587# a_2885_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=2885 y=8687 rppd
+x a_n569_8687# a_n569_11587# a_n569_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=-568 y=8687 rppd
+x vss vss vss vss d=54400,1736 l=90 w=800 x=-10108 y=8180 sg13_hv_nmos
+x iout vdd a_n9031_6300# vdd s=81600,2536 d=45600,1276 l=600 w=1200 x=923 y=1810 sg13_hv_pmos
+x a_4141_5543# a_4141_8443# a_3827_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=4141 y=5543 rppd
+x a_59_8687# a_59_11587# a_59_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=59 y=8687 rppd
+x a_7281_8687# a_7281_11587# a_7281_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=7281 y=8687 rppd
+x a_2571_8687# a_2571_11587# a_2571_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=2571 y=8687 rppd
+x vdd vss s=2111880,20609 l=800 w=800 x=-4598 y=10931 cap_cmim
+x vdd vdd vdd vdd d=13600,536 l=800 w=200 x=-7970 y=6336 sg13_hv_pmos
+x a_n255_8687# a_n569_11587# a_n255_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=-254 y=8687 rppd
+x vdd vss s=1815160,17823 l=800 w=800 x=7076 y=1846 cap_cmim
+x a_n9137_8514# a_n9137_8514# vss vss s=54400,1736 d=54400,1736 l=90 w=800 x=-8092 y=8848 sg13_hv_nmos
+x vdd vss s=1815160,17823 l=800 w=800 x=7076 y=-553 cap_cmim
+x vdd vss s=1110840,7607 l=800 w=800 x=5708 y=-19 cap_cmim
+x iout vdd a_n9031_6300# vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=3627 y=1810 sg13_hv_pmos
+x iout a_n9031_6300# vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2951 y=1810 sg13_hv_pmos
+x vdd vdd vdd vdd d=13600,536 l=800 w=200 x=-5850 y=6336 sg13_hv_pmos
+x a_5711_8687# a_5397_11587# a_5711_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=5711 y=8687 rppd
+x vdd vdd vdd vdd d=13600,536 l=800 w=200 x=-3730 y=6336 sg13_hv_pmos
+x vdd vss s=1815160,17823 l=800 w=800 x=7076 y=-1753 cap_cmim
+x vdd vss s=2111880,20609 l=800 w=800 x=-9398 y=10931 cap_cmim
+x a_5397_8687# a_5397_11587# a_5397_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=5397 y=8687 rppd
+x a_2257_5543# a_2257_8443# a_2257_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=2257 y=5543 rppd
+x iout vdd a_n9031_6300# vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2275 y=1810 sg13_hv_pmos
+x iout iout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=1599 y=3528 sg13_hv_pmos
+x a_n10205_8514# a_n10205_8514# vss vss s=54400,1736 d=54400,1736 l=90 w=800 x=-9100 y=8180 sg13_hv_nmos
+x vss vss vss vss d=54400,1736 l=90 w=800 x=-7084 y=8180 sg13_hv_nmos
+x a_n1511_8687# a_n10205_8514# a_n1511_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=-1510 y=8687 rppd
+x a_5083_8687# a_4769_11587# a_5083_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=5083 y=8687 rppd
+x a_3827_8687# a_3513_11587# a_3827_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=3827 y=8687 rppd
+x vdd vdd vdd vdd d=81600,2536 l=600 w=1200 x=-3854 y=2845 sg13_hv_pmos
+x a_n9719_10072# vss a_n9719_10072# vss s=13600,536 d=13600,536 l=1400 w=200 x=-9718 y=10108 sg13_hv_nmos
+x vdd vss s=2111880,20609 l=800 w=800 x=-5798 y=10931 cap_cmim
+x a_n1197_8687# a_n1197_11587# a_n1197_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=-1196 y=8687 rppd
+x a_n883_8687# a_n1197_11587# a_n883_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=-882 y=8687 rppd
+x a_n9031_6300# VBG vdd vdd s=13600,536 d=13600,536 l=800 w=200 x=-4790 y=6336 sg13_hv_pmos
+x a_3513_8687# a_3513_11587# a_3513_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=3513 y=8687 rppd
+x vdd a_n8547_1983# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6410 y=-1106 sg13_hv_pmos
+x iout vdd a_n9031_6300# vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4979 y=1810 sg13_hv_pmos
+x a_7595_5543# a_7595_8443# vss vss s=12900,472 d=12900,472 l=2900 w=150 x=7595 y=5543 rppd
+x a_n9031_6300# vdd a_n8747_1947# vdd s=13600,536 d=13600,536 l=800 w=200 x=-9030 y=6336 sg13_hv_pmos
+x a_n10205_8514# vss a_n10205_8514# vss s=54400,1736 d=54400,1736 l=90 w=800 x=-10108 y=8514 sg13_hv_nmos
+x vdd vss s=1110840,7607 l=800 w=800 x=5708 y=-1219 cap_cmim
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-7578 y=-1106 sg13_hv_pmos
+x iout vdd iout vdd s=81600,2536 d=45600,1276 l=600 w=1200 x=923 y=3528 sg13_hv_pmos
+x a_3199_8687# vss a_3199_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=3199 y=8687 rppd
+x a_2885_5543# a_2885_8443# a_2885_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=2885 y=5543 rppd
+x a_n10205_8514# a_n10205_8514# vss vss s=54400,1736 d=54400,1736 l=90 w=800 x=-8092 y=8180 sg13_hv_nmos
+x a_n9137_8514# a_n9131_n1107# a_n8547_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6994 y=1983 sg13_hv_pmos
+x a_n569_5543# a_n569_8443# a_n8747_1947# vss s=12900,472 d=12900,472 l=2900 w=150 x=-568 y=5543 rppd
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-9330 y=1983 sg13_hv_pmos
+x a_7281_5543# a_7281_8443# a_6967_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=7281 y=5543 rppd
+x vss vss vss vss d=40800,1336 l=200 w=600 x=-2946 y=827 sg13_hv_nmos
+x iout a_n9131_n1107# vdd vdd s=81600,2536 d=81600,2536 l=600 w=1200 x=-2238 y=2845 sg13_hv_pmos
+x a_59_5543# a_59_8443# a_n255_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=59 y=5543 rppd
+x a_6339_8687# a_6025_11587# a_6339_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=6339 y=8687 rppd
+x vdd vss s=1125360,7635 l=800 w=800 x=4476 y=-19 cap_cmim
+x vdd vss s=1125360,7635 l=800 w=800 x=3240 y=-19 cap_cmim
+x a_2571_5543# a_2571_8443# a_2257_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=2571 y=5543 rppd
+x a_n1818_n1514# a_n1818_1486# a_n8547_1983# vss s=17200,572 d=17200,572 l=3000 w=200 x=-1817 y=-1513 rppd
+x a_n8547_1983# a_n9031_6300# vss vss s=45600,1276 d=45600,1276 l=200 w=1200 x=-4016 y=-1185 sg13_hv_nmos
+x iout a_n9031_6300# vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4303 y=1810 sg13_hv_pmos
+x iout vdd iout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=3627 y=3528 sg13_hv_pmos
+x iout iout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2951 y=3528 sg13_hv_pmos
+x a_n8075_10072# a_n9031_6300# a_n9137_8514# vdd s=68000,2136 d=68000,2136 l=200 w=1000 x=-4238 y=9410 sg13_hv_pmos
+x a_1629_8687# a_1315_11587# a_1629_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=1629 y=8687 rppd
+x a_n255_5543# a_n255_8443# a_n255_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=-254 y=5543 rppd
+x vdd vdd vdd vdd d=13600,536 l=800 w=200 x=-10090 y=6336 sg13_hv_pmos
+x a_6025_8687# a_6025_11587# a_6025_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=6025 y=8687 rppd
+x a_5711_5543# a_5711_8443# a_5711_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=5711 y=5543 rppd
+x vdd vss s=2111880,20609 l=800 w=800 x=-6998 y=10931 cap_cmim
+x a_1315_8687# a_1315_11587# a_1315_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=1315 y=8687 rppd
+x a_n9137_8514# a_n9131_n1107# a_n8547_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8746 y=-1106 sg13_hv_pmos
+x a_5397_5543# a_5397_8443# a_5083_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=5397 y=5543 rppd
+x iout vdd iout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2275 y=3528 sg13_hv_pmos
+x a_n8547_1983# a_n9031_6300# vss vss s=45600,1276 d=81600,2536 l=200 w=1200 x=-4016 y=-633 sg13_hv_nmos
+x a_n9137_8514# vss a_n9137_8514# vss s=54400,1736 d=54400,1736 l=90 w=800 x=-9100 y=8514 sg13_hv_nmos
+x a_n10205_8514# vss a_n10205_8514# vss s=54400,1736 d=54400,1736 l=90 w=800 x=-7084 y=8514 sg13_hv_nmos
+x a_1001_8687# a_687_11587# a_1001_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=1001 y=8687 rppd
+x a_n8547_1983# vss a_n9031_6300# vss s=45600,1276 d=45600,1276 l=200 w=1200 x=-4016 y=-909 sg13_hv_nmos
+x a_5083_5543# a_5083_8443# a_5083_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=5083 y=5543 rppd
+x a_n1511_5543# a_n1511_8443# a_n1511_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=-1510 y=5543 rppd
+x vdd a_n8547_1983# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8162 y=1983 sg13_hv_pmos
+x a_3827_5543# a_3827_8443# a_3827_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=3827 y=5543 rppd
+x a_6967_8687# a_6653_11587# a_6967_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=6967 y=8687 rppd
+x vss vss vss vss d=40800,1336 l=200 w=600 x=-4086 y=827 sg13_hv_nmos
+x a_n883_5543# a_n883_8443# a_n8747_1947# vss s=12900,472 d=12900,472 l=2900 w=150 x=-882 y=5543 rppd
+x iout a_n9031_6300# vdd vdd s=45600,1276 d=81600,2536 l=600 w=1200 x=5655 y=1810 sg13_hv_pmos
+x a_n1197_5543# a_n1197_8443# a_n1511_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=-1196 y=5543 rppd
+x a_687_8687# a_687_11587# a_687_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=687 y=8687 rppd
+x a_n8547_n1107# a_n8547_n1107# vss vss s=40800,1336 d=40800,1336 l=200 w=600 x=-3705 y=827 sg13_hv_nmos
+x iout vdd iout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4979 y=3528 sg13_hv_pmos
+x a_6653_8687# a_6653_11587# a_6653_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=6653 y=8687 rppd
+x a_n1818_1486# a_n9031_6300# s=1898268,27276 l=3000 w=3000 x=-206 y=-1769 cap_cmim
+x a_3513_5543# a_3513_8443# VBG vss s=12900,472 d=12900,472 l=2900 w=150 x=3513 y=5543 rppd
+x a_1943_8687# a_1943_11587# a_1943_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=1943 y=8687 rppd
+x a_n8547_n1107# vss a_n8547_1983# vss s=40800,1336 d=40800,1336 l=200 w=600 x=-3327 y=827 sg13_hv_nmos
+x vdd vss s=1125360,7635 l=800 w=800 x=3240 y=-1219 cap_cmim
+x a_3199_5543# a_3199_8443# a_2885_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=3199 y=5543 rppd
+x a_n9137_8514# vss a_n9137_8514# vss s=54400,1736 d=54400,1736 l=90 w=800 x=-8092 y=8514 sg13_hv_nmos
+x a_373_8687# a_59_11587# a_373_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=373 y=8687 rppd
+x a_n8747_1947# a_n9131_n1107# a_n8547_1983# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8746 y=1983 sg13_hv_pmos
+x iout iout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4303 y=3528 sg13_hv_pmos
+x a_6339_5543# a_6339_8443# a_6339_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=6339 y=5543 rppd
+x a_n8075_10072# a_n9719_10072# a_n8075_10072# vss s=13600,536 d=13600,536 l=1400 w=200 x=-8074 y=10108 sg13_hv_nmos
+x a_1629_5543# a_1629_8443# a_1629_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=1629 y=5543 rppd
+x a_4769_8687# a_4769_11587# a_4769_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=4769 y=8687 rppd
+x a_n8747_1947# a_n9131_n1107# a_n8547_1983# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6994 y=-1106 sg13_hv_pmos
+x vss vss vss vss d=54400,1736 l=90 w=800 x=-10108 y=9182 sg13_hv_nmos
+x vdd a_n8547_n1107# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8162 y=-1106 sg13_hv_pmos
+x a_6025_5543# a_6025_8443# a_5711_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=6025 y=5543 rppd
+x a_n8547_1983# vss a_n9031_6300# vss s=81600,2536 d=45600,1276 l=200 w=1200 x=-4016 y=-1461 sg13_hv_nmos
+x a_4455_8687# a_4141_11587# a_4455_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=4455 y=8687 rppd
+x a_1315_5543# a_1315_8443# a_1001_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=1315 y=5543 rppd
+x vdd vss s=1815160,17823 l=800 w=800 x=7076 y=646 cap_cmim
+x a_n8075_10072# a_n9137_8514# a_n9031_6300# vdd s=68000,2136 d=68000,2136 l=200 w=1000 x=-4238 y=9994 sg13_hv_pmos
+x vdd vss s=1815160,17823 l=800 w=800 x=7076 y=3046 cap_cmim
+x a_4141_8687# a_4141_11587# a_4141_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=4141 y=8687 rppd
+x a_1001_5543# a_1001_8443# a_1001_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=1001 y=5543 rppd
+x a_n9031_6300# vdd a_n4239_8442# vdd s=68000,2136 d=68000,2136 l=200 w=1000 x=-4238 y=8242 sg13_hv_pmos
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-7578 y=1983 sg13_hv_pmos
+x a_6967_5543# a_6967_8443# a_6967_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=6967 y=5543 rppd
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-9330 y=-1106 sg13_hv_pmos
+x iout iout vdd vdd s=45600,1276 d=81600,2536 l=600 w=1200 x=5655 y=3528 sg13_hv_pmos
+x a_n10205_8514# a_n10205_8514# vss vss s=54400,1736 d=54400,1736 l=90 w=800 x=-10108 y=8848 sg13_hv_nmos
+x a_687_5543# a_687_8443# a_373_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=687 y=5543 rppd
+x a_n10205_8514# vss a_n10205_8514# vss s=54400,1736 d=54400,1736 l=90 w=800 x=-9100 y=9182 sg13_hv_nmos
+x a_6653_5543# a_6653_8443# a_6339_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=6653 y=5543 rppd
+x vss vss vss vss d=54400,1736 l=90 w=800 x=-7084 y=9182 sg13_hv_nmos
+x vdd vss s=1815160,17823 l=800 w=800 x=7076 y=4246 cap_cmim
+x vdd vss s=2111880,20609 l=800 w=800 x=-10598 y=10931 cap_cmim
+x a_2257_8687# a_1943_11587# a_2257_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=2257 y=8687 rppd
+x a_1943_5543# a_1943_8443# a_1629_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=1943 y=5543 rppd
+x a_373_5543# a_373_8443# a_373_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=373 y=5543 rppd
+x a_n9031_6300# a_n4239_8442# a_n8075_10072# vdd s=68000,2136 d=68000,2136 l=200 w=1000 x=-4238 y=8826 sg13_hv_pmos
+x vdd vss s=2111880,20609 l=800 w=800 x=-3398 y=10931 cap_cmim
+x iout a_n9031_6300# vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=1599 y=1810 sg13_hv_pmos
+x a_4769_5543# a_4769_8443# a_4455_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=4769 y=5543 rppd
+x iout vdd a_n9131_n1107# vdd s=81600,2536 d=81600,2536 l=600 w=1200 x=-3046 y=2845 sg13_hv_pmos
+x vdd a_n8547_n1107# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6410 y=1983 sg13_hv_pmos
+x a_n10205_8514# vss a_n10205_8514# vss s=54400,1736 d=54400,1736 l=90 w=800 x=-8092 y=9182 sg13_hv_nmos
+x a_n9031_6300# a_n9137_8514# vdd vdd s=13600,536 d=13600,536 l=800 w=200 x=-6910 y=6336 sg13_hv_pmos
+x a_n9137_8514# a_n9137_8514# vss vss s=54400,1736 d=54400,1736 l=90 w=800 x=-9100 y=8848 sg13_hv_nmos
+x a_n10205_8514# a_n10205_8514# vss vss s=54400,1736 d=54400,1736 l=90 w=800 x=-7084 y=8848 sg13_hv_nmos
+x vdd vss s=2111880,20609 l=800 w=800 x=-8198 y=10931 cap_cmim
+x a_7595_8687# a_7281_11587# a_7595_8443# vss s=12900,472 d=12900,472 l=2900 w=150 x=7595 y=8687 rppd
+x vdd vdd vdd vdd d=81600,2536 l=600 w=1200 x=-1430 y=2845 sg13_hv_pmos
+x a_4455_5543# a_4455_8443# a_4455_5457# vss s=12900,472 d=12900,472 l=2900 w=150 x=4455 y=5543 rppd
+C a_n9031_6300# a_n8747_1947# 3.2
+C vdd a_n9131_n1107# 7.3
+C a_n1818_1486# vdd 2.2
+C a_n10205_8514# vdd 2.0
+C a_n9137_8514# a_n8747_1947# 2.3
+C iout vdd 53.5
+C a_n8075_10072# vdd 2.3
+C a_n8747_1947# vdd 5.1
+C a_n9131_n1107# a_n8547_1983# 2.4
+C a_n9137_8514# a_n8547_n1107# 2.0
+C a_n9031_6300# vdd 13.2
+C vdd a_n8547_1983# 7.7
+C a_n9131_n1107# a_n8547_n1107# 3.1
+C a_n9031_6300# iout 2.8
+C vdd a_n8547_n1107# 7.5
+C a_n9137_8514# vdd 6.5
+C iout0 4.6
+R iout 28
+C VBG0 4.6
+C vdd0 534.7
+R vdd 101
+= vdd ntap1$1_5[7].well
+= vdd ntap1$1_5[6].well
+= vdd ntap1$1_5[5].well
+= vdd ntap1$1_5[4].well
+= vdd ntap1$1_5[3].well
+= vdd ntap1$1_5[2].well
+= vdd ntap1$1_5[1].well
+= vdd ntap1$1_5[0].well
+= vdd ntap1$1_7[11].well
+= vdd ntap1$1_7[10].well
+= vdd ntap1$1_7[9].well
+= vdd ntap1$1_7[8].well
+= vdd ntap1$1_7[7].well
+= vdd ntap1$1_7[6].well
+= vdd ntap1$1_7[5].well
+= vdd ntap1$1_7[4].well
+= vdd ntap1$1_7[3].well
+= vdd ntap1$1_7[2].well
+= vdd ntap1$1_7[1].well
+= vdd ntap1$1_7[0].well
+= vdd ntap1$1_4[11].well
+= vdd ntap1$1_4[10].well
+= vdd ntap1$1_4[9].well
+= vdd ntap1$1_4[8].well
+= vdd ntap1$1_4[7].well
+= vdd ntap1$1_4[6].well
+= vdd ntap1$1_4[5].well
+= vdd ntap1$1_4[4].well
+= vdd ntap1$1_4[3].well
+= vdd ntap1$1_4[2].well
+= vdd ntap1$1_4[1].well
+= vdd ntap1$1_4[0].well
+= vdd ntap1$1_6[7].well
+= vdd ntap1$1_6[6].well
+= vdd ntap1$1_6[5].well
+= vdd ntap1$1_6[4].well
+= vdd ntap1$1_6[3].well
+= vdd ntap1$1_6[2].well
+= vdd ntap1$1_6[1].well
+= vdd ntap1$1_6[0].well
+= vdd ntap1$1_0[31].well
+= vdd ntap1$1_0[30].well
+= vdd ntap1$1_0[29].well
+= vdd ntap1$1_0[28].well
+= vdd ntap1$1_0[27].well
+= vdd ntap1$1_0[26].well
+= vdd ntap1$1_0[25].well
+= vdd ntap1$1_0[24].well
+= vdd ntap1$1_0[23].well
+= vdd ntap1$1_0[22].well
+= vdd ntap1$1_0[21].well
+= vdd ntap1$1_0[20].well
+= vdd ntap1$1_0[19].well
+= vdd ntap1$1_0[18].well
+= vdd ntap1$1_0[17].well
+= vdd ntap1$1_0[16].well
+= vdd ntap1$1_0[15].well
+= vdd ntap1$1_0[14].well
+= vdd ntap1$1_0[13].well
+= vdd ntap1$1_0[12].well
+= vdd ntap1$1_0[11].well
+= vdd ntap1$1_0[10].well
+= vdd ntap1$1_0[9].well
+= vdd ntap1$1_0[8].well
+= vdd ntap1$1_0[7].well
+= vdd ntap1$1_0[6].well
+= vdd ntap1$1_0[5].well
+= vdd ntap1$1_0[4].well
+= vdd ntap1$1_0[3].well
+= vdd ntap1$1_0[2].well
+= vdd ntap1$1_0[1].well
+= vdd ntap1$1_0[0].well
+= vdd ntap1$1_1[31].well
+= vdd ntap1$1_1[30].well
+= vdd ntap1$1_1[29].well
+= vdd ntap1$1_1[28].well
+= vdd ntap1$1_1[27].well
+= vdd ntap1$1_1[26].well
+= vdd ntap1$1_1[25].well
+= vdd ntap1$1_1[24].well
+= vdd ntap1$1_1[23].well
+= vdd ntap1$1_1[22].well
+= vdd ntap1$1_1[21].well
+= vdd ntap1$1_1[20].well
+= vdd ntap1$1_1[19].well
+= vdd ntap1$1_1[18].well
+= vdd ntap1$1_1[17].well
+= vdd ntap1$1_1[16].well
+= vdd ntap1$1_1[15].well
+= vdd ntap1$1_1[14].well
+= vdd ntap1$1_1[13].well
+= vdd ntap1$1_1[12].well
+= vdd ntap1$1_1[11].well
+= vdd ntap1$1_1[10].well
+= vdd ntap1$1_1[9].well
+= vdd ntap1$1_1[8].well
+= vdd ntap1$1_1[7].well
+= vdd ntap1$1_1[6].well
+= vdd ntap1$1_1[5].well
+= vdd ntap1$1_1[4].well
+= vdd ntap1$1_1[3].well
+= vdd ntap1$1_1[2].well
+= vdd ntap1$1_1[1].well
+= vdd ntap1$1_1[0].well
+= vdd ntap1$1_2[2].well
+= vdd ntap1$1_2[1].well
+= vdd ntap1$1_2[0].well
+= vdd ntap1$1_3[2].well
+= vdd ntap1$1_3[1].well
+= vdd ntap1$1_3[0].well
+= vdd ntap1_9[14].well
+= vdd ntap1_9[13].well
+= vdd ntap1_9[12].well
+= vdd ntap1_9[11].well
+= vdd ntap1_9[10].well
+= vdd ntap1_9[9].well
+= vdd ntap1_9[8].well
+= vdd ntap1_9[7].well
+= vdd ntap1_9[6].well
+= vdd ntap1_9[5].well
+= vdd ntap1_9[4].well
+= vdd ntap1_9[3].well
+= vdd ntap1_9[2].well
+= vdd ntap1_9[1].well
+= vdd ntap1_9[0].well
+= vdd ntap1_8[14].well
+= vdd ntap1_8[13].well
+= vdd ntap1_8[12].well
+= vdd ntap1_8[11].well
+= vdd ntap1_8[10].well
+= vdd ntap1_8[9].well
+= vdd ntap1_8[8].well
+= vdd ntap1_8[7].well
+= vdd ntap1_8[6].well
+= vdd ntap1_8[5].well
+= vdd ntap1_8[4].well
+= vdd ntap1_8[3].well
+= vdd ntap1_8[2].well
+= vdd ntap1_8[1].well
+= vdd ntap1_8[0].well
+= vdd ntap1_7[23].well
+= vdd ntap1_7[22].well
+= vdd ntap1_7[21].well
+= vdd ntap1_7[20].well
+= vdd ntap1_7[19].well
+= vdd ntap1_7[18].well
+= vdd ntap1_7[17].well
+= vdd ntap1_7[16].well
+= vdd ntap1_7[15].well
+= vdd ntap1_7[14].well
+= vdd ntap1_7[13].well
+= vdd ntap1_7[12].well
+= vdd ntap1_7[11].well
+= vdd ntap1_7[10].well
+= vdd ntap1_7[9].well
+= vdd ntap1_7[8].well
+= vdd ntap1_7[7].well
+= vdd ntap1_7[6].well
+= vdd ntap1_7[5].well
+= vdd ntap1_7[4].well
+= vdd ntap1_7[3].well
+= vdd ntap1_7[2].well
+= vdd ntap1_7[1].well
+= vdd ntap1_7[0].well
+= vdd ntap1_1[23].well
+= vdd ntap1_1[22].well
+= vdd ntap1_1[21].well
+= vdd ntap1_1[20].well
+= vdd ntap1_1[19].well
+= vdd ntap1_1[18].well
+= vdd ntap1_1[17].well
+= vdd ntap1_1[16].well
+= vdd ntap1_1[15].well
+= vdd ntap1_1[14].well
+= vdd ntap1_1[13].well
+= vdd ntap1_1[12].well
+= vdd ntap1_1[11].well
+= vdd ntap1_1[10].well
+= vdd ntap1_1[9].well
+= vdd ntap1_1[8].well
+= vdd ntap1_1[7].well
+= vdd ntap1_1[6].well
+= vdd ntap1_1[5].well
+= vdd ntap1_1[4].well
+= vdd ntap1_1[3].well
+= vdd ntap1_1[2].well
+= vdd ntap1_1[1].well
+= vdd ntap1_1[0].well
+= vdd ntap1_0[6].well
+= vdd ntap1_0[5].well
+= vdd ntap1_0[4].well
+= vdd ntap1_0[3].well
+= vdd ntap1_0[2].well
+= vdd ntap1_0[1].well
+= vdd ntap1_0[0].well
+= vdd ntap1_10[27].well
+= vdd ntap1_10[26].well
+= vdd ntap1_10[25].well
+= vdd ntap1_10[24].well
+= vdd ntap1_10[23].well
+= vdd ntap1_10[22].well
+= vdd ntap1_10[21].well
+= vdd ntap1_10[20].well
+= vdd ntap1_10[19].well
+= vdd ntap1_10[18].well
+= vdd ntap1_10[17].well
+= vdd ntap1_10[16].well
+= vdd ntap1_10[15].well
+= vdd ntap1_10[14].well
+= vdd ntap1_10[13].well
+= vdd ntap1_10[12].well
+= vdd ntap1_10[11].well
+= vdd ntap1_10[10].well
+= vdd ntap1_10[9].well
+= vdd ntap1_10[8].well
+= vdd ntap1_10[7].well
+= vdd ntap1_10[6].well
+= vdd ntap1_10[5].well
+= vdd ntap1_10[4].well
+= vdd ntap1_10[3].well
+= vdd ntap1_10[2].well
+= vdd ntap1_10[1].well
+= vdd ntap1_10[0].well
+= vdd ntap1_5[15].well
+= vdd ntap1_5[14].well
+= vdd ntap1_5[13].well
+= vdd ntap1_5[12].well
+= vdd ntap1_5[11].well
+= vdd ntap1_5[10].well
+= vdd ntap1_5[9].well
+= vdd ntap1_5[8].well
+= vdd ntap1_5[7].well
+= vdd ntap1_5[6].well
+= vdd ntap1_5[5].well
+= vdd ntap1_5[4].well
+= vdd ntap1_5[3].well
+= vdd ntap1_5[2].well
+= vdd ntap1_5[1].well
+= vdd ntap1_5[0].well
+= vdd ntap1_6[15].well
+= vdd ntap1_6[14].well
+= vdd ntap1_6[13].well
+= vdd ntap1_6[12].well
+= vdd ntap1_6[11].well
+= vdd ntap1_6[10].well
+= vdd ntap1_6[9].well
+= vdd ntap1_6[8].well
+= vdd ntap1_6[7].well
+= vdd ntap1_6[6].well
+= vdd ntap1_6[5].well
+= vdd ntap1_6[4].well
+= vdd ntap1_6[3].well
+= vdd ntap1_6[2].well
+= vdd ntap1_6[1].well
+= vdd ntap1_6[0].well
+= vdd ntap1_3[6].well
+= vdd ntap1_3[5].well
+= vdd ntap1_3[4].well
+= vdd ntap1_3[3].well
+= vdd ntap1_3[2].well
+= vdd ntap1_3[1].well
+= vdd ntap1_3[0].well
+= vdd ntap1_11[27].well
+= vdd ntap1_11[26].well
+= vdd ntap1_11[25].well
+= vdd ntap1_11[24].well
+= vdd ntap1_11[23].well
+= vdd ntap1_11[22].well
+= vdd ntap1_11[21].well
+= vdd ntap1_11[20].well
+= vdd ntap1_11[19].well
+= vdd ntap1_11[18].well
+= vdd ntap1_11[17].well
+= vdd ntap1_11[16].well
+= vdd ntap1_11[15].well
+= vdd ntap1_11[14].well
+= vdd ntap1_11[13].well
+= vdd ntap1_11[12].well
+= vdd ntap1_11[11].well
+= vdd ntap1_11[10].well
+= vdd ntap1_11[9].well
+= vdd ntap1_11[8].well
+= vdd ntap1_11[7].well
+= vdd ntap1_11[6].well
+= vdd ntap1_11[5].well
+= vdd ntap1_11[4].well
+= vdd ntap1_11[3].well
+= vdd ntap1_11[2].well
+= vdd ntap1_11[1].well
+= vdd ntap1_11[0].well
+= vdd ntap1_4[19].well
+= vdd ntap1_4[18].well
+= vdd ntap1_4[17].well
+= vdd ntap1_4[16].well
+= vdd ntap1_4[15].well
+= vdd ntap1_4[14].well
+= vdd ntap1_4[13].well
+= vdd ntap1_4[12].well
+= vdd ntap1_4[11].well
+= vdd ntap1_4[10].well
+= vdd ntap1_4[9].well
+= vdd ntap1_4[8].well
+= vdd ntap1_4[7].well
+= vdd ntap1_4[6].well
+= vdd ntap1_4[5].well
+= vdd ntap1_4[4].well
+= vdd ntap1_4[3].well
+= vdd ntap1_4[2].well
+= vdd ntap1_4[1].well
+= vdd ntap1_4[0].well
+= vdd ntap1_2[19].well
+= vdd ntap1_2[18].well
+= vdd ntap1_2[17].well
+= vdd ntap1_2[16].well
+= vdd ntap1_2[15].well
+= vdd ntap1_2[14].well
+= vdd ntap1_2[13].well
+= vdd ntap1_2[12].well
+= vdd ntap1_2[11].well
+= vdd ntap1_2[10].well
+= vdd ntap1_2[9].well
+= vdd ntap1_2[8].well
+= vdd ntap1_2[7].well
+= vdd ntap1_2[6].well
+= vdd ntap1_2[5].well
+= vdd ntap1_2[4].well
+= vdd ntap1_2[3].well
+= vdd ntap1_2[2].well
+= vdd ntap1_2[1].well
+= vdd ntap1_2[0].well
+R vss 187
+= vss ptap1$1_4[29].sub!
+= vss ptap1$1_4[28].sub!
+= vss ptap1$1_4[27].sub!
+= vss ptap1$1_4[26].sub!
+= vss ptap1$1_4[25].sub!
+= vss ptap1$1_4[24].sub!
+= vss ptap1$1_4[23].sub!
+= vss ptap1$1_4[22].sub!
+= vss ptap1$1_4[21].sub!
+= vss ptap1$1_4[20].sub!
+= vss ptap1$1_4[19].sub!
+= vss ptap1$1_4[18].sub!
+= vss ptap1$1_4[17].sub!
+= vss ptap1$1_4[16].sub!
+= vss ptap1$1_4[15].sub!
+= vss ptap1$1_4[14].sub!
+= vss ptap1$1_4[13].sub!
+= vss ptap1$1_4[12].sub!
+= vss ptap1$1_4[11].sub!
+= vss ptap1$1_4[10].sub!
+= vss ptap1$1_4[9].sub!
+= vss ptap1$1_4[8].sub!
+= vss ptap1$1_4[7].sub!
+= vss ptap1$1_4[6].sub!
+= vss ptap1$1_4[5].sub!
+= vss ptap1$1_4[4].sub!
+= vss ptap1$1_4[3].sub!
+= vss ptap1$1_4[2].sub!
+= vss ptap1$1_4[1].sub!
+= vss ptap1$1_4[0].sub!
+= vss ptap1$1_3[3].sub!
+= vss ptap1$1_3[2].sub!
+= vss ptap1$1_3[1].sub!
+= vss ptap1$1_3[0].sub!
+= vss ptap1$1_7[29].sub!
+= vss ptap1$1_7[28].sub!
+= vss ptap1$1_7[27].sub!
+= vss ptap1$1_7[26].sub!
+= vss ptap1$1_7[25].sub!
+= vss ptap1$1_7[24].sub!
+= vss ptap1$1_7[23].sub!
+= vss ptap1$1_7[22].sub!
+= vss ptap1$1_7[21].sub!
+= vss ptap1$1_7[20].sub!
+= vss ptap1$1_7[19].sub!
+= vss ptap1$1_7[18].sub!
+= vss ptap1$1_7[17].sub!
+= vss ptap1$1_7[16].sub!
+= vss ptap1$1_7[15].sub!
+= vss ptap1$1_7[14].sub!
+= vss ptap1$1_7[13].sub!
+= vss ptap1$1_7[12].sub!
+= vss ptap1$1_7[11].sub!
+= vss ptap1$1_7[10].sub!
+= vss ptap1$1_7[9].sub!
+= vss ptap1$1_7[8].sub!
+= vss ptap1$1_7[7].sub!
+= vss ptap1$1_7[6].sub!
+= vss ptap1$1_7[5].sub!
+= vss ptap1$1_7[4].sub!
+= vss ptap1$1_7[3].sub!
+= vss ptap1$1_7[2].sub!
+= vss ptap1$1_7[1].sub!
+= vss ptap1$1_7[0].sub!
+= vss ptap1$1_6[3].sub!
+= vss ptap1$1_6[2].sub!
+= vss ptap1$1_6[1].sub!
+= vss ptap1$1_6[0].sub!
+= vss ptap1$1_5[29].sub!
+= vss ptap1$1_5[28].sub!
+= vss ptap1$1_5[27].sub!
+= vss ptap1$1_5[26].sub!
+= vss ptap1$1_5[25].sub!
+= vss ptap1$1_5[24].sub!
+= vss ptap1$1_5[23].sub!
+= vss ptap1$1_5[22].sub!
+= vss ptap1$1_5[21].sub!
+= vss ptap1$1_5[20].sub!
+= vss ptap1$1_5[19].sub!
+= vss ptap1$1_5[18].sub!
+= vss ptap1$1_5[17].sub!
+= vss ptap1$1_5[16].sub!
+= vss ptap1$1_5[15].sub!
+= vss ptap1$1_5[14].sub!
+= vss ptap1$1_5[13].sub!
+= vss ptap1$1_5[12].sub!
+= vss ptap1$1_5[11].sub!
+= vss ptap1$1_5[10].sub!
+= vss ptap1$1_5[9].sub!
+= vss ptap1$1_5[8].sub!
+= vss ptap1$1_5[7].sub!
+= vss ptap1$1_5[6].sub!
+= vss ptap1$1_5[5].sub!
+= vss ptap1$1_5[4].sub!
+= vss ptap1$1_5[3].sub!
+= vss ptap1$1_5[2].sub!
+= vss ptap1$1_5[1].sub!
+= vss ptap1$1_5[0].sub!
+= vss ptap1$1_0[29].sub!
+= vss ptap1$1_0[28].sub!
+= vss ptap1$1_0[27].sub!
+= vss ptap1$1_0[26].sub!
+= vss ptap1$1_0[25].sub!
+= vss ptap1$1_0[24].sub!
+= vss ptap1$1_0[23].sub!
+= vss ptap1$1_0[22].sub!
+= vss ptap1$1_0[21].sub!
+= vss ptap1$1_0[20].sub!
+= vss ptap1$1_0[19].sub!
+= vss ptap1$1_0[18].sub!
+= vss ptap1$1_0[17].sub!
+= vss ptap1$1_0[16].sub!
+= vss ptap1$1_0[15].sub!
+= vss ptap1$1_0[14].sub!
+= vss ptap1$1_0[13].sub!
+= vss ptap1$1_0[12].sub!
+= vss ptap1$1_0[11].sub!
+= vss ptap1$1_0[10].sub!
+= vss ptap1$1_0[9].sub!
+= vss ptap1$1_0[8].sub!
+= vss ptap1$1_0[7].sub!
+= vss ptap1$1_0[6].sub!
+= vss ptap1$1_0[5].sub!
+= vss ptap1$1_0[4].sub!
+= vss ptap1$1_0[3].sub!
+= vss ptap1$1_0[2].sub!
+= vss ptap1$1_0[1].sub!
+= vss ptap1$1_0[0].sub!
+= vss ptap1$1_1[10].sub!
+= vss ptap1$1_1[9].sub!
+= vss ptap1$1_1[8].sub!
+= vss ptap1$1_1[7].sub!
+= vss ptap1$1_1[6].sub!
+= vss ptap1$1_1[5].sub!
+= vss ptap1$1_1[4].sub!
+= vss ptap1$1_1[3].sub!
+= vss ptap1$1_1[2].sub!
+= vss ptap1$1_1[1].sub!
+= vss ptap1$1_1[0].sub!
+= vss ptap1$1_2[10].sub!
+= vss ptap1$1_2[9].sub!
+= vss ptap1$1_2[8].sub!
+= vss ptap1$1_2[7].sub!
+= vss ptap1$1_2[6].sub!
+= vss ptap1$1_2[5].sub!
+= vss ptap1$1_2[4].sub!
+= vss ptap1$1_2[3].sub!
+= vss ptap1$1_2[2].sub!
+= vss ptap1$1_2[1].sub!
+= vss ptap1$1_2[0].sub!
+= vss ptap1_7[11].sub!
+= vss ptap1_7[10].sub!
+= vss ptap1_7[9].sub!
+= vss ptap1_7[8].sub!
+= vss ptap1_7[7].sub!
+= vss ptap1_7[6].sub!
+= vss ptap1_7[5].sub!
+= vss ptap1_7[4].sub!
+= vss ptap1_7[3].sub!
+= vss ptap1_7[2].sub!
+= vss ptap1_7[1].sub!
+= vss ptap1_7[0].sub!
+= vss ptap1_1[11].sub!
+= vss ptap1_1[10].sub!
+= vss ptap1_1[9].sub!
+= vss ptap1_1[8].sub!
+= vss ptap1_1[7].sub!
+= vss ptap1_1[6].sub!
+= vss ptap1_1[5].sub!
+= vss ptap1_1[4].sub!
+= vss ptap1_1[3].sub!
+= vss ptap1_1[2].sub!
+= vss ptap1_1[1].sub!
+= vss ptap1_1[0].sub!
+= vss ptap1_6[5].sub!
+= vss ptap1_6[4].sub!
+= vss ptap1_6[3].sub!
+= vss ptap1_6[2].sub!
+= vss ptap1_6[1].sub!
+= vss ptap1_6[0].sub!
+= vss ptap1_0[5].sub!
+= vss ptap1_0[4].sub!
+= vss ptap1_0[3].sub!
+= vss ptap1_0[2].sub!
+= vss ptap1_0[1].sub!
+= vss ptap1_0[0].sub!
+= vss ptap1_5[11].sub!
+= vss ptap1_5[10].sub!
+= vss ptap1_5[9].sub!
+= vss ptap1_5[8].sub!
+= vss ptap1_5[7].sub!
+= vss ptap1_5[6].sub!
+= vss ptap1_5[5].sub!
+= vss ptap1_5[4].sub!
+= vss ptap1_5[3].sub!
+= vss ptap1_5[2].sub!
+= vss ptap1_5[1].sub!
+= vss ptap1_5[0].sub!
+= vss ptap1_3[9].sub!
+= vss ptap1_3[8].sub!
+= vss ptap1_3[7].sub!
+= vss ptap1_3[6].sub!
+= vss ptap1_3[5].sub!
+= vss ptap1_3[4].sub!
+= vss ptap1_3[3].sub!
+= vss ptap1_3[2].sub!
+= vss ptap1_3[1].sub!
+= vss ptap1_3[0].sub!
+= vss ptap1_4[9].sub!
+= vss ptap1_4[8].sub!
+= vss ptap1_4[7].sub!
+= vss ptap1_4[6].sub!
+= vss ptap1_4[5].sub!
+= vss ptap1_4[4].sub!
+= vss ptap1_4[3].sub!
+= vss ptap1_4[2].sub!
+= vss ptap1_4[1].sub!
+= vss ptap1_4[0].sub!
+= vss ptap1_2[11].sub!
+= vss ptap1_2[10].sub!
+= vss ptap1_2[9].sub!
+= vss ptap1_2[8].sub!
+= vss ptap1_2[7].sub!
+= vss ptap1_2[6].sub!
+= vss ptap1_2[5].sub!
+= vss ptap1_2[4].sub!
+= vss ptap1_2[3].sub!
+= vss ptap1_2[2].sub!
+= vss ptap1_2[1].sub!
+= vss ptap1_2[0].sub!
+C a_n1818_n1514#0 2.7
+R a_n1818_n1514# 3900
+C a_n1818_1486#0 339.9
+C a_n8547_n1107#0 3.6
+R a_n8547_n1107# 13
+C a_n8547_1983#0 10.7
+R a_n8547_1983# 17
+C a_n9131_n1107#0 3.6
+R a_n9131_n1107# 15
+C a_7595_5543#0 2.2
+R a_7595_5543# 5027
+R a_7281_5543# 5027
+R a_6967_5543# 5027
+R a_6653_5543# 5027
+R a_6339_5543# 5027
+R a_6025_5543# 5027
+R a_5711_5543# 5027
+R a_5397_5543# 5027
+R a_5083_5543# 5027
+R a_4769_5543# 5027
+R a_4455_5543# 5027
+R a_4141_5543# 5027
+R a_3827_5543# 5027
+R a_3513_5543# 5027
+R a_3199_5543# 5027
+R a_2885_5543# 5027
+R a_2571_5543# 5027
+R a_2257_5543# 5027
+R a_1943_5543# 5027
+R a_1629_5543# 5027
+R a_1315_5543# 5027
+R a_1001_5543# 5027
+R a_687_5543# 5027
+R a_373_5543# 5027
+R a_59_5543# 5027
+R a_n255_5543# 5027
+R a_n569_5543# 5027
+R a_n883_5543# 5027
+R a_n1197_5543# 5027
+C a_n1511_5543#0 2.1
+R a_n1511_5543# 5027
+C a_n8747_1947#0 3.1
+C a_7595_8687#0 2.1
+R a_7595_8687# 5027
+R a_7281_8687# 5027
+R a_6967_8687# 5027
+R a_6653_8687# 5027
+R a_6339_8687# 5027
+R a_6025_8687# 5027
+R a_5711_8687# 5027
+R a_5397_8687# 5027
+R a_5083_8687# 5027
+R a_4769_8687# 5027
+R a_4455_8687# 5027
+R a_4141_8687# 5027
+R a_3827_8687# 5027
+R a_3513_8687# 5027
+R a_3199_8687# 5027
+R a_2885_8687# 5027
+R a_2571_8687# 5027
+R a_2257_8687# 5027
+R a_1943_8687# 5027
+R a_1629_8687# 5027
+R a_1315_8687# 5027
+R a_1001_8687# 5027
+R a_687_8687# 5027
+R a_373_8687# 5027
+R a_59_8687# 5027
+R a_n255_8687# 5027
+R a_n569_8687# 5027
+R a_n883_8687# 5027
+R a_n1197_8687# 5027
+C a_n1511_8687#0 2.1
+R a_n1511_8687# 5027
+C a_n10205_8514#0 11.6
+R a_n10205_8514# 15
+C a_n9137_8514#0 5.3
+R a_n9137_8514# 17
+C a_n9031_6300#0 11.1
+R a_n9031_6300# 44
+C a_n8075_10072#0 3.8
+C a_n9719_10072#0 2.4

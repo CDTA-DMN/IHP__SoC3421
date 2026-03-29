@@ -1,0 +1,61 @@
+
+16. Printing statistics.
+
+=== digital_block_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1308        - wires
+     1308        - wire bits
+      241        - public wires
+      241        - public wire bits
+       12        - ports
+       12        - port bits
+     1300 2.26E+04 cells
+        9  114.307   sg13g2_a21o_1
+      115  1043.28   sg13g2_a21oi_1
+        2    29.03   sg13g2_a21oi_2
+       11  159.667   sg13g2_a221oi_1
+        9   97.637   sg13g2_a22oi_1
+       19  172.368   sg13g2_and2_1
+        4   50.803   sg13g2_and3_1
+        3   43.546   sg13g2_and4_1
+       82  595.123   sg13g2_buf_1
+        3   136.08   sg13g2_buf_16
+       22  199.584   sg13g2_buf_2
+        4   58.061   sg13g2_buf_4
+        6  141.523   sg13g2_buf_8
+      237 1.16E+04   sg13g2_dfrbpq_1
+       29  157.853   sg13g2_inv_1
+        1    7.258   sg13g2_inv_2
+        1   10.886   sg13g2_inv_4
+        1   18.144   sg13g2_inv_8
+       84 1.52E+03   sg13g2_mux2_1
+        1   19.958   sg13g2_mux2_2
+       24  914.458   sg13g2_mux4_1
+      175  1270.08   sg13g2_nand2_1
+        1   10.886   sg13g2_nand2_2
+       55   498.96   sg13g2_nand2b_1
+        2    29.03   sg13g2_nand2b_2
+       44  399.168   sg13g2_nand3_1
+        6   76.205   sg13g2_nand3b_1
+        7   76.205   sg13g2_nand4_1
+       94  682.214   sg13g2_nor2_1
+        4   43.546   sg13g2_nor2_2
+      101  916.272   sg13g2_nor2b_1
+       29  263.088   sg13g2_nor3_1
+        4   65.318   sg13g2_nor3_2
+       12  130.637   sg13g2_nor4_1
+        3   65.318   sg13g2_nor4_2
+       63  571.536   sg13g2_o21ai_1
+        7   63.504   sg13g2_or2_1
+        4   50.803   sg13g2_or3_1
+        8  116.122   sg13g2_or4_1
+        1    7.258   sg13g2_tiehi
+        7  101.606   sg13g2_xnor2_1
+        6   87.091   sg13g2_xor2_1
+
+   Chip area for module '\digital_block_top': 22628.856600
+     of which used for sequential elements: 11610.345600 (51.31%)
+

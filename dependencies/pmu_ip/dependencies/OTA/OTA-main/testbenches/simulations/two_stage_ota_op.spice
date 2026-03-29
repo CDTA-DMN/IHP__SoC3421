@@ -1,0 +1,45 @@
+** sch_path: /foss/designs/bandgap_refrence_ihp/two_stage_ota/two_stage_ota_op.sch
+**.subckt two_stage_ota_op
+XM1 Vout1 vicm net1 VDD sg13_hv_pmos w=12u l=1u ng=1 m=2
+XM2 net3 vicm net1 VDD sg13_hv_pmos w=12u l=1u ng=1 m=2
+XM5 net1 net2 VDD VDD sg13_hv_pmos w=6u l=3u ng=1 m=2
+XM3 net3 net3 GND GND sg13_hv_nmos w=3u l=1u ng=1
+XM4 Vout1 net3 GND GND sg13_hv_nmos w=3u l=1u ng=1
+XM7 vout2 net2 VDD VDD sg13_hv_pmos w=6u l=3u ng=1 m=8
+XM6 vout2 Vout1 GND GND sg13_hv_nmos w=12u l=1u ng=1 m=2
+Cc net4 vout2 350f
+Cc1 vout2 GND 100f
+V1 VDD GND 3.3
+V2 vicm GND 1.65
+R2 Vout1 net4 4k
+XM8 net2 net2 VDD VDD sg13_hv_pmos w=6u l=3u ng=1 m=8
+I0 net2 GND 20u
+**** begin user architecture code
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerHBT.lib hbt_typ
+.lib cornerRES.lib res_typ
+
+
+
+
+
+.include two_stage_ota_op.save
+
+.control
+save all
+op
+
+
+write two_stage_ota_op.raw
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL VDD
+.GLOBAL GND
+.end

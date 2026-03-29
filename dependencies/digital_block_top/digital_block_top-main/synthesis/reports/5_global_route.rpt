@@ -1,0 +1,462 @@
+
+==========================================================================
+global route report_tns
+--------------------------------------------------------------------------
+tns max 0.00
+
+==========================================================================
+global route report_wns
+--------------------------------------------------------------------------
+wns max 0.00
+
+==========================================================================
+global route report_worst_slack
+--------------------------------------------------------------------------
+worst slack max 78.18
+
+==========================================================================
+global route report_clock_min_period
+--------------------------------------------------------------------------
+CLK period_min = 21.82 fmax = 45.83
+
+==========================================================================
+global route report_clock_skew
+--------------------------------------------------------------------------
+Clock CLK
+   0.32 source latency main_fsm_top_inst.main_fsm_inst.current_state[3]$_SDFFE_PP1P_/CLK ^
+  -0.22 target latency main_fsm_top_inst.main_fsm_inst.fsm_data_rdy_flag$_SDFFE_PP0P_/CLK ^
+  -0.00 CRPR
+--------------
+   0.10 setup skew
+
+
+==========================================================================
+global route report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: serializer_inst.piso.piso_flip_flops[4]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: serializer_inst.piso.piso_flip_flops[5]$_SDFF_PP0_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.05    0.00    0.00    0.00 ^ CLK (in)
+                                         CLK (net)
+                  0.02    0.01    0.01 ^ clkbuf_0_CLK/A (sg13g2_buf_16)
+     8    0.22    0.07    0.09    0.09 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+                                         clknet_0_CLK (net)
+                  0.08    0.02    0.11 ^ clkbuf_3_5__f_CLK/A (sg13g2_buf_16)
+     5    0.11    0.04    0.10    0.22 ^ clkbuf_3_5__f_CLK/X (sg13g2_buf_16)
+                                         clknet_3_5__leaf_CLK (net)
+                  0.04    0.01    0.22 ^ clkbuf_leaf_24_CLK/A (sg13g2_buf_16)
+     8    0.04    0.03    0.08    0.30 ^ clkbuf_leaf_24_CLK/X (sg13g2_buf_16)
+                                         clknet_leaf_24_CLK (net)
+                  0.03    0.00    0.30 ^ serializer_inst.piso.piso_flip_flops[4]$_SDFF_PP0_/CLK (sg13g2_dfrbpq_1)
+     1    0.00    0.02    0.17    0.47 v serializer_inst.piso.piso_flip_flops[4]$_SDFF_PP0_/Q (sg13g2_dfrbpq_1)
+                                         serializer_inst.piso.piso_flip_flops[4] (net)
+                  0.02    0.00    0.47 v _2111_/A (sg13g2_inv_1)
+     1    0.00    0.03    0.03    0.50 ^ _2111_/Y (sg13g2_inv_1)
+                                         _0609_ (net)
+                  0.03    0.00    0.50 ^ _2112_/C (sg13g2_nor3_1)
+     1    0.00    0.02    0.03    0.53 v _2112_/Y (sg13g2_nor3_1)
+                                         _0231_ (net)
+                  0.02    0.00    0.53 v serializer_inst.piso.piso_flip_flops[5]$_SDFF_PP0_/D (sg13g2_dfrbpq_1)
+                                  0.53   data arrival time
+
+                          0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.06    0.00    0.00    0.00 ^ CLK (in)
+                                         CLK (net)
+                  0.02    0.01    0.01 ^ clkbuf_0_CLK/A (sg13g2_buf_16)
+     8    0.25    0.08    0.09    0.10 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+                                         clknet_0_CLK (net)
+                  0.09    0.02    0.12 ^ clkbuf_3_5__f_CLK/A (sg13g2_buf_16)
+     5    0.12    0.05    0.11    0.23 ^ clkbuf_3_5__f_CLK/X (sg13g2_buf_16)
+                                         clknet_3_5__leaf_CLK (net)
+                  0.05    0.01    0.24 ^ clkbuf_leaf_24_CLK/A (sg13g2_buf_16)
+     8    0.05    0.03    0.08    0.31 ^ clkbuf_leaf_24_CLK/X (sg13g2_buf_16)
+                                         clknet_leaf_24_CLK (net)
+                  0.03    0.00    0.32 ^ serializer_inst.piso.piso_flip_flops[5]$_SDFF_PP0_/CLK (sg13g2_dfrbpq_1)
+                         -0.01    0.30   clock reconvergence pessimism
+                         -0.03    0.27   library hold time
+                                  0.27   data required time
+-----------------------------------------------------------------------------
+                                  0.27   data required time
+                                 -0.53   data arrival time
+-----------------------------------------------------------------------------
+                                  0.27   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: RESET (input port clocked by CLK)
+Endpoint: serializer_inst.piso.DATA_IN[18]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                         20.00   20.00 ^ input external delay
+     1    0.01    0.00    0.00   20.00 ^ RESET (in)
+                                         RESET (net)
+                  0.00    0.00   20.00 ^ input243/A (sg13g2_buf_1)
+     6    0.06    0.26    0.21   20.21 ^ input243/X (sg13g2_buf_1)
+                                         net242 (net)
+                  0.26    0.01   20.22 ^ place564/A (sg13g2_buf_1)
+     6    0.04    0.15    0.22   20.44 ^ place564/X (sg13g2_buf_1)
+                                         net563 (net)
+                  0.15    0.00   20.44 ^ place563/A (sg13g2_buf_1)
+     6    0.04    0.15    0.20   20.64 ^ place563/X (sg13g2_buf_1)
+                                         net562 (net)
+                  0.15    0.00   20.64 ^ place562/A (sg13g2_buf_1)
+     8    0.05    0.20    0.23   20.87 ^ place562/X (sg13g2_buf_1)
+                                         net561 (net)
+                  0.20    0.00   20.88 ^ _1092_/B (sg13g2_nor2_1)
+     3    0.01    0.09    0.12   21.00 v _1092_/Y (sg13g2_nor2_1)
+                                         _0646_ (net)
+                  0.09    0.00   21.00 v _1125_/A2 (sg13g2_a221oi_1)
+     1    0.00    0.12    0.17   21.17 ^ _1125_/Y (sg13g2_a221oi_1)
+                                         _0678_ (net)
+                  0.12    0.00   21.17 ^ _1126_/B (sg13g2_and2_1)
+     5    0.03    0.14    0.20   21.37 ^ _1126_/X (sg13g2_and2_1)
+                                         _0679_ (net)
+                  0.14    0.00   21.37 ^ place479/A (sg13g2_buf_1)
+     5    0.03    0.13    0.18   21.54 ^ place479/X (sg13g2_buf_1)
+                                         net478 (net)
+                  0.13    0.00   21.55 ^ _1180_/B (sg13g2_and2_1)
+     4    0.02    0.10    0.18   21.72 ^ _1180_/X (sg13g2_and2_1)
+                                         _0728_ (net)
+                  0.10    0.00   21.72 ^ _1206_/A2 (sg13g2_o21ai_1)
+     1    0.00    0.08    0.08   21.80 v _1206_/Y (sg13g2_o21ai_1)
+                                         _0749_ (net)
+                  0.08    0.00   21.80 v _1208_/A2 (sg13g2_o21ai_1)
+     1    0.01    0.15    0.16   21.96 ^ _1208_/Y (sg13g2_o21ai_1)
+                                         _0001_ (net)
+                  0.15    0.00   21.96 ^ serializer_inst.piso.DATA_IN[18]$_DFF_P_/D (sg13g2_dfrbpq_1)
+                                 21.96   data arrival time
+
+                        100.00  100.00   clock CLK (rise edge)
+                          0.00  100.00   clock source latency
+     1    0.05    0.00    0.00  100.00 ^ CLK (in)
+                                         CLK (net)
+                  0.02    0.01  100.01 ^ clkbuf_0_CLK/A (sg13g2_buf_16)
+     8    0.22    0.07    0.09  100.09 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+                                         clknet_0_CLK (net)
+                  0.08    0.02  100.11 ^ clkbuf_3_5__f_CLK/A (sg13g2_buf_16)
+     5    0.11    0.04    0.10  100.22 ^ clkbuf_3_5__f_CLK/X (sg13g2_buf_16)
+                                         clknet_3_5__leaf_CLK (net)
+                  0.04    0.00  100.22 ^ clkbuf_leaf_26_CLK/A (sg13g2_buf_16)
+     8    0.04    0.03    0.08  100.30 ^ clkbuf_leaf_26_CLK/X (sg13g2_buf_16)
+                                         clknet_leaf_26_CLK (net)
+                  0.03    0.00  100.30 ^ serializer_inst.piso.DATA_IN[18]$_DFF_P_/CLK (sg13g2_dfrbpq_1)
+                          0.00  100.30   clock reconvergence pessimism
+                         -0.16  100.14   library setup time
+                                100.14   data required time
+-----------------------------------------------------------------------------
+                                100.14   data required time
+                                -21.96   data arrival time
+-----------------------------------------------------------------------------
+                                 78.18   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: RESET (input port clocked by CLK)
+Endpoint: serializer_inst.piso.DATA_IN[18]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                         20.00   20.00 ^ input external delay
+     1    0.01    0.00    0.00   20.00 ^ RESET (in)
+                                         RESET (net)
+                  0.00    0.00   20.00 ^ input243/A (sg13g2_buf_1)
+     6    0.06    0.26    0.21   20.21 ^ input243/X (sg13g2_buf_1)
+                                         net242 (net)
+                  0.26    0.01   20.22 ^ place564/A (sg13g2_buf_1)
+     6    0.04    0.15    0.22   20.44 ^ place564/X (sg13g2_buf_1)
+                                         net563 (net)
+                  0.15    0.00   20.44 ^ place563/A (sg13g2_buf_1)
+     6    0.04    0.15    0.20   20.64 ^ place563/X (sg13g2_buf_1)
+                                         net562 (net)
+                  0.15    0.00   20.64 ^ place562/A (sg13g2_buf_1)
+     8    0.05    0.20    0.23   20.87 ^ place562/X (sg13g2_buf_1)
+                                         net561 (net)
+                  0.20    0.00   20.88 ^ _1092_/B (sg13g2_nor2_1)
+     3    0.01    0.09    0.12   21.00 v _1092_/Y (sg13g2_nor2_1)
+                                         _0646_ (net)
+                  0.09    0.00   21.00 v _1125_/A2 (sg13g2_a221oi_1)
+     1    0.00    0.12    0.17   21.17 ^ _1125_/Y (sg13g2_a221oi_1)
+                                         _0678_ (net)
+                  0.12    0.00   21.17 ^ _1126_/B (sg13g2_and2_1)
+     5    0.03    0.14    0.20   21.37 ^ _1126_/X (sg13g2_and2_1)
+                                         _0679_ (net)
+                  0.14    0.00   21.37 ^ place479/A (sg13g2_buf_1)
+     5    0.03    0.13    0.18   21.54 ^ place479/X (sg13g2_buf_1)
+                                         net478 (net)
+                  0.13    0.00   21.55 ^ _1180_/B (sg13g2_and2_1)
+     4    0.02    0.10    0.18   21.72 ^ _1180_/X (sg13g2_and2_1)
+                                         _0728_ (net)
+                  0.10    0.00   21.72 ^ _1206_/A2 (sg13g2_o21ai_1)
+     1    0.00    0.08    0.08   21.80 v _1206_/Y (sg13g2_o21ai_1)
+                                         _0749_ (net)
+                  0.08    0.00   21.80 v _1208_/A2 (sg13g2_o21ai_1)
+     1    0.01    0.15    0.16   21.96 ^ _1208_/Y (sg13g2_o21ai_1)
+                                         _0001_ (net)
+                  0.15    0.00   21.96 ^ serializer_inst.piso.DATA_IN[18]$_DFF_P_/D (sg13g2_dfrbpq_1)
+                                 21.96   data arrival time
+
+                        100.00  100.00   clock CLK (rise edge)
+                          0.00  100.00   clock source latency
+     1    0.05    0.00    0.00  100.00 ^ CLK (in)
+                                         CLK (net)
+                  0.02    0.01  100.01 ^ clkbuf_0_CLK/A (sg13g2_buf_16)
+     8    0.22    0.07    0.09  100.09 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+                                         clknet_0_CLK (net)
+                  0.08    0.02  100.11 ^ clkbuf_3_5__f_CLK/A (sg13g2_buf_16)
+     5    0.11    0.04    0.10  100.22 ^ clkbuf_3_5__f_CLK/X (sg13g2_buf_16)
+                                         clknet_3_5__leaf_CLK (net)
+                  0.04    0.00  100.22 ^ clkbuf_leaf_26_CLK/A (sg13g2_buf_16)
+     8    0.04    0.03    0.08  100.30 ^ clkbuf_leaf_26_CLK/X (sg13g2_buf_16)
+                                         clknet_leaf_26_CLK (net)
+                  0.03    0.00  100.30 ^ serializer_inst.piso.DATA_IN[18]$_DFF_P_/CLK (sg13g2_dfrbpq_1)
+                          0.00  100.30   clock reconvergence pessimism
+                         -0.16  100.14   library setup time
+                                100.14   data required time
+-----------------------------------------------------------------------------
+                                100.14   data required time
+                                -21.96   data arrival time
+-----------------------------------------------------------------------------
+                                 78.18   slack (MET)
+
+
+
+==========================================================================
+global route report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+
+==========================================================================
+global route max_slew_check_slack
+--------------------------------------------------------------------------
+1.872901201248169
+
+==========================================================================
+global route max_slew_check_limit
+--------------------------------------------------------------------------
+2.5074000358581543
+
+==========================================================================
+global route max_slew_check_slack_limit
+--------------------------------------------------------------------------
+0.7469
+
+==========================================================================
+global route max_fanout_check_slack
+--------------------------------------------------------------------------
+0.0
+
+==========================================================================
+global route max_fanout_check_limit
+--------------------------------------------------------------------------
+8.0
+
+==========================================================================
+global route max_fanout_check_slack_limit
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+global route max_capacitance_check_slack
+--------------------------------------------------------------------------
+0.1598200798034668
+
+==========================================================================
+global route max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.30000001192092896
+
+==========================================================================
+global route max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+0.5327
+
+==========================================================================
+global route max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 0
+
+==========================================================================
+global route max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+global route max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 0
+
+==========================================================================
+global route setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+global route hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+global route report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+Startpoint: afe_controller_inst.fsm.state[0]$_SDFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: afe_controller_inst.fifo_in_sel[1]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ CLK (in)
+   0.10    0.10 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+   0.13    0.23 ^ clkbuf_3_5__f_CLK/X (sg13g2_buf_16)
+   0.08    0.31 ^ clkbuf_leaf_26_CLK/X (sg13g2_buf_16)
+   0.00    0.31 ^ afe_controller_inst.fsm.state[0]$_SDFFE_PP0P_/CLK (sg13g2_dfrbpq_1)
+   0.23    0.54 v afe_controller_inst.fsm.state[0]$_SDFFE_PP0P_/Q (sg13g2_dfrbpq_1)
+   0.18    0.72 v place527/X (sg13g2_buf_1)
+   0.19    0.92 v place526/X (sg13g2_buf_1)
+   0.15    1.07 ^ _1079_/Y (sg13g2_inv_1)
+   0.10    1.17 v _1145_/Y (sg13g2_o21ai_1)
+   0.29    1.46 ^ _1152_/Y (sg13g2_a221oi_1)
+   0.13    1.59 v _1153_/Y (sg13g2_nor4_1)
+   0.29    1.89 v _1157_/Y (sg13g2_nand2b_1)
+   0.08    1.97 ^ _1159_/Y (sg13g2_inv_4)
+   0.18    2.15 ^ place473/X (sg13g2_buf_1)
+   0.20    2.35 v _1188_/X (sg13g2_mux2_1)
+   0.16    2.52 ^ _1194_/Y (sg13g2_a221oi_1)
+   0.00    2.52 ^ afe_controller_inst.fifo_in_sel[1]$_DFF_P_/D (sg13g2_dfrbpq_1)
+           2.52   data arrival time
+
+ 100.00  100.00   clock CLK (rise edge)
+   0.00  100.00   clock source latency
+   0.00  100.00 ^ CLK (in)
+   0.09  100.09 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+   0.12  100.22 ^ clkbuf_3_4__f_CLK/X (sg13g2_buf_16)
+   0.08  100.30 ^ clkbuf_leaf_27_CLK/X (sg13g2_buf_16)
+   0.00  100.30 ^ afe_controller_inst.fifo_in_sel[1]$_DFF_P_/CLK (sg13g2_dfrbpq_1)
+   0.00  100.30   clock reconvergence pessimism
+  -0.15  100.16   library setup time
+         100.16   data required time
+---------------------------------------------------------
+         100.16   data required time
+          -2.52   data arrival time
+---------------------------------------------------------
+          97.64   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+Startpoint: serializer_inst.piso.piso_flip_flops[4]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: serializer_inst.piso.piso_flip_flops[5]$_SDFF_PP0_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ CLK (in)
+   0.09    0.09 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+   0.12    0.22 ^ clkbuf_3_5__f_CLK/X (sg13g2_buf_16)
+   0.08    0.30 ^ clkbuf_leaf_24_CLK/X (sg13g2_buf_16)
+   0.00    0.30 ^ serializer_inst.piso.piso_flip_flops[4]$_SDFF_PP0_/CLK (sg13g2_dfrbpq_1)
+   0.17    0.47 v serializer_inst.piso.piso_flip_flops[4]$_SDFF_PP0_/Q (sg13g2_dfrbpq_1)
+   0.03    0.50 ^ _2111_/Y (sg13g2_inv_1)
+   0.03    0.53 v _2112_/Y (sg13g2_nor3_1)
+   0.00    0.53 v serializer_inst.piso.piso_flip_flops[5]$_SDFF_PP0_/D (sg13g2_dfrbpq_1)
+           0.53   data arrival time
+
+   0.00    0.00   clock CLK (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ CLK (in)
+   0.10    0.10 ^ clkbuf_0_CLK/X (sg13g2_buf_16)
+   0.13    0.23 ^ clkbuf_3_5__f_CLK/X (sg13g2_buf_16)
+   0.08    0.31 ^ clkbuf_leaf_24_CLK/X (sg13g2_buf_16)
+   0.00    0.32 ^ serializer_inst.piso.piso_flip_flops[5]$_SDFF_PP0_/CLK (sg13g2_dfrbpq_1)
+  -0.01    0.30   clock reconvergence pessimism
+  -0.03    0.27   library hold time
+           0.27   data required time
+---------------------------------------------------------
+           0.27   data required time
+          -0.53   data arrival time
+---------------------------------------------------------
+           0.27   slack (MET)
+
+
+
+==========================================================================
+global route critical path target clock latency max path
+--------------------------------------------------------------------------
+0.2986
+
+==========================================================================
+global route critical path target clock latency min path
+--------------------------------------------------------------------------
+0.3132
+
+==========================================================================
+global route critical path source clock latency min path
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+global route critical path delay
+--------------------------------------------------------------------------
+21.9620
+
+==========================================================================
+global route critical path slack
+--------------------------------------------------------------------------
+78.1810
+
+==========================================================================
+global route slack div critical path delay
+--------------------------------------------------------------------------
+355.983062
+
+==========================================================================
+global route report_power
+--------------------------------------------------------------------------
+Corner: typ
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.30e-04   1.28e-06   1.11e-07   1.31e-04  50.0%
+Combinational          4.87e-06   9.40e-06   1.42e-07   1.44e-05   5.5%
+Clock                  7.56e-05   4.12e-05   7.30e-08   1.17e-04  44.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.10e-04   5.18e-05   3.26e-07   2.62e-04 100.0%
+                          80.1%      19.8%       0.1%

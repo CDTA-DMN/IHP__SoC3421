@@ -1,0 +1,59 @@
+** sch_path: /foss/designs/designs_/two_stage_ota/pex/tw_stage_ota_s_cloop.sch
+**.subckt tw_stage_ota_s_cloop
+I0 net1 GND 16u
+V1 VDD GND 3.3
+V3 Vcm GND 1
+Cl1 vout GND 2p m=1
+x1 VDD net1 net2 Vcm vout GND two_stage_ota_s
+X999 vout net2 loopgainprobe
+**** begin user architecture code
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerHBT.lib hbt_typ
+.lib cornerRES.lib res_typ
+.lib cornerCAP.lib cap_typ
+
+
+
+
+.include  /foss/designs/designs_/ITI_Analog/Misc/LoopGainProbe/stb.spi
+.include /foss/designs/designs_/two_stage_ota/kpex_test/output/two_stage_ota_s_flatten__two_stage_ota_s/magic_CC/two_stage_ota_s.pex.spice
+
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /foss/designs/designs_/two_stage_ota/pex/two_stage_ota_s.sym # of pins=6
+** sym_path: /foss/designs/designs_/two_stage_ota/pex/two_stage_ota_s.sym
+** sch_path: /foss/designs/designs_/two_stage_ota/pex/two_stage_ota_s.sch
+.subckt two_stage_ota_s vdd ibias vinn vinp vout vss
+.ends
+
+
+* expanding   symbol:  /foss/designs/designs_/ITI_Analog/Misc/LoopGainProbe/loopgainprobe.sym # of pins=2
+** sym_path: /foss/designs/designs_/ITI_Analog/Misc/LoopGainProbe/loopgainprobe.sym
+** sch_path: /foss/designs/designs_/ITI_Analog/Misc/LoopGainProbe/loopgainprobe.sch
+.subckt loopgainprobe a b
+*.iopin a
+*.iopin b
+**** begin user architecture code
+
+
+
+Ii 0 x DC 0 AC 0
+Vi x a DC 0 AC 1
+Vnodebuffer b x 0
+
+
+
+
+**** end user architecture code
+.ends
+
+.GLOBAL GND
+.GLOBAL VDD
+.end

@@ -1,0 +1,370 @@
+| units: 0.5 tech: ihp-sg13g2 format: MIT
+x iout vdd vout vdd s=81600,2536 d=45600,1276 l=600 w=1200 x=923 y=1810 sg13_hv_pmos
+x iout vout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2951 y=1810 sg13_hv_pmos
+x iout vdd vout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=3627 y=1810 sg13_hv_pmos
+x iout iout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=1599 y=3528 sg13_hv_pmos
+x iout vdd vout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2275 y=1810 sg13_hv_pmos
+x vdd vdd vdd vdd d=81600,2536 l=600 w=1200 x=-3854 y=2845 sg13_hv_pmos
+x iout vdd vout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4979 y=1810 sg13_hv_pmos
+x vdd a_n8547_1983# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6410 y=-1106 sg13_hv_pmos
+x iout vdd iout vdd s=81600,2536 d=45600,1276 l=600 w=1200 x=923 y=3528 sg13_hv_pmos
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-7578 y=-1106 sg13_hv_pmos
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-9330 y=1983 sg13_hv_pmos
+x vinn a_n9131_n1107# a_n8547_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6994 y=1983 sg13_hv_pmos
+x iout a_n9131_n1107# vdd vdd s=81600,2536 d=81600,2536 l=600 w=1200 x=-2238 y=2845 sg13_hv_pmos
+x vss vss vss vss d=40800,1336 l=200 w=600 x=-2946 y=827 sg13_hv_nmos
+x iout iout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2951 y=3528 sg13_hv_pmos
+x iout vdd iout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=3627 y=3528 sg13_hv_pmos
+x iout vout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4303 y=1810 sg13_hv_pmos
+x a_n8547_1983# vout vss vss s=45600,1276 d=45600,1276 l=200 w=1200 x=-4016 y=-1185 sg13_hv_nmos
+x a_n1818_n1514# a_n1818_1486# a_n8547_1983# vss s=17200,572 d=17200,572 l=3000 w=200 x=-1817 y=-1513 rppd
+x vinn a_n9131_n1107# a_n8547_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8746 y=-1106 sg13_hv_pmos
+x iout vdd iout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=2275 y=3528 sg13_hv_pmos
+x a_n8547_1983# vout vss vss s=45600,1276 d=81600,2536 l=200 w=1200 x=-4016 y=-633 sg13_hv_nmos
+x vdd a_n8547_1983# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8162 y=1983 sg13_hv_pmos
+x a_n8547_1983# vss vout vss s=45600,1276 d=45600,1276 l=200 w=1200 x=-4016 y=-909 sg13_hv_nmos
+x vss vss vss vss d=40800,1336 l=200 w=600 x=-4086 y=827 sg13_hv_nmos
+x iout vdd iout vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4979 y=3528 sg13_hv_pmos
+x iout vout vdd vdd s=45600,1276 d=81600,2536 l=600 w=1200 x=5655 y=1810 sg13_hv_pmos
+x a_n8547_n1107# a_n8547_n1107# vss vss s=40800,1336 d=40800,1336 l=200 w=600 x=-3705 y=827 sg13_hv_nmos
+x a_n1818_1486# vout s=1901036,27292 l=3000 w=3000 x=-206 y=-1769 cap_cmim
+x a_n8547_n1107# vss a_n8547_1983# vss s=40800,1336 d=40800,1336 l=200 w=600 x=-3327 y=827 sg13_hv_nmos
+x vinp a_n9131_n1107# a_n8547_1983# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8746 y=1983 sg13_hv_pmos
+x iout iout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=4303 y=3528 sg13_hv_pmos
+x vdd a_n8547_n1107# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-8162 y=-1106 sg13_hv_pmos
+x vinp a_n9131_n1107# a_n8547_1983# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6994 y=-1106 sg13_hv_pmos
+x a_n8547_1983# vss vout vss s=81600,2536 d=45600,1276 l=200 w=1200 x=-4016 y=-1461 sg13_hv_nmos
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-7578 y=1983 sg13_hv_pmos
+x iout iout vdd vdd s=45600,1276 d=81600,2536 l=600 w=1200 x=5655 y=3528 sg13_hv_pmos
+x vdd vdd a_n9131_n1107# vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-9330 y=-1106 sg13_hv_pmos
+x iout vout vdd vdd s=45600,1276 d=45600,1276 l=600 w=1200 x=1599 y=1810 sg13_hv_pmos
+x vdd a_n8547_n1107# vdd vdd s=163200,4936 d=163200,4936 l=200 w=2400 x=-6410 y=1983 sg13_hv_pmos
+x iout vdd a_n9131_n1107# vdd s=81600,2536 d=81600,2536 l=600 w=1200 x=-3046 y=2845 sg13_hv_pmos
+x vdd vdd vdd vdd d=81600,2536 l=600 w=1200 x=-1430 y=2845 sg13_hv_pmos
+C vout vdd 2.2
+C vinn vdd 3.6
+C vdd a_n9131_n1107# 7.3
+C vinp vdd 3.9
+C vinn a_n8547_n1107# 2.0
+C a_n8547_n1107# a_n9131_n1107# 3.1
+C vdd a_n8547_n1107# 7.4
+C vout iout 2.1
+C a_n8547_1983# a_n9131_n1107# 2.4
+C vdd a_n8547_1983# 7.3
+C vdd iout 53.4
+C vout0 7.9
+R vout 33
+C iout0 5.0
+R iout 27
+C vdd0 8.5
+R vdd 60
+= vdd ntap1_6[14].well
+= vdd ntap1_6[13].well
+= vdd ntap1_6[12].well
+= vdd ntap1_6[11].well
+= vdd ntap1_6[10].well
+= vdd ntap1_6[9].well
+= vdd ntap1_6[8].well
+= vdd ntap1_6[7].well
+= vdd ntap1_6[6].well
+= vdd ntap1_6[5].well
+= vdd ntap1_6[4].well
+= vdd ntap1_6[3].well
+= vdd ntap1_6[2].well
+= vdd ntap1_6[1].well
+= vdd ntap1_6[0].well
+= vdd ntap1_7[14].well
+= vdd ntap1_7[13].well
+= vdd ntap1_7[12].well
+= vdd ntap1_7[11].well
+= vdd ntap1_7[10].well
+= vdd ntap1_7[9].well
+= vdd ntap1_7[8].well
+= vdd ntap1_7[7].well
+= vdd ntap1_7[6].well
+= vdd ntap1_7[5].well
+= vdd ntap1_7[4].well
+= vdd ntap1_7[3].well
+= vdd ntap1_7[2].well
+= vdd ntap1_7[1].well
+= vdd ntap1_7[0].well
+= vdd ntap1_8[15].well
+= vdd ntap1_8[14].well
+= vdd ntap1_8[13].well
+= vdd ntap1_8[12].well
+= vdd ntap1_8[11].well
+= vdd ntap1_8[10].well
+= vdd ntap1_8[9].well
+= vdd ntap1_8[8].well
+= vdd ntap1_8[7].well
+= vdd ntap1_8[6].well
+= vdd ntap1_8[5].well
+= vdd ntap1_8[4].well
+= vdd ntap1_8[3].well
+= vdd ntap1_8[2].well
+= vdd ntap1_8[1].well
+= vdd ntap1_8[0].well
+= vdd ntap1_4[23].well
+= vdd ntap1_4[22].well
+= vdd ntap1_4[21].well
+= vdd ntap1_4[20].well
+= vdd ntap1_4[19].well
+= vdd ntap1_4[18].well
+= vdd ntap1_4[17].well
+= vdd ntap1_4[16].well
+= vdd ntap1_4[15].well
+= vdd ntap1_4[14].well
+= vdd ntap1_4[13].well
+= vdd ntap1_4[12].well
+= vdd ntap1_4[11].well
+= vdd ntap1_4[10].well
+= vdd ntap1_4[9].well
+= vdd ntap1_4[8].well
+= vdd ntap1_4[7].well
+= vdd ntap1_4[6].well
+= vdd ntap1_4[5].well
+= vdd ntap1_4[4].well
+= vdd ntap1_4[3].well
+= vdd ntap1_4[2].well
+= vdd ntap1_4[1].well
+= vdd ntap1_4[0].well
+= vdd ntap1_5[6].well
+= vdd ntap1_5[5].well
+= vdd ntap1_5[4].well
+= vdd ntap1_5[3].well
+= vdd ntap1_5[2].well
+= vdd ntap1_5[1].well
+= vdd ntap1_5[0].well
+= vdd ntap1_3[6].well
+= vdd ntap1_3[5].well
+= vdd ntap1_3[4].well
+= vdd ntap1_3[3].well
+= vdd ntap1_3[2].well
+= vdd ntap1_3[1].well
+= vdd ntap1_3[0].well
+= vdd ntap1_9[15].well
+= vdd ntap1_9[14].well
+= vdd ntap1_9[13].well
+= vdd ntap1_9[12].well
+= vdd ntap1_9[11].well
+= vdd ntap1_9[10].well
+= vdd ntap1_9[9].well
+= vdd ntap1_9[8].well
+= vdd ntap1_9[7].well
+= vdd ntap1_9[6].well
+= vdd ntap1_9[5].well
+= vdd ntap1_9[4].well
+= vdd ntap1_9[3].well
+= vdd ntap1_9[2].well
+= vdd ntap1_9[1].well
+= vdd ntap1_9[0].well
+= vdd ntap1_0[23].well
+= vdd ntap1_0[22].well
+= vdd ntap1_0[21].well
+= vdd ntap1_0[20].well
+= vdd ntap1_0[19].well
+= vdd ntap1_0[18].well
+= vdd ntap1_0[17].well
+= vdd ntap1_0[16].well
+= vdd ntap1_0[15].well
+= vdd ntap1_0[14].well
+= vdd ntap1_0[13].well
+= vdd ntap1_0[12].well
+= vdd ntap1_0[11].well
+= vdd ntap1_0[10].well
+= vdd ntap1_0[9].well
+= vdd ntap1_0[8].well
+= vdd ntap1_0[7].well
+= vdd ntap1_0[6].well
+= vdd ntap1_0[5].well
+= vdd ntap1_0[4].well
+= vdd ntap1_0[3].well
+= vdd ntap1_0[2].well
+= vdd ntap1_0[1].well
+= vdd ntap1_0[0].well
+= vdd ntap1_11[27].well
+= vdd ntap1_11[26].well
+= vdd ntap1_11[25].well
+= vdd ntap1_11[24].well
+= vdd ntap1_11[23].well
+= vdd ntap1_11[22].well
+= vdd ntap1_11[21].well
+= vdd ntap1_11[20].well
+= vdd ntap1_11[19].well
+= vdd ntap1_11[18].well
+= vdd ntap1_11[17].well
+= vdd ntap1_11[16].well
+= vdd ntap1_11[15].well
+= vdd ntap1_11[14].well
+= vdd ntap1_11[13].well
+= vdd ntap1_11[12].well
+= vdd ntap1_11[11].well
+= vdd ntap1_11[10].well
+= vdd ntap1_11[9].well
+= vdd ntap1_11[8].well
+= vdd ntap1_11[7].well
+= vdd ntap1_11[6].well
+= vdd ntap1_11[5].well
+= vdd ntap1_11[4].well
+= vdd ntap1_11[3].well
+= vdd ntap1_11[2].well
+= vdd ntap1_11[1].well
+= vdd ntap1_11[0].well
+= vdd ntap1_10[27].well
+= vdd ntap1_10[26].well
+= vdd ntap1_10[25].well
+= vdd ntap1_10[24].well
+= vdd ntap1_10[23].well
+= vdd ntap1_10[22].well
+= vdd ntap1_10[21].well
+= vdd ntap1_10[20].well
+= vdd ntap1_10[19].well
+= vdd ntap1_10[18].well
+= vdd ntap1_10[17].well
+= vdd ntap1_10[16].well
+= vdd ntap1_10[15].well
+= vdd ntap1_10[14].well
+= vdd ntap1_10[13].well
+= vdd ntap1_10[12].well
+= vdd ntap1_10[11].well
+= vdd ntap1_10[10].well
+= vdd ntap1_10[9].well
+= vdd ntap1_10[8].well
+= vdd ntap1_10[7].well
+= vdd ntap1_10[6].well
+= vdd ntap1_10[5].well
+= vdd ntap1_10[4].well
+= vdd ntap1_10[3].well
+= vdd ntap1_10[2].well
+= vdd ntap1_10[1].well
+= vdd ntap1_10[0].well
+= vdd ntap1_2[19].well
+= vdd ntap1_2[18].well
+= vdd ntap1_2[17].well
+= vdd ntap1_2[16].well
+= vdd ntap1_2[15].well
+= vdd ntap1_2[14].well
+= vdd ntap1_2[13].well
+= vdd ntap1_2[12].well
+= vdd ntap1_2[11].well
+= vdd ntap1_2[10].well
+= vdd ntap1_2[9].well
+= vdd ntap1_2[8].well
+= vdd ntap1_2[7].well
+= vdd ntap1_2[6].well
+= vdd ntap1_2[5].well
+= vdd ntap1_2[4].well
+= vdd ntap1_2[3].well
+= vdd ntap1_2[2].well
+= vdd ntap1_2[1].well
+= vdd ntap1_2[0].well
+= vdd ntap1_1[19].well
+= vdd ntap1_1[18].well
+= vdd ntap1_1[17].well
+= vdd ntap1_1[16].well
+= vdd ntap1_1[15].well
+= vdd ntap1_1[14].well
+= vdd ntap1_1[13].well
+= vdd ntap1_1[12].well
+= vdd ntap1_1[11].well
+= vdd ntap1_1[10].well
+= vdd ntap1_1[9].well
+= vdd ntap1_1[8].well
+= vdd ntap1_1[7].well
+= vdd ntap1_1[6].well
+= vdd ntap1_1[5].well
+= vdd ntap1_1[4].well
+= vdd ntap1_1[3].well
+= vdd ntap1_1[2].well
+= vdd ntap1_1[1].well
+= vdd ntap1_1[0].well
+R vss 15
+= vss ptap1_6[11].sub!
+= vss ptap1_6[10].sub!
+= vss ptap1_6[9].sub!
+= vss ptap1_6[8].sub!
+= vss ptap1_6[7].sub!
+= vss ptap1_6[6].sub!
+= vss ptap1_6[5].sub!
+= vss ptap1_6[4].sub!
+= vss ptap1_6[3].sub!
+= vss ptap1_6[2].sub!
+= vss ptap1_6[1].sub!
+= vss ptap1_6[0].sub!
+= vss ptap1_5[11].sub!
+= vss ptap1_5[10].sub!
+= vss ptap1_5[9].sub!
+= vss ptap1_5[8].sub!
+= vss ptap1_5[7].sub!
+= vss ptap1_5[6].sub!
+= vss ptap1_5[5].sub!
+= vss ptap1_5[4].sub!
+= vss ptap1_5[3].sub!
+= vss ptap1_5[2].sub!
+= vss ptap1_5[1].sub!
+= vss ptap1_5[0].sub!
+= vss ptap1_1[5].sub!
+= vss ptap1_1[4].sub!
+= vss ptap1_1[3].sub!
+= vss ptap1_1[2].sub!
+= vss ptap1_1[1].sub!
+= vss ptap1_1[0].sub!
+= vss ptap1_2[5].sub!
+= vss ptap1_2[4].sub!
+= vss ptap1_2[3].sub!
+= vss ptap1_2[2].sub!
+= vss ptap1_2[1].sub!
+= vss ptap1_2[0].sub!
+= vss ptap1_7[11].sub!
+= vss ptap1_7[10].sub!
+= vss ptap1_7[9].sub!
+= vss ptap1_7[8].sub!
+= vss ptap1_7[7].sub!
+= vss ptap1_7[6].sub!
+= vss ptap1_7[5].sub!
+= vss ptap1_7[4].sub!
+= vss ptap1_7[3].sub!
+= vss ptap1_7[2].sub!
+= vss ptap1_7[1].sub!
+= vss ptap1_7[0].sub!
+= vss ptap1_0[11].sub!
+= vss ptap1_0[10].sub!
+= vss ptap1_0[9].sub!
+= vss ptap1_0[8].sub!
+= vss ptap1_0[7].sub!
+= vss ptap1_0[6].sub!
+= vss ptap1_0[5].sub!
+= vss ptap1_0[4].sub!
+= vss ptap1_0[3].sub!
+= vss ptap1_0[2].sub!
+= vss ptap1_0[1].sub!
+= vss ptap1_0[0].sub!
+= vss ptap1_4[9].sub!
+= vss ptap1_4[8].sub!
+= vss ptap1_4[7].sub!
+= vss ptap1_4[6].sub!
+= vss ptap1_4[5].sub!
+= vss ptap1_4[4].sub!
+= vss ptap1_4[3].sub!
+= vss ptap1_4[2].sub!
+= vss ptap1_4[1].sub!
+= vss ptap1_4[0].sub!
+= vss ptap1_3[9].sub!
+= vss ptap1_3[8].sub!
+= vss ptap1_3[7].sub!
+= vss ptap1_3[6].sub!
+= vss ptap1_3[5].sub!
+= vss ptap1_3[4].sub!
+= vss ptap1_3[3].sub!
+= vss ptap1_3[2].sub!
+= vss ptap1_3[1].sub!
+= vss ptap1_3[0].sub!
+C a_n1818_n1514#0 2.7
+R a_n1818_n1514# 3900
+C a_n1818_1486#0 341.0
+C a_n8547_n1107#0 3.6
+R a_n8547_n1107# 13
+C a_n8547_1983#0 10.8
+R a_n8547_1983# 17
+C a_n9131_n1107#0 3.7
+R a_n9131_n1107# 15
