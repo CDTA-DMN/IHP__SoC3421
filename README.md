@@ -9,6 +9,8 @@ Single-technology IP library.
 
 
 ![Chip](doc/fig/SoC3421.png)
+![2.5d](doc/fig/SoC3421_2.5d_view.png)
+![Pins](doc/fig/SoC3421_Pins.png)
 
 
 
