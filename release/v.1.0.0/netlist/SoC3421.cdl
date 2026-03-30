@@ -1,5 +1,5 @@
 ** sch_path: /foss/designs/top/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/top.sch
-.subckt top IOVSS IOVDD IOUT VBG VREF VREG VSS VDD RESET CLK SCLK MOSI CS MISO DATA_READY SCAN_VALID SCAN_OUT FREEZE
+.subckt SoC3421 IOVSS IOVDD IOUT VBG VREF VREG VSS VDD RESET CLK SCLK MOSI CS MISO DATA_READY SCAN_VALID SCAN_OUT FREEZE
 + ADC_INPUT_VALID ADC_INPUT p2c_adc_input p2c_adc_input_valid p2c_freeze c2p_scan_valid c2p_scan_out c2p_data_ready p2c_cs c2p_miso p2c_mosi
 + p2c_sclk p2c_clk p2c_reset padres_iout padres_vbg padres_vref padres_vreg
 *.PININFO IOVSS:B IOVDD:B IOUT:B VBG:B VREF:B VREG:B VSS:B VDD:B RESET:B CLK:B SCLK:B MOSI:B CS:B MISO:B DATA_READY:B SCAN_VALID:B
